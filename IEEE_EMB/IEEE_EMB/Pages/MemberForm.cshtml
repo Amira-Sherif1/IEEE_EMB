@@ -1,0 +1,75 @@
+﻿
+@page
+@model MemberFormModel
+@{
+    ViewData["Title"] = "Member Application";
+} 
+
+<div class="page-container">
+    <div class="content-container">
+        <div class="card">
+            <div class="px-6 py-8">
+                <h1 class="text-2xl font-bold text-center mb-8">Member Application</h1>
+
+                <form id="memberForm" method="post" class="space-y-6">
+                    <div class="grid grid-cols-1 gap-6">
+                        <div>
+                            <label asp-for="@Model.member.Name" class="form-label">Name</label>
+                            <input asp-for="@Model.member.Name" class="form-input" required />
+                            <span asp-validation-for="@Model.member.Name" class="field-validation-error text-red-500 text-sm"></span>
+                        </div>
+                        <div>
+                            <label asp-for="@Model.member.Currentyear" class="form-label">Currentyear</label>
+                            <input asp-for="@Model.member.Currentyear" type="date" class="form-input" required />
+                            <span asp-validation-for="@Model.member.Currentyear" class="field-validation-error text-red-500 text-sm"></span>
+                        </div>
+                        <div>
+                            <label asp-for="@Model.member.Phone" class="form-label">Phone</label>
+                            <input asp-for="@Model.member.Phone" type="text" class="form-input" required />
+                            <span asp-validation-for="@Model.member.Phone" class="field-validation-error text-red-500 text-sm"></span>
+                        </div>
+                        <div>
+                            <label asp-for="@Model.member.password" class="form-label">password</label>
+                            <input asp-for="@Model.member.password" type="password" class="form-input" required />
+                            <span asp-validation-for="@Model.member.password" class="field-validation-error text-red-500 text-sm"></span>
+                        </div>
+
+                        <div>
+                            <label asp-for="@Model.member.Email" class="form-label">Email</label>
+                            <input asp-for="@Model.member.Email" type="email" class="form-input" required />
+                            <span asp-validation-for="@Model.member.Email" class="field-validation-error text-red-500 text-sm"></span>
+                        </div>
+
+                        <div>
+                            <label asp-for="@Model.member.PreviousExperience" class="form-label">PreviousExperience</label>
+                            <input asp-for="@Model.member.PreviousExperience" type="text" class="form-input" required />
+                            <span asp-validation-for="@Model.member.PreviousExperience" class="field-validation-error text-red-500 text-sm"></span>
+                        </div>
+                        <div>
+                            <label asp-for="@Model.member.Major" class="form-label">Major</label>
+                            <input asp-for="@Model.member.Major" type="text" class="form-input" required />
+                            <span asp-validation-for="@Model.member.Major" class="field-validation-error text-red-500 text-sm"></span>
+                        </div>
+                        <div>
+                            <label asp-for="@Model.member.Brief" class="form-label">Breif</label>
+                            <input asp-for="@Model.member.Brief" type="text" class="form-input" required />
+                            <span asp-validation-for="@Model.member.Brief" class="field-validation-error text-red-500 text-sm"></span>
+                        </div>
+                        <div>
+                            <label asp-for="@Model.member.University" class="form-label">University</label>
+                            <input asp-for="@Model.member.University" type="text" class="form-input" required />
+                            <span asp-validation-for="@Model.member.University" class="field-validation-error text-red-500 text-sm"></span>
+                        </div>
+
+
+                    </div>
+
+                    <div class="flex justify-end space-x-4">
+                        <a href="/Apply" class="btn btn-secondary">Cancel</a>
+                        <button type="submit" class="btn btn-primary">Submit Application</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

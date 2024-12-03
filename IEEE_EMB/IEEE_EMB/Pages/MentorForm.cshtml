@@ -1,0 +1,64 @@
+﻿
+@page
+@model MentorFormModel
+@{
+    ViewData["Title"] = "Mentor Application";
+}
+
+<div class="page-container">
+    <div class="content-container">
+        <div class="card">
+            <div class="px-6 py-8">
+                <h1 class="text-2xl font-bold text-center mb-8">Mentor Application</h1>
+
+                <form id="mentorForm" method="post" enctype="multipart/form-data" class="space-y-6">
+                    <div class="grid grid-cols-1 gap-6">
+                        <div>
+                            <label asp-for="Mentor.Name" class="form-label">Name</label>
+                            <input asp-for="Mentor.Name" class="form-input" required />
+                            <span asp-validation-for="Mentor.Name" class="field-validation-error text-red-500 text-sm"></span>
+                        </div>
+                        <div>
+                            <label asp-for="Mentor.Education" class="form-label">Name</label>
+                            <input asp-for="Mentor.Education"  type="text"class="form-input" required />
+                            <span asp-validation-for="Mentor.Education" class="field-validation-error text-red-500 text-sm"></span>
+                        </div>
+                        <div>
+                            <label asp-for="Mentor.CV" class="form-label">CV</label>
+                            <input asp-for="Mentor.CV" type="file" class="form-input" required />
+                            <span asp-validation-for="Mentor.CV" class="field-validation-error text-red-500 text-sm"></span>
+                        </div>
+                        <div>
+                            <label asp-for="Mentor.Phone" class="form-label">Phone</label>
+                            <input asp-for="Mentor.Phone" type="text"class="form-input" required />
+                            <span asp-validation-for="Mentor.Phone" class="field-validation-error text-red-500 text-sm"></span>
+                        </div>
+                        <div>
+                            <label asp-for="Mentor.Email" class="form-label">Email</label>
+                            <input asp-for="Mentor.Email"  type="email"class="form-input" required />
+                            <span asp-validation-for="Mentor.Email" class="field-validation-error text-red-500 text-sm"></span>
+                        </div>
+                        <div>
+                            <label asp-for="Mentor.BIO" class="form-label">BIO</label>
+                            <input asp-for="Mentor.BIO" type="text"class="form-input" required />
+                            <span asp-validation-for="Mentor.BIO" class="field-validation-error text-red-500 text-sm"></span>
+                        </div>
+                        <div>
+                            <label asp-for="Mentor.Password" class="form-label">Password</label>
+                            <input asp-for="Mentor.Password" type="password"class="form-input" required />
+                            <span asp-validation-for="Mentor.Password" class="field-validation-error text-red-500 text-sm"></span>
+                        </div>
+
+                       
+
+                    </div>
+
+                    <div class="flex justify-end space-x-4">
+                        <a href="/Apply" class="btn btn-secondary">Cancel</a>
+                        <button type="submit" class="btn btn-primary">Submit Application</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
