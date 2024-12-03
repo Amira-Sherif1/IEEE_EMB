@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\he607\OneDrive\Documents\GitHub\IEEE_EMB\IEEE_EMB\IEEE_EMB
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/he607/OneDrive/Documents/GitHub/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/he607/OneDrive/Documents/GitHub/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/Announcments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5ub3VuY21lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/he607/OneDrive/Documents/GitHub/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,8 +34,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/he607/OneDrive/Documents/GitHub/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/Join.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/he607/OneDrive/Documents/GitHub/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/he607/OneDrive/Documents/GitHub/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/he607/OneDrive/Documents/GitHub/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/Shared/_ValidationScriptsPartial.cshtml]
@@ -42,6 +58,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/he607/OneDrive/Documents/GitHub/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/Shared/_AnnouncementCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Bbm5vdW5jZW1lbnRDYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-48su5r9gub
+
 [C:/Users/he607/OneDrive/Documents/GitHub/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-uukb0nqmgi
+
+[C:/Users/he607/OneDrive/Documents/GitHub/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/Shared/_NewsCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9OZXdzQ2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-i1ytuugruo

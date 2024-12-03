@@ -1,10 +1,58 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home - IEEE BioInformatics";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@section Styles {
+    <link rel="stylesheet" href="~/css/home.css" />
+}
+
+<div class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="hero-image-placeholder">
+                    <!-- Replace with actual image -->
+                    <img src="~/images/hero-placeholder.jpg" alt="IEEE BioInformatics" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="hero-content">
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <a href="#" class="btn btn-primary btn-lg">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+<section class="news-events">
+    <div class="container">
+        <h2 class="section-title">News & Events</h2>
+        <div class="news-slider">
+            <button class="slider-nav prev-btn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="news-cards">
+                @foreach (var news in Model.NewsItems)
+                {
+                    <partial name="_NewsCard" model="news" />
+                }
+            </div>
+            <button class="slider-nav next-btn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/news-slider.js"></script>
+}
