@@ -1,0 +1,88 @@
+﻿/*@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.hero {
+    animation: slideIn 1s ease-out;
+}
+
+.card {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+.member-card {
+    animation-delay: 0.2s;
+}
+
+.mentor-card {
+    animation-delay: 0.4s;
+}
+
+.nav-link {
+    position: relative;
+    overflow: hidden;
+}
+
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: var(--primary-color);
+        transition: width 0.3s ease;
+    }
+
+    .nav-link:hover::after {
+        width: 100%;
+    }
+
+.apply-button:active {
+    transform: scale(0.98);
+}
+
+.card-icon i {
+    animation: pulse 2s infinite;
+}
+
+.social-icon:hover i {
+    animation: pulse 1s infinite;
+}*/
+
+/* Smooth scroll behavior */
+/*html {
+    scroll-behavior: smooth;
+}*/

@@ -1,0 +1,113 @@
+﻿@* @page
+@model IEEE_EMB.Pages.ProfileModel
+@{
+    ViewData["Title"] = $"{Model.User.FullName}'s Profile";
+}
+
+@section Styles{
+    <link rel="stylesheet" href="~/css/profile.css" />
+}
+
+<div class="profile-container">
+    <header class="site-header">
+        <h1 class="site-title">IEEE BioInformatics</h1>
+        <nav class="main-nav">
+            <a href="/profile" class="active">Profile</a>
+            <a href="/home">Home</a>
+            <a href="/about">About</a>
+            <a href="/announcements">Announcements</a>
+            <a href="/contact">Contact</a>
+            <div class="dropdown">
+                <button class="dropdown-btn">Activities</button>
+                <div class="dropdown-content">
+                    <a href="/competitions">Competitions</a>
+                    <a href="/workshops">Workshops</a>
+                    <a href="/journal-club">Journal Club</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="profile-content">
+        <h2 class="profile-title">@Model.User.FullName's Profile</h2>
+        
+        <div class="profile-grid">
+            <div class="profile-left">
+                <div class="profile-image">
+                    @if (Model.User.ProfileImage != null)
+                    {
+                        <img src="@Model.User.ProfileImage" alt="Profile picture" />
+                    }
+                    else
+                    {
+                        <div class="profile-image-placeholder"></div>
+                    }
+                </div>
+                
+                <div class="profile-details">
+                    <div class="detail-item">
+                        <label>Full Name:</label>
+                        <span>@Model.User.FullName</span>
+                        <button class="edit-btn" title="Edit">✎</button>
+                    </div>
+                    
+                    <div class="detail-item">
+                        <label>Email:</label>
+                        <span>@Model.User.Email</span>
+                        <button class="edit-btn" title="Edit">✎</button>
+                    </div>
+                    
+                    <div class="detail-item">
+                        <label>University:</label>
+                        <span>@Model.User.University</span>
+                        <button class="edit-btn" title="Edit">✎</button>
+                    </div>
+                    
+                    <div class="detail-item">
+                        <label>Committee:</label>
+                        <span>@Model.User.Committee</span>
+                        <button class="edit-btn" title="Edit">✎</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-right">
+                <h3>More About Me! [@Model.User.FullName]</h3>
+                
+                <div class="info-grid">
+                    <div class="info-item">
+                        <label>Phone</label>
+                        <span>@Model.User.Phone</span>
+                        <button class="edit-btn" title="Edit">✎</button>
+                    </div>
+                    
+                    <div class="info-item">
+                        <label>Current Year</label>
+                        <span>@Model.User.CurrentYear</span>
+                        <button class="edit-btn" title="Edit">✎</button>
+                    </div>
+                    
+                    <div class="info-item">
+                        <label>Experience</label>
+                        <span>@Model.User.Experience</span>
+                        <button class="edit-btn" title="Edit">✎</button>
+                    </div>
+                    
+                    <div class="info-item">
+                        <label>Bio</label>
+                        <span>@Model.User.Bio</span>
+                        <button class="edit-btn" title="Edit">✎</button>
+                    </div>
+                </div>
+
+                <div class="pagination">
+                    <button class="prev">←</button>
+                    <button class="active">1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button class="next">→</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</div> *@
