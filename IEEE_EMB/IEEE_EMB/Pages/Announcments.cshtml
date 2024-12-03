@@ -1,0 +1,38 @@
+﻿@page
+@model AnnouncementsModel
+@{
+    ViewData["Title"] = "Announcements - IEEE BioInformatics";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/announcements.css" />
+}
+
+<div class="announcements-container">
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4">Announcements</h1>
+                    <p class="lead">The place where we post everything about The Upcomings. Stay updated with our news!</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <img src="~/images/announcements/mobile-notifications.png" alt="Announcements" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Announcements List -->
+    <section class="announcements-list">
+        <div class="container">
+            @foreach (var announcement in Model.Announcements)
+            {
+                <partial name="_AnnouncementCard" model="announcement" />
+            } 
+        </div>
+    </section>
+</div>

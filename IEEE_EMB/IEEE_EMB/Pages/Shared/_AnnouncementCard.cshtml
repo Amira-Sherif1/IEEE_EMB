@@ -1,0 +1,20 @@
+﻿@model Announcement
+
+<div class="announcement-card">
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <div class="announcement-content">
+                <div class="announcement-header">
+                    <h2 class="announcement-title">@Model.Title</h2>
+                    <span class="announcement-date">@Model.Date.ToString("MMMM dd, yyyy")</span>
+                </div>
+                <p class="announcement-description">@Model.Description</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="announcement-image">
+                <img src="@Model.ImageUrl" alt="@Model.Title" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
