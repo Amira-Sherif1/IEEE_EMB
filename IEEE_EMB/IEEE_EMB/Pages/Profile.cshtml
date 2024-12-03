@@ -1,7 +1,7 @@
-﻿@* @page
+﻿@page
 @model IEEE_EMB.Pages.ProfileModel
 @{
-    ViewData["Title"] = $"{Model.User.FullName}'s Profile";
+    ViewData["Title"] = $"{Model.User.Name}'s Profile";
 }
 
 @section Styles{
@@ -29,14 +29,14 @@
     </header>
 
     <main class="profile-content">
-        <h2 class="profile-title">@Model.User.FullName's Profile</h2>
+        <h2 class="profile-title">@Model.User.Name's Profile</h2>
         
         <div class="profile-grid">
             <div class="profile-left">
                 <div class="profile-image">
-                    @if (Model.User.ProfileImage != null)
+                    @if (Model.ProfileImageLink != null)
                     {
-                        <img src="@Model.User.ProfileImage" alt="Profile picture" />
+                        <img src="@Model.ProfileImageLink" alt="Profile picture" />
                     }
                     else
                     {
@@ -47,7 +47,7 @@
                 <div class="profile-details">
                     <div class="detail-item">
                         <label>Full Name:</label>
-                        <span>@Model.User.FullName</span>
+                        <span>@Model.User.Name</span>
                         <button class="edit-btn" title="Edit">✎</button>
                     </div>
                     
@@ -65,14 +65,14 @@
                     
                     <div class="detail-item">
                         <label>Committee:</label>
-                        <span>@Model.User.Committee</span>
+                        <span>@Model.User.Major</span>
                         <button class="edit-btn" title="Edit">✎</button>
                     </div>
                 </div>
             </div>
 
             <div class="profile-right">
-                <h3>More About Me! [@Model.User.FullName]</h3>
+                <h3>More About Me! [@Model.User.Name]</h3>
                 
                 <div class="info-grid">
                     <div class="info-item">
@@ -83,19 +83,19 @@
                     
                     <div class="info-item">
                         <label>Current Year</label>
-                        <span>@Model.User.CurrentYear</span>
+                        <span>2024</span>
                         <button class="edit-btn" title="Edit">✎</button>
                     </div>
                     
                     <div class="info-item">
                         <label>Experience</label>
-                        <span>@Model.User.Experience</span>
+                        <span>@Model.User.Brief</span>
                         <button class="edit-btn" title="Edit">✎</button>
                     </div>
                     
                     <div class="info-item">
                         <label>Bio</label>
-                        <span>@Model.User.Bio</span>
+                        <span>Mohammad Maher Ibraaaaaahim</span>
                         <button class="edit-btn" title="Edit">✎</button>
                     </div>
                 </div>
@@ -110,4 +110,4 @@
             </div>
         </div>
     </main>
-</div> *@
+</div>
