@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CLmc65xGsgTOFnQf3oDVP9y4dmQvXFANyxv22+Yi/pw=",
+  "Hash": "p6SGwtUgH4GnUchk3f/UQm6VNExF7ecnUHPWCVI2Iro=",
   "Source": "IEEE_EMB",
   "BasePath": "_content/IEEE_EMB",
   "Mode": "Default",
@@ -131,6 +131,25 @@
       "OriginalItemSpec": "wwwroot\\css\\navigation.css"
     },
     {
+      "Identity": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\site.css",
+      "SourceId": "IEEE_EMB",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\",
+      "BasePath": "_content/IEEE_EMB",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
       "Identity": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\favicon.ico",
       "SourceId": "IEEE_EMB",
       "SourceType": "Discovered",
@@ -148,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\applications.js",
+      "SourceId": "IEEE_EMB",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\",
+      "BasePath": "_content/IEEE_EMB",
+      "RelativePath": "js/applications.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\applications.js"
     },
     {
       "Identity": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\news-slider.js",

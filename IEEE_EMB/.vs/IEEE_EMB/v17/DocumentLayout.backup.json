@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|d:\\zc\\year 2 semes. 1\\database\\project\\ieee_emb\\ieee_emb\\ieee_emb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|d:\\zc\\year 2 semes. 1\\database\\project\\ieee_emb\\ieee_emb\\ieee_emb\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|d:\\zc\\year 2 semes. 1\\database\\project\\ieee_emb\\ieee_emb\\ieee_emb\\pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -14,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "IEEE_EMB\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\site.css*",
+              "RelativeToolTip": "IEEE_EMB\\wwwroot\\css\\site.css*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-03T21:24:39.96Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -30,12 +51,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "IEEE_EMB\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "IEEE_EMB\\Pages\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEgAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T21:20:04.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "About.cshtml",
               "DocumentMoniker": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\About.cshtml",
               "RelativeDocumentMoniker": "IEEE_EMB\\Pages\\About.cshtml",
-              "ToolTip": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\About.cshtml*",
-              "RelativeToolTip": "IEEE_EMB\\Pages\\About.cshtml*",
+              "ToolTip": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\About.cshtml",
+              "RelativeToolTip": "IEEE_EMB\\Pages\\About.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-03T21:09:08.936Z",

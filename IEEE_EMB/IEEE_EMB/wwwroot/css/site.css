@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿@import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
@@ -24,4 +25,41 @@
 
 .animate-float {
     animation: float 3s ease-in-out infinite;
+=======
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.form-input {
+    @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-teal-500 focus:ring-teal-500;
+}
+
+.form-label {
+    @apply block text-sm font-medium text-gray-700;
+}
+
+.btn {
+    @apply px-4 py-2 rounded-md transition-colors;
+}
+
+.btn-primary {
+    @apply bg-teal-600 text-white hover:bg-teal-700;
+}
+
+.btn-secondary {
+    @apply border border-gray-300 text-gray-700 hover:bg-gray-50;
+}
+
+.card {
+    @apply bg-white rounded-lg shadow-md p-6 border border-gray-200 hover:border-teal-500 transition-colors;
+}
+
+.page-container {
+    @apply min-h-screen bg-gradient-to-b from-teal-700 to-teal-900 py-12;
+}
+
+.content-container {
+    @apply max-w-2xl mx-auto px-4;
+>>>>>>> Stashed changes
 }

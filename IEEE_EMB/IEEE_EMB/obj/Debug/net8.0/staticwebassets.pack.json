@@ -21,8 +21,16 @@
       "PackagePath": "staticwebassets\\css\\navigation.css"
     },
     {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
       "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\applications.js",
+      "PackagePath": "staticwebassets\\js\\applications.js"
     },
     {
       "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\news-slider.js",
