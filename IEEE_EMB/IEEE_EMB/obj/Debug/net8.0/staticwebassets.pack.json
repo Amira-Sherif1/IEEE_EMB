@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\IEEE_EMB.bundle.scp.css"
     },
     {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\animations.css",
+      "PackagePath": "staticwebassets\\css\\animations.css"
+    },
+    {
       "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\announcements.css",
       "PackagePath": "staticwebassets\\css\\announcements.css"
     },
@@ -17,16 +21,48 @@
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\join.css",
+      "PackagePath": "staticwebassets\\css\\join.css"
+    },
+    {
       "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\navigation.css",
       "PackagePath": "staticwebassets\\css\\navigation.css"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\animations.js",
+      "PackagePath": "staticwebassets\\js\\animations.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\application.js",
+      "PackagePath": "staticwebassets\\js\\application.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\eslint.config.js",
+      "PackagePath": "staticwebassets\\js\\eslint.config.js"
+    },
+    {
       "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\news-slider.js",
       "PackagePath": "staticwebassets\\js\\news-slider.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\tailwind.config.js",
+      "PackagePath": "staticwebassets\\js\\tailwind.config.js"
     },
     {
       "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\LICENSE",
