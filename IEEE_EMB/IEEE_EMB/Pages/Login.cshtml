@@ -1,0 +1,315 @@
+﻿@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="login-page">
+    <div class="container-fluid h-100">
+        <div class="row h-100">
+            <!-- Left side - Background Image -->
+            <div class="col-lg-6 d-none d-lg-flex background-section">
+                <div class="overlay"></div>
+                <div class="brand-wrapper">
+                    <i class="fas fa-comments brand-icon"></i>
+                    <h1 class="brand-text">Connect with friends and the world around you.</h1>
+                </div>
+            </div>
+
+            <!-- Right side - Login Form -->
+            <div class="col-lg-6 form-section">
+                <div class="login-wrapper">
+                    <div class="logo-wrapper mb-4 animate-fade-in">
+                        <i class="fas fa-comments text-primary"></i>
+                    </div>
+
+                    <h2 class="login-title animate-slide-up">Sign in to continue</h2>
+                    <p class="login-subtitle mb-4 animate-slide-up">Welcome back! Please login to your account</p>
+
+                    <form method="post" class="login-form needs-validation" novalidate>
+                        <div class="form-floating mb-3 animate-slide-up" style="--delay: 0.2s">
+                            <input asp-for="Email" 
+                                   type="email" 
+                                   class="form-control" 
+                                   id="email" 
+                                   placeholder="name@example.com"
+                                   required />
+                            <label asp-for="Email">Email address</label>
+                            <span asp-validation-for="Email" class="invalid-feedback"></span>
+                        </div>
+
+                        <div class="form-floating mb-4 animate-slide-up" style="--delay: 0.3s">
+                            <input asp-for="Password" 
+                                   type="password" 
+                                   class="form-control" 
+                                   id="password" 
+                                   placeholder="Password"
+                                   required />
+                            <label asp-for="Password">Password</label>
+                            <span asp-validation-for="Password" class="invalid-feedback"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-between mb-4 animate-slide-up" style="--delay: 0.4s">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="remember">
+                                <label class="form-check-label" for="remember">
+                                    Remember me
+                                </label>
+                            </div>
+                            <a href="#" class="forgot-password">Forgot password?</a>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100 mb-4 animate-slide-up" style="--delay: 0.5s">
+                            Sign In
+                        </button>
+
+                        <div class="social-login animate-slide-up" style="--delay: 0.6s">
+                            <p class="text-center mb-3">Or sign in with</p>
+                            <div class="d-flex justify-content-center gap-3">
+                                <button type="button" class="btn btn-outline-secondary social-btn">
+                                    <i class="fab fa-google"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-secondary social-btn">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+                                <button type="button" class="btn btn-outline-secondary social-btn">
+                                    <i class="fab fa-apple"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <p class="text-center mt-4 mb-0 animate-slide-up" style="--delay: 0.7s">
+                            Don't have an account? 
+                            <a href="#" class="signup-link">Sign up</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1DA1F2;
+            --primary-hover: #1a91da;
+        }
+
+        .login-page {
+            min-height: 100vh;
+            background-color: #f7f9fa;
+        }
+
+        .background-section {
+            background-image: url('https://picsum.photos/1920/1080');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, rgba(29,161,242,0.9), rgba(29,161,242,0.7));
+        }
+
+        .brand-wrapper {
+            position: relative;
+            z-index: 1;
+            color: white;
+            padding: 4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100%;
+        }
+
+        .brand-icon {
+            font-size: 4rem;
+            margin-bottom: 2rem;
+        }
+
+        .brand-text {
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
+
+        .form-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .login-wrapper {
+            width: 100%;
+            max-width: 420px;
+            padding: 2rem;
+        }
+
+        .logo-wrapper {
+            text-align: center;
+            font-size: 2.5rem;
+            color: var(--primary-color);
+        }
+
+        .login-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1a1f36;
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .login-subtitle {
+            color: #6b7280;
+            text-align: center;
+        }
+
+        .form-control {
+            border: 2px solid #e5e7eb;
+            padding: 1rem 0.75rem;
+            height: auto;
+            font-size: 1rem;
+        }
+
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.25rem rgba(29,161,242,0.1);
+        }
+
+        .form-floating > label {
+            padding: 1rem 0.75rem;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            padding: 0.8rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-hover);
+            border-color: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+
+        .forgot-password {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .forgot-password:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        .social-btn {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .signup-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .signup-link:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        .animate-fade-in {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+
+        .animate-slide-up {
+            opacity: 0;
+            animation: slideUp 0.6s ease-out forwards;
+            animation-delay: var(--delay, 0s);
+        }
+
+        @@keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @@keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive adjustments */
+        media (max-width: 991.98px) {
+            .login-wrapper {
+                padding: 1rem;
+            }
+        }
+    </style>
+}
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Form validation
+            const forms = document.querySelectorAll('.needs-validation');
+            
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+
+            // Input focus effects
+            const inputs = document.querySelectorAll('.form-control');
+            
+            inputs.forEach(input => {
+                input.addEventListener('focus', function() {
+                    this.closest('.form-floating').classList.add('focused');
+                });
+
+                input.addEventListener('blur', function() {
+                    if (!this.value) {
+                        this.closest('.form-floating').classList.remove('focused');
+                    }
+                });
+            });
+        });
+    </script>
+}

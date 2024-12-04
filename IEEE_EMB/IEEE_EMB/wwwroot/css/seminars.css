@@ -1,0 +1,32 @@
+﻿/* Additional styles specific to the seminars page */
+.seminar-card {
+    @apply bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300;
+}
+
+    .seminar-card:hover .btn-primary {
+        @apply transform -translate-y-0.5;
+    }
+
+    .seminar-card .btn-primary {
+        @apply transition-transform duration-300;
+    }
+
+.topic-tag {
+    @apply px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm;
+}
+
+.instructor-avatar {
+    @apply w-8 h-8 rounded-full object-cover;
+}
+
+.price-tag {
+    @apply text-2xl font-bold text-indigo-600;
+}
+
+.rating-stars {
+    @apply text-yellow-400;
+}
+
+.level-badge {
+    @apply absolute top-4 right-4 bg-white px-3 py-1 rounded-full text-sm font-semibold text-indigo-600;
+}

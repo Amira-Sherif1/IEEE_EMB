@@ -1,0 +1,431 @@
+﻿@page
+@model SeminarsModel
+@{
+    ViewData["Title"] = "Available Seminars";
+}
+
+<div class="seminars-page">
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="container">
+            <h1 class="hero-title animate-fade-in">Expand Your Knowledge</h1>
+            <p class="hero-subtitle animate-slide-up">
+                Join our expert-led seminars and master new skills in technology, business, and more.
+            </p>
+        </div>
+    </div>
+
+    <!-- Filters Section -->
+    <div class="filters-section">
+        <div class="container">
+            <div class="filters-wrapper">
+                <select class="filter-select">
+                    <option>All Categories</option>
+                    <option>Technology</option>
+                    <option>Business</option>
+                    <option>Design</option>
+                </select>
+                <select class="filter-select">
+                    <option>All Levels</option>
+                    <option>Beginner</option>
+                    <option>Intermediate</option>
+                    <option>Advanced</option>
+                </select>
+                <input type="search" 
+                       placeholder="Search seminars..." 
+                       class="search-input"
+                />
+            </div>
+        </div>
+    </div>
+
+    <!-- Seminars Grid -->
+    <div class="container seminars-container">
+        <div class="seminars-grid">
+            <!-- Seminar 1 -->
+            <div class="seminar-card">
+                <div class="seminar-image-wrapper">
+                    <img src="https://source.unsplash.com/random/800x600?web-development" 
+                         alt="Web Development" 
+                         class="seminar-image"/>
+                    <span class="level-badge">Intermediate</span>
+                </div>
+                <div class="seminar-content">
+                    <div class="rating-wrapper">
+                        <span class="star">★</span>
+                        <span class="rating">4.8</span>
+                        <span class="students">(1,250 students)</span>
+                    </div>
+                    <h3 class="seminar-title">Advanced Web Development</h3>
+                    <p class="seminar-description">Master modern web development techniques with practical examples and real-world projects.</p>
+                    <div class="instructor-wrapper">
+                        <img src="https://source.unsplash.com/random/100x100?portrait" 
+                             alt="John Smith"
+                             class="instructor-image"/>
+                        <span class="instructor-name">John Smith</span>
+                    </div>
+                    <div class="seminar-footer">
+                        <div class="duration">
+                            <i class="fas fa-clock"></i>
+                            <span>3h 0m</span>
+                        </div>
+                        <div class="price">$99.99</div>
+                    </div>
+                    <div class="topics-wrapper">
+                        <span class="topic-tag">HTML/CSS</span>
+                        <span class="topic-tag">JavaScript</span>
+                        <span class="topic-tag">React</span>
+                    </div>
+                    <button class="enroll-button">Enroll Now</button>
+                </div>
+            </div>
+
+            <!-- Seminar 2 -->
+            <div class="seminar-card">
+                <div class="seminar-image-wrapper">
+                    <img src="https://source.unsplash.com/random/800x600?data-science" 
+                         alt="Data Science" 
+                         class="seminar-image"/>
+                    <span class="level-badge">Beginner</span>
+                </div>
+                <div class="seminar-content">
+                    <div class="rating-wrapper">
+                        <span class="star">★</span>
+                        <span class="rating">4.9</span>
+                        <span class="students">(980 students)</span>
+                    </div>
+                    <h3 class="seminar-title">Data Science Fundamentals</h3>
+                    <p class="seminar-description">Learn the basics of data science and analytics with hands-on exercises.</p>
+                    <div class="instructor-wrapper">
+                        <img src="https://source.unsplash.com/random/100x100?woman" 
+                             alt="Sarah Johnson"
+                             class="instructor-image"/>
+                        <span class="instructor-name">Sarah Johnson</span>
+                    </div>
+                    <div class="seminar-footer">
+                        <div class="duration">
+                            <i class="fas fa-clock"></i>
+                            <span>4h 0m</span>
+                        </div>
+                        <div class="price">$149.99</div>
+                    </div>
+                    <div class="topics-wrapper">
+                        <span class="topic-tag">Python</span>
+                        <span class="topic-tag">Statistics</span>
+                        <span class="topic-tag">Machine Learning</span>
+                    </div>
+                    <button class="enroll-button">Enroll Now</button>
+                </div>
+            </div>
+
+            <!-- Seminar 3 -->
+            <div class="seminar-card">
+                <div class="seminar-image-wrapper">
+                    <img src="https://source.unsplash.com/random/800x600?mobile-app" 
+                         alt="Mobile Development" 
+                         class="seminar-image"/>
+                    <span class="level-badge">Advanced</span>
+                </div>
+                <div class="seminar-content">
+                    <div class="rating-wrapper">
+                        <span class="star">★</span>
+                        <span class="rating">4.7</span>
+                        <span class="students">(750 students)</span>
+                    </div>
+                    <h3 class="seminar-title">Mobile App Development</h3>
+                    <p class="seminar-description">Create professional mobile applications for iOS and Android platforms.</p>
+                    <div class="instructor-wrapper">
+                        <img src="https://source.unsplash.com/random/100x100?man" 
+                             alt="Mike Chen"
+                             class="instructor-image"/>
+                        <span class="instructor-name">Mike Chen</span>
+                    </div>
+                    <div class="seminar-footer">
+                        <div class="duration">
+                            <i class="fas fa-clock"></i>
+                            <span>5h 30m</span>
+                        </div>
+                        <div class="price">$199.99</div>
+                    </div>
+                    <div class="topics-wrapper">
+                        <span class="topic-tag">Swift</span>
+                        <span class="topic-tag">Kotlin</span>
+                        <span class="topic-tag">Flutter</span>
+                    </div>
+                    <button class="enroll-button">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Container styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        /* Hero section */
+        .hero-section {
+            background: linear-gradient(135deg, #4F46E5, #7C3AED);
+            padding: 4rem 0;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Filters section */
+        .filters-section {
+            background: white;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .filters-wrapper {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .filter-select {
+            padding: 0.5rem 2rem 0.5rem 1rem;
+            border: 1px solid #E5E7EB;
+            border-radius: 0.5rem;
+            background-color: white;
+            min-width: 150px;
+        }
+
+        .search-input {
+            flex-grow: 1;
+            padding: 0.5rem 1rem;
+            border: 1px solid #E5E7EB;
+            border-radius: 0.5rem;
+            min-width: 200px;
+        }
+
+        /* Seminars grid */
+        .seminars-container {
+            padding: 2rem 0;
+            background-color: #F9FAFB;
+            min-height: calc(100vh - 200px);
+        }
+
+        .seminars-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 1rem 0;
+        }
+
+        /* Seminar card */
+        .seminar-card {
+            background: white;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .seminar-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+        }
+
+        .seminar-image-wrapper {
+            position: relative;
+            padding-top: 56.25%;
+        }
+
+        .seminar-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .level-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: white;
+            padding: 0.25rem 1rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #4F46E5;
+        }
+
+        .seminar-content {
+            padding: 1.5rem;
+        }
+
+        .rating-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .star {
+            color: #FBBF24;
+        }
+
+        .rating {
+            font-weight: 600;
+        }
+
+        .students {
+            color: #6B7280;
+            font-size: 0.875rem;
+        }
+
+        .seminar-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #111827;
+            margin-bottom: 0.5rem;
+        }
+
+        .seminar-description {
+            color: #6B7280;
+            font-size: 0.875rem;
+            margin-bottom: 1rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .instructor-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .instructor-image {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 9999px;
+            object-fit: cover;
+        }
+
+        .instructor-name {
+            color: #4B5563;
+            font-size: 0.875rem;
+        }
+
+        .seminar-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .duration {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #6B7280;
+            font-size: 0.875rem;
+        }
+
+        .price {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #4F46E5;
+        }
+
+        .topics-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .topic-tag {
+            background: #EEF2FF;
+            color: #4F46E5;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+        }
+
+        .enroll-button {
+            width: 100%;
+            background: #4F46E5;
+            color: white;
+            padding: 0.75rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+
+        .enroll-button:hover {
+            background: #4338CA;
+        }
+
+        /* Animations */
+        .animate-fade-in {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+
+        .animate-slide-up {
+            animation: slideUp 0.6s ease-out forwards;
+        }
+
+        keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive design */
+        media (max-width: 768px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+
+            .filters-wrapper {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .search-input {
+                width: 100%;
+            }
+        }
+    </style>
+}

@@ -5,7 +5,7 @@ namespace IEEE_EMB.Models
     public class Activity
     {
         public int Id { get; set; }
-        public string Tilte { get; set; }
+        public string Title { get; set; }
         public DateTime startdate { get; set; } // it may be dateonly
         public DateTime Enddate { get; set; } // it may be dateonly
         public int Capacity { get; set; }
