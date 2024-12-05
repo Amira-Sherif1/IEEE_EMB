@@ -5,6 +5,902 @@
       "PackagePath": "staticwebassets\\IEEE_EMB.bundle.scp.css"
     },
     {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\config.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\fonts\\boxicons.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\fonts\\boxicons.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\auth-forgot-password-basic.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\auth-forgot-password-basic.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\auth-login-basic.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\auth-login-basic.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\auth-register-basic.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\auth-register-basic.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\cards-basic.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\cards-basic.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\extended-ui-perfect-scrollbar.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\extended-ui-perfect-scrollbar.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\extended-ui-text-divider.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\extended-ui-text-divider.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\form-layouts-horizontal.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\form-layouts-horizontal.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\form-layouts-vertical.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\form-layouts-vertical.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\forms-basic-inputs.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\forms-basic-inputs.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\forms-input-groups.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\forms-input-groups.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\icons-boxicons.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\icons-boxicons.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\index.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\index.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-blank.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\layouts-blank.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-container.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\layouts-container.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-fluid.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\layouts-fluid.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-without-menu.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\layouts-without-menu.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-without-navbar.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\layouts-without-navbar.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-account-settings-account.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\pages-account-settings-account.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-account-settings-connections.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\pages-account-settings-connections.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-account-settings-notifications.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\pages-account-settings-notifications.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-misc-error.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\pages-misc-error.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-misc-under-maintenance.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\pages-misc-under-maintenance.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\tables-basic.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\tables-basic.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-accordion.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-accordion.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-alerts.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-alerts.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-badges.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-badges.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-buttons.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-buttons.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-carousel.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-carousel.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-collapse.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-collapse.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-dropdowns.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-dropdowns.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-footer.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-footer.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-list-groups.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-list-groups.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-modals.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-modals.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-navbar.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-navbar.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-offcanvas.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-offcanvas.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-pagination-breadcrumbs.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-pagination-breadcrumbs.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-progress.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-progress.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-spinners.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-spinners.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-tabs-pills.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-tabs-pills.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-toasts.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-toasts.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-tooltips-popovers.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-tooltips-popovers.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-typography.html",
+      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-typography.html"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\DashLayout\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\DashLayout\\js\\helpers.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\js\\menu.js",
+      "PackagePath": "staticwebassets\\DashLayout\\js\\menu.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\apex-charts\\apex-charts.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\libs\\apex-charts\\apex-charts.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\DashLayout\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\highlight\\highlight-github.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\libs\\highlight\\highlight-github.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\DashLayout\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\highlight\\highlight.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\libs\\highlight\\highlight.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\DashLayout\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\DashLayout\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\DashLayout\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\perfect-scrollbar\\perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\libs\\perfect-scrollbar\\perfect-scrollbar.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\DashLayout\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_accordion.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_alert.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_alert.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_badge.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_badge.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_button-group.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_buttons.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_card.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_card.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_carousel.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_close.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_close.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_forms.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_forms.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_functions.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_functions.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_include.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_include.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_list-group.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_mixins.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_modal.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_modal.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_nav.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_nav.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_navbar.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_pagination.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_popover.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_popover.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_progress.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_progress.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_reboot.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_root.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_root.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_spinners.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_tables.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_tables.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_toasts.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_type.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_type.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_utilities-ltr.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_utilities-ltr.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_utilities.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_variables.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_variables.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_navs.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_navs.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_progress.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_progress.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_toasts.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_colors.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_colors.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_app-brand.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_avatar.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_avatar.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_base.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_base.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_common.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_common.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_footer.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_footer.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_include.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_include.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_layout.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_layout.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_menu.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_menu.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_mixins.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_text-divider.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_variables.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_variables.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_app-brand.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_avatar.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_avatar.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_footer.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_footer.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_menu.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_menu.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_navbar.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_text-divider.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_custom-variables\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_components.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_custom-variables\\_components.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_libs.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_custom-variables\\_libs.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_pages.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_custom-variables\\_pages.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_support.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_custom-variables\\_support.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_theme\\_common.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_theme\\_common.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_theme\\_theme.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\_theme\\_theme.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\core.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\core.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\pages\\page-account-settings.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\pages\\page-account-settings.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\pages\\page-auth.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\pages\\page-auth.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\pages\\page-icons.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\pages\\page-icons.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\pages\\page-misc.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\pages\\page-misc.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\theme-default.scss",
+      "PackagePath": "staticwebassets\\DashLayout\\scss\\theme-default.scss"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\tasks\\build.js",
+      "PackagePath": "staticwebassets\\DashLayout\\tasks\\build.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\tasks\\prod.js",
+      "PackagePath": "staticwebassets\\DashLayout\\tasks\\prod.js"
+    },
+    {
       "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\animations.css",
       "PackagePath": "staticwebassets\\css\\animations.css"
     },

@@ -22,8 +22,64 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/Activities.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0aXZpdGllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/AddActivity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQWN0aXZpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/AddAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/AddMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkTWVtYmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/AddMentor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkTWVudG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/AllAdmins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsQWRtaW5zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/AllMembers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsTWVtYmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/AllMentors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsTWVudG9ycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/AllParticipants.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsUGFydGljaXBhbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/Announcments.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5ub3VuY21lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/EditActivity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEFjdGl2aXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/EditAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/EditMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdE1lbWJlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/EditMentors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdE1lbnRvcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/EditParticipant.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFBhcnRpY2lwYW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/Error.cshtml]
@@ -46,6 +102,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudG9yRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/Participants.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGljaXBhbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -65,6 +125,10 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/Shared/DashLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXERhc2hMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-oevmjn9hxf
 
 [D:/ZC/year 2 semes. 1/Database/Project/IEEE_EMB/IEEE_EMB/IEEE_EMB/Pages/Shared/_AnnouncementCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Bbm5vdW5jZW1lbnRDYXJkLmNzaHRtbA==

@@ -1,0 +1,68 @@
+﻿@page
+@model IEEE_EMB.Pages.AddAdminModel
+@{
+}
+@{
+    Layout = "~/Pages/Shared/DashLayout.cshtml";
+}
+
+<div class="container-xxl flex-grow-1 container-p-y">
+    <!-- Add Admin Form -->
+    <div class="mb-4">
+        <h5 class="mb-0">Add Admin</h5>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <form>
+                <!-- Name -->
+                <div class="form-group">
+                    <label for="Name" class="control-label">Name</label>
+                    <input id="Name" name="Name" class="form-control" />
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="Email" class="control-label">Email</label>
+                    <input id="Email" name="Email" type="email" class="form-control" />
+                </div>
+
+                <!-- Password -->
+                <div class="form-group">
+                    <label for="Password" class="control-label">Password</label>
+                    <input id="Password" name="Password" type="password" class="form-control" />
+                </div>
+
+                <!-- Role -->
+                <div class="form-group">
+                    <label for="Role" class="control-label">Role</label>
+                    <input id="Role" name="Role" class="form-control" />
+                </div>
+
+                <!-- CV -->
+                <div class="form-group">
+                    <label for="CV" class="control-label">CV</label>
+                    <input id="CV" name="CV" type="file" class="form-control" />
+                </div>
+
+                <!-- Phone Number -->
+                <div class="form-group">
+                    <label for="PhoneNumber" class="control-label">Phone Number</label>
+                    <input id="PhoneNumber" name="PhoneNumber" type="tel" class="form-control" />
+                </div>
+
+                <div class="form-group mt-3">
+                    <a href="/AllAdmins">
+                        <button type="button" class="btn btn-primary">Save</button>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,96 @@
+﻿@page
+@model IEEE_EMB.Pages.AllMentorsModel
+@{
+}
+@{
+    Layout = "~/Pages/Shared/DashLayout.cshtml";
+}
+<div class="container-xxl flex-grow-1 container-p-y">
+    <!-- Add Assistants Button -->
+    <div class="mb-4">
+        <a href="/AddMentor" class="btn btn-primary">Add Mentor</a>
+    </div>
+
+    <div class="card">
+        <h5 class="card-header">All Mentors</h5>
+        <div class="table-responsive text-nowrap">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>University</th>
+                        <th>Actions</th>
+
+                    </tr>
+                </thead>
+                <tbody class="table-border-bottom-0">
+                   
+                        <tr>
+                            <td><strong>Amira</strong></td>
+                            <td><strong>Amira@gmail.com</strong></td>
+                            <td><strong>zewailcity</strong></td>
+                        <td>
+                            <div class="dropdown">
+                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                    <i class="bx bx-dots-vertical-rounded"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="/EditMentors">
+                                        <i class="bx bx-edit-alt me-1"></i> Edit
+                                    </a>
+                                    <a class="dropdown-item delete-btn"
+                                       href="javascript:void(0);"
+                                       data-id=""
+                                       data-title="">
+                                        <i class="bx bx-trash me-1"></i> Delete
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                        </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const deleteButtons = document.querySelectorAll('.delete-btn');
+
+            deleteButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const mentorName = button.getAttribute('data-title');
+
+                    Swal.fire({
+                        title: `Are you sure you want to delete "${mentorName}"?`,
+                        text: "You won't be able to revert this!",
+                        icon: 'warning',
+                        showCancelButton: true,
+                        confirmButtonText: 'Yes, delete it!',
+                        cancelButtonText: 'No, cancel!',
+                        reverseButtons: true
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            Swal.fire(
+                                'Deleted!',
+                                `"${mentorName}" would have been deleted.`,
+                                'success'
+                            );
+                        } else if (result.dismiss === Swal.DismissReason.cancel) {
+                            Swal.fire(
+                                'Cancelled',
+                                `"${mentorName}" is safe.`,
+                                'info'
+                            );
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+}
+

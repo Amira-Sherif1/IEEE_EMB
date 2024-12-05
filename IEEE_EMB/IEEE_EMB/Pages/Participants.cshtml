@@ -1,0 +1,79 @@
+﻿@page
+@model IEEE_EMB.Pages.ParticipantsModel
+@{
+}
+@{
+    Layout = "~/Pages/Shared/DashLayout.cshtml";
+}
+<div class="container-xxl flex-grow-1 container-p-y">
+    <!-- Add Participant Form -->
+    <div class="mb-4">
+        <h5 class="mb-0">Add Participant</h5>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <form>
+                <!-- Name -->
+                <div class="form-group">
+                    <label for="Name" class="control-label">Name</label>
+                    <input id="Name" name="Name" class="form-control" />
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="Email" class="control-label">Email</label>
+                    <input id="Email" name="Email" type="email" class="form-control" />
+                </div>
+
+                <!-- Phone Number -->
+                <div class="form-group">
+                    <label for="PhoneNumber" class="control-label">Phone Number</label>
+                    <input id="PhoneNumber" name="PhoneNumber" type="tel" class="form-control" />
+                </div>
+
+                <!-- University Name -->
+                <div class="form-group">
+                    <label for="UniversityName" class="control-label">University Name</label>
+                    <input id="UniversityName" name="UniversityName" class="form-control" />
+                </div>
+
+                <!-- Attendance Count -->
+                <div class="form-group">
+                    <label for="AttendanceCount" class="control-label">Attendance Count</label>
+                    <input id="AttendanceCount" name="AttendanceCount" type="number" class="form-control" />
+                </div>
+
+                <!-- Password -->
+                <div class="form-group">
+                    <label for="Password" class="control-label">Password</label>
+                    <input id="Password" name="Password" type="password" class="form-control" />
+                </div>
+
+                <!-- Assign to Activity -->
+                <div class="form-group">
+                    <label for="ActivityId" class="control-label">Assign to Activity</label>
+                    <select id="ActivityId" name="ActivityId" class="form-control">
+                        <option value="">Select Activity</option>
+                        <!-- Dynamically populate activities here -->
+                        <option value="1">Jornal Club</option>
+                        <option value="2">Workshop</option>
+                        <option value="3">Seminar</option>
+                    </select>
+                </div>
+
+                <div class="form-group mt-3">
+                    <a href="/AllParticipants">
+                        <button type="button" class="btn btn-primary">Save</button>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

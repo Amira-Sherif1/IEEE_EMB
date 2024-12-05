@@ -1,0 +1,59 @@
+﻿@page
+@model IEEE_EMB.Pages.EditMentorsModel
+@{
+}
+@{
+    Layout = "~/Pages/Shared/DashLayout.cshtml";
+}
+<div class="row">
+    <div class="col-xl">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">Edit Mentor</h5>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    <!-- Name -->
+                    <div class="form-group">
+                        <label for="Name">Name</label>
+                        <input id="Name" name="Name" value="Michael Brown" class="form-control" />
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input id="Email" name="Email" value="mentor@example.com" type="email" class="form-control" />
+                    </div>
+
+                    <!-- Roles -->
+                    <div class="form-group">
+                        <label for="Roles">Roles</label>
+                        <input id="Roles" name="Roles" value="Technical Mentor" class="form-control" />
+                    </div>
+
+                    <!-- Bio -->
+                    <div class="form-group">
+                        <label for="Bio">Bio</label>
+                        <textarea id="Bio" name="Bio" class="form-control">Experienced mentor in AI and ML.</textarea>
+                    </div>
+
+                    <!-- Password -->
+                    <div class="form-group">
+                        <label for="Password">Password</label>
+                        <input id="Password" name="Password" value="mentor123" type="password" class="form-control" />
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
