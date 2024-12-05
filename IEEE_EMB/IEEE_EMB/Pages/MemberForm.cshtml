@@ -4,75 +4,191 @@
     ViewData["Title"] = "Member Application";
 }
 
+
+
+
 @section Styles {
     <link rel="stylesheet" href="~/css/site.css" />
-}
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --text-color: #2c3e50;
+        }
 
-@section Scripts {
-    <script src="~/js/application.js"></script>
+        .page-container {
+            background: linear-gradient(135deg, #f6f8f9 0%, #e5ebee 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 0;
+        }
+
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            background: white;
+            max-width: 900px;
+            width: 95%;
+            transition: all 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+
+            .card:hover {
+                transform: scale(1.01);
+                box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+            }
+
+        .card-content {
+            padding: 2.5rem;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+            .form-group:hover {
+                transform: scale(1.02);
+            }
+
+        .form-label {
+            color: var(--text-color);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            height: 1.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .form-group:hover .form-label {
+            color: var(--primary-color);
+        }
+
+        .form-input {
+            border-radius: 8px;
+            border: 1px solid #d1d8e0;
+            padding: 0.75rem;
+            height: 2.75rem;
+            transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+
+            .form-input:focus {
+                border-color: var(--primary-color);
+                box-shadow: 0 0 0 3px rgba(52,152,219,0.1);
+                outline: none;
+            }
+
+        .form-error {
+            color: #e74c3c;
+            font-size: 0.8rem;
+            margin-top: 0.25rem;
+            height: 1rem;
+        }
+
+        .btn-primary, .btn-secondary {
+            transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+
+            .btn-primary:hover, .btn-secondary:hover {
+                transform: translateY(-3px);
+            }
+    </style>
 }
 
 <div class="page-container">
-    <div class="content-container">
-        <div class="card">
-            <div class="px-6 py-8">
-                <h1 class="text-title text-center mb-8 text-white">Member Application</h1>
+    <div class="card">
+        <div class="card-content">
+            <h1 class="text-center mb-8 text-2xl font-bold text-gray-800">Member Application</h1>
 
-                <form id="memberForm" method="post" class="space-y-6">
-                    <div class="form-grid">
-                        <div>
-                            <label asp-for="@Model.member.Name" class="form-label">Name</label>
-                            <input asp-for="@Model.member.Name" class="form-input" required />
-                            <span asp-validation-for="@Model.member.Name" class="form-error"></span>
-                        </div>
-                        <div>
-                            <label asp-for="@Model.member.Currentyear" class="form-label">Current Year</label>
-                            <input asp-for="@Model.member.Currentyear" type="date" class="form-input" required />
-                            <span asp-validation-for="@Model.member.Currentyear" class="form-error"></span>
-                        </div>
-                        <div>
-                            <label asp-for="@Model.member.Phone" class="form-label">Phone</label>
-                            <input asp-for="@Model.member.Phone" type="text" class="form-input" required />
-                            <span asp-validation-for="@Model.member.Phone" class="form-error"></span>
-                        </div>
-                        <div>
-                            <label asp-for="@Model.member.password" class="form-label">Password</label>
-                            <input asp-for="@Model.member.password" type="password" class="form-input" required />
-                            <span asp-validation-for="@Model.member.password" class="form-error"></span>
-                        </div>
-                        <div>
-                            <label asp-for="@Model.member.Email" class="form-label">Email</label>
-                            <input asp-for="@Model.member.Email" type="email" class="form-input" required />
-                            <span asp-validation-for="@Model.member.Email" class="form-error"></span>
-                        </div>
-                        <div>
-                            <label asp-for="@Model.member.PreviousExperience" class="form-label">Previous Experience</label>
-                            <input asp-for="@Model.member.PreviousExperience" type="text" class="form-input" required />
-                            <span asp-validation-for="@Model.member.PreviousExperience" class="form-error"></span>
-                        </div>
-                        <div>
-                            <label asp-for="@Model.member.Major" class="form-label">Major</label>
-                            <input asp-for="@Model.member.Major" type="text" class="form-input" required />
-                            <span asp-validation-for="@Model.member.Major" class="form-error"></span>
-                        </div>
-                        <div>
-                            <label asp-for="@Model.member.Brief" class="form-label">Brief</label>
-                            <input asp-for="@Model.member.Brief" type="text" class="form-input" required />
-                            <span asp-validation-for="@Model.member.Brief" class="form-error"></span>
-                        </div>
-                        <div>
-                            <label asp-for="@Model.member.University" class="form-label">University</label>
-                            <input asp-for="@Model.member.University" type="text" class="form-input" required />
-                            <span asp-validation-for="@Model.member.University" class="form-error"></span>
-                        </div>
+            <form id="memberForm" method="post" class="space-y-6">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label asp-for="@Model.member.Name" class="form-label">Full Name</label>
+                        <input asp-for="@Model.member.Name" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.member.Name" class="form-error"></span>
                     </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.member.Email" class="form-label">Email Address</label>
+                        <input asp-for="@Model.member.Email" type="email" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.member.Email" class="form-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.member.Phone" class="form-label">Contact Number</label>
+                        <input asp-for="@Model.member.Phone" type="tel" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.member.Phone" class="form-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.member.Currentyear" class="form-label">Academic Year</label>
+                        <input asp-for="@Model.member.Currentyear" type="date" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.member.Currentyear" class="form-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.member.University" class="form-label">University</label>
+                        <input asp-for="@Model.member.University" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.member.University" class="form-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.member.Major" class="form-label">Field of Study</label>
+                        <input asp-for="@Model.member.Major" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.member.Major" class="form-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.member.PreviousExperience" class="form-label">Prior Experience</label>
+                        <input asp-for="@Model.member.PreviousExperience" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.member.PreviousExperience" class="form-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.member.Brief" class="form-label">Brief Introduction</label>
+                        <input asp-for="@Model.member.Brief" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.member.Brief" class="form-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.member.password" class="form-label">Secure Password</label>
+                        <input asp-for="@Model.member.password" type="password" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.member.password" class="form-error"></span>
+                    </div>
+                </div>
 
-                    <div class="flex justify-end space-x-4">
-                        <a href="/Apply" class="btn btn-secondary">Cancel</a>
-                        <button type="submit" class="btn btn-primary">Submit Application</button>
-                    </div>
-                </form>
-            </div>
+                <div class="flex justify-end space-x-4 mt-6">
+                    <a href="/Apply" class="btn btn-secondary">Cancel</a>
+                    <button type="submit" class="btn btn-primary">Submit Application</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <script src="~/js/application.js"></script>
+    <script>
+        document.getElementById('memberForm').addEventListener('submit', function (event) {
+            const inputs = this.querySelectorAll('input');
+            let isValid = true;
+
+            inputs.forEach(input => {
+                const errorSpan = input.nextElementSibling;
+                if (!input.value.trim()) {
+                    input.classList.add('border-red-500');
+                    errorSpan.textContent = 'This field is required';
+                    errorSpan.style.opacity = '1';
+                    isValid = false;
+                } else {
+                    input.classList.remove('border-red-500');
+                    errorSpan.textContent = '';
+                    errorSpan.style.opacity = '0';
+                }
+            });
+
+            if (!isValid) {
+                event.preventDefault();
+            }
+        });
+    </script>
+}
