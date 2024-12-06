@@ -1,5 +1,5 @@
 ﻿@page
-@model IEEE_EMB.Pages.EditAdminModel
+@model IEEE_EMB.Pages.Admin.Pages_Admin_EditMentors
 @{
 }
 @{
@@ -9,44 +9,38 @@
     <div class="col-xl">
         <div class="card mb-4">
             <div class="card-header">
-                <h5 class="mb-0">Edit Admin</h5>
+                <h5 class="mb-0">Edit Mentor</h5>
             </div>
             <div class="card-body">
                 <form method="post">
                     <!-- Name -->
                     <div class="form-group">
                         <label for="Name">Name</label>
-                        <input id="Name" name="Name" value="John Doe" class="form-control" />
+                        <input id="Name" name="Name" value="Michael Brown" class="form-control" />
                     </div>
 
                     <!-- Email -->
                     <div class="form-group">
                         <label for="Email">Email</label>
-                        <input id="Email" name="Email" value="admin@example.com" type="email" class="form-control" />
+                        <input id="Email" name="Email" value="mentor@example.com" type="email" class="form-control" />
                     </div>
 
-                    <!-- Role -->
+                    <!-- Roles -->
                     <div class="form-group">
-                        <label for="Role">Role</label>
-                        <input id="Role" name="Role" value="Super Admin" class="form-control" />
+                        <label for="Roles">Roles</label>
+                        <input id="Roles" name="Roles" value="Technical Mentor" class="form-control" />
                     </div>
 
-                    <!-- CV -->
+                    <!-- Bio -->
                     <div class="form-group">
-                        <label for="CV">CV</label>
-                        <input id="CV" name="CV" type="file" class="form-control" />
-                    </div>
-
-                    <!-- Phone Number -->
-                    <div class="form-group">
-                        <label for="PhoneNumber">Phone Number</label>
-                        <input id="PhoneNumber" name="PhoneNumber" value="1234567890" class="form-control" />
+                        <label for="Bio">Bio</label>
+                        <textarea id="Bio" name="Bio" class="form-control">Experienced mentor in AI and ML.</textarea>
                     </div>
 
                     <!-- Password -->
                     <div class="form-group">
                         <label for="Password">Password</label>
-                        <input id="Password" name="Password" value="admin123" type="password" class="form-control" />
+                        <input id="Password" name="Password" value="mentor123" type="password" class="form-control" />
                     </div>
 
                     <div class="form-group mt-3">
@@ -57,7 +51,6 @@
         </div>
     </div>
 </div>
-
 
 @section Scripts {
     @{

@@ -22,6 +22,9 @@ namespace IEEE_EMB.Pages
             {
                 return Page();
             }
+            HttpContext.Session.SetString("email", Email);
+           // ViewData[""]
+            
 
             // Here you would typically:
             // 1. Validate the user's credentials

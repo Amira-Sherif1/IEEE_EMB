@@ -1,16 +1,16 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace IEEE_EMB.Pages
+namespace IEEE_EMB.Pages.Admin
 {
-    public class ActivitiesModel : PageModel
+    public class EditParticipantModel : PageModel
     {
         public void OnGet()
         {
         }
         public IActionResult OnPost()
         {
-            return RedirectToPage("/Activities");
+            return RedirectToPage("/Participants");
         }
     }
 }

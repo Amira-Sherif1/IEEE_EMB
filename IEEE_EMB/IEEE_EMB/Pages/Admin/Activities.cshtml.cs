@@ -1,17 +1,16 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace IEEE_EMB.Pages
+namespace IEEE_EMB.Pages.Admin
 {
-    public class AddAdminModel : PageModel
+    public class ActivitiesModel : PageModel
     {
-        //public Admin MyProperty { get; set; }
         public void OnGet()
         {
         }
         public IActionResult OnPost()
         {
-            return RedirectToPage("/AllAdmins");
+            return RedirectToPage("/Activities");
         }
     }
 }

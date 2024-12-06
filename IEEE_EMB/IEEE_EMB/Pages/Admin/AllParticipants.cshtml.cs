@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace IEEE_EMB.Pages
+namespace IEEE_EMB.Pages.Admin
 {
-    public class AllMentorsModel : PageModel
+    public class AllParticipantsModel : PageModel
     {
         public void OnGet()
         {

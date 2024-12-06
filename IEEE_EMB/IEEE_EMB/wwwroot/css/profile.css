@@ -60,7 +60,7 @@
 }
 
 .profile-content {
-    background-color: #006064;
+    background: linear-gradient(135deg, #006064, #7C3AED);
     padding: 2rem;
     border-radius: 8px;
     color: white;

@@ -38,7 +38,7 @@
     gap: 0.5rem;
     width: 100%;
     padding: 1rem;
-    background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%);
+    background: linear-gradient(135deg, #006064, #7C3AED) !important;
     color: white;
     border-radius: 0.5rem;
     font-weight: 600;

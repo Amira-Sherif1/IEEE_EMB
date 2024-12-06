@@ -1,15 +1,17 @@
 .announcements-container {
     min-height: 100vh;
     background-color: #f8f9fa;
+    padding-top: 2rem;
 }
 
 /* Hero Section */
 .hero-section {
-    background-color: #2F4F4F;
+    background: linear-gradient(135deg, #006064, #7C3AED);
     color: white;
     padding: 4rem 0;
     position: relative;
     overflow: hidden;
+   
 }
 
     .hero-section h1 {
@@ -65,7 +67,7 @@
 }
 
 .announcement-title {
-    color: #2F4F4F;
+    color: #006064;
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
 }

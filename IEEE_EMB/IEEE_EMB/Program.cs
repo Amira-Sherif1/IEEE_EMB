@@ -8,7 +8,8 @@ namespace IEEE_EMB
 
             // Add services to the container.
             builder.Services.AddRazorPages();
-
+            builder.Services.AddSession();
+            builder.Services.AddHttpContextAccessor();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -25,6 +26,7 @@ namespace IEEE_EMB
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseSession();
 
             app.MapRazorPages();
 

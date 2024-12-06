@@ -1,11 +1,41 @@
-.navbar {
+/*.navbar {
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: var(--shadow);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
     padding: 1rem 0;
+    margin-bottom: 0;
 }
 
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: var(--transition);
+}
+    .nav-link:hover {
+        background: linear-gradient(to right, var(--primary-color), #6a11cb);
+        color: var(--white);
+    }
+
+
+main {
+    padding-top: 80px;
+    Add padding to main content to prevent overlap
+}
 .navbar-brand {
-    color: #2F4F4F;
+    color: #006064;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -32,7 +62,7 @@
 }
 
 .nav-link {
-    color: #2F4F4F;
+    color: #006064;
     font-weight: 500;
     padding: 0.5rem 1rem;
 }
@@ -44,4 +74,33 @@
 .dropdown-menu {
     border: none;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}*/
+
+
+/*Responsive Design*/
+/*@media (max-width: 768px) {
+    .navbar
+
+{
+    flex-direction: column;
+    padding: 1rem;
 }
+
+.nav-links {
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero {
+    padding: 6rem 1rem 3rem;
+}
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+.card {
+    width: 100%;
+}
+}*/
