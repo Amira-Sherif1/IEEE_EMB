@@ -929,6 +929,10 @@
       "PackagePath": "staticwebassets\\css\\profile.css"
     },
     {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\seminars.css",
+      "PackagePath": "staticwebassets\\css\\seminars.css"
+    },
+    {
       "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -939,6 +943,18 @@
     {
       "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\images\\About.png",
+      "PackagePath": "staticwebassets\\images\\About.png"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\images\\Announcements\\Announcements.jpg",
+      "PackagePath": "staticwebassets\\images\\Announcements\\Announcements.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\images\\Home.jpg",
+      "PackagePath": "staticwebassets\\images\\Home.jpg"
     },
     {
       "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\animations.js",
@@ -1139,6 +1155,62 @@
     {
       "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.cjs.map",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\chart.cjs.map"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.js",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\chart.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.js.map",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\chart.js.map"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.min.js",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\chart.min.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.umd.js",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\chart.umd.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.umd.js.map",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\chart.umd.js.map"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.umd.min.js",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\chart.umd.min.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\helpers.cjs.map",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\helpers.cjs.map"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\helpers.js",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\helpers.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\helpers.js.map",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\helpers.js.map"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\helpers.min.js",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\helpers.min.js"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\index.d.ts"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\index.umd.d.ts",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\index.umd.d.ts"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\types.d.ts",
+      "PackagePath": "staticwebassets\\lib\\chartjs\\types.d.ts"
     },
     {
       "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
