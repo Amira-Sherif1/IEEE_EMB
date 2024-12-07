@@ -11,7 +11,7 @@ namespace IEEE_EMB.Pages.Admin
         }
         public IActionResult OnPost()
         {
-            return RedirectToPage("/AllAdmins");
+            return RedirectToPage("/Admin/AllAdmins");
         }
     }
 }

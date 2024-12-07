@@ -32,3 +32,7 @@ D:\ZC\year 2 semes. 1\Database\Project\IEEE_EMB\IEEE_EMB\IEEE_EMB\obj\Debug\net8
 D:\ZC\year 2 semes. 1\Database\Project\IEEE_EMB\IEEE_EMB\IEEE_EMB\obj\Debug\net8.0\scopedcss\Pages\Shared\_NewsCard.cshtml.rz.scp.css
 D:\ZC\year 2 semes. 1\Database\Project\IEEE_EMB\IEEE_EMB\IEEE_EMB\obj\Debug\net8.0\scopedcss\Pages\Shared\_AnnouncementCard.cshtml.rz.scp.css
 D:\ZC\year 2 semes. 1\Database\Project\IEEE_EMB\IEEE_EMB\IEEE_EMB\obj\Debug\net8.0\scopedcss\Pages\Shared\DashLayout.cshtml.rz.scp.css
+D:\ZC\year 2 semes. 1\Database\Project\IEEE_EMB\IEEE_EMB\IEEE_EMB\bin\Debug\net8.0\libman.json
+D:\ZC\year 2 semes. 1\Database\Project\IEEE_EMB\IEEE_EMB\IEEE_EMB\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\ZC\year 2 semes. 1\Database\Project\IEEE_EMB\IEEE_EMB\IEEE_EMB\obj\Debug\net8.0\IEEE_EMB.csproj.AssemblyReference.cache
+D:\ZC\year 2 semes. 1\Database\Project\IEEE_EMB\IEEE_EMB\IEEE_EMB\obj\Debug\net8.0\IEEE_EMB.csproj.Up2Date

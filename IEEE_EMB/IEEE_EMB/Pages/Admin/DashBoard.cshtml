@@ -1,0 +1,30 @@
+﻿@page
+@model IEEE_EMB.Pages.Admin.DashBoardModel
+@{
+}
+@{
+    Layout = "~/Pages/Shared/DashLayout.cshtml";
+}
+
+<!-- Bar Chart -->
+<div class="chart-container mb-4" style="width: 100%; max-width: 600px; margin: 0 auto;">
+    <canvas id="barChart"></canvas>
+</div>
+
+<!-- Pie Chart -->
+<div class="chart-container mb-4" style="width: 100%; max-width: 600px; margin: 0 auto;">
+    <canvas id="pieChart"></canvas>
+</div>
+
+<script type="module">
+    document.addEventListener('DOMContentLoaded', function () {
+
+        // Bar Chart
+        var barCtx = document.getElementById('barChart');
+        var barChart = new Chart(barCtx, @Html.Raw(Model.ChartJson));
+
+        // Pie Chart
+        var pieCtx = document.getElementById('pieChart');
+        var pieChart = new Chart(pieCtx, @Html.Raw(Model.PieChartJson));
+    });
+</script>

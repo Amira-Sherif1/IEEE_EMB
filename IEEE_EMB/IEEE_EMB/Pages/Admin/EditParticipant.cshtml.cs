@@ -10,7 +10,7 @@ namespace IEEE_EMB.Pages.Admin
         }
         public IActionResult OnPost()
         {
-            return RedirectToPage("/Participants");
+            return RedirectToPage("/Admin/AllParticipants");
         }
     }
 }
