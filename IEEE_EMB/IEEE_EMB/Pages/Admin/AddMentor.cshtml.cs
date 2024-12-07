@@ -8,5 +8,9 @@ namespace IEEE_EMB.Pages.Admin
         public void OnGet()
         {
         }
+        public IActionResult OnPost()
+        {
+            return RedirectToPage("/Admin/AllMentors");
+        }
     }
 }

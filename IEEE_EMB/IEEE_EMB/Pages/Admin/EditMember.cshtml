@@ -5,63 +5,86 @@
 @{
     Layout = "~/Pages/Shared/DashLayout.cshtml";
 }
-<div class="row">
-    <div class="col-xl">
-        <div class="card mb-4">
-            <div class="card-header">
-                <h5 class="mb-0">Edit Member</h5>
-            </div>
-            <div class="card-body">
-                <form method="post">
-                    <!-- Name -->
-                    <div class="form-group">
-                        <label for="Name">Name</label>
-                        <input id="Name" name="Name" value="Jane Smith" class="form-control" />
-                    </div>
 
-                    <!-- Email -->
-                    <div class="form-group">
-                        <label for="Email">Email</label>
-                        <input id="Email" name="Email" value="member@example.com" type="email" class="form-control" />
-                    </div>
+<div class="container-xxl flex-grow-1 container-p-y">
+    <!-- Edit Member Form -->
+    <div class="mb-4">
+        <h5 class="mb-0">Edit Member</h5>
+    </div>
 
-                    <!-- Phone Number -->
-                    <div class="form-group">
-                        <label for="PhoneNumber">Phone Number</label>
-                        <input id="PhoneNumber" name="PhoneNumber" value="9876543210" class="form-control" />
-                    </div>
+    <div class="card">
+        <div class="card-body">
+            <form method="post">
+                <!-- Name -->
+                <div class="form-group">
+                    <label for="Name" class="control-label">Name</label>
+                    <input id="Name" name="Name" class="form-control" />
+                </div>
 
-                    <!-- Major -->
-                    <div class="form-group">
-                        <label for="Major">Major</label>
-                        <input id="Major" name="Major" value="Computer Science" class="form-control" />
-                    </div>
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="Email" class="control-label">Email</label>
+                    <input id="Email" name="Email" type="email" class="form-control" />
+                </div>
 
-                    <!-- Status -->
-                    <div class="form-group">
-                        <label for="Status">Status</label>
-                        <select id="Status" name="Status" class="form-control">
-                            <option value="Active" selected>Active</option>
-                            <option value="Inactive">Inactive</option>
-                        </select>
-                    </div>
+                <!-- Password -->
+                <div class="form-group">
+                    <label for="Password" class="control-label">Password</label>
+                    <input id="Password" name="Password" type="password" class="form-control" />
+                </div>
 
-                    <div class="form-group mt-3">
-                        <button type="submit" class="btn btn-primary">Save Changes</button>
-                    </div>
+                <!-- University -->
+                <div class="form-group">
+                    <label for="University" class="control-label">University</label>
+                    <input id="University" name="University" class="form-control" />
+                </div>
 
-                </form>
-            </div>
+                <!-- Major -->
+                <div class="form-group">
+                    <label for="Major" class="control-label">Major</label>
+                    <input id="Major" name="Major" class="form-control" />
+                </div>
+
+                <!-- Current Year -->
+                <div class="form-group">
+                    <label for="CurrentYear" class="control-label">Current Year</label>
+                    <input id="CurrentYear" name="CurrentYear" class="form-control" />
+                </div>
+
+                <!-- Phone Number -->
+                <div class="form-group">
+                    <label for="PhoneNumber" class="control-label">Phone Number</label>
+                    <input id="PhoneNumber" name="PhoneNumber" type="tel" class="form-control" />
+                </div>
+
+                <!-- Previous Experience -->
+                <div class="form-group">
+                    <label for="PreviousExperience" class="control-label">Previous Experience</label>
+                    <textarea id="PreviousExperience" name="PreviousExperience" class="form-control"></textarea>
+                </div>
+
+                <!-- Status -->
+                <div class="form-group">
+                    <label for="Status" class="control-label">Status</label>
+                    <select id="Status" name="Status" class="form-control">
+                        <option value="">Select Status</option>
+                        <option value="Active">Active</option>
+                        <option value="Inactive">Inactive</option>
+                    </select>
+                </div>
+
+                <div class="form-group mt-3">
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+
+                </div>
+            </form>
         </div>
     </div>
-   
-
 </div>
-@section Scripts 
-{
+
+@section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
-
 

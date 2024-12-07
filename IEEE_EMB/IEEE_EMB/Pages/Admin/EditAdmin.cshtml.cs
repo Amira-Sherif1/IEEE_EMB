@@ -10,7 +10,7 @@ namespace IEEE_EMB.Pages
         }
         public IActionResult OnPost()
         {
-            return RedirectToPage("/AllAdmins");
+            return RedirectToPage("/Admin/AllAdmins");
         }
     }
 }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XiEyHmJwAj8=",
+  "dgSpecHash": "tujlqZZQ8bc=",
   "success": true,
   "projectFilePath": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Amira\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
