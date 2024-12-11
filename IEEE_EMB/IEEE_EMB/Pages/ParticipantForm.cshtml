@@ -1,0 +1,175 @@
+﻿@page
+@model IEEE_EMB.Pages.ParticipantFormModel
+@{
+    ViewData["Title"] = "Participant Application";
+}
+
+
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --text-color: #2c3e50;
+        }
+
+        .page-container {
+            background: linear-gradient(135deg, #f6f8f9 0%, #e5ebee 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 0;
+        }
+
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            background: white;
+            max-width: 900px;
+            width: 95%;
+            transition: all 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+
+            .card:hover {
+                transform: scale(1.01);
+                box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+            }
+
+        .card-content {
+            padding: 2.5rem;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+            .form-group:hover {
+                transform: scale(1.02);
+            }
+
+        .form-label {
+            color: var(--text-color);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            height: 1.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .form-group:hover .form-label {
+            color: var(--primary-color);
+        }
+
+        .form-input {
+            border-radius: 8px;
+            border: 1px solid #d1d8e0;
+            padding: 0.75rem;
+            height: 2.75rem;
+            transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+
+            .form-input:focus {
+                border-color: var(--primary-color);
+                box-shadow: 0 0 0 3px rgba(52,152,219,0.1);
+                outline: none;
+            }
+
+        .form-error {
+            color: #e74c3c;
+            font-size: 0.8rem;
+            margin-top: 0.25rem;
+            height: 1rem;
+        }
+
+        .btn-primary, .btn-secondary {
+            transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+
+            .btn-primary:hover, .btn-secondary:hover {
+                transform: translateY(-3px);
+            }
+    </style>
+}
+
+<div class="page-container">
+    <div class="card">
+        <div class="card-content">
+            <h1 class="text-center mb-8 text-2xl font-bold text-gray-800">participant Application</h1>
+
+            <form id="memberForm" method="post" class="space-y-6">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label asp-for="@Model.participant.Name" class="form-label">Full Name</label>
+                        <input asp-for="@Model.participant.Name" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.participant.Name" class="form-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.participant.Email" class="form-label">Email Address</label>
+                        <input asp-for="@Model.participant.Email" type="email" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.participant.Email" class="form-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.participant.Phone" class="form-label">Contact Number</label>
+                        <input asp-for="@Model.participant.Phone" type="tel" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.participant.Phone" class="form-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.participant.University" class="form-label">University</label>
+                        <input asp-for="@Model.participant.University" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.participant.University" class="form-error"></span>
+                    </div>
+                <div class="form-group">
+                        <label asp-for="@Model.participant.SSN" class="form-label">National ID</label>
+                        <input asp-for="@Model.participant.SSN" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.participant.SSN" class="form-error"></span>
+                    </div>
+               
+                    
+                 
+
+                <div class="flex justify-end space-x-4 mt-6">
+                    <a href="/Seminars" class="btn btn-secondary">Cancel</a>
+                    <button type="submit" class="btn btn-primary">Submit Application</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/application.js"></script>
+    <script>
+        document.getElementById('memberForm').addEventListener('submit', function (event) {
+            const inputs = this.querySelectorAll('input');
+            let isValid = true;
+
+            inputs.forEach(input => {
+                const errorSpan = input.nextElementSibling;
+                if (!input.value.trim()) {
+                    input.classList.add('border-red-500');
+                    errorSpan.textContent = 'This field is required';
+                    errorSpan.style.opacity = '1';
+                    isValid = false;
+                } else {
+                    input.classList.remove('border-red-500');
+                    errorSpan.textContent = '';
+                    errorSpan.style.opacity = '0';
+                }
+            });
+
+            if (!isValid) {
+                event.preventDefault();
+            }
+        });
+    </script>
+}
