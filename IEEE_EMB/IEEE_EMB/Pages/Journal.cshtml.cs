@@ -2,17 +2,15 @@ using IEEE_EMB.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-
 namespace IEEE_EMB.Pages
 {
-
-    public class WorkshopsModel : PageModel
+    public class JournalModel : PageModel
     {
-        public List<Activity> Workshops { get; set; }
+        public List<Activity> Journal { get; set; }
 
         public void OnGet()
         {
-            Workshops = new List<Activity>
+            Journal = new List<Activity>
             {
               new Activity
                 {
@@ -35,6 +33,3 @@ namespace IEEE_EMB.Pages
         }
     }
 }
-
-
-

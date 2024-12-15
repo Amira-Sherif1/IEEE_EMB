@@ -1,57 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\",
+  "WorkspaceRootPath": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\he607\\onedrive\\documents\\github\\ieee_emb\\ieee_emb\\ieee_emb\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\omara\\source\\repos\\ieee_emb\\ieee_emb\\ieee_emb\\pages\\journal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\pages\\journal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\he607\\onedrive\\documents\\github\\ieee_emb\\ieee_emb\\ieee_emb\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\omara\\source\\repos\\ieee_emb\\ieee_emb\\ieee_emb\\ieee_emb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\ieee_emb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\omara\\source\\repos\\ieee_emb\\ieee_emb\\ieee_emb\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\he607\\onedrive\\documents\\github\\ieee_emb\\ieee_emb\\ieee_emb\\pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\omara\\source\\repos\\ieee_emb\\ieee_emb\\ieee_emb\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\omara\\source\\repos\\ieee_emb\\ieee_emb\\ieee_emb\\pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\he607\\onedrive\\documents\\github\\ieee_emb\\ieee_emb\\ieee_emb\\wwwroot\\css\\navigation.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\omara\\source\\repos\\ieee_emb\\ieee_emb\\ieee_emb\\wwwroot\\css\\navigation.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\wwwroot\\css\\navigation.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\he607\\onedrive\\documents\\github\\ieee_emb\\ieee_emb\\ieee_emb\\wwwroot\\css\\announcements.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\omara\\source\\repos\\ieee_emb\\ieee_emb\\ieee_emb\\wwwroot\\css\\announcements.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\wwwroot\\css\\announcements.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\he607\\onedrive\\documents\\github\\ieee_emb\\ieee_emb\\ieee_emb\\pages\\announcments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\omara\\source\\repos\\ieee_emb\\ieee_emb\\ieee_emb\\pages\\announcments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\pages\\announcments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\he607\\onedrive\\documents\\github\\ieee_emb\\ieee_emb\\ieee_emb\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\omara\\source\\repos\\ieee_emb\\ieee_emb\\ieee_emb\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\he607\\onedrive\\documents\\github\\ieee_emb\\ieee_emb\\ieee_emb\\pages\\join.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\omara\\source\\repos\\ieee_emb\\ieee_emb\\ieee_emb\\pages\\join.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\pages\\join.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\he607\\onedrive\\documents\\github\\ieee_emb\\ieee_emb\\ieee_emb\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\omara\\source\\repos\\ieee_emb\\ieee_emb\\ieee_emb\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\he607\\onedrive\\documents\\github\\ieee_emb\\ieee_emb\\ieee_emb\\wwwroot\\css\\join.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\omara\\source\\repos\\ieee_emb\\ieee_emb\\ieee_emb\\wwwroot\\css\\join.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\wwwroot\\css\\join.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\he607\\onedrive\\documents\\github\\ieee_emb\\ieee_emb\\ieee_emb\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\omara\\source\\repos\\ieee_emb\\ieee_emb\\ieee_emb\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\he607\\onedrive\\documents\\github\\ieee_emb\\ieee_emb\\ieee_emb\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\omara\\source\\repos\\ieee_emb\\ieee_emb\\ieee_emb\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\he607\\onedrive\\documents\\github\\ieee_emb\\ieee_emb\\ieee_emb\\pages\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|c:\\users\\omara\\source\\repos\\ieee_emb\\ieee_emb\\ieee_emb\\pages\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0D7B0C63-2C90-4641-87A2-93FC59E049DF}|IEEE_EMB\\IEEE_EMB.csproj|solutionrelative:ieee_emb\\pages\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -62,28 +70,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 223,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Journal.cshtml",
+              "DocumentMoniker": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Journal.cshtml",
+              "RelativeDocumentMoniker": "IEEE_EMB\\Pages\\Journal.cshtml",
+              "ToolTip": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Journal.cshtml",
+              "RelativeToolTip": "IEEE_EMB\\Pages\\Journal.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T17:22:42.368Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IEEE_EMB",
+              "DocumentMoniker": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB.csproj",
+              "RelativeDocumentMoniker": "IEEE_EMB\\IEEE_EMB.csproj",
+              "ToolTip": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB.csproj",
+              "RelativeToolTip": "IEEE_EMB\\IEEE_EMB.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T17:21:45.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "IEEE_EMB\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Index.cshtml",
               "RelativeToolTip": "IEEE_EMB\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-06T17:46:18.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "navigation.css",
-              "DocumentMoniker": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\navigation.css",
+              "DocumentMoniker": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\navigation.css",
               "RelativeDocumentMoniker": "IEEE_EMB\\wwwroot\\css\\navigation.css",
-              "ToolTip": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\navigation.css",
+              "ToolTip": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\navigation.css",
               "RelativeToolTip": "IEEE_EMB\\wwwroot\\css\\navigation.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -91,11 +133,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Announcments.cshtml",
-              "DocumentMoniker": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Announcments.cshtml",
+              "DocumentMoniker": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Announcments.cshtml",
               "RelativeDocumentMoniker": "IEEE_EMB\\Pages\\Announcments.cshtml",
-              "ToolTip": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Announcments.cshtml",
+              "ToolTip": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Announcments.cshtml",
               "RelativeToolTip": "IEEE_EMB\\Pages\\Announcments.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -103,11 +145,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "IEEE_EMB\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "IEEE_EMB\\Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -115,11 +157,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "announcements.css",
-              "DocumentMoniker": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\announcements.css",
+              "DocumentMoniker": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\announcements.css",
               "RelativeDocumentMoniker": "IEEE_EMB\\wwwroot\\css\\announcements.css",
-              "ToolTip": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\announcements.css",
+              "ToolTip": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\announcements.css",
               "RelativeToolTip": "IEEE_EMB\\wwwroot\\css\\announcements.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -127,11 +169,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\About.cshtml",
+              "DocumentMoniker": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\About.cshtml",
               "RelativeDocumentMoniker": "IEEE_EMB\\Pages\\About.cshtml",
-              "ToolTip": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\About.cshtml",
+              "ToolTip": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\About.cshtml",
               "RelativeToolTip": "IEEE_EMB\\Pages\\About.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -139,11 +181,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Join.cshtml",
-              "DocumentMoniker": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Join.cshtml",
+              "DocumentMoniker": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Join.cshtml",
               "RelativeDocumentMoniker": "IEEE_EMB\\Pages\\Join.cshtml",
-              "ToolTip": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Join.cshtml",
+              "ToolTip": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Join.cshtml",
               "RelativeToolTip": "IEEE_EMB\\Pages\\Join.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -151,11 +193,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "join.css",
-              "DocumentMoniker": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\join.css",
+              "DocumentMoniker": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\join.css",
               "RelativeDocumentMoniker": "IEEE_EMB\\wwwroot\\css\\join.css",
-              "ToolTip": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\join.css",
+              "ToolTip": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\join.css",
               "RelativeToolTip": "IEEE_EMB\\wwwroot\\css\\join.css",
               "ViewState": "AgIAAC0AAAAAAAAAAAAIwFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -163,11 +205,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "home.css",
-              "DocumentMoniker": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\home.css",
+              "DocumentMoniker": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\home.css",
               "RelativeDocumentMoniker": "IEEE_EMB\\wwwroot\\css\\home.css",
-              "ToolTip": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\home.css",
+              "ToolTip": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\home.css",
               "RelativeToolTip": "IEEE_EMB\\wwwroot\\css\\home.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -175,11 +217,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "index.css",
-              "DocumentMoniker": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\index.css",
+              "DocumentMoniker": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\index.css",
               "RelativeDocumentMoniker": "IEEE_EMB\\wwwroot\\css\\index.css",
-              "ToolTip": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\index.css",
+              "ToolTip": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\index.css",
               "RelativeToolTip": "IEEE_EMB\\wwwroot\\css\\index.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -187,11 +229,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "profile.css",
-              "DocumentMoniker": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\profile.css",
+              "DocumentMoniker": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\profile.css",
               "RelativeDocumentMoniker": "IEEE_EMB\\wwwroot\\css\\profile.css",
-              "ToolTip": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\profile.css",
+              "ToolTip": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\profile.css",
               "RelativeToolTip": "IEEE_EMB\\wwwroot\\css\\profile.css",
               "ViewState": "AgIAACcAAAAAAAAAAIBJwD8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -199,11 +241,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Profile.cshtml",
-              "DocumentMoniker": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Profile.cshtml",
               "RelativeDocumentMoniker": "IEEE_EMB\\Pages\\Profile.cshtml",
-              "ToolTip": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\Pages\\Profile.cshtml",
               "RelativeToolTip": "IEEE_EMB\\Pages\\Profile.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -213,20 +255,32 @@
         },
         {
           "DockedWidth": 223,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\style.css",
+              "DocumentMoniker": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "IEEE_EMB\\wwwroot\\css\\style.css",
-              "ToolTip": "C:\\Users\\he607\\OneDrive\\Documents\\GitHub\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\style.css",
               "RelativeToolTip": "IEEE_EMB\\wwwroot\\css\\style.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-12-06T15:36:32.583Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{68487888-204a-11d3-87eb-00c04f7971a5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
