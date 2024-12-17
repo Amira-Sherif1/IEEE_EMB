@@ -10,7 +10,7 @@ namespace IEEE_EMB.Models
         public string password { get; set; }
         public string Email { get; set; }
         public string PreviousExperience { get; set; }
-        public string status { get; set; } = Status.Wating;
+        public string status { get; set; } = Status.Waiting;
         public string Major { get; set; }
 
         public string Brief { get; set; }
