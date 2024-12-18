@@ -1,14 +1,22 @@
+using IEEE_EMB.Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Collections.Generic;
 
 public class IndexModel : PageModel
 {
+    public DB db { get; set; }
     public List<NewsItem> NewsItems { get; set; }
 
+    public IndexModel(DB dB)
+    {
+        db = dB;
+    }
     public void OnGet()
     {
+      //  db.GetAnnouncements();
         NewsItems = new List<NewsItem>
         {
+
             new NewsItem
             {
                 Title = "Latest Research Breakthrough",
@@ -17,8 +25,9 @@ public class IndexModel : PageModel
             },
             new NewsItem
             {
-                Title = "Upcoming Workshop",
-                Description = "Join us for an exciting workshop on...",
+               
+        Title = "Upcoming Workshop",        
+        Description = "Join us for an exciting workshop on...",
                 ImageUrl = "/images/news/news-2.jpg"
             },
             new NewsItem
@@ -28,6 +37,8 @@ public class IndexModel : PageModel
                 ImageUrl = "/images/news/news-3.jpg"
             }
         };
+    
+        
     }
 }
 

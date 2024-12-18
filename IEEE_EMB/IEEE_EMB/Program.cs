@@ -8,6 +8,8 @@ namespace IEEE_EMB
 
             // Add services to the container.
             builder.Services.AddRazorPages();
+            //add db as a service
+            builder.Services.AddSingleton<Models.DB>();
             builder.Services.AddSession();
             builder.Services.AddHttpContextAccessor();
             var app = builder.Build();
