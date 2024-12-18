@@ -1,5 +1,6 @@
-﻿using System.Data;
-using Microsoft.Data.SqlClient;
+
+﻿using Microsoft.Data.SqlClient;
+using System.Data;
 
 namespace IEEE_EMB.Models
 {
@@ -22,7 +23,33 @@ namespace IEEE_EMB.Models
                 SqlCommand com = new SqlCommand(querey, con);
                 dt.Load(com.ExecuteReader());
             }
-            catch (Exception ex) 
+            catch (Exception ex) {}
+             finally
+                    { 
+                                       Connection.Close();
+
+
+                     }
+
+
+            }
+
+
+            return dt;
+
+           }
+
+        public DataTable GetAnnouncements()
+        {
+            DataTable dt = new DataTable();
+            string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY";
+            SqlCommand cmd = new SqlCommand(query, Connection);
+            try
+            {
+                Connection.Open();
+                dt.Load(cmd.ExecuteReader());
+            }
+            catch(Exception ex) 
             {
                 Console.WriteLine(ex.Message);
             }
@@ -33,6 +60,8 @@ namespace IEEE_EMB.Models
 
             return dt;
         }
+
+
         public void AddSession(Session session)
         {
             string getMaxIdQuery = "SELECT MAX(ID) FROM SESSION"; 
@@ -114,6 +143,7 @@ namespace IEEE_EMB.Models
 
             }
 
+        
         }
     }
 }
