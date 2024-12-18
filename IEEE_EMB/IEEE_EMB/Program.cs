@@ -1,3 +1,5 @@
+using IEEE_EMB.Models;
+
 namespace IEEE_EMB
 {
     public class Program
@@ -10,6 +12,12 @@ namespace IEEE_EMB
             builder.Services.AddRazorPages();
             builder.Services.AddSession();
             builder.Services.AddHttpContextAccessor();
+            builder.Services.AddSingleton<DB>();
+            builder.WebHost.ConfigureKestrel(options =>
+            {
+                options.Limits.MaxRequestBodySize = 500 * 1024 * 1024; // 500 MB
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

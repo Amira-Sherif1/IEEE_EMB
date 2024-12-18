@@ -13,7 +13,7 @@
 
     <div class="card">
         <div class="card-body">
-            <form method="post">
+            <form method="post" enctype="multipart/form-data">
                 <!-- Title -->
                 <div class="form-group">
                     <label for="Title" class="control-label">Title</label>
@@ -26,7 +26,10 @@
                     <input id="Date" name="Date" type="date" class="form-control" />
                 </div>
 
-               
+                <div class="form-group">
+                    <label for="Video" class="control-label">Video</label>
+                    <input id="Video" name="Video" type="file" class="form-control" />
+                </div>
 
                 <div class="form-group">
                     <label for="Document" class="control-label">Document</label>
