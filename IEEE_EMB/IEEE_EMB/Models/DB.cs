@@ -6,7 +6,7 @@ namespace IEEE_EMB.Models
 {
     public class DB
     {
-        private string connectionstring = "Data Source=DESKTOP-E4Q9O8K; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
+        private string connectionstring = "Data Source=D4NGERX; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
         public SqlConnection con = new();
         public DB()
         {
@@ -23,33 +23,76 @@ namespace IEEE_EMB.Models
                 SqlCommand com = new SqlCommand(querey, con);
                 dt.Load(com.ExecuteReader());
             }
-            catch (Exception ex) {}
-             finally
-                    { 
-                                       Connection.Close();
+            catch (Exception ex)
+            {
 
-
-                     }
+            }
+            finally
+            {
+                con.Close();
 
 
             }
-
 
             return dt;
+        }
+            
 
-           }
+  
 
-        public DataTable GetAnnouncements()
+    public DataTable GetAnnouncements()
+    {
+        DataTable dt = new DataTable();
+        string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY";
+        SqlCommand cmd = new SqlCommand(query, con);
+        try
+        {
+            con.Open();
+            dt.Load(cmd.ExecuteReader());
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        finally
+        {
+            con.Close();
+        }
+
+        return dt;
+        }
+
+        public DataTable GetParticipantCount() 
         {
             DataTable dt = new DataTable();
-            string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY";
-            SqlCommand cmd = new SqlCommand(query, Connection);
+            string query = "SELECT A.ACTIVITY_ID, COUNT(*) ParticipantsCount\r\nFROM ACTIVITY_PARTICIPANTS A\r\nGROUP BY A.ACTIVITY_ID";
+            SqlCommand com = new SqlCommand(query, con);
             try
             {
-                Connection.Open();
-                dt.Load(cmd.ExecuteReader());
+                con.Open();
+                dt.Load(com.ExecuteReader());
             }
-            catch(Exception ex) 
+            catch (Exception ex) {
+                Console.WriteLine(ex.Message);
+            }
+            finally {
+                con.Close();
+            }
+
+            return dt;
+        }
+
+        public DataTable GetSeminar()
+        {
+            DataTable dt = new DataTable();
+            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Seminar'";
+            SqlCommand com = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
+                dt.Load(com.ExecuteReader());
+            }
+            catch(Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -58,10 +101,63 @@ namespace IEEE_EMB.Models
                 con.Close();
             }
 
+
+
             return dt;
         }
 
+        public DataTable GetJournalClubs()
+        {
+            DataTable dt = new DataTable();
+            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'JournalClub'";
+            SqlCommand com = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
+                dt.Load(com.ExecuteReader());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
 
+
+
+            return dt;
+        }
+
+        public DataTable GetWorkshops()
+        {
+            DataTable dt = new DataTable();
+            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Workshop'";
+            SqlCommand com = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
+                dt.Load(com.ExecuteReader());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+
+
+
+            return dt;
+        }
+
+        public void AddActivity(Activity activity)
+        {
+           
+        }
         public void AddSession(Session session)
         {
             string getMaxIdQuery = "SELECT MAX(ID) FROM SESSION"; 

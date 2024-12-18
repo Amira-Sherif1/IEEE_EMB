@@ -10,7 +10,7 @@
         <div class="container">
             <h1 class="hero-title animate-fade-in">Expand Your Knowledge</h1>
             <p class="hero-subtitle animate-slide-up">
-                Join our expert-led seminars and master new skills in technology, business, and more.
+                Join our expert-led Workshops and master new skills in technology, business, and more.
             </p>
         </div>
     </div>
@@ -38,126 +38,91 @@
         </div>
     </div>
 
-    <!-- Seminars Grid -->
+
     <div class="container seminars-container">
         <div class="seminars-grid">
-            <!-- Seminar 1 -->
-            <div class="seminar-card">
-                <div class="seminar-image-wrapper">
-                    <img src="https://source.unsplash.com/random/800x600?web-development"
-                         alt="Web Development"
-                         class="seminar-image" />
-                    <span class="level-badge">Intermediate</span>
-                </div>
-                <div class="seminar-content">
-                    <div class="rating-wrapper">
-                        <span class="star">★</span>
-                        <span class="rating">4.8</span>
-                        <span class="students">(1,250 students)</span>
-                    </div>
-                    <h3 class="seminar-title">Advanced Web Development</h3>
-                    <p class="seminar-description">Master modern web development techniques with practical examples and real-world projects.</p>
-                    <div class="instructor-wrapper">
-                        <img src="https://source.unsplash.com/random/100x100?portrait"
-                             alt="John Smith"
-                             class="instructor-image" />
-                        <span class="instructor-name">John Smith</span>
-                    </div>
-                    <div class="seminar-footer">
-                        <div class="duration">
-                            <i class="fas fa-clock"></i>
-                            <span>3h 0m</span>
-                        </div>
-                        <div class="price">$99.99</div>
-                    </div>
-                    <div class="topics-wrapper">
-                        <span class="topic-tag">HTML/CSS</span>
-                        <span class="topic-tag">JavaScript</span>
-                        <span class="topic-tag">React</span>
-                    </div>
-                    <button class="enroll-button">Enroll Now</button>
-                </div>
-            </div>
+            <!-- CARD STARTING -->
+            @foreach (var activity in Model.Workshops)
+            {
 
-            <!-- Seminar 2 -->
-            <div class="seminar-card">
-                <div class="seminar-image-wrapper">
-                    <img src="https://source.unsplash.com/random/800x600?data-science"
-                         alt="Data Science"
-                         class="seminar-image" />
-                    <span class="level-badge">Beginner</span>
-                </div>
-                <div class="seminar-content">
-                    <div class="rating-wrapper">
-                        <span class="star">★</span>
-                        <span class="rating">4.9</span>
-                        <span class="students">(980 students)</span>
+                <div class="card seminar-card mb-4 shadow-sm">
+                    <div class="card-img-top bg-primary text-white text-center py-5 position-relative">
+                        <div class="h2">@(string.Join("", activity.Title.Split(' ').Select(w => w[0])))</div>
+                        <span class="badge bg-success position-absolute top-0 end-0 m-2">Upcoming</span>
                     </div>
-                    <h3 class="seminar-title">Data Science Fundamentals</h3>
-                    <p class="seminar-description">Learn the basics of data science and analytics with hands-on exercises.</p>
-                    <div class="instructor-wrapper">
-                        <img src="https://source.unsplash.com/random/100x100?woman"
-                             alt="Sarah Johnson"
-                             class="instructor-image" />
-                        <span class="instructor-name">Sarah Johnson</span>
-                    </div>
-                    <div class="seminar-footer">
-                        <div class="duration">
-                            <i class="fas fa-clock"></i>
-                            <span>4h 0m</span>
-                        </div>
-                        <div class="price">$149.99</div>
-                    </div>
-                    <div class="topics-wrapper">
-                        <span class="topic-tag">Python</span>
-                        <span class="topic-tag">Statistics</span>
-                        <span class="topic-tag">Machine Learning</span>
-                    </div>
-                    <button class="enroll-button">Enroll Now</button>
-                </div>
-            </div>
 
-            <!-- Seminar 3 -->
-            <div class="seminar-card">
-                <div class="seminar-image-wrapper">
-                    <img src="https://source.unsplash.com/random/800x600?mobile-app"
-                         alt="Mobile Development"
-                         class="seminar-image" />
-                    <span class="level-badge">Advanced</span>
-                </div>
-                <div class="seminar-content">
-                    <div class="rating-wrapper">
-                        <span class="star">★</span>
-                        <span class="rating">4.7</span>
-                        <span class="students">(750 students)</span>
-                    </div>
-                    <h3 class="seminar-title">Mobile App Development</h3>
-                    <p class="seminar-description">Create professional mobile applications for iOS and Android platforms.</p>
-                    <div class="instructor-wrapper">
-                        <img src="https://source.unsplash.com/random/100x100?man"
-                             alt="Mike Chen"
-                             class="instructor-image" />
-                        <span class="instructor-name">Mike Chen</span>
-                    </div>
-                    <div class="seminar-footer">
-                        <div class="duration">
-                            <i class="fas fa-clock"></i>
-                            <span>5h 30m</span>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div class="rating">
+                                <span class="text-warning">★</span>
+                                <span class="text-muted ms-1">4.5 (1000+ participants)</span>
+                            </div>
                         </div>
-                        <div class="price">$199.99</div>
+
+                        <h5 class="card-title fw-bold mb-3">@activity.Title</h5>
+
+                        <p class="card-text text-muted mb-3">
+                            @(activity.Description)
+
+                        </p>
+
+                        <!-- New Capacity Section -->
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <span class="text-muted">Seminar Capacity</span>
+                                <span class="fw-bold">@activity.participantsCounter/@activity.Capacity</span>
+                            </div>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar bg-success"
+                                     role="progressbar"
+                                     style="width: @Model.GetPercentage(activity.participantsCounter, activity.Capacity)%;"
+                                     aria-valuenow="@activity.participantsCounter"
+                                     aria-valuemin="0"
+                                     aria-valuemax="@activity.Capacity">
+                                </div>
+                            </div>
+                            <small class="text-muted">@Model.GetRemainingSlots(activity.participantsCounter, activity.Capacity) spots remaining</small>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px;">
+                                @(activity.mentorName?[0].ToString() ?? "👤")
+                            </div>
+                            <div>
+                                <h6 class="mb-0">@(activity.mentorName ?? "Unknown Instructor")</h6>
+                                <small class="text-muted">Instructor</small>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="d-flex align-items-center text-muted">
+                                <i class="fas fa-clock me-2"></i>
+                                <span>Starting: @activity.startdate</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <span class="badge bg-primary-subtle text-primary-emphasis me-1">Web Development</span>
+                            <span class="badge bg-success-subtle text-success-emphasis me-1">Technology</span>
+                            <span class="badge bg-warning-subtle text-warning-emphasis">Learning</span>
+                        </div>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-stretch">
+                            @if (activity.Capacity >= activity.participantsCounter)
+                            {
+                                <a asp-page="/ParticipantForm" class="btn btn-primary me-md-2 flex-grow-1">
+                                    Enroll Now
+                                </a>
+                            }
+                            <a asp-page="/ParticipantForm" class="btn btn-outline-secondary flex-grow-1">
+                                Details
+                            </a>
+                        </div>
                     </div>
-                    <div class="topics-wrapper">
-                        <span class="topic-tag">Swift</span>
-                        <span class="topic-tag">Kotlin</span>
-                        <span class="topic-tag">Flutter</span>
-                    </div>
-                    <button class="enroll-button">Enroll Now</button>
                 </div>
-            </div>
+            }
         </div>
     </div>
-</div>
-
+    </div>
 @section Styles {
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
