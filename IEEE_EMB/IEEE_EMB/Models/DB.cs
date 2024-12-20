@@ -6,11 +6,12 @@ namespace IEEE_EMB.Models
 {
     public class DB
     {
-        private string connectionstring = "Data Source=DESKTOP-E4Q9O8K; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
+        private string connectionstring = "Data Source= Eng-Omars-Lap; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
         public SqlConnection con = new();
         public DB()
         {
             con.ConnectionString = connectionstring;
+
         }
 
         public DataTable GetSession(int activityid)
@@ -23,18 +24,14 @@ namespace IEEE_EMB.Models
                 SqlCommand com = new SqlCommand(querey, con);
                 dt.Load(com.ExecuteReader());
             }
-            catch (Exception ex) {}
-             finally
-                    { 
-                                       Connection.Close();
-
-
-                     }
-
+            catch (Exception ex) 
+            {
 
             }
-
-
+            finally
+            {
+                con.Close();
+            }
             return dt;
 
            }
@@ -43,10 +40,10 @@ namespace IEEE_EMB.Models
         {
             DataTable dt = new DataTable();
             string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY";
-            SqlCommand cmd = new SqlCommand(query, Connection);
+            SqlCommand cmd = new SqlCommand(query, con);
             try
             {
-                Connection.Open();
+                con.Open();
                 dt.Load(cmd.ExecuteReader());
             }
             catch(Exception ex) 
