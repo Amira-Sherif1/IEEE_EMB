@@ -5,6 +5,7 @@
 }
 @{
     Layout = "~/Pages/Shared/DashLayout.cshtml";
+    int i = 1;
 }
 <div class="container-xxl flex-grow-1 container-p-y">
     <!-- Add Activity Form -->
@@ -18,47 +19,65 @@
                 <!-- Title -->
                 <div class="form-group">
                     <label for="Title" class="control-label">Title</label>
-                    <input id="Title" name="Title" class="form-control" />
+                    <input class="form-control" asp-for="activity.Title" />
+                </div>
+
+                <div class="form-group">
+                    <label for="Description" class="control-label">Description</label>
+                    <input class="form-control" asp-for="activity.Description" />
                 </div>
 
                 <!-- Start Date -->
                 <div class="form-group">
                     <label for="StartDate" class="control-label">Start Date</label>
-                    <input id="StartDate" name="StartDate" type="date" class="form-control" />
+                    <input type="date" class="form-control" asp-for="activity.startdate" />
                 </div>
 
                 <!-- End Date -->
                 <div class="form-group">
                     <label for="EndDate" class="control-label">End Date</label>
-                    <input id="EndDate" name="EndDate" type="date" class="form-control" />
+                    <input type="date" class="form-control" asp-for="activity.Enddate" />
                 </div>
 
                 <!-- Capacity -->
                 <div class="form-group">
                     <label for="Capacity" class="control-label">Capacity</label>
-                    <input id="Capacity" name="Capacity" type="number" class="form-control" />
+                    <input type="number" class="form-control" asp-for="activity.Capacity" />
                 </div>
 
                 <!-- Activity Type -->
                 <div class="form-group">
                     <label for="ActivityType" class="control-label">Activity Type</label>
-                    <select id="ActivityType" name="ActivityType" class="form-control">
+                    <select class="form-control" asp-for="activity.Type">
                         <option value="">Select Activity Type</option>
-                        <option value="Journal Club">Journal Club</option>
+                        <option value="JournalClub">Journal Club</option>
                         <option value="Workshop">Workshop</option>
                         <option value="Seminar">Seminar</option>
+                    </select>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="ActivityStatus" class="control-label">Activity Status</label>
+                    <select class="form-control" asp-for="activity.status">
+                        <option value="">Select Activity Status</option>
+                        <option value="Upcoming">Upcoming</option>
+                        <option value="Pending">Pending</option>
+                        <option value="OnProgress">OnProgress</option>
+                        <option value="Finished">Finished</option>
                     </select>
                 </div>
 
                 <!-- Mentor -->
                 <div class="form-group">
                     <label for="MentorId" class="control-label">Assign Mentor</label>
-                    <select id="MentorId" name="MentorId" class="form-control">
+                    <select asp-for="activity.mentorName" class="form-control">
                         <option value="">Select Mentor</option>
                         <!-- Dynamically populate mentors here -->
-                        <option value="1">Mentor 1</option>
-                        <option value="2">Mentor 2</option>
-                        <option value="3">Mentor 3</option>
+                        @foreach (var mentor in Model.mentors) {
+                            <option value="@mentor.Name">@mentor.Name</option>
+                            
+                        }
                     </select>
                 </div>
 

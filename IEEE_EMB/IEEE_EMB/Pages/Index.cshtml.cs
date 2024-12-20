@@ -13,7 +13,8 @@ public class IndexModel : PageModel
     }
     public void OnGet()
     {
-      //  db.GetAnnouncements();
+        string ssn = HttpContext.Session.GetString("SSN")!;
+        //  db.GetAnnouncements();
         NewsItems = new List<NewsItem>
         {
 
@@ -26,8 +27,8 @@ public class IndexModel : PageModel
             new NewsItem
             {
                
-        Title = "Upcoming Workshop",        
-        Description = "Join us for an exciting workshop on...",
+                Title = "Upcoming Workshop",        
+                Description = "Join us for an exciting workshop on...",
                 ImageUrl = "/images/news/news-2.jpg"
             },
             new NewsItem
