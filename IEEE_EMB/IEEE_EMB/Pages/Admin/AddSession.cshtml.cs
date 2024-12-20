@@ -16,7 +16,7 @@ namespace IEEE_EMB.Pages.Admin
         {
             this.db = db;
         }
-        public void OnGet(int ActivityId  )
+        public void OnGet(int ActivityId)
         {
             this.ActivityId = ActivityId;
         }

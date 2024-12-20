@@ -23,7 +23,7 @@
                             <i class="fas fa-search"></i>
                         </button>
                     </div>
-                    @if(HttpContextAccessor.HttpContext?.Session.GetString("email") == "Maher@gmail.com"){
+                    @if(HttpContextAccessor.HttpContext?.Session.GetString("AuthenticationString") == "Admin"){
                     @* <button class="btn btn-outline-primary ms-2">Manage Dashboard </button> *@
                         <a asp-page="/Admin/DashBoard" class="btn btn-outline-primary ms-2">Manage Dashboard</a>
                     }

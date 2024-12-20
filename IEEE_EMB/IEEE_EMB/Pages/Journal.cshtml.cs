@@ -27,7 +27,7 @@ namespace IEEE_EMB.Pages
                     Id = (int)row["ID"],
                     Title = row["TITLE"].ToString(),
                     Capacity = (int)row["Capacity"],
-                    startdate = row["START_DATE"].ToString(),
+                    startdate = DateOnly.FromDateTime(Convert.ToDateTime(row["START_DATE"])),
                     Description = Convert.ToString(row["DESCRIPTION"]) == "" ? "No Description Yet!" : row["DESCRIPTION"].ToString(),
                     mentorName = row["NAME"].ToString()
                 });
