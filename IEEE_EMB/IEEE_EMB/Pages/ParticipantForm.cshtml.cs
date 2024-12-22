@@ -6,6 +6,12 @@ namespace IEEE_EMB.Pages
 {
     public class ParticipantFormModel : PageModel
     {
+        public DB db { get; set; }
+        public ParticipantFormModel(DB dB)
+        {
+            db=dB;
+        }   
+
         [BindProperty]
         public Participants participant { get; set; }
 
@@ -22,8 +28,9 @@ namespace IEEE_EMB.Pages
 
             // Add your logic to save the member application
             // For example: _memberService.CreateApplication(Member);
-
-            return RedirectToPage("/Apply/Success");
+            db.AddParticipant(participant);
+            
+            return RedirectToPage("/Index");
         }
     }
 }

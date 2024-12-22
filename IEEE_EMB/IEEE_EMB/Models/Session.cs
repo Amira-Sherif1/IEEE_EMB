@@ -10,6 +10,7 @@
         public string? Video { get; set; }
         public string? Document { get; set; }
 
+        public string Description { get; set; }
         public int ActivityId { get; set; }
     }
 }

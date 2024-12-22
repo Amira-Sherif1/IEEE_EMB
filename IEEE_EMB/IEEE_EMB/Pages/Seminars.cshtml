@@ -45,6 +45,7 @@
     <div class="container seminars-container">
         <div class="seminars-grid">
            <!-- CARD STARTING -->
+          
            @foreach(var activity in Model.Seminars){
 
                 <div class="card seminar-card mb-4 shadow-sm">
@@ -109,15 +110,20 @@
                             <span class="badge bg-warning-subtle text-warning-emphasis">Learning</span>
                         </div>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-stretch">
-                        @if (activity.Capacity >= activity.participantsCounter)
+                            @if (activity.Capacity >= activity.participantsCounter)
                         {
-                            <a asp-page="/ParticipantForm" class="btn btn-primary me-md-2 flex-grow-1">
-                                Enroll Now
-                            </a>
-                        }
-                            <a asp-page="/ParticipantForm" class="btn btn-outline-secondary flex-grow-1">
+                                @if (string.IsNullOrEmpty(HttpContext.Session.GetString("AuthenticationString")))
+                                {
+                                    <a asp-page="/ParticipantForm" class="btn btn-primary me-md-2 flex-grow-1">
+                                        Enroll Now
+                                    </a>
+                                }
+                            }
+
+                            <a asp-page="/DetailsPage" asp-route-activityId="@activity.Id" class="btn btn-outline-secondary flex-grow-1">
                                 Details
                             </a>
+                        
                         </div>
                     </div>
                 </div>
