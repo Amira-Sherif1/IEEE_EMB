@@ -1,5 +1,5 @@
 
-﻿using Microsoft.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using System.Data;
 using System.Runtime.Intrinsics.X86;
 
@@ -7,11 +7,12 @@ namespace IEEE_EMB.Models
 {
     public class DB
     {
-        private string connectionstring = "Data Source=D4NGERX; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
+        private string connectionstring = "Data Source= DESKTOP-E4Q9O8K; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
         public SqlConnection con = new();
         public DB()
         {
             con.ConnectionString = connectionstring;
+
         }
 
         public DataTable GetSession(int activityid)
@@ -23,6 +24,7 @@ namespace IEEE_EMB.Models
                 con.Open();
                 SqlCommand com = new SqlCommand(querey, con);
                 dt.Load(com.ExecuteReader());
+              
             }
             catch (Exception ex)
             {
@@ -34,9 +36,45 @@ namespace IEEE_EMB.Models
 
 
             }
+            return dt;
+
+
+        }
+
+        public DataTable GetParticipants()
+        {
+            DataTable dt = new DataTable();
+            string querey = "select * from PARTICIPANTS";
+            try
+            {
+                con.Open();
+                SqlCommand com = new SqlCommand(querey, con);
+                dt.Load(com.ExecuteReader());
+            }
+            catch (Exception ex)
+            {
+
+            }
+            finally
+            {
+                con.Close();
+
+
+            }
+            return dt;
+
+
+        }
+
+
+
+
+
 
             return dt;
         }
+
+        public DataTable GetProfileInfo()
         
         public DataTable GetProfileInfo(string email, string ssn)
         {
@@ -50,7 +88,7 @@ namespace IEEE_EMB.Models
                 cmd.Parameters.AddWithValue ("@SSN", ssn);
                 dt.Load(cmd.ExecuteReader());
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -83,13 +121,13 @@ namespace IEEE_EMB.Models
             }
 
 
-            
+
 
         }
 
         public string getUserType(string email, string password)
         {
-            
+
             DataTable dt = new DataTable();
             string MemberQuery = "SELECT COUNT(*)\r\nFROM MEMBER M\r\nWHERE M.EMAIL = @EMAIL AND M.PASSWORD = @PASSWORD";
             using (SqlCommand cmd = new SqlCommand(MemberQuery, con))
@@ -126,10 +164,10 @@ namespace IEEE_EMB.Models
 
             return null;
 
-           
+
         }
-        
-        
+
+
 
         public string GetMentor(string mentorName) // get mentor ssn using his name
         {
@@ -139,12 +177,12 @@ namespace IEEE_EMB.Models
             try
             {
                 con.Open();
-                
+
                 cmd.Parameters.AddWithValue("@NAME", mentorName);
                 ssn = cmd.ExecuteScalar()?.ToString();
 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -216,14 +254,14 @@ namespace IEEE_EMB.Models
         {
             DataTable dt = new DataTable();
             string query = "SELECT A.ID, A.TITLE, A.START_DATE, A.END_DATE, A.Capacity, A.TYPE, A.STATUS, M.NAME\r\nFROM ACTIVITY A JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\nJOIN MENTOR M ON AG.MENTOR_SSN = M.SSN WHERE A.ID > 3";
-            
+
             try
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand(query, con);
                 dt.Load(cmd.ExecuteReader());
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -237,27 +275,31 @@ namespace IEEE_EMB.Models
 
             return dt;
         }
-    public DataTable GetAnnouncements()
-    {
-        DataTable dt = new DataTable();
-        string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY";
-        
-        try
+        public DataTable GetAnnouncements()
         {
-            con.Open();
+            DataTable dt = new DataTable();
+            string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY";
             SqlCommand cmd = new SqlCommand(query, con);
-            dt.Load(cmd.ExecuteReader());
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
-        finally
-        {
-            con.Close();
-        }
+            try
+            {
+                con.Open();
 
-        return dt;
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand(query, con);
+                dt.Load(cmd.ExecuteReader());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+
+            return dt;
         }
 
 
@@ -265,7 +307,7 @@ namespace IEEE_EMB.Models
         {
             DataTable dt = new DataTable();
             string query = "SELECT M.Name\r\nFROM MENTOR M";
-           
+
             try
             {
                 con.Open();
@@ -280,11 +322,11 @@ namespace IEEE_EMB.Models
             return dt;
         }
 
-        public DataTable GetParticipantCount() 
+        public DataTable GetParticipantCount()
         {
             DataTable dt = new DataTable();
             string query = "SELECT A.ACTIVITY_ID, COUNT(*) ParticipantsCount\r\nFROM ACTIVITY_PARTICIPANTS A\r\nGROUP BY A.ACTIVITY_ID";
-            
+
             try
             {
                 con.Open();
@@ -305,14 +347,14 @@ namespace IEEE_EMB.Models
         {
             DataTable dt = new DataTable();
             string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Seminar'";
-            
+
             try
             {
                 con.Open();
                 SqlCommand com = new SqlCommand(query, con);
                 dt.Load(com.ExecuteReader());
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -388,7 +430,7 @@ namespace IEEE_EMB.Models
                 newId = (int)getMaxIdCommand.ExecuteScalar() + 1;
                 string query = "INSERT INTO ACTIVITY (ID, TITLE, START_DATE, END_DATE, CAPACITY, TYPE, STATUS, DESCRIPTION, MEMBER_ID)" +
                                "VALUES (@ID, @TITLE, @START_DATE, @END_DATE, @CAPACITY, @TYPE, @STATUS, @DESCRIPTION, @MEMBER_ID)";
-               
+
                 SqlCommand com = new SqlCommand(query, con);
                 com.Parameters.AddWithValue("@ID", newId);
                 com.Parameters.AddWithValue("@TITLE", activity.Title);
@@ -401,12 +443,42 @@ namespace IEEE_EMB.Models
                 com.Parameters.AddWithValue("@MEMBER_ID", DBNull.Value);
                 com.ExecuteNonQuery();
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
             finally { con.Close(); }
 
+
+
+        }
+
+        public void AddParticipant(Participants participant)
+        {
+            try
+            {
+                con.Open();
+            
+                
+                string query = "INSERT INTO PARTICIPANTS(SSN, NAME, EMAIL, PHONE, UNIVERSITY)" +
+                               "VALUES (@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY)";
+                SqlCommand com = new SqlCommand(query, con);
+                com.Parameters.AddWithValue("@SSN", participant.SSN);
+                com.Parameters.AddWithValue("@NAME", participant.Name);
+                com.Parameters.AddWithValue("@EMAIL", participant.Email);
+                com.Parameters.AddWithValue("@PHONE", participant.Phone);
+                com.Parameters.AddWithValue("@UNIVERSITY", participant.University);
+                //com.Parameters.AddWithValue("@PASSWORD", participant.Password);
+                com.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
 
 
         }
@@ -433,9 +505,11 @@ namespace IEEE_EMB.Models
             }
 
         }
-        public void AddSession(Session session)
+    
+    public void AddSession(Session session)
+
         {
-            string getMaxIdQuery = "SELECT MAX(ID) FROM SESSION"; 
+            string getMaxIdQuery = "SELECT MAX(ID) FROM SESSION";
             int newId = 0;
 
             try
@@ -448,7 +522,7 @@ namespace IEEE_EMB.Models
                                "VALUES (@ID, @Date, @Title, @Document, @Video, @ActivityId)";
 
                 SqlCommand com = new SqlCommand(query, con);
-                com.Parameters.AddWithValue("@ID", newId); 
+                com.Parameters.AddWithValue("@ID", newId);
                 com.Parameters.AddWithValue("@Date", session.Date);
                 com.Parameters.AddWithValue("@Title", session.Title);
                 com.Parameters.AddWithValue("@Document", session.Document ?? (object)DBNull.Value);
@@ -487,7 +561,7 @@ namespace IEEE_EMB.Models
             finally
             {
                 con.Close();
-                
+
             }
 
         }
@@ -534,15 +608,15 @@ namespace IEEE_EMB.Models
         public void DeleteSeesion(int SessionId)
         {
             string querey = $"Delete from SESSION where ID ={SessionId}";
-            string querey2 = $"Delete from SESSIONS_DOCS where ID={SessionId}";
+            //string querey2 = $"Delete from SESSIONS_DOCS where ID={SessionId}";
             try
             {
                 con.Open();
                 SqlCommand com = new SqlCommand(querey, con);
-                SqlCommand com2 = new SqlCommand(querey2, con);
+               // SqlCommand com2 = new SqlCommand(querey2, con);
 
                 com.ExecuteNonQuery();
-                com2.ExecuteNonQuery();
+               // com2.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
@@ -554,7 +628,7 @@ namespace IEEE_EMB.Models
 
             }
 
-        
+
         }
     }
 }

@@ -109,29 +109,29 @@
             <form id="memberForm" method="post" class="space-y-6">
                 <div class="form-grid">
                     <div class="form-group">
-                        <label asp-for="@Model.participant.Name" class="form-label">Full Name</label>
-                        <input asp-for="@Model.participant.Name" class="form-input w-full" required />
-                        <span asp-validation-for="@Model.participant.Name" class="form-error"></span>
+                        <label asp-for="@Model.Name" class="form-label">Full Name</label>
+                        <input asp-for="@Model.Name" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.Name" class="form-error"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="@Model.participant.Email" class="form-label">Email Address</label>
-                        <input asp-for="@Model.participant.Email" type="email" class="form-input w-full" required />
-                        <span asp-validation-for="@Model.participant.Email" class="form-error"></span>
+                        <label asp-for="@Model.Email" class="form-label">Email Address</label>
+                        <input asp-for="@Model.Email" type="email" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.Email" class="form-error"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="@Model.participant.Phone" class="form-label">Contact Number</label>
-                        <input asp-for="@Model.participant.Phone" type="tel" class="form-input w-full" required />
-                        <span asp-validation-for="@Model.participant.Phone" class="form-error"></span>
+                        <label asp-for="@Model.Phone" class="form-label">Contact Number</label>
+                        <input asp-for="@Model.Phone" type="tel" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.Phone" class="form-error"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="@Model.participant.University" class="form-label">University</label>
-                        <input asp-for="@Model.participant.University" class="form-input w-full" required />
-                        <span asp-validation-for="@Model.participant.University" class="form-error"></span>
+                        <label asp-for="@Model.University" class="form-label">University</label>
+                        <input asp-for="@Model.University" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.University" class="form-error"></span>
                     </div>
                 <div class="form-group">
-                        <label asp-for="@Model.participant.SSN" class="form-label">National ID</label>
-                        <input asp-for="@Model.participant.SSN" class="form-input w-full" required />
-                        <span asp-validation-for="@Model.participant.SSN" class="form-error"></span>
+                        <label asp-for="@Model.SSN" class="form-label">National ID</label>
+                        <input asp-for="@Model.SSN" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.SSN" class="form-error"></span>
                     </div>
                
                     
@@ -139,7 +139,8 @@
 
                 <div class="flex justify-end space-x-4 mt-6">
                     <a href="/Seminars" class="btn btn-secondary">Cancel</a>
-                    <button type="submit" class="btn btn-primary">Submit Application</button>
+                  @*   <button type="submit" class="btn btn-primary">Submit Application</button> *@
+                        <input type="submit" class="btn btn-primary" value="Submit Application"/>
                 </div>
             </form>
         </div>

@@ -23,4 +23,6 @@ namespace IEEE_EMB.Models
         public string mentorName { get; set; }
         public int participantsCounter { get; set;}
     }
+
+   
 }

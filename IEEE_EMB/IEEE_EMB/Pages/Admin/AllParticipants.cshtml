@@ -20,16 +20,19 @@
                         <th>Name</th>
                         <th>Email</th>
                         <th>University</th>
+                       @*  <th>Accept</th> *@
                         <th>Actions</th>
 
                     </tr>
                 </thead>
                 <tbody class="table-border-bottom-0">
-                   
-                        <tr>
-                            <td><strong>Amira</strong></td>
-                            <td><strong>Amira@gmail.com</strong></td>
-                            <td><strong>zewailcity</strong></td>
+                    @for(int i = 0; i < Model.participants.Rows.Count; i++)
+                    {
+                        
+                    <tr>
+                            <td><strong>@Model.participants.Rows[i][1]</strong></td>
+                            <td><strong>@Model.participants.Rows[i][3]</strong></td>
+                            <td><strong>@Model.participants.Rows[i][6]</strong></td>
                         <td>
                             <div class="dropdown">
                                 <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
@@ -49,6 +52,7 @@
                             </div>
                         </td>
                         </tr>
+                    }
                     
                 </tbody>
             </table>

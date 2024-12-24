@@ -45,21 +45,22 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-page="/Contact">Contact</a>
                         </li>
-                        @if (!string.IsNullOrEmpty(HttpContextAccessor.HttpContext?.Session.GetString("AuthenticationString")))
+                        <li class="nav-item">
+                            <a class="nav-link" asp-page="/Profile">Profile</a>
+                        </li>
+                       
+                        @if (Context.Session.GetString("SSN") == null)
                         {
                             <li class="nav-item">
-                                <a class="nav-link" asp-page="/Profile">Profile</a>
+                                <a class="nav-link" asp-page="/Join">Join</a>
                             </li>
+                            @if (string.IsNullOrEmpty(HttpContextAccessor.HttpContext?.Session.GetString("email")) == true) {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Login">Login</a>
+                                </li>
+                            }
                         }
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="/Join">Join</a>
-                        </li>
-                        @if (string.IsNullOrEmpty(HttpContextAccessor.HttpContext?.Session.GetString("Email")) == true){
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="/Login">Login</a>
-                            </li>
-                        }
-                        
+
                         
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="activitiesDropdown" role="button" data-bs-toggle="dropdown">
