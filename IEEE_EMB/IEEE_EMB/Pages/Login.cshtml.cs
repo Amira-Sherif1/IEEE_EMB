@@ -1,11 +1,16 @@
+using IEEE_EMB.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
 
 namespace IEEE_EMB.Pages
 {
     public class LoginModel : PageModel
     {
+        public string ssn { get; set; }
+        public DB db { get; set; }
+        public LoginModel(DB db) {  this.db = db; }
         [BindProperty]
         [Required(ErrorMessage = "Email is required")]
         [EmailAddress(ErrorMessage = "Invalid email address")]
@@ -16,13 +21,35 @@ namespace IEEE_EMB.Pages
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
+        [BindProperty]
+        public bool userIsFound { get; set; } = true;
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
+            string userType = db.getUserType(Email, Password); 
+            if (userType == null) // Check if the user is a verified user in our website 
             {
+                userIsFound = false;
                 return Page();
+            } 
+            else 
+            { 
+                userIsFound = true;
+                HttpContext.Session.SetString("AuthenticationString", userType);
+                
+                HttpContext.Session.SetString("SSN", db.GetUserSSN(Email));
+                ssn = HttpContext.Session.GetString("SSN");
+                HttpContext.Session.SetString("Email", Email);
             }
-            HttpContext.Session.SetString("email", Email);
+            //if (!ModelState.IsValid)
+            //{
+            //    return Page();
+            //}
+          
+
+
+            
+           
+
            // ViewData[""]
             
 

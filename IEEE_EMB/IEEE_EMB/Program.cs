@@ -12,7 +12,12 @@ namespace IEEE_EMB
             builder.Services.AddRazorPages();
             //add db as a service
             builder.Services.AddSingleton<Models.DB>();
-            builder.Services.AddSession();
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
             builder.Services.AddHttpContextAccessor();
             builder.Services.AddSingleton<DB>();
             builder.WebHost.ConfigureKestrel(options =>
