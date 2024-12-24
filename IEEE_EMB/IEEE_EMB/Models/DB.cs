@@ -1,5 +1,5 @@
 
-﻿using Microsoft.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using System.Data;
 
 namespace IEEE_EMB.Models
@@ -23,33 +23,61 @@ namespace IEEE_EMB.Models
                 SqlCommand com = new SqlCommand(querey, con);
                 dt.Load(com.ExecuteReader());
             }
-            catch (Exception ex) {}
-             finally
-                    { 
-                                       Connection.Close();
+            catch (Exception ex)
+            {
 
-
-                     }
+            }
+            finally
+            {
+                con.Close();
 
 
             }
-
-
             return dt;
 
-           }
+
+        }
+
+        public DataTable GetParticipants()
+        {
+            DataTable dt = new DataTable();
+            string querey = "select * from PARTICIPANTS";
+            try
+            {
+                con.Open();
+                SqlCommand com = new SqlCommand(querey, con);
+                dt.Load(com.ExecuteReader());
+            }
+            catch (Exception ex)
+            {
+
+            }
+            finally
+            {
+                con.Close();
+
+
+            }
+            return dt;
+
+
+        }
+
+
+
+
 
         public DataTable GetAnnouncements()
         {
             DataTable dt = new DataTable();
             string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY";
-            SqlCommand cmd = new SqlCommand(query, Connection);
+            SqlCommand cmd = new SqlCommand(query, con);
             try
             {
-                Connection.Open();
+                con.Open();
                 dt.Load(cmd.ExecuteReader());
             }
-            catch(Exception ex) 
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -64,7 +92,7 @@ namespace IEEE_EMB.Models
 
         public void AddSession(Session session)
         {
-            string getMaxIdQuery = "SELECT MAX(ID) FROM SESSION"; 
+            string getMaxIdQuery = "SELECT MAX(ID) FROM SESSION";
             int newId = 0;
 
             try
@@ -77,7 +105,7 @@ namespace IEEE_EMB.Models
                                "VALUES (@ID, @Date, @Title, @Document, @Video, @ActivityId)";
 
                 SqlCommand com = new SqlCommand(query, con);
-                com.Parameters.AddWithValue("@ID", newId); 
+                com.Parameters.AddWithValue("@ID", newId);
                 com.Parameters.AddWithValue("@Date", session.Date);
                 com.Parameters.AddWithValue("@Title", session.Title);
                 com.Parameters.AddWithValue("@Document", session.Document ?? (object)DBNull.Value);
@@ -116,22 +144,22 @@ namespace IEEE_EMB.Models
             finally
             {
                 con.Close();
-                
+
             }
 
         }
         public void DeleteSeesion(int SessionId)
         {
             string querey = $"Delete from SESSION where ID ={SessionId}";
-            string querey2 = $"Delete from SESSIONS_DOCS where ID={SessionId}";
+            //string querey2 = $"Delete from SESSIONS_DOCS where ID={SessionId}";
             try
             {
                 con.Open();
                 SqlCommand com = new SqlCommand(querey, con);
-                SqlCommand com2 = new SqlCommand(querey2, con);
+               // SqlCommand com2 = new SqlCommand(querey2, con);
 
                 com.ExecuteNonQuery();
-                com2.ExecuteNonQuery();
+               // com2.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
@@ -143,7 +171,7 @@ namespace IEEE_EMB.Models
 
             }
 
-        
+
         }
     }
 }
