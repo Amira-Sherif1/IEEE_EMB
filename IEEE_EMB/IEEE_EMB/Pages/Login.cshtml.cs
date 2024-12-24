@@ -37,7 +37,7 @@ namespace IEEE_EMB.Pages
                 HttpContext.Session.SetString("AuthenticationString", userType);
                 
                 HttpContext.Session.SetString("SSN", db.GetUserSSN(Email));
-                ssn = HttpContext.Session.GetString("SSN");
+                
                 HttpContext.Session.SetString("Email", Email);
             }
             //if (!ModelState.IsValid)

@@ -34,5 +34,10 @@ namespace IEEE_EMB.Pages.Admin
         {
             return RedirectToPage("/Admin/Activities");
         }
+        public IActionResult OnPostDelete(int itemId)
+        {
+            db.DeleteActivity(itemId);
+            return RedirectToPage();
+        }
     }
 }

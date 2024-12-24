@@ -17,7 +17,7 @@ namespace IEEE_EMB.Pages.Admin
             this.db = db;
             
         }
-        public void OnGet(int activityId=1)
+        public void OnGet(int activityId)
         {
             ActivityId = activityId;
             sessions=db.GetSession(activityId);
