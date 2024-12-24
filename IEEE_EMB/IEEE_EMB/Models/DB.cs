@@ -418,15 +418,15 @@ namespace IEEE_EMB.Models
                 con.Open();
             
                 
-                string query = "INSERT INTO PARTICIPANTS(SSN, NAME, EMAIL, PHONE, UNIVERSITY, PASSWORD)" +
-                               "VALUES (@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY, @PASSWORD)";
+                string query = "INSERT INTO PARTICIPANTS(SSN, NAME, EMAIL, PHONE, UNIVERSITY)" +
+                               "VALUES (@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY)";
                 SqlCommand com = new SqlCommand(query, con);
                 com.Parameters.AddWithValue("@SSN", participant.SSN);
                 com.Parameters.AddWithValue("@NAME", participant.Name);
                 com.Parameters.AddWithValue("@EMAIL", participant.Email);
                 com.Parameters.AddWithValue("@PHONE", participant.Phone);
                 com.Parameters.AddWithValue("@UNIVERSITY", participant.University);
-                com.Parameters.AddWithValue("@PASSWORD", participant.Password);
+                //com.Parameters.AddWithValue("@PASSWORD", participant.Password);
                 com.ExecuteNonQuery();
             }
             catch (Exception ex)
