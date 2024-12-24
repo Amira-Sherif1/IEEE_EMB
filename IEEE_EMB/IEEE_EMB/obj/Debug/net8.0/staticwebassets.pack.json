@@ -1,1304 +1,1360 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IEEE_EMB.bundle.scp.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IEEE_EMB.bundle.scp.css",
       "PackagePath": "staticwebassets\\IEEE_EMB.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\css\\demo.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\css\\demo.css",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\css\\demo.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\avatars\\1.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\avatars\\1.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\avatars\\1.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\avatars\\5.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\avatars\\5.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\avatars\\5.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\avatars\\6.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\avatars\\6.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\avatars\\6.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\avatars\\7.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\avatars\\7.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\avatars\\7.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\backgrounds\\18.jpg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\backgrounds\\18.jpg",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\backgrounds\\18.jpg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\1.jpg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\1.jpg",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\11.jpg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\11.jpg",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\11.jpg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\12.jpg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\12.jpg",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\12.jpg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\13.jpg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\13.jpg",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\13.jpg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\17.jpg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\17.jpg",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\17.jpg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\18.jpg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\18.jpg",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\18.jpg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\19.jpg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\19.jpg",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\19.jpg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\2.jpg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\2.jpg",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\20.jpg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\20.jpg",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\20.jpg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\3.jpg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\3.jpg",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\4.jpg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\4.jpg",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\5.jpg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\5.jpg",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\7.jpg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\7.jpg",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\7.jpg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\favicon\\favicon.ico",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\favicon\\favicon.ico",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\favicon\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\asana.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\asana.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\asana.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\behance.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\behance.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\behance.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\dribbble.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\dribbble.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\dribbble.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\facebook.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\facebook.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\facebook.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\github.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\github.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\github.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\google.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\google.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\google.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\instagram.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\instagram.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\instagram.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\mailchimp.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\mailchimp.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\mailchimp.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\slack.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\slack.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\slack.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\twitter.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\twitter.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\twitter.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\cc-primary.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\cc-primary.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\cc-success.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\cc-success.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\cc-success.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\cc-warning.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\cc-warning.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\chart-success.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\chart-success.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\chart-success.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\chart.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\chart.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\chart.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\paypal.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\paypal.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\paypal.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\wallet-info.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\wallet-info.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\wallet.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\wallet.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\wallet.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\illustrations\\man-with-laptop-light.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\illustrations\\man-with-laptop-light.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\illustrations\\page-misc-error-light.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\illustrations\\page-misc-error-light.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\layouts\\layout-container-light.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\layouts\\layout-container-light.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\layouts\\layout-container-light.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\layouts\\layout-fluid-light.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\layouts\\layout-fluid-light.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\layouts\\layout-fluid-light.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\layouts\\layout-without-menu-light.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\layouts\\layout-without-menu-light.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\layouts\\layout-without-navbar-light.png",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\layouts\\layout-without-navbar-light.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\config.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\config.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\config.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\dashboards-analytics.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\dashboards-analytics.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\dashboards-analytics.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\extended-ui-perfect-scrollbar.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\extended-ui-perfect-scrollbar.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\form-basic-inputs.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\form-basic-inputs.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\form-basic-inputs.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\main.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\main.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\pages-account-settings-account.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\pages-account-settings-account.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\pages-account-settings-account.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\ui-modals.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\ui-modals.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\ui-modals.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\ui-popover.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\ui-popover.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\ui-popover.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\ui-toasts.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\ui-toasts.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\ui-toasts.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\core.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\core.css",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\core.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\pages\\page-account-settings.css",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\pages\\page-account-settings.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\pages\\page-auth.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\pages\\page-auth.css",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\pages\\page-auth.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\pages\\page-icons.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\pages\\page-icons.css",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\pages\\page-icons.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\pages\\page-misc.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\pages\\page-misc.css",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\pages\\page-misc.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\theme-default.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\theme-default.css",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\theme-default.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons.css",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\js\\bootstrap.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\js\\helpers.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\js\\helpers.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\js\\helpers.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\js\\menu.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\js\\menu.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\js\\menu.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight-github.css",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight-github.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight.css",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\jquery\\jquery.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\jquery\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\masonry\\masonry.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\masonry\\masonry.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\popper\\popper.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\popper\\popper.js",
       "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\popper\\popper.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\fonts\\boxicons.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\fonts\\boxicons.scss",
       "PackagePath": "staticwebassets\\DashLayout\\fonts\\boxicons.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\auth-forgot-password-basic.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\auth-forgot-password-basic.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\auth-forgot-password-basic.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\auth-login-basic.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\auth-login-basic.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\auth-login-basic.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\auth-register-basic.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\auth-register-basic.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\auth-register-basic.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\cards-basic.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\cards-basic.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\cards-basic.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\extended-ui-perfect-scrollbar.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\extended-ui-perfect-scrollbar.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\extended-ui-perfect-scrollbar.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\extended-ui-text-divider.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\extended-ui-text-divider.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\extended-ui-text-divider.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\form-layouts-horizontal.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\form-layouts-horizontal.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\form-layouts-horizontal.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\form-layouts-vertical.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\form-layouts-vertical.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\form-layouts-vertical.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\forms-basic-inputs.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\forms-basic-inputs.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\forms-basic-inputs.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\forms-input-groups.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\forms-input-groups.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\forms-input-groups.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\icons-boxicons.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\icons-boxicons.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\icons-boxicons.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\index.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\index.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\index.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-blank.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-blank.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\layouts-blank.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-container.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-container.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\layouts-container.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-fluid.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-fluid.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\layouts-fluid.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-without-menu.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-without-menu.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\layouts-without-menu.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-without-navbar.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-without-navbar.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\layouts-without-navbar.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-account-settings-account.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-account-settings-account.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\pages-account-settings-account.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-account-settings-connections.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-account-settings-connections.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\pages-account-settings-connections.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-account-settings-notifications.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-account-settings-notifications.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\pages-account-settings-notifications.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-misc-error.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-misc-error.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\pages-misc-error.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-misc-under-maintenance.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-misc-under-maintenance.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\pages-misc-under-maintenance.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\tables-basic.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\tables-basic.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\tables-basic.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-accordion.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-accordion.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-accordion.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-alerts.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-alerts.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-alerts.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-badges.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-badges.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-badges.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-buttons.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-buttons.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-buttons.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-carousel.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-carousel.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-carousel.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-collapse.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-collapse.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-collapse.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-dropdowns.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-dropdowns.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-dropdowns.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-footer.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-footer.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-footer.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-list-groups.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-list-groups.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-list-groups.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-modals.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-modals.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-modals.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-navbar.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-navbar.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-navbar.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-offcanvas.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-offcanvas.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-offcanvas.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-pagination-breadcrumbs.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-pagination-breadcrumbs.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-pagination-breadcrumbs.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-progress.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-progress.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-progress.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-spinners.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-spinners.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-spinners.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-tabs-pills.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-tabs-pills.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-tabs-pills.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-toasts.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-toasts.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-toasts.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-tooltips-popovers.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-tooltips-popovers.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-tooltips-popovers.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-typography.html",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-typography.html",
       "PackagePath": "staticwebassets\\DashLayout\\html\\ui-typography.html"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\js\\bootstrap.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\DashLayout\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\js\\helpers.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\js\\helpers.js",
       "PackagePath": "staticwebassets\\DashLayout\\js\\helpers.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\js\\menu.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\js\\menu.js",
       "PackagePath": "staticwebassets\\DashLayout\\js\\menu.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\apex-charts\\apex-charts.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\apex-charts\\apex-charts.scss",
       "PackagePath": "staticwebassets\\DashLayout\\libs\\apex-charts\\apex-charts.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\apex-charts\\apexcharts.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\apex-charts\\apexcharts.js",
       "PackagePath": "staticwebassets\\DashLayout\\libs\\apex-charts\\apexcharts.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\highlight\\highlight-github.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\highlight\\highlight-github.scss",
       "PackagePath": "staticwebassets\\DashLayout\\libs\\highlight\\highlight-github.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\highlight\\highlight.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\highlight\\highlight.js",
       "PackagePath": "staticwebassets\\DashLayout\\libs\\highlight\\highlight.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\highlight\\highlight.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\highlight\\highlight.scss",
       "PackagePath": "staticwebassets\\DashLayout\\libs\\highlight\\highlight.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\jquery\\jquery.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\jquery\\jquery.js",
       "PackagePath": "staticwebassets\\DashLayout\\libs\\jquery\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\masonry\\masonry.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\masonry\\masonry.js",
       "PackagePath": "staticwebassets\\DashLayout\\libs\\masonry\\masonry.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
       "PackagePath": "staticwebassets\\DashLayout\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\perfect-scrollbar\\perfect-scrollbar.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\perfect-scrollbar\\perfect-scrollbar.scss",
       "PackagePath": "staticwebassets\\DashLayout\\libs\\perfect-scrollbar\\perfect-scrollbar.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\popper\\popper.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\popper\\popper.js",
       "PackagePath": "staticwebassets\\DashLayout\\libs\\popper\\popper.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_accordion.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_accordion.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_accordion.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_alert.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_alert.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_badge.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_badge.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_breadcrumb.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_breadcrumb.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_button-group.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_button-group.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_button-group.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_buttons.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_buttons.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_card.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_card.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_card.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_carousel.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_carousel.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_carousel.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_close.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_close.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_close.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_dropdown.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_dropdown.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_forms.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_forms.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_functions.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_functions.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_functions.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_include.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_include.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_include.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_list-group.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_list-group.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_mixins.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_mixins.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_modal.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_modal.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_modal.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_nav.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_nav.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_nav.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_navbar.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_navbar.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_offcanvas.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_offcanvas.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_offcanvas.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_pagination.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_pagination.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_popover.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_popover.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_popover.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_progress.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_progress.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_progress.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_reboot.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_reboot.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_reboot.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_root.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_root.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_root.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_spinners.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_spinners.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_spinners.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_tables.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_tables.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_tables.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_toasts.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_toasts.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_toasts.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_tooltip.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_tooltip.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_tooltip.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_type.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_type.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_type.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_utilities-ltr.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_utilities-ltr.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_utilities-ltr.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_utilities.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_utilities.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_variables.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_variables.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-control.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-control.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-control.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-range.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-range.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-range.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-select.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-select.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-select.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_input-group.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_input-group.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_input-group.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_labels.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_labels.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_labels.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_validation.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_validation.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_validation.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_alert.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_badge.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_badge.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_buttons.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_caret.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_caret.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_forms.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_list-group.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_misc.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_misc.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_misc.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_navs.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_navs.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_navs.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_pagination.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_progress.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_progress.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_progress.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_toasts.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_toasts.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_toasts.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_colors.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_colors.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_colors.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_app-brand.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_app-brand.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_app-brand.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_avatar.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_avatar.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_avatar.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_base.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_base.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_base.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_common.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_common.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_common.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_footer.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_footer.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_footer.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_include.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_include.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_include.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_layout.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_layout.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_layout.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_menu.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_menu.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_menu.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_mixins.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_mixins.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_text-divider.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_text-divider.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_text-divider.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_variables.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_variables.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_app-brand.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_app-brand.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_app-brand.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_avatar.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_avatar.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_avatar.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_footer.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_footer.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_footer.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_menu.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_menu.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_menu.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_misc.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_misc.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_misc.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_navbar.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_navbar.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_text-divider.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_text-divider.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_text-divider.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_bootstrap-extended.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_bootstrap-extended.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_custom-variables\\_bootstrap-extended.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_components.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_components.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_custom-variables\\_components.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_libs.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_libs.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_custom-variables\\_libs.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_pages.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_pages.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_custom-variables\\_pages.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_support.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_support.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_custom-variables\\_support.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_theme\\_common.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_theme\\_common.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_theme\\_common.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_theme\\_theme.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_theme\\_theme.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\_theme\\_theme.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\core.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\core.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\core.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\pages\\page-account-settings.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\pages\\page-account-settings.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\pages\\page-account-settings.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\pages\\page-auth.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\pages\\page-auth.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\pages\\page-auth.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\pages\\page-icons.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\pages\\page-icons.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\pages\\page-icons.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\pages\\page-misc.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\pages\\page-misc.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\pages\\page-misc.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\theme-default.scss",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\theme-default.scss",
       "PackagePath": "staticwebassets\\DashLayout\\scss\\theme-default.scss"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\tasks\\build.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\tasks\\build.js",
       "PackagePath": "staticwebassets\\DashLayout\\tasks\\build.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\tasks\\prod.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\tasks\\prod.js",
       "PackagePath": "staticwebassets\\DashLayout\\tasks\\prod.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\025c3dcc-d229-47b4-a0ea-66c7d2ab7caa.pdf",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\025c3dcc-d229-47b4-a0ea-66c7d2ab7caa.pdf",
       "PackagePath": "staticwebassets\\Documents\\025c3dcc-d229-47b4-a0ea-66c7d2ab7caa.pdf"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\580895c9-8230-4cf1-a833-6463a84b4c77.pdf",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\06ab06a6-0af6-4555-9332-3e00dd64e061.pdf",
+      "PackagePath": "staticwebassets\\Documents\\06ab06a6-0af6-4555-9332-3e00dd64e061.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\578e17be-61de-4f97-8fe8-928ab7320af3.pdf",
+      "PackagePath": "staticwebassets\\Documents\\578e17be-61de-4f97-8fe8-928ab7320af3.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\580895c9-8230-4cf1-a833-6463a84b4c77.pdf",
       "PackagePath": "staticwebassets\\Documents\\580895c9-8230-4cf1-a833-6463a84b4c77.pdf"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\5b4dc345-6e16-4b6f-b19a-77246669b68d.pdf",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\5b4dc345-6e16-4b6f-b19a-77246669b68d.pdf",
       "PackagePath": "staticwebassets\\Documents\\5b4dc345-6e16-4b6f-b19a-77246669b68d.pdf"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\82116f50-4f90-43b9-a267-7e6de19e7e85.pdf",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\6856e386-ba31-467d-a92d-21ff279feb9b.pdf",
+      "PackagePath": "staticwebassets\\Documents\\6856e386-ba31-467d-a92d-21ff279feb9b.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\82116f50-4f90-43b9-a267-7e6de19e7e85.pdf",
       "PackagePath": "staticwebassets\\Documents\\82116f50-4f90-43b9-a267-7e6de19e7e85.pdf"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\d8b27d09-ea75-4a16-a73b-f97491360ca6.pdf",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\ade9f5f7-c7b0-41cd-9d9f-0b92b9189c6c.pdf",
+      "PackagePath": "staticwebassets\\Documents\\ade9f5f7-c7b0-41cd-9d9f-0b92b9189c6c.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\b5fa6f07-ba18-41bb-991c-aacc856041b6.pdf",
+      "PackagePath": "staticwebassets\\Documents\\b5fa6f07-ba18-41bb-991c-aacc856041b6.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\c99c0a56-ad49-4d66-8099-1f0043aa8531.pdf",
+      "PackagePath": "staticwebassets\\Documents\\c99c0a56-ad49-4d66-8099-1f0043aa8531.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\d8b27d09-ea75-4a16-a73b-f97491360ca6.pdf",
       "PackagePath": "staticwebassets\\Documents\\d8b27d09-ea75-4a16-a73b-f97491360ca6.pdf"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\animations.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\ebfef91b-0611-44bb-9ded-5cf3954f3519.pdf",
+      "PackagePath": "staticwebassets\\Documents\\ebfef91b-0611-44bb-9ded-5cf3954f3519.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\animations.css",
       "PackagePath": "staticwebassets\\css\\animations.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\announcements.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\announcements.css",
       "PackagePath": "staticwebassets\\css\\announcements.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\home.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\index.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\join.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\join.css",
       "PackagePath": "staticwebassets\\css\\join.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\navigation.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\navigation.css",
       "PackagePath": "staticwebassets\\css\\navigation.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\profile.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\profile.css",
       "PackagePath": "staticwebassets\\css\\profile.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\seminars.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\seminars.css",
       "PackagePath": "staticwebassets\\css\\seminars.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\site.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\style.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\favicon.ico",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\images\\About.png",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\images\\About.png",
       "PackagePath": "staticwebassets\\images\\About.png"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\images\\Announcements\\Announcements.jpg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\images\\Announcements\\Announcements.jpg",
       "PackagePath": "staticwebassets\\images\\Announcements\\Announcements.jpg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\images\\Home.jpg",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\images\\Home.jpg",
       "PackagePath": "staticwebassets\\images\\Home.jpg"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\animations.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\animations.js",
       "PackagePath": "staticwebassets\\js\\animations.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\application.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\application.js",
       "PackagePath": "staticwebassets\\js\\application.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\eslint.config.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\eslint.config.js",
       "PackagePath": "staticwebassets\\js\\eslint.config.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\news-slider.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\news-slider.js",
       "PackagePath": "staticwebassets\\js\\news-slider.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\tailwind.config.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\tailwind.config.js",
       "PackagePath": "staticwebassets\\js\\tailwind.config.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.cjs.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.cjs.map",
       "PackagePath": "staticwebassets\\lib\\chartjs\\chart.cjs.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.js",
       "PackagePath": "staticwebassets\\lib\\chartjs\\chart.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.js.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.js.map",
       "PackagePath": "staticwebassets\\lib\\chartjs\\chart.js.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.min.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.min.js",
       "PackagePath": "staticwebassets\\lib\\chartjs\\chart.min.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.umd.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.umd.js",
       "PackagePath": "staticwebassets\\lib\\chartjs\\chart.umd.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.umd.js.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.umd.js.map",
       "PackagePath": "staticwebassets\\lib\\chartjs\\chart.umd.js.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.umd.min.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.umd.min.js",
       "PackagePath": "staticwebassets\\lib\\chartjs\\chart.umd.min.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\helpers.cjs.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\helpers.cjs.map",
       "PackagePath": "staticwebassets\\lib\\chartjs\\helpers.cjs.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\helpers.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\helpers.js",
       "PackagePath": "staticwebassets\\lib\\chartjs\\helpers.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\helpers.js.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\helpers.js.map",
       "PackagePath": "staticwebassets\\lib\\chartjs\\helpers.js.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\helpers.min.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\helpers.min.js",
       "PackagePath": "staticwebassets\\lib\\chartjs\\helpers.min.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\index.d.ts",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\index.d.ts",
       "PackagePath": "staticwebassets\\lib\\chartjs\\index.d.ts"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\index.umd.d.ts",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\index.umd.d.ts",
       "PackagePath": "staticwebassets\\lib\\chartjs\\index.umd.d.ts"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\types.d.ts",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\types.d.ts",
       "PackagePath": "staticwebassets\\lib\\chartjs\\types.d.ts"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\2aa0feda-8b1a-4872-947a-3fcd299e0e45.mp4",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\01fcf618-c1e9-4bc6-8431-b112eb6891b2.mp4",
+      "PackagePath": "staticwebassets\\videos\\01fcf618-c1e9-4bc6-8431-b112eb6891b2.mp4"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\2aa0feda-8b1a-4872-947a-3fcd299e0e45.mp4",
       "PackagePath": "staticwebassets\\videos\\2aa0feda-8b1a-4872-947a-3fcd299e0e45.mp4"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\46246291-0bae-4637-88ec-9aa91f147a38.mp4",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\46246291-0bae-4637-88ec-9aa91f147a38.mp4",
       "PackagePath": "staticwebassets\\videos\\46246291-0bae-4637-88ec-9aa91f147a38.mp4"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\ddd766cc-c578-4f1d-b016-2cbbdccd6b6b.mp4",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\72e19b9e-b81b-45dd-bd98-ef3b2b94b05a.mp4",
+      "PackagePath": "staticwebassets\\videos\\72e19b9e-b81b-45dd-bd98-ef3b2b94b05a.mp4"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\8886f80e-dd68-43ae-93aa-b043182029d1.mp4",
+      "PackagePath": "staticwebassets\\videos\\8886f80e-dd68-43ae-93aa-b043182029d1.mp4"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\98e1caab-11c5-4ee6-a89b-8c2d872f95b0.mp4",
+      "PackagePath": "staticwebassets\\videos\\98e1caab-11c5-4ee6-a89b-8c2d872f95b0.mp4"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\baf3d27d-f94e-46cc-84ab-fc9c42d2353b.mp4",
+      "PackagePath": "staticwebassets\\videos\\baf3d27d-f94e-46cc-84ab-fc9c42d2353b.mp4"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\bb33a7d8-9503-4055-8553-a6367a22af82.mp4",
+      "PackagePath": "staticwebassets\\videos\\bb33a7d8-9503-4055-8553-a6367a22af82.mp4"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\ddd766cc-c578-4f1d-b016-2cbbdccd6b6b.mp4",
       "PackagePath": "staticwebassets\\videos\\ddd766cc-c578-4f1d-b016-2cbbdccd6b6b.mp4"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\ea438ac9-fa11-4138-82ed-c37bae8c9a1d.mp4",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\ea438ac9-fa11-4138-82ed-c37bae8c9a1d.mp4",
       "PackagePath": "staticwebassets\\videos\\ea438ac9-fa11-4138-82ed-c37bae8c9a1d.mp4"
     },
     {
-      "Id": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\ea671a10-fe08-46c5-afdf-e8d778ee2293.mp4",
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\ea671a10-fe08-46c5-afdf-e8d778ee2293.mp4",
       "PackagePath": "staticwebassets\\videos\\ea671a10-fe08-46c5-afdf-e8d778ee2293.mp4"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\f9863d81-b7c6-4f68-a25c-94c7ff6714ae.mp4",
+      "PackagePath": "staticwebassets\\videos\\f9863d81-b7c6-4f68-a25c-94c7ff6714ae.mp4"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IEEE_EMB.Microsoft.AspNetCore.StaticWebAssets.props",

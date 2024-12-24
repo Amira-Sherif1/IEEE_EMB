@@ -17,15 +17,16 @@ namespace IEEE_EMB.Pages.Admin
             this.db = db;
             
         }
-        public void OnGet(int activityId=1)
+        public void OnGet(int activityId)
         {
             ActivityId = activityId;
             sessions=db.GetSession(activityId);
         }
-        public IActionResult OnPostDelete(int sessionId  ,int activityId)
+        public void OnPostDelete(int sessionId  ,int activityId)
         {
            db.DeleteSeesion(sessionId);
-            return RedirectToPage("/Admin/Session", new { activityId = activityId });
+           RedirectToPage("/Admin/Session", new { ActivityId = activityId });
+            //return new JsonResult(new { success = true });
         }
 
 

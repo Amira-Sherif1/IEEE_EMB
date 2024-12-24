@@ -91,10 +91,11 @@
     margin-bottom: 0.5rem;
     border-radius: 4px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     color: #333;
 }
+
 
 .edit-btn {
     background: none;

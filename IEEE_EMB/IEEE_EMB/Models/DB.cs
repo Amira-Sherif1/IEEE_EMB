@@ -1,5 +1,5 @@
 
-﻿using Microsoft.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using System.Data;
 using System.Runtime.Intrinsics.X86;
 
@@ -28,6 +28,31 @@ namespace IEEE_EMB.Models
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+
+
+            }
+            return dt;
+
+
+        }
+
+        public DataTable GetParticipants()
+        {
+            DataTable dt = new DataTable();
+            string querey = "select * from PARTICIPANTS";
+            try
+            {
+                con.Open();
+                SqlCommand com = new SqlCommand(querey, con);
+                dt.Load(com.ExecuteReader());
+            }
+            catch (Exception ex)
+            {
 
             }
             finally
@@ -36,18 +61,24 @@ namespace IEEE_EMB.Models
 
 
             }
-
             return dt;
+
+
+        
         }
 
         public DataTable GetProfileInfo()
+        
+        public DataTable GetProfileInfo(string email, string ssn)
         {
             DataTable dt = new DataTable();
-            string query = "";
+            string query = "SELECT NAME, EMAIL, BRIEF, PHOTO, UNIVERSITY, PHONE\r\nFROM (SELECT MEM.SSN SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MEMBER MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BREIF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM ADMIN MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.GRADUATED_UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MENTOR MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, MEM.PHONE PHONE\r\nFROM PARTICIPANTS MEM\r\n) USER_PERSONAL_DATA \r\nWHERE EMAIL = @Email AND SSN = @SSN";
             try
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@Email", email);
+                cmd.Parameters.AddWithValue ("@SSN", ssn);
                 dt.Load(cmd.ExecuteReader());
             }
             catch (Exception ex)
@@ -241,6 +272,10 @@ namespace IEEE_EMB.Models
         {
             DataTable dt = new DataTable();
             string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY";
+            SqlCommand cmd = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
 
             try
             {
@@ -437,11 +472,37 @@ namespace IEEE_EMB.Models
             {
                 con.Close();
             }
+
+
+        }
+
+        public void EditActivity(Activity activity)
+        {
+            string editTitleQuery = $"UPDATE ACTIVITY\r\nSET TITLE = {activity.Title}\r\nWHERE ID = {activity.Id}";
+            string editDescriptionQuery = $"UPDATE ACTIVITY\r\nSET DESCRIPTION = {activity.Description}\r\nWHERE ID = {activity.Id}";
+            string editCapacityQuery = $"UPDATE ACTIVITY\r\nSET CAPACITY = {activity.Capacity}\r\nWHERE ID = {activity.Id}";
+            try
+            {
+                con.Open();
+                SqlCommand editTitleCommand = new SqlCommand(editTitleQuery, con);
+                SqlCommand editDescriptionCommand = new SqlCommand(editTitleQuery, con);
+                SqlCommand editCapacityCommand = new SqlCommand(editTitleQuery, con);
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+
         }
     
     public void AddSession(Session session)
+
         {
-            string getMaxIdQuery = "SELECT MAX(ID) FROM SESSION"; 
+            string getMaxIdQuery = "SELECT MAX(ID) FROM SESSION";
             int newId = 0;
 
             try
@@ -454,7 +515,7 @@ namespace IEEE_EMB.Models
                                "VALUES (@ID, @Date, @Title, @Document, @Video, @ActivityId)";
 
                 SqlCommand com = new SqlCommand(query, con);
-                com.Parameters.AddWithValue("@ID", newId); 
+                com.Parameters.AddWithValue("@ID", newId);
                 com.Parameters.AddWithValue("@Date", session.Date);
                 com.Parameters.AddWithValue("@Title", session.Title);
                 com.Parameters.AddWithValue("@Document", session.Document ?? (object)DBNull.Value);
@@ -493,22 +554,62 @@ namespace IEEE_EMB.Models
             finally
             {
                 con.Close();
+
+            }
+
+        }
+
+        //public void EditActivity(Activity activity)
+        //{
+        //    string EditTitleQuery = "";
+        //    string DescriptionQuery = "";
+        //    try
+        //    {
+        //        con.Open();
+        //        SqlCommand com = new SqlCommand(EditTitleQuery, con);
+
+        //    }
+
+        //}
+
+
+        public void DeleteActivity(int activityID)
+        {
+            
+            string deleteAssignmentQuery = $"DELETE FROM ASSIGN\r\nWHERE ACTIVITY_ID = {activityID}";
+            string deleteSessionQuery = $"DELETE FROM SESSION\r\nWHERE ACTIVITY_ID = {activityID}";
+            string deleteActivityQuery = $"DELETE FROM ACTIVITY\r\nWHERE ID = {activityID}";
+            try
+            {
+                con.Open();
+                SqlCommand comAssign = new SqlCommand(deleteAssignmentQuery, con);
+                SqlCommand comSession = new SqlCommand(deleteSessionQuery, con);
+                SqlCommand comActivity = new SqlCommand(deleteActivityQuery, con);
+                comAssign.ExecuteNonQuery();
+                comSession.ExecuteNonQuery();
+                comActivity.ExecuteNonQuery();
                 
             }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally { con.Close(); }
+
 
         }
         public void DeleteSeesion(int SessionId)
         {
             string querey = $"Delete from SESSION where ID ={SessionId}";
-            string querey2 = $"Delete from SESSIONS_DOCS where ID={SessionId}";
+            //string querey2 = $"Delete from SESSIONS_DOCS where ID={SessionId}";
             try
             {
                 con.Open();
                 SqlCommand com = new SqlCommand(querey, con);
-                SqlCommand com2 = new SqlCommand(querey2, con);
+               // SqlCommand com2 = new SqlCommand(querey2, con);
 
                 com.ExecuteNonQuery();
-                com2.ExecuteNonQuery();
+               // com2.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
@@ -520,7 +621,7 @@ namespace IEEE_EMB.Models
 
             }
 
-        
+
         }
     }
 }
