@@ -50,7 +50,7 @@ namespace IEEE_EMB.Models
                 con.Open();
                 SqlCommand com = new SqlCommand(querey, con);
                 dt.Load(com.ExecuteReader());
-            }
+            
               
             }
             catch (Exception ex)
@@ -68,48 +68,16 @@ namespace IEEE_EMB.Models
 
         }
 
-        public DataTable GetParticipants()
-        {
-            DataTable dt = new DataTable();
-            string querey = "select * from PARTICIPANTS";
-            try
-            {
-                con.Open();
-                SqlCommand com = new SqlCommand(querey, con);
-                dt.Load(com.ExecuteReader());
-            }
-            catch (Exception ex)
-            {
-
-            }
-            finally
-            {
-                con.Close();
-
-
-            }
-            return dt;
-
-            }
-            return dt;
-
-
-
-        }
+   
+      
 
 
 
 
 
 
-            return dt;
-        }
 
-
-
-
-        public DataTable GetProfileInfo(string email, string ssn)
-        public DataTable GetProfileInfo()
+     
         
         public DataTable GetProfileInfo(string email, string ssn)
         {
@@ -317,15 +285,12 @@ namespace IEEE_EMB.Models
             DataTable dt = new DataTable();
             string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY";
             SqlCommand cmd = new SqlCommand(query, con);
-            SqlCommand cmd = new SqlCommand(query, con);
-            try
-            {
-                con.Open();
-
+           
+            
                 try
                 {
                     con.Open();
-                  
+
                     dt.Load(cmd.ExecuteReader());
                 }
                 catch (Exception ex)
@@ -337,11 +302,8 @@ namespace IEEE_EMB.Models
                     con.Close();
                 }
 
-                return dt;
-
-    
-            
-        }
+            return dt;   
+       }
     
 
         public DataTable GetMentorsNames()
@@ -678,6 +640,6 @@ namespace IEEE_EMB.Models
             }
         
 
-        }
+        
     }
 }
