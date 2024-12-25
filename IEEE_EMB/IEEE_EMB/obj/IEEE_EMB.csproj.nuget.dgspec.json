@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB.csproj": {}
+    "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB.csproj": {
+    "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB.csproj",
+        "projectUniqueName": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB.csproj",
         "projectName": "IEEE_EMB",
-        "projectPath": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB.csproj",
+        "projectPath": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB.csproj",
         "packagesPath": "C:\\Users\\omara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omara\\Source\\Repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\obj\\",
+        "outputPath": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\omara\\AppData\\Roaming\\NuGet\\NuGet.Config",

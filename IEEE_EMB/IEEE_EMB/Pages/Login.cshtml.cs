@@ -44,11 +44,7 @@ namespace IEEE_EMB.Pages
             //{
             //    return Page();
             //}
-          
 
-
-            
-           
 
            // ViewData[""]
             
