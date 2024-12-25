@@ -160,6 +160,17 @@ namespace IEEE_EMB.Models
                 if (count > 0) return "Mentor";
             }
 
+            string ParticipantQuery = "SELECT COUNT(*)\r\nFROM PARTICIPANTS M\r\nWHERE M.EMAIL = @EMAIL AND M.PASSWORD = @PASSWORD";
+            using (SqlCommand cmd = new SqlCommand(ParticipantQuery, con))
+            {
+                cmd.Parameters.AddWithValue("@EMAIL", email);
+                cmd.Parameters.AddWithValue("@PASSWORD", password);
+                con.Open();
+                int count = (int)cmd.ExecuteScalar();
+                con.Close();
+                if (count > 0) return "Participant";
+            }
+
             return null;
 
 
@@ -226,6 +237,8 @@ namespace IEEE_EMB.Models
             SELECT MEM.SSN, MEM.EMAIL FROM MEMBER MEM
             UNION ALL
             SELECT MEN.SSN, MEN.EMAIL FROM MENTOR MEN
+            UNION ALL
+            SELECT P.SSN SSN, P.EMAIL FROM PARTICIPANTS P
         ) AllUsers
         WHERE EMAIL = @Email";
 
