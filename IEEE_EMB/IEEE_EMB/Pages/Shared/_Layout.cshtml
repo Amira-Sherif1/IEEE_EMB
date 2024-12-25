@@ -51,9 +51,9 @@
                        
                         @if (Context.Session.GetString("SSN") == null)
                         {
-                            <li class="nav-item">
+                           @*  <li class="nav-item">
                                 <a class="nav-link" asp-page="/Join">Join</a>
-                            </li>
+                            </li> *@
                             @if (string.IsNullOrEmpty(HttpContextAccessor.HttpContext?.Session.GetString("email")) == true) {
                                 <li class="nav-item">
                                     <a class="nav-link" asp-page="/Login">Login</a>
