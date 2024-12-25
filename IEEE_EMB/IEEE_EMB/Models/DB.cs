@@ -7,7 +7,7 @@ namespace IEEE_EMB.Models
 {
     public class DB
     {
-        private string connectionstring = "Data Source= Eng-Omars-Lap; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
+        private string connectionstring = "Data Source= DESKTOP-E4Q9O8K; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
         public SqlConnection con = new();
         public DB()
         {
@@ -69,15 +69,6 @@ namespace IEEE_EMB.Models
         }
 
    
-      
-
-
-
-
-
-
-
-
         
 
         public DataTable GetProfileInfo(string email, string ssn)
@@ -309,30 +300,6 @@ namespace IEEE_EMB.Models
         }
         
            
-
-            public DataTable GetMentorsNames()
-
-           
-            
-                try
-                {
-                    con.Open();
-
-                    dt.Load(cmd.ExecuteReader());
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
-                finally
-                {
-                    con.Close();
-                }
-
-            return dt;   
-       }
-    
-
         public DataTable GetMentorsNames()
 
             {

@@ -23,6 +23,11 @@ namespace IEEE_EMB.Pages
 
         [BindProperty]
         public bool userIsFound { get; set; } = true;
+
+        public IActionResult OnGet()
+        {
+            return Page();
+        }
         public async Task<IActionResult> OnPostAsync()
         {
             string userType = db.getUserType(Email, Password); 
