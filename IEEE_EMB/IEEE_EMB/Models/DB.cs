@@ -77,18 +77,21 @@ namespace IEEE_EMB.Models
 
 
 
-     
+
         
+
         public DataTable GetProfileInfo(string email, string ssn)
         {
             DataTable dt = new DataTable();
-            string query = "SELECT NAME, EMAIL, BRIEF, PHOTO, UNIVERSITY, PHONE\r\nFROM (SELECT MEM.SSN SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MEMBER MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BREIF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM ADMIN MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.GRADUATED_UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MENTOR MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, MEM.PHONE PHONE\r\nFROM PARTICIPANTS MEM\r\n) USER_PERSONAL_DATA \r\nWHERE EMAIL = @Email AND SSN = @SSN";
+            string query = "SELECT NAME, EMAIL, BRIEF, PHOTO, UNIVERSITY, PHONE\r\nFROM (SELECT MEM.SSN SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MEMBER MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM ADMIN MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.GRADUATED_UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MENTOR MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, MEM.PHONE PHONE\r\nFROM PARTICIPANTS MEM\r\n) USER_PERSONAL_DATA \r\nWHERE EMAIL = @Email AND SSN = @SSN";
             try
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@Email", email);
                 cmd.Parameters.AddWithValue("@SSN", ssn);
+
+
                 cmd.Parameters.AddWithValue("@Email", email);
                 cmd.Parameters.AddWithValue ("@SSN", ssn);
                 dt.Load(cmd.ExecuteReader());
@@ -225,16 +228,16 @@ namespace IEEE_EMB.Models
         {
             string ssn = null;
             string query = @"
-        SELECT SSN
-        FROM
-        (
-            SELECT A.SSN, A.EMAIL FROM ADMIN A
-            UNION ALL
-            SELECT MEM.SSN, MEM.EMAIL FROM MEMBER MEM
-            UNION ALL
-            SELECT MEN.SSN, MEN.EMAIL FROM MENTOR MEN
-        ) AllUsers
-        WHERE EMAIL = @Email";
+                SELECT SSN
+                FROM
+                (
+                    SELECT A.SSN, A.EMAIL FROM ADMIN A
+                    UNION ALL
+                    SELECT MEM.SSN, MEM.EMAIL FROM MEMBER MEM
+                    UNION ALL
+                    SELECT MEN.SSN, MEN.EMAIL FROM MENTOR MEN
+                ) AllUsers
+                WHERE EMAIL = @Email";
 
             try
             {
@@ -285,6 +288,30 @@ namespace IEEE_EMB.Models
             DataTable dt = new DataTable();
             string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY";
             SqlCommand cmd = new SqlCommand(query, con);
+
+
+            try
+            {
+                con.Open();
+
+                dt.Load(cmd.ExecuteReader());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+
+            return dt;
+        }
+        
+           
+
+            public DataTable GetMentorsNames()
+
            
             
                 try
@@ -307,6 +334,7 @@ namespace IEEE_EMB.Models
     
 
         public DataTable GetMentorsNames()
+
             {
                 DataTable dt = new DataTable();
                 string query = "SELECT M.Name\r\nFROM MENTOR M";
@@ -450,14 +478,10 @@ namespace IEEE_EMB.Models
                 {
                     Console.WriteLine(ex.Message);
                 }
-                finally 
-                { 
 
-                con.Close(); 
+                finally { con.Close(); }
 
-                }
-
-
+              
 
             }
 
@@ -638,8 +662,11 @@ namespace IEEE_EMB.Models
 
 
             }
+
+        }
+
         
 
         
     }
-}
+

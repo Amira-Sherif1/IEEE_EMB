@@ -20,13 +20,13 @@ namespace IEEE_EMB.Pages.Admin
         public void OnGet(int activityId)
         {
             ActivityId = activityId;
-            sessions=db.GetSession(activityId);
+            sessions=db.GetSession(activityId) ?? new DataTable();
         }
-        public void OnPostDelete(int sessionId  ,int activityId)
+        public IActionResult OnPostDelete(int sessionId  ,int activityId)
         {
            db.DeleteSeesion(sessionId);
-           RedirectToPage("/Admin/Session", new { ActivityId = activityId });
-            //return new JsonResult(new { success = true });
+        
+            return RedirectToPage("/Admin/Session", new { activityId });
         }
 
 

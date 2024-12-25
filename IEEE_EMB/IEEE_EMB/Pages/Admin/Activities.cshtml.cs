@@ -5,6 +5,7 @@ using System.Data;
 
 namespace IEEE_EMB.Pages.Admin
 {
+    
     public class ActivitiesModel : PageModel
     {
         public DB db { get; set; }
