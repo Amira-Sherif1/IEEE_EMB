@@ -277,27 +277,28 @@ namespace IEEE_EMB.Models
             DataTable dt = new DataTable();
             string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY";
             SqlCommand cmd = new SqlCommand(query, con);
-       
-                try
-                {
-                 con.Open();
-                   
-                    dt.Load(cmd.ExecuteReader());
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
-                finally
-                {
-                    con.Close();
-                }
 
-                return dt;
+            try
+            {
+                con.Open();
+
+                dt.Load(cmd.ExecuteReader());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
             }
 
+            return dt;
+        }
+        
+           
 
-        public DataTable GetMentorsNames()
+            public DataTable GetMentorsNames()
             {
                 DataTable dt = new DataTable();
                 string query = "SELECT M.Name\r\nFROM MENTOR M";
