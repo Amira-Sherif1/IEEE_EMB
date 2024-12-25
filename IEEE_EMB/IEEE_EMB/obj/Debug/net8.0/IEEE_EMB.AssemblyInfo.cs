@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IEEE_EMB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+620fb690168733de64cb9f824577a6882115f672")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94a6dc339ef86f945597f67f338c7ac9a8299c44")]
 [assembly: System.Reflection.AssemblyProductAttribute("IEEE_EMB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IEEE_EMB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
