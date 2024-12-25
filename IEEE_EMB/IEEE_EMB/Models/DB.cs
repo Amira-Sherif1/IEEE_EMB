@@ -51,6 +51,33 @@ namespace IEEE_EMB.Models
                 SqlCommand com = new SqlCommand(querey, con);
                 dt.Load(com.ExecuteReader());
             }
+              
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+
+
+            }
+            return dt;
+
+
+        }
+
+        public DataTable GetParticipants()
+        {
+            DataTable dt = new DataTable();
+            string querey = "select * from PARTICIPANTS";
+            try
+            {
+                con.Open();
+                SqlCommand com = new SqlCommand(querey, con);
+                dt.Load(com.ExecuteReader());
+            }
             catch (Exception ex)
             {
 
@@ -63,6 +90,9 @@ namespace IEEE_EMB.Models
             }
             return dt;
 
+            }
+            return dt;
+
 
 
         }
@@ -70,6 +100,17 @@ namespace IEEE_EMB.Models
 
 
 
+
+
+            return dt;
+        }
+
+
+
+
+        public DataTable GetProfileInfo(string email, string ssn)
+        public DataTable GetProfileInfo()
+        
         public DataTable GetProfileInfo(string email, string ssn)
         {
             DataTable dt = new DataTable();
@@ -80,6 +121,8 @@ namespace IEEE_EMB.Models
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@Email", email);
                 cmd.Parameters.AddWithValue("@SSN", ssn);
+                cmd.Parameters.AddWithValue("@Email", email);
+                cmd.Parameters.AddWithValue ("@SSN", ssn);
                 dt.Load(cmd.ExecuteReader());
             }
             catch (Exception ex)
@@ -274,6 +317,10 @@ namespace IEEE_EMB.Models
             DataTable dt = new DataTable();
             string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY";
             SqlCommand cmd = new SqlCommand(query, con);
+            SqlCommand cmd = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
 
                 try
                 {
@@ -630,5 +677,7 @@ namespace IEEE_EMB.Models
 
             }
         
+
+        }
     }
 }
