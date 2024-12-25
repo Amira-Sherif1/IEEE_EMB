@@ -24,7 +24,7 @@ namespace IEEE_EMB.Models
                 con.Open();
                 SqlCommand com = new SqlCommand(querey, con);
                 dt.Load(com.ExecuteReader());
-              
+
             }
             catch (Exception ex)
             {
@@ -71,21 +71,18 @@ namespace IEEE_EMB.Models
 
 
 
-            return dt;
-        }
 
-        public DataTable GetProfileInfo()
-        
+
         public DataTable GetProfileInfo(string email, string ssn)
         {
             DataTable dt = new DataTable();
-            string query = "SELECT NAME, EMAIL, BRIEF, PHOTO, UNIVERSITY, PHONE\r\nFROM (SELECT MEM.SSN SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MEMBER MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BREIF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM ADMIN MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.GRADUATED_UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MENTOR MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, MEM.PHONE PHONE\r\nFROM PARTICIPANTS MEM\r\n) USER_PERSONAL_DATA \r\nWHERE EMAIL = @Email AND SSN = @SSN";
+            string query = "SELECT NAME, EMAIL, BRIEF, PHOTO, UNIVERSITY, PHONE\r\nFROM (SELECT MEM.SSN SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MEMBER MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM ADMIN MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.GRADUATED_UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MENTOR MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, MEM.PHONE PHONE\r\nFROM PARTICIPANTS MEM\r\n) USER_PERSONAL_DATA \r\nWHERE EMAIL = @Email AND SSN = @SSN";
             try
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@Email", email);
-                cmd.Parameters.AddWithValue ("@SSN", ssn);
+                cmd.Parameters.AddWithValue("@SSN", ssn);
                 dt.Load(cmd.ExecuteReader());
             }
             catch (Exception ex)
@@ -220,16 +217,16 @@ namespace IEEE_EMB.Models
         {
             string ssn = null;
             string query = @"
-        SELECT SSN
-        FROM
-        (
-            SELECT A.SSN, A.EMAIL FROM ADMIN A
-            UNION ALL
-            SELECT MEM.SSN, MEM.EMAIL FROM MEMBER MEM
-            UNION ALL
-            SELECT MEN.SSN, MEN.EMAIL FROM MENTOR MEN
-        ) AllUsers
-        WHERE EMAIL = @Email";
+                SELECT SSN
+                FROM
+                (
+                    SELECT A.SSN, A.EMAIL FROM ADMIN A
+                    UNION ALL
+                    SELECT MEM.SSN, MEM.EMAIL FROM MEMBER MEM
+                    UNION ALL
+                    SELECT MEN.SSN, MEN.EMAIL FROM MENTOR MEN
+                ) AllUsers
+                WHERE EMAIL = @Email";
 
             try
             {
@@ -280,355 +277,353 @@ namespace IEEE_EMB.Models
             DataTable dt = new DataTable();
             string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY";
             SqlCommand cmd = new SqlCommand(query, con);
-            try
-            {
-                con.Open();
+       
+                try
+                {
+                 con.Open();
+                   
+                    dt.Load(cmd.ExecuteReader());
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    con.Close();
+                }
 
-            try
-            {
-                con.Open();
-                SqlCommand cmd = new SqlCommand(query, con);
-                dt.Load(cmd.ExecuteReader());
+                return dt;
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            finally
-            {
-                con.Close();
-            }
-
-            return dt;
-        }
 
 
         public DataTable GetMentorsNames()
-        {
-            DataTable dt = new DataTable();
-            string query = "SELECT M.Name\r\nFROM MENTOR M";
-
-            try
             {
-                con.Open();
-                SqlCommand cmd = new SqlCommand(query, con);
-                dt.Load(cmd.ExecuteReader());
+                DataTable dt = new DataTable();
+                string query = "SELECT M.Name\r\nFROM MENTOR M";
+
+                try
+                {
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand(query, con);
+                    dt.Load(cmd.ExecuteReader());
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally { con.Close(); }
+                return dt;
             }
-            catch (Exception ex)
+
+            public DataTable GetParticipantCount()
             {
-                Console.WriteLine(ex.Message);
+                DataTable dt = new DataTable();
+                string query = "SELECT A.ACTIVITY_ID, COUNT(*) ParticipantsCount\r\nFROM ACTIVITY_PARTICIPANTS A\r\nGROUP BY A.ACTIVITY_ID";
+
+                try
+                {
+                    con.Open();
+                    SqlCommand com = new SqlCommand(query, con);
+                    dt.Load(com.ExecuteReader());
+                }
+                catch (Exception ex) {
+                    Console.WriteLine(ex.Message);
+                }
+                finally {
+                    con.Close();
+                }
+
+                return dt;
             }
-            finally { con.Close(); }
-            return dt;
-        }
 
-        public DataTable GetParticipantCount()
-        {
-            DataTable dt = new DataTable();
-            string query = "SELECT A.ACTIVITY_ID, COUNT(*) ParticipantsCount\r\nFROM ACTIVITY_PARTICIPANTS A\r\nGROUP BY A.ACTIVITY_ID";
-
-            try
+            public DataTable GetSeminar()
             {
-                con.Open();
+                DataTable dt = new DataTable();
+                string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Seminar'";
+
+                try
+                {
+                    con.Open();
+                    SqlCommand com = new SqlCommand(query, con);
+                    dt.Load(com.ExecuteReader());
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    con.Close();
+                }
+
+
+
+                return dt;
+            }
+
+            public DataTable GetJournalClubs()
+            {
+                DataTable dt = new DataTable();
+                string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'JournalClub'";
                 SqlCommand com = new SqlCommand(query, con);
-                dt.Load(com.ExecuteReader());
-            }
-            catch (Exception ex) {
-                Console.WriteLine(ex.Message);
-            }
-            finally {
-                con.Close();
+                try
+                {
+                    con.Open();
+                    dt.Load(com.ExecuteReader());
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    con.Close();
+                }
+
+
+
+                return dt;
             }
 
-            return dt;
-        }
 
-        public DataTable GetSeminar()
-        {
-            DataTable dt = new DataTable();
-            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Seminar'";
 
-            try
+            public DataTable GetWorkshops()
             {
-                con.Open();
+                DataTable dt = new DataTable();
+                string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Workshop'";
                 SqlCommand com = new SqlCommand(query, con);
-                dt.Load(com.ExecuteReader());
+                try
+                {
+                    con.Open();
+                    dt.Load(com.ExecuteReader());
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    con.Close();
+                }
+
+
+
+                return dt;
             }
-            catch (Exception ex)
+
+            public void AddActivity(Activity activity)
             {
-                Console.WriteLine(ex.Message);
+                string getMaxIdQuery = "SELECT MAX(ID) FROM ACTIVITY";
+                int newId = 0;
+
+                try
+                {
+                    con.Open();
+                    SqlCommand getMaxIdCommand = new SqlCommand(getMaxIdQuery, con);
+                    newId = (int)getMaxIdCommand.ExecuteScalar() + 1;
+                    string query = "INSERT INTO ACTIVITY (ID, TITLE, START_DATE, END_DATE, CAPACITY, TYPE, STATUS, DESCRIPTION, MEMBER_ID)" +
+                                   "VALUES (@ID, @TITLE, @START_DATE, @END_DATE, @CAPACITY, @TYPE, @STATUS, @DESCRIPTION, @MEMBER_ID)";
+
+                    SqlCommand com = new SqlCommand(query, con);
+                    com.Parameters.AddWithValue("@ID", newId);
+                    com.Parameters.AddWithValue("@TITLE", activity.Title);
+                    com.Parameters.AddWithValue("@START_DATE", activity.startdate);
+                    com.Parameters.AddWithValue("@END_DATE", activity.Enddate);
+                    com.Parameters.AddWithValue("@CAPACITY", activity.Capacity);
+                    com.Parameters.AddWithValue("@TYPE", activity.Type);
+                    com.Parameters.AddWithValue("@STATUS", activity.status);
+                    com.Parameters.AddWithValue("@DESCRIPTION", activity.Description);
+                    com.Parameters.AddWithValue("@MEMBER_ID", DBNull.Value);
+                    com.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally { con.Close(); }
+
+
+
             }
-            finally
+
+            public void AddParticipant(Participants participant)
             {
-                con.Close();
+                try
+                {
+                    con.Open();
+
+
+                    string query = "INSERT INTO PARTICIPANTS(SSN, NAME, EMAIL, PHONE, UNIVERSITY)" +
+                                   "VALUES (@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY)";
+                    SqlCommand com = new SqlCommand(query, con);
+                    com.Parameters.AddWithValue("@SSN", participant.SSN);
+                    com.Parameters.AddWithValue("@NAME", participant.Name);
+                    com.Parameters.AddWithValue("@EMAIL", participant.Email);
+                    com.Parameters.AddWithValue("@PHONE", participant.Phone);
+                    com.Parameters.AddWithValue("@UNIVERSITY", participant.University);
+                    //com.Parameters.AddWithValue("@PASSWORD", participant.Password);
+                    com.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    con.Close();
+                }
+
+
             }
 
-
-
-            return dt;
-        }
-
-        public DataTable GetJournalClubs()
-        {
-            DataTable dt = new DataTable();
-            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'JournalClub'";
-            SqlCommand com = new SqlCommand(query, con);
-            try
+            public void EditActivity(Activity activity)
             {
-                con.Open();
-                dt.Load(com.ExecuteReader());
+                string editTitleQuery = $"UPDATE ACTIVITY\r\nSET TITLE = {activity.Title}\r\nWHERE ID = {activity.Id}";
+                string editDescriptionQuery = $"UPDATE ACTIVITY\r\nSET DESCRIPTION = {activity.Description}\r\nWHERE ID = {activity.Id}";
+                string editCapacityQuery = $"UPDATE ACTIVITY\r\nSET CAPACITY = {activity.Capacity}\r\nWHERE ID = {activity.Id}";
+                try
+                {
+                    con.Open();
+                    SqlCommand editTitleCommand = new SqlCommand(editTitleQuery, con);
+                    SqlCommand editDescriptionCommand = new SqlCommand(editTitleQuery, con);
+                    SqlCommand editCapacityCommand = new SqlCommand(editTitleQuery, con);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    con.Close();
+                }
+
             }
-            catch (Exception ex)
+
+            public void AddSession(Session session)
+
             {
-                Console.WriteLine(ex.Message);
+                string getMaxIdQuery = "SELECT MAX(ID) FROM SESSION";
+                int newId = 0;
+
+                try
+                {
+                    con.Open();
+                    SqlCommand getMaxIdCommand = new SqlCommand(getMaxIdQuery, con);
+                    newId = (int)getMaxIdCommand.ExecuteScalar() + 1;
+
+                    string query = "INSERT INTO SESSION (ID, DATE, TITLE, Document, Video, ACTIVITY_ID) " +
+                                   "VALUES (@ID, @Date, @Title, @Document, @Video, @ActivityId)";
+
+                    SqlCommand com = new SqlCommand(query, con);
+                    com.Parameters.AddWithValue("@ID", newId);
+                    com.Parameters.AddWithValue("@Date", session.Date);
+                    com.Parameters.AddWithValue("@Title", session.Title);
+                    com.Parameters.AddWithValue("@Document", session.Document ?? (object)DBNull.Value);
+                    com.Parameters.AddWithValue("@Video", session.Video ?? (object)DBNull.Value);
+                    com.Parameters.AddWithValue("@ActivityId", session.ActivityId);
+
+                    com.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    con.Close();
+                }
             }
-            finally
+
+            public void EditSeesion(Session session)
             {
-                con.Close();
+                string querey = $"update SESSION set TITLE='{session.Title}'where ID={session.Id}";
+                string querey2 = $"update SESSION set Date='{session.Date}'where ID={session.Id}";
+                try
+                {
+                    con.Open();
+                    SqlCommand com = new SqlCommand(querey, con);
+                    SqlCommand com2 = new SqlCommand(querey2, con);
+
+                    com.ExecuteNonQuery();
+                    com2.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    con.Close();
+
+                }
+
             }
 
+            //public void EditActivity(Activity activity)
+            //{
+            //    string EditTitleQuery = "";
+            //    string DescriptionQuery = "";
+            //    try
+            //    {
+            //        con.Open();
+            //        SqlCommand com = new SqlCommand(EditTitleQuery, con);
+
+            //    }
+
+            //}
 
 
-            return dt;
-        }
-
-
-
-        public DataTable GetWorkshops()
-        {
-            DataTable dt = new DataTable();
-            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Workshop'";
-            SqlCommand com = new SqlCommand(query, con);
-            try
+            public void DeleteActivity(int activityID)
             {
-                con.Open();
-                dt.Load(com.ExecuteReader());
+
+                string deleteAssignmentQuery = $"DELETE FROM ASSIGN\r\nWHERE ACTIVITY_ID = {activityID}";
+                string deleteSessionQuery = $"DELETE FROM SESSION\r\nWHERE ACTIVITY_ID = {activityID}";
+                string deleteActivityQuery = $"DELETE FROM ACTIVITY\r\nWHERE ID = {activityID}";
+                try
+                {
+                    con.Open();
+                    SqlCommand comAssign = new SqlCommand(deleteAssignmentQuery, con);
+                    SqlCommand comSession = new SqlCommand(deleteSessionQuery, con);
+                    SqlCommand comActivity = new SqlCommand(deleteActivityQuery, con);
+                    comAssign.ExecuteNonQuery();
+                    comSession.ExecuteNonQuery();
+                    comActivity.ExecuteNonQuery();
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally { con.Close(); }
+
+
             }
-            catch (Exception ex)
+            public void DeleteSeesion(int SessionId)
             {
-                Console.WriteLine(ex.Message);
-            }
-            finally
-            {
-                con.Close();
-            }
+                string querey = $"Delete from SESSION where ID ={SessionId}";
+                //string querey2 = $"Delete from SESSIONS_DOCS where ID={SessionId}";
+                try
+                {
+                    con.Open();
+                    SqlCommand com = new SqlCommand(querey, con);
+                    // SqlCommand com2 = new SqlCommand(querey2, con);
 
+                    com.ExecuteNonQuery();
+                    // com2.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    con.Close();
 
+                }
 
-            return dt;
-        }
-
-        public void AddActivity(Activity activity)
-        {
-            string getMaxIdQuery = "SELECT MAX(ID) FROM ACTIVITY";
-            int newId = 0;
-
-            try
-            {
-                con.Open();
-                SqlCommand getMaxIdCommand = new SqlCommand(getMaxIdQuery, con);
-                newId = (int)getMaxIdCommand.ExecuteScalar() + 1;
-                string query = "INSERT INTO ACTIVITY (ID, TITLE, START_DATE, END_DATE, CAPACITY, TYPE, STATUS, DESCRIPTION, MEMBER_ID)" +
-                               "VALUES (@ID, @TITLE, @START_DATE, @END_DATE, @CAPACITY, @TYPE, @STATUS, @DESCRIPTION, @MEMBER_ID)";
-
-                SqlCommand com = new SqlCommand(query, con);
-                com.Parameters.AddWithValue("@ID", newId);
-                com.Parameters.AddWithValue("@TITLE", activity.Title);
-                com.Parameters.AddWithValue("@START_DATE", activity.startdate);
-                com.Parameters.AddWithValue("@END_DATE", activity.Enddate);
-                com.Parameters.AddWithValue("@CAPACITY", activity.Capacity);
-                com.Parameters.AddWithValue("@TYPE", activity.Type);
-                com.Parameters.AddWithValue("@STATUS", activity.status);
-                com.Parameters.AddWithValue("@DESCRIPTION", activity.Description);
-                com.Parameters.AddWithValue("@MEMBER_ID", DBNull.Value);
-                com.ExecuteNonQuery();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            finally { con.Close(); }
-
-
-
-        }
-
-        public void AddParticipant(Participants participant)
-        {
-            try
-            {
-                con.Open();
-            
-                
-                string query = "INSERT INTO PARTICIPANTS(SSN, NAME, EMAIL, PHONE, UNIVERSITY)" +
-                               "VALUES (@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY)";
-                SqlCommand com = new SqlCommand(query, con);
-                com.Parameters.AddWithValue("@SSN", participant.SSN);
-                com.Parameters.AddWithValue("@NAME", participant.Name);
-                com.Parameters.AddWithValue("@EMAIL", participant.Email);
-                com.Parameters.AddWithValue("@PHONE", participant.Phone);
-                com.Parameters.AddWithValue("@UNIVERSITY", participant.University);
-                //com.Parameters.AddWithValue("@PASSWORD", participant.Password);
-                com.ExecuteNonQuery();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            finally
-            {
-                con.Close();
-            }
-
-
-        }
-
-        public void EditActivity(Activity activity)
-        {
-            string editTitleQuery = $"UPDATE ACTIVITY\r\nSET TITLE = {activity.Title}\r\nWHERE ID = {activity.Id}";
-            string editDescriptionQuery = $"UPDATE ACTIVITY\r\nSET DESCRIPTION = {activity.Description}\r\nWHERE ID = {activity.Id}";
-            string editCapacityQuery = $"UPDATE ACTIVITY\r\nSET CAPACITY = {activity.Capacity}\r\nWHERE ID = {activity.Id}";
-            try
-            {
-                con.Open();
-                SqlCommand editTitleCommand = new SqlCommand(editTitleQuery, con);
-                SqlCommand editDescriptionCommand = new SqlCommand(editTitleQuery, con);
-                SqlCommand editCapacityCommand = new SqlCommand(editTitleQuery, con);
-            }
-            catch (Exception ex) 
-            {
-                Console.WriteLine(ex.Message);
-            }
-            finally
-            {
-                con.Close();
-            }
-
-        }
-    
-    public void AddSession(Session session)
-
-        {
-            string getMaxIdQuery = "SELECT MAX(ID) FROM SESSION";
-            int newId = 0;
-
-            try
-            {
-                con.Open();
-                SqlCommand getMaxIdCommand = new SqlCommand(getMaxIdQuery, con);
-                newId = (int)getMaxIdCommand.ExecuteScalar() + 1;
-
-                string query = "INSERT INTO SESSION (ID, DATE, TITLE, Document, Video, ACTIVITY_ID) " +
-                               "VALUES (@ID, @Date, @Title, @Document, @Video, @ActivityId)";
-
-                SqlCommand com = new SqlCommand(query, con);
-                com.Parameters.AddWithValue("@ID", newId);
-                com.Parameters.AddWithValue("@Date", session.Date);
-                com.Parameters.AddWithValue("@Title", session.Title);
-                com.Parameters.AddWithValue("@Document", session.Document ?? (object)DBNull.Value);
-                com.Parameters.AddWithValue("@Video", session.Video ?? (object)DBNull.Value);
-                com.Parameters.AddWithValue("@ActivityId", session.ActivityId);
-
-                com.ExecuteNonQuery();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            finally
-            {
-                con.Close();
-            }
-        }
-
-        public void EditSeesion(Session session)
-        {
-            string querey = $"update SESSION set TITLE='{session.Title}'where ID={session.Id}";
-            string querey2 = $"update SESSION set Date='{session.Date}'where ID={session.Id}";
-            try
-            {
-                con.Open();
-                SqlCommand com = new SqlCommand(querey, con);
-                SqlCommand com2 = new SqlCommand(querey2, con);
-
-                com.ExecuteNonQuery();
-                com2.ExecuteNonQuery();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            finally
-            {
-                con.Close();
 
             }
-
-        }
-
-        //public void EditActivity(Activity activity)
-        //{
-        //    string EditTitleQuery = "";
-        //    string DescriptionQuery = "";
-        //    try
-        //    {
-        //        con.Open();
-        //        SqlCommand com = new SqlCommand(EditTitleQuery, con);
-
-        //    }
-
-        //}
-
-
-        public void DeleteActivity(int activityID)
-        {
-            
-            string deleteAssignmentQuery = $"DELETE FROM ASSIGN\r\nWHERE ACTIVITY_ID = {activityID}";
-            string deleteSessionQuery = $"DELETE FROM SESSION\r\nWHERE ACTIVITY_ID = {activityID}";
-            string deleteActivityQuery = $"DELETE FROM ACTIVITY\r\nWHERE ID = {activityID}";
-            try
-            {
-                con.Open();
-                SqlCommand comAssign = new SqlCommand(deleteAssignmentQuery, con);
-                SqlCommand comSession = new SqlCommand(deleteSessionQuery, con);
-                SqlCommand comActivity = new SqlCommand(deleteActivityQuery, con);
-                comAssign.ExecuteNonQuery();
-                comSession.ExecuteNonQuery();
-                comActivity.ExecuteNonQuery();
-                
-            }
-            catch (Exception ex) 
-            {
-                Console.WriteLine(ex.Message);
-            }
-            finally { con.Close(); }
-
-
-        }
-        public void DeleteSeesion(int SessionId)
-        {
-            string querey = $"Delete from SESSION where ID ={SessionId}";
-            //string querey2 = $"Delete from SESSIONS_DOCS where ID={SessionId}";
-            try
-            {
-                con.Open();
-                SqlCommand com = new SqlCommand(querey, con);
-               // SqlCommand com2 = new SqlCommand(querey2, con);
-
-                com.ExecuteNonQuery();
-               // com2.ExecuteNonQuery();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            finally
-            {
-                con.Close();
-
-            }
-
-
         }
     }
-}
+

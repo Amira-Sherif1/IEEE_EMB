@@ -53,19 +53,51 @@
                                         <a class="dropdown-item" href="/Admin/EditSession?SessionId=@Model.sessions.Rows[i][0]">
                                                 <i class="bx bx-edit-alt me-1"></i> Edit
                                             </a>
+                                        <a class="dropdown-item delete-btn"
+                                           data-bs-toggle="modal"
+                                           data-bs-target="#dataModal"
+                                           data-item-id="@Model.sessions.Rows[i][0]"
+                                           data-item-name="@Model.sessions.Rows[i][2]"
+                                           activityId="@Model.sessions.Rows[i][5]">
+                                            <i class="bx bx-trash me-1"></i> Delete
+                                        </a>
                                       
-                                            <a class="dropdown-item delete-btn"
+                                            @* <a class="dropdown-item delete-btn"
                                                href="javascript:void(0);"
                                                data-id="@Model.sessions.Rows[i][0]"
                                                data-title="@Model.sessions.Rows[i][2]"
                                                activityId="@Model.sessions.Rows[i][5]">
                                                 <i class="bx bx-trash me-1"></i> Delete
-                                            </a>
+                                            </a> *@
                                         </div>
                                     </div>
                                 </td>
                             </tr>    
                     }
+                    <div class="modal fade" id="dataModal" tabindex="-1" aria-labelledby="dataModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="dataModalLabel">Confirm Deletion</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <form method="post" asp-page-handler="Delete">
+                                    <div class="modal-body">
+                                        <p>Are you sure you want to delete <strong id="itemNamePlaceholder"></strong>?</p>
+
+                                        <input type="hidden" id="itemIdInput" name="sessionId" value="">
+                                        <input type="hidden" id="activityIdInput" name="activityId" value="">
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-primary">Confirm</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
                   
                   
                 </tbody>
@@ -73,8 +105,70 @@
         </div>
     </div>
 </div>
+
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const deleteButtons = document.querySelectorAll('.delete-btn');
+            const itemNamePlaceholder = document.getElementById('itemNamePlaceholder');
+            const itemIdInput = document.getElementById('itemIdInput');
+            const activityIdInput = document.getElementById('activityIdInput');
+
+
+            deleteButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    // Get the item name and ID from the button's data attributes
+                    const itemName = button.getAttribute('data-item-name');
+                    const itemId = button.getAttribute('data-item-id');
+                    const activityId = button.getAttribute('activityId');
+
+                    // Update the modal content with the item name and ID
+                    if (itemNamePlaceholder) {
+                        itemNamePlaceholder.textContent = itemName;
+                    }
+                    if (itemIdInput) {
+                        itemIdInput.value = itemId;
+                    }
+                    if (activityIdInput) {
+                        activityIdInput.value = activityId;
+                    }
+                 
+                });
+            });
+        });
+    </script>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- Hidden form to generate CSRF token -->
-<form id="csrf-form" style="display: none;">
+@* <form id="csrf-form" style="display: none;">
     @Html.AntiForgeryToken()
 </form>
 
@@ -145,7 +239,7 @@
 }
 
 
-
+ *@
 
 @* @section Scripts {
     <!-- Include SweetAlert2 -->
