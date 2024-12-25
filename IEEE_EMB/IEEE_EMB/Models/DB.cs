@@ -7,7 +7,7 @@ namespace IEEE_EMB.Models
 {
     public class DB
     {
-        private string connectionstring = "Data Source= DESKTOP-E4Q9O8K; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
+        private string connectionstring = "Data Source= Eng-Omars-Lap; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
         public SqlConnection con = new();
         public DB()
         {
@@ -50,10 +50,12 @@ namespace IEEE_EMB.Models
                 con.Open();
                 SqlCommand com = new SqlCommand(querey, con);
                 dt.Load(com.ExecuteReader());
+            
+              
             }
             catch (Exception ex)
             {
-
+                Console.WriteLine(ex.Message);
             }
             finally
             {
@@ -66,12 +68,17 @@ namespace IEEE_EMB.Models
 
         }
 
+   
+      
 
 
 
 
 
 
+
+
+        
 
         public DataTable GetProfileInfo(string email, string ssn)
         {
@@ -83,6 +90,10 @@ namespace IEEE_EMB.Models
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@Email", email);
                 cmd.Parameters.AddWithValue("@SSN", ssn);
+
+
+                cmd.Parameters.AddWithValue("@Email", email);
+                cmd.Parameters.AddWithValue ("@SSN", ssn);
                 dt.Load(cmd.ExecuteReader());
             }
             catch (Exception ex)
@@ -97,7 +108,7 @@ namespace IEEE_EMB.Models
         }
         public void AddAssignment(Assign assign)
         {
-            DataTable dt = new DataTable();
+            
             string query = "INSERT INTO ASSIGN (ADMIN_SSN, MENTOR_SSN, ACTIVITY_ID)\r\nVALUES (@ADMIN_SSN, @MENTOR_SSN, @ACTIVITY_ID)";
             try
             {
@@ -278,6 +289,7 @@ namespace IEEE_EMB.Models
             string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY";
             SqlCommand cmd = new SqlCommand(query, con);
 
+
             try
             {
                 con.Open();
@@ -299,6 +311,30 @@ namespace IEEE_EMB.Models
            
 
             public DataTable GetMentorsNames()
+
+           
+            
+                try
+                {
+                    con.Open();
+
+                    dt.Load(cmd.ExecuteReader());
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    con.Close();
+                }
+
+            return dt;   
+       }
+    
+
+        public DataTable GetMentorsNames()
+
             {
                 DataTable dt = new DataTable();
                 string query = "SELECT M.Name\r\nFROM MENTOR M";
@@ -442,9 +478,10 @@ namespace IEEE_EMB.Models
                 {
                     Console.WriteLine(ex.Message);
                 }
+
                 finally { con.Close(); }
 
-
+              
 
             }
 
@@ -625,6 +662,11 @@ namespace IEEE_EMB.Models
 
 
             }
+
         }
+
+        
+
+        
     }
 
