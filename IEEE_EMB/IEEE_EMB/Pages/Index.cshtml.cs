@@ -1,6 +1,8 @@
 using IEEE_EMB.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Collections.Generic;
+using System.Runtime.Intrinsics.X86;
 
 public class IndexModel : PageModel
 {
@@ -41,7 +43,18 @@ public class IndexModel : PageModel
     
         
     }
+
+    public IActionResult OnPostLogout()
+    {
+        HttpContext.Session.Remove("AuthenticationString");
+        HttpContext.Session.Remove("SSN");
+        HttpContext.Session.Remove("Email");
+
+        return RedirectToPage("/Login");
+    }
 }
+
+
 
 public class NewsItem
 {

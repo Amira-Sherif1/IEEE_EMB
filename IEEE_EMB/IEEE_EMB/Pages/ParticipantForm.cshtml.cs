@@ -27,6 +27,9 @@ namespace IEEE_EMB.Pages
         
         [BindProperty]
         public string University { get; set; }
+
+        [BindProperty]
+        public string Password { get; set; }
         public void OnGet()
         {
         }
@@ -45,6 +48,7 @@ namespace IEEE_EMB.Pages
             participant.University = University;
             participant.Name = Name;
             participant.SSN = SSN;
+            participant.Password = Password;
            
             db.AddParticipant(participant);
             

@@ -19,7 +19,7 @@ namespace IEEE_EMB.Pages.Admin
         public void OnGet()
         {
             //Dictionary<string, int> favCodeEditors = new Dictionary<string, int>
-            //{   
+            //{
             //    { "Visual Studio Code", 45 },
             //    { "IntelliJ IDEA", 25 },
             //    { "PyCharm", 15 },

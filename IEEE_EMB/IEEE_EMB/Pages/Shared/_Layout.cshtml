@@ -48,9 +48,9 @@
                         }
                         @if (Context.Session.GetString("SSN") == null)
                         {
-                            <li class="nav-item">
+                           @*  <li class="nav-item">
                                 <a class="nav-link" asp-page="/Join">Join</a>
-                            </li>
+                            </li> *@
                             @if (string.IsNullOrEmpty(HttpContextAccessor.HttpContext?.Session.GetString("email")) == true) {
                                 <li class="nav-item">
                                     <a class="nav-link" asp-page="/Login">Login</a>
@@ -69,6 +69,18 @@
                                 <li><a class="dropdown-item" href="Journal">Journal Club</a></li>
                             </ul>
                         </li>
+
+                        @if (!string.IsNullOrEmpty(HttpContextAccessor.HttpContext?.Session.GetString("AuthenticationString")))
+                        {
+                            <li class="nav-item">
+                                <form method="post" asp-page-handler="Logout" style="display: inline;">
+                                    <button type="submit" class="nav-link btn btn-link">
+                                        Logout
+                                    </button>
+                                </form>
+                            </li>
+                        }
+
                     </ul>
                 </div>
             </div>
