@@ -37,19 +37,16 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-page="/Index">Home</a>
                         </li>
-                      @*   <li class="nav-item">
-                            <a class="nav-link" asp-page="/About">About</a>
-                        </li> *@
+                        
                         <li class="nav-item">
                             <a class="nav-link" asp-page="/Announcments">Announcements</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="/Contact">Contact</a>
-                        </li>
+                     
+                        @if (Context.Session.GetString("SSN") != null){
                         <li class="nav-item">
                             <a class="nav-link" asp-page="/Profile">Profile</a>
                         </li>
-                       
+                        }
                         @if (Context.Session.GetString("SSN") == null)
                         {
                            @*  <li class="nav-item">
@@ -96,6 +93,24 @@
     </main>
 
     <footer class="footer">
+        <div style="margin-bottom: 20px;">
+            <h3>About Us</h3>
+            <p>
+                IEEE Bioinformatics is more than just a professional society; it's a vibrant ecosystem that empowers individuals and organizations to make a real difference in the world.
+
+            </p>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <h3>Follow Us!</h3>
+            <div>
+                <a href="www.facebook.com/IEEEEMBSZC" style="color: #fff; margin: 0 10px; text-decoration: none;">Facebook</a>
+                <a href="https://chat.whatsapp.com/JOQ8c1eO6Qg3mfUcuCzQwe" style="color: #fff; margin: 0 10px; text-decoration: none;">Whatsapp</a>
+                <a href="https://www.instagram.com/ieee_emb_zc" style="color: #fff; margin: 0 10px; text-decoration: none;">Instagram</a>
+               @*  <a href="#" style="color: #fff; margin: 0 10px; text-decoration: none;">LinkedIn</a> *@
+            </div>
+        </div>
+
         <div class="container">
             <p>&copy; @DateTime.Now.Year - IEEE BioInformatics</p>
         </div>
