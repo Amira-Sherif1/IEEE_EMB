@@ -21,17 +21,7 @@
     <div class="filters-section">
         <div class="container">
             <div class="filters-wrapper">
-                <select class="filter-select">
-                    <option>All Categories</option>
-                    <option>Technology</option>
-                    <option>Business</option>
-                    <option>Design</option>
-                </select>
-                <select class="filter-select">
-                    <option>All Levels</option>
-                    <option>Beginner</option>
-                    <option>Intermediate</option>
-                    <option>Advanced</option>
+                
                 </select>
                 <input type="search" 
                        placeholder="Search seminars..." 
@@ -51,7 +41,7 @@
                 <div class="card seminar-card mb-4 shadow-sm">
                     <div class="card-img-top bg-primary text-white text-center py-5 position-relative">
                         <div class="h2">@(string.Join("", activity.Title.Split(' ').Select(w => w[0])))</div>
-                        <span class="badge bg-success position-absolute top-0 end-0 m-2">Upcoming</span>
+                        <span class="badge bg-success position-absolute top-0 end-0 m-2">@activity.status</span>
                     </div>
 
                     <div class="card-body">

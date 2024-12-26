@@ -23,6 +23,8 @@ namespace IEEE_EMB.Pages
 
         public void OnGet()
         {
+            
+
             Email = HttpContext.Session.GetString("Email")!;
             UserTable = DB.GetProfileInfo(Email, HttpContext.Session.GetString("SSN")!).Rows[0];
             Name = UserTable["NAME"].ToString();

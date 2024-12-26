@@ -53,7 +53,7 @@ namespace IEEE_EMB.Models
             }
             catch (Exception ex)
             {
-
+                Console.WriteLine(ex.Message);
             }
             finally
             {
@@ -77,7 +77,7 @@ namespace IEEE_EMB.Models
         public DataTable GetProfileInfo(string email, string ssn)
         {
             DataTable dt = new DataTable();
-            string query = "SELECT NAME, EMAIL, BRIEF, PHOTO, UNIVERSITY, PHONE\r\nFROM (SELECT MEM.SSN SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MEMBER MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BREIF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM ADMIN MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.GRADUATED_UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MENTOR MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, MEM.PHONE PHONE\r\nFROM PARTICIPANTS MEM\r\n) USER_PERSONAL_DATA \r\nWHERE EMAIL = @Email AND SSN = @SSN";
+            string query = "SELECT NAME, EMAIL, BRIEF, PHOTO, UNIVERSITY, PHONE\r\nFROM (SELECT MEM.SSN SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MEMBER MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM ADMIN MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.GRADUATED_UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MENTOR MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, MEM.PHONE PHONE\r\nFROM PARTICIPANTS MEM\r\n) USER_PERSONAL_DATA \r\nWHERE EMAIL = @Email AND SSN = @SSN";
             try
             {
                 con.Open();
@@ -352,7 +352,7 @@ namespace IEEE_EMB.Models
         public DataTable GetSeminar()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Seminar'";
+            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Seminar'";
 
             try
             {
@@ -377,7 +377,7 @@ namespace IEEE_EMB.Models
         public DataTable GetJournalClubs()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'JournalClub'";
+            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'JournalClub'";
             SqlCommand com = new SqlCommand(query, con);
             try
             {
@@ -403,7 +403,7 @@ namespace IEEE_EMB.Models
         public DataTable GetWorkshops()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Workshop'";
+            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Workshop'";
             SqlCommand com = new SqlCommand(query, con);
             try
             {
@@ -500,6 +500,9 @@ namespace IEEE_EMB.Models
                 SqlCommand editTitleCommand = new SqlCommand(editTitleQuery, con);
                 SqlCommand editDescriptionCommand = new SqlCommand(editTitleQuery, con);
                 SqlCommand editCapacityCommand = new SqlCommand(editTitleQuery, con);
+                editTitleCommand.ExecuteNonQuery();
+                editDescriptionCommand.ExecuteNonQuery();
+                editCapacityCommand.ExecuteNonQuery();
             }
             catch (Exception ex) 
             {
@@ -635,6 +638,35 @@ namespace IEEE_EMB.Models
             }
 
 
+        }
+
+
+        // Not Complete yet
+        public void AddAdmin(Admin admin)
+        {
+            string query = "";
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+
+        }
+
+        public void DeleteAdmin(Admin admin)
+        {
+            string resetRelatedAssignments = "";
+            string deleteAdminQuery = "";
+            
         }
     }
 }
