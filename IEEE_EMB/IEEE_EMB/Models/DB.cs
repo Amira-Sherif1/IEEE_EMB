@@ -7,7 +7,7 @@ namespace IEEE_EMB.Models
 {
     public class DB
     {
-        private string connectionstring = "Data Source= D4NGERX; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
+        private string connectionstring = "Data Source= DESKTOP-E4Q9O8K; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
         public SqlConnection con = new();
         public DB()
         {
@@ -67,17 +67,10 @@ namespace IEEE_EMB.Models
         }
 
 
-
-
-
-
-
-        
-        
         public DataTable GetProfileInfo(string email, string ssn)
         {
             DataTable dt = new DataTable();
-            string query = "SELECT NAME, EMAIL, BRIEF, PHOTO, UNIVERSITY, PHONE\r\nFROM (SELECT MEM.SSN SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MEMBER MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BREIF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM ADMIN MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.GRADUATED_UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MENTOR MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, MEM.PHONE PHONE\r\nFROM PARTICIPANTS MEM\r\n) USER_PERSONAL_DATA \r\nWHERE EMAIL = @Email AND SSN = @SSN";
+            string query = "SELECT NAME, EMAIL, BRIEF, PHOTO, UNIVERSITY, PHONE\r\nFROM (SELECT MEM.SSN SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MEMBER MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM ADMIN MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.GRADUATED_UNIVERSITY UNIVERSITY, Mem.PHONE PHONE\r\nFROM MENTOR MEM\r\nUNION ALL\r\nSELECT MEM.SSN, MEM.NAME NAME, MEM.EMAIL EMAIL, MEM.BRIEF BRIEF, MEM.PERSONAL_PHOTO PHOTO , MEM.UNIVERSITY UNIVERSITY, MEM.PHONE PHONE\r\nFROM PARTICIPANTS MEM\r\n) USER_PERSONAL_DATA \r\nWHERE EMAIL = @Email AND SSN = @SSN";
             try
             {
                 con.Open();
@@ -85,7 +78,6 @@ namespace IEEE_EMB.Models
                 cmd.Parameters.AddWithValue("@Email", email);
                 cmd.Parameters.AddWithValue("@SSN", ssn);
 
-                cmd.Parameters.AddWithValue ("@SSN", ssn);
                 dt.Load(cmd.ExecuteReader());
             }
             catch (Exception ex)
@@ -514,7 +506,7 @@ namespace IEEE_EMB.Models
 
         }
     
-    public void AddSession(Session session)
+        public void AddSession(Session session)
 
         {
             string getMaxIdQuery = "SELECT MAX(ID) FROM SESSION";
@@ -542,7 +534,6 @@ namespace IEEE_EMB.Models
 
            
 
-            public void DeleteActivity(int activityID)
 
             catch (Exception ex)
             {
@@ -576,44 +567,13 @@ namespace IEEE_EMB.Models
                 con.Close();
 
             }
-
-            public DataTable GetActivitiesForMentor(string MentorId)
-            {
-                DataTable dt = new DataTable();
-            string query = $"SELECT A.ID, A.TITLE, A.START_DATE, A.END_DATE, A.Capacity, A.TYPE, A.STATUS, M.NAME\r\nFROM ACTIVITY A JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\nJOIN MENTOR M ON AG.MENTOR_SSN = M.SSN WHERE MEMBER_ID ='{MentorId}'";
-            try
-            {
-                con.Open();
-                SqlCommand cmd= new SqlCommand(query, con);
-                dt.Load(cmd.ExecuteReader());
-            }
-            catch (Exception ex) 
-            {
-                Console.WriteLine(ex.Message);
-            }
-            finally
-            {
-                con.Close() ;
-            }
-                return dt;
             }
 
-        }
+           
 
-        //public void EditActivity(Activity activity)
-        //{
-        //    string EditTitleQuery = "";
-        //    string DescriptionQuery = "";
-        //    try
-        //    {
-        //        con.Open();
-        //        SqlCommand com = new SqlCommand(EditTitleQuery, con);
+        
 
-        //    }
-
-        //}
-
-
+       
         public void DeleteActivity(int activityID)
         {
             
@@ -663,6 +623,28 @@ namespace IEEE_EMB.Models
             }
 
 
+        }
+
+
+        public DataTable GetActivitiesForMentor(string MentorId)
+        {
+            DataTable dt = new DataTable();
+            string query = $"SELECT A.ID, A.TITLE, A.START_DATE, A.END_DATE, A.Capacity, A.TYPE, A.STATUS, M.NAME\r\nFROM ACTIVITY A JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\nJOIN MENTOR M ON AG.MENTOR_SSN = M.SSN WHERE MEMBER_ID ='{MentorId}'";
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand(query, con);
+                dt.Load(cmd.ExecuteReader());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return dt;
         }
     }
 }
