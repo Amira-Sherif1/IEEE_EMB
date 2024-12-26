@@ -32,8 +32,15 @@ namespace IEEE_EMB.Pages
             Brief = UserTable["BRIEF"].ToString();
 
             // In a real application, this would be fetched from a database
-            
-        }
 
+        }
+        public IActionResult OnPostLogout()
+        {
+            HttpContext.Session.Remove("AuthenticationString");
+            HttpContext.Session.Remove("SSN");
+            HttpContext.Session.Remove("Email");
+
+            return RedirectToPage("/Login");
+        }
     }
 }

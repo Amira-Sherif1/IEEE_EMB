@@ -82,9 +82,6 @@ namespace IEEE_EMB.Models
                 cmd.Parameters.AddWithValue("@Email", email);
                 cmd.Parameters.AddWithValue("@SSN", ssn);
 
-
-                cmd.Parameters.AddWithValue("@Email", email);
-                cmd.Parameters.AddWithValue ("@SSN", ssn);
                 dt.Load(cmd.ExecuteReader());
             }
             catch (Exception ex)
@@ -252,7 +249,7 @@ namespace IEEE_EMB.Models
         public DataTable GetActvities()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT A.ID, A.TITLE, A.START_DATE, A.END_DATE, A.Capacity, A.TYPE, A.STATUS, M.NAME\r\nFROM ACTIVITY A JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\nJOIN MENTOR M ON AG.MENTOR_SSN = M.SSN WHERE A.ID > 3";
+            string query = "SELECT A.ID, A.TITLE, A.START_DATE, A.END_DATE, A.Capacity, A.TYPE, A.STATUS, M.NAME\r\nFROM ACTIVITY A JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\nJOIN MENTOR M ON AG.MENTOR_SSN = M.SSN";
 
             try
             {
@@ -565,19 +562,7 @@ namespace IEEE_EMB.Models
 
             }
 
-            //public void EditActivity(Activity activity)
-            //{
-            //    string EditTitleQuery = "";
-            //    string DescriptionQuery = "";
-            //    try
-            //    {
-            //        con.Open();
-            //        SqlCommand com = new SqlCommand(EditTitleQuery, con);
-
-            //    }
-
-            //}
-
+           
 
             public void DeleteActivity(int activityID)
             {
@@ -628,6 +613,27 @@ namespace IEEE_EMB.Models
                 }
 
 
+            }
+
+            public DataTable GetActivitiesForMentor(string MentorId)
+            {
+                DataTable dt = new DataTable();
+            string query = $"SELECT A.ID, A.TITLE, A.START_DATE, A.END_DATE, A.Capacity, A.TYPE, A.STATUS, M.NAME\r\nFROM ACTIVITY A JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\nJOIN MENTOR M ON AG.MENTOR_SSN = M.SSN WHERE MEMBER_ID ='{MentorId}'";
+            try
+            {
+                con.Open();
+                SqlCommand cmd= new SqlCommand(query, con);
+                dt.Load(cmd.ExecuteReader());
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close() ;
+            }
+                return dt;
             }
 
         }

@@ -1,5 +1,6 @@
 using IEEE_EMB.Models;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System;
 using System.Collections.Generic;
@@ -54,6 +55,15 @@ public class AnnouncementsModel : PageModel
         //    Description = "A comprehensive workshop series on applying ML to genomic data...",
         //    ImageUrl = "/images/announcements/workshop.jpg"
         //}
+    }
+
+    public IActionResult OnPostLogout()
+    {
+        HttpContext.Session.Remove("AuthenticationString");
+        HttpContext.Session.Remove("SSN");
+        HttpContext.Session.Remove("Email");
+
+        return RedirectToPage("/Login");
     }
 }
 
