@@ -53,7 +53,7 @@ namespace IEEE_EMB.Models
             }
             catch (Exception ex)
             {
-
+                Console.WriteLine(ex.Message);
             }
             finally
             {
@@ -346,7 +346,7 @@ namespace IEEE_EMB.Models
         public DataTable GetSeminar()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Seminar'";
+            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Seminar'";
 
             try
             {
@@ -371,7 +371,7 @@ namespace IEEE_EMB.Models
         public DataTable GetJournalClubs()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'JournalClub'";
+            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'JournalClub'";
             SqlCommand com = new SqlCommand(query, con);
             try
             {
@@ -397,7 +397,7 @@ namespace IEEE_EMB.Models
         public DataTable GetWorkshops()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Workshop'";
+            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Workshop'";
             SqlCommand com = new SqlCommand(query, con);
             try
             {
@@ -494,6 +494,9 @@ namespace IEEE_EMB.Models
                 SqlCommand editTitleCommand = new SqlCommand(editTitleQuery, con);
                 SqlCommand editDescriptionCommand = new SqlCommand(editTitleQuery, con);
                 SqlCommand editCapacityCommand = new SqlCommand(editTitleQuery, con);
+                editTitleCommand.ExecuteNonQuery();
+                editDescriptionCommand.ExecuteNonQuery();
+                editCapacityCommand.ExecuteNonQuery();
             }
             catch (Exception ex) 
             {
@@ -630,6 +633,10 @@ namespace IEEE_EMB.Models
         {
             DataTable dt = new DataTable();
             string query = $"SELECT A.ID, A.TITLE, A.START_DATE, A.END_DATE, A.Capacity, A.TYPE, A.STATUS, M.NAME\r\nFROM ACTIVITY A JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\nJOIN MENTOR M ON AG.MENTOR_SSN = M.SSN WHERE MEMBER_ID ='{MentorId}'";
+        // Not Complete yet
+        public void AddAdmin(Admin admin)
+        {
+            string query = "";
             try
             {
                 con.Open();
@@ -637,6 +644,9 @@ namespace IEEE_EMB.Models
                 dt.Load(cmd.ExecuteReader());
             }
             catch (Exception ex)
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex) 
             {
                 Console.WriteLine(ex.Message);
             }
@@ -645,6 +655,14 @@ namespace IEEE_EMB.Models
                 con.Close();
             }
             return dt;
+
+        }
+
+        public void DeleteAdmin(Admin admin)
+        {
+            string resetRelatedAssignments = "";
+            string deleteAdminQuery = "";
+            
         }
     }
 }
