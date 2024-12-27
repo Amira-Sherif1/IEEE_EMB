@@ -26,96 +26,96 @@ namespace IEEE_EMB.Pages.Admin
             //    { "Eclipse", 10 },
             //    { "Atom", 5 }
             //};
-            Dictionary<string, int> userRoles = new Dictionary<string, int>
-            {
-                { "Admin", 10 },
-                { "Editor", 20 },
-                { "Viewer", 70 }
-            };
+            //Dictionary<string, int> userRoles = new Dictionary<string, int>
+            //{
+            //    { "Admin", 10 },
+            //    { "Editor", 20 },
+            //    { "Viewer", 70 }
+            //};
 
 
 
             //setUpBarChart(favCodeEditors);
-            setUpDonutChart(userRoles);
+            //setUpDonutChart(userRoles);
         }
-        private void setUpBarChart(Dictionary<string, int> dataToDisplay)
-        {
-            try
-            {
-                // 1. set up chart options
-                BarChart.type = "bar";
-                BarChart.options.responsive = true;
+        //private void setUpBarChart(Dictionary<string, int> dataToDisplay)
+        //{
+        //    try
+        //    {
+        //        // 1. set up chart options
+        //        BarChart.type = "bar";
+        //        BarChart.options.responsive = true;
 
-                // 2. separate the received Dictionary data into labels and data arrays
-                var labelsArray = new List<string>();
-                var dataArray = new List<double>();
+        //        // 2. separate the received Dictionary data into labels and data arrays
+        //        var labelsArray = new List<string>();
+        //        var dataArray = new List<double>();
 
-                foreach (var data in dataToDisplay)
-                {
-                    labelsArray.Add(data.Key);
-                    dataArray.Add(data.Value);
-                }
+        //        foreach (var data in dataToDisplay)
+        //        {
+        //            labelsArray.Add(data.Key);
+        //            dataArray.Add(data.Value);
+        //        }
 
-                BarChart.data.labels = labelsArray;
+        //        BarChart.data.labels = labelsArray;
 
-                // 3. set up a dataset
-                var firsDataset = new Dataset();
-                firsDataset.label = "Number of votes";
-                firsDataset.data = dataArray.ToArray();
+        //        // 3. set up a dataset
+        //        var firsDataset = new Dataset();
+        //        firsDataset.label = "Number of votes";
+        //        firsDataset.data = dataArray.ToArray();
 
-                BarChart.data.datasets.Add(firsDataset);
+        //        BarChart.data.datasets.Add(firsDataset);
 
-                // 4. finally, convert the object to json to be able to inject in HTML code
-                ChartJson = JsonConvert.SerializeObject(BarChart, new JsonSerializerSettings
-                {
-                    NullValueHandling = NullValueHandling.Ignore,
-                });
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Error initialising the bar chart inside Index.cshtml.cs");
-                throw e;
-            }
-        }
-        private void setUpDonutChart(Dictionary<string, int> dataToDisplay)
-        {
-            try
-            {
-                // 1. set up chart options
-                BarChart.type = "pie";
-                BarChart.options.responsive = true;
+        //        // 4. finally, convert the object to json to be able to inject in HTML code
+        //        ChartJson = JsonConvert.SerializeObject(BarChart, new JsonSerializerSettings
+        //        {
+        //            NullValueHandling = NullValueHandling.Ignore,
+        //        });
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        Console.WriteLine("Error initialising the bar chart inside Index.cshtml.cs");
+        //        throw e;
+        //    }
+        //}
+        //private void setUpDonutChart(Dictionary<string, int> dataToDisplay)
+        //{
+        //    try
+        //    {
+        //        // 1. set up chart options
+        //        BarChart.type = "pie";
+        //        BarChart.options.responsive = true;
 
-                // 2. separate the received Dictionary data into labels and data arrays
-                var labelsArray = new List<string>();
-                var dataArray = new List<double>();
+        //        // 2. separate the received Dictionary data into labels and data arrays
+        //        var labelsArray = new List<string>();
+        //        var dataArray = new List<double>();
 
-                foreach (var data in dataToDisplay)
-                {
-                    labelsArray.Add(data.Key);
-                    dataArray.Add(data.Value);
-                }
+        //        foreach (var data in dataToDisplay)
+        //        {
+        //            labelsArray.Add(data.Key);
+        //            dataArray.Add(data.Value);
+        //        }
 
-                BarChart.data.labels = labelsArray;
+        //        BarChart.data.labels = labelsArray;
 
-                // 3. set up a dataset
-                var firsDataset = new Dataset();
-                firsDataset.label = "Number of votes";
-                firsDataset.data = dataArray.ToArray();
+        //        // 3. set up a dataset
+        //        var firsDataset = new Dataset();
+        //        firsDataset.label = "Number of votes";
+        //        firsDataset.data = dataArray.ToArray();
 
-                BarChart.data.datasets.Add(firsDataset);
+        //        BarChart.data.datasets.Add(firsDataset);
 
-                // 4. finally, convert the object to json to be able to inject in HTML code
-                ChartJson = JsonConvert.SerializeObject(BarChart, new JsonSerializerSettings
-                {
-                    NullValueHandling = NullValueHandling.Ignore,
-                });
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Error initialising the bar chart inside Index.cshtml.cs");
-                throw e;
-            }
-        }
+        //        // 4. finally, convert the object to json to be able to inject in HTML code
+        //        ChartJson = JsonConvert.SerializeObject(BarChart, new JsonSerializerSettings
+        //        {
+        //            NullValueHandling = NullValueHandling.Ignore,
+        //        });
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        Console.WriteLine("Error initialising the bar chart inside Index.cshtml.cs");
+        //        throw e;
+        //    }
+        //}
 
     }
 }

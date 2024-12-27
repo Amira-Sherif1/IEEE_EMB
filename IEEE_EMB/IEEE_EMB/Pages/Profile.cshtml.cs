@@ -23,6 +23,8 @@ namespace IEEE_EMB.Pages
 
         public void OnGet()
         {
+            
+
             Email = HttpContext.Session.GetString("Email")!;
             UserTable = DB.GetProfileInfo(Email, HttpContext.Session.GetString("SSN")!).Rows[0];
             Name = UserTable["NAME"].ToString();
@@ -32,8 +34,15 @@ namespace IEEE_EMB.Pages
             Brief = UserTable["BRIEF"].ToString();
 
             // In a real application, this would be fetched from a database
-            
-        }
 
+        }
+        public IActionResult OnPostLogout()
+        {
+            HttpContext.Session.Remove("AuthenticationString");
+            HttpContext.Session.Remove("SSN");
+            HttpContext.Session.Remove("Email");
+
+            return RedirectToPage("/Login");
+        }
     }
 }

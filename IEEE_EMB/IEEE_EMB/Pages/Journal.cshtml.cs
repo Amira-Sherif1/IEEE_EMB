@@ -29,6 +29,7 @@ namespace IEEE_EMB.Pages
                     Capacity = (int)row["Capacity"],
                     startdate = DateOnly.FromDateTime(Convert.ToDateTime(row["START_DATE"])),
                     Description = Convert.ToString(row["DESCRIPTION"]) == "" ? "No Description Yet!" : row["DESCRIPTION"].ToString(),
+                    status = row["STATUS"].ToString(),
                     mentorName = row["NAME"].ToString()
                 });
             }
@@ -69,5 +70,13 @@ namespace IEEE_EMB.Pages
             return (capacity - registered);
         }
 
+        public IActionResult OnPostLogout()
+        {
+            HttpContext.Session.Remove("AuthenticationString");
+            HttpContext.Session.Remove("SSN");
+            HttpContext.Session.Remove("Email");
+
+            return RedirectToPage("/Login");
+        }
     }
 }
