@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\Documents\" />
+    <Folder Include="wwwroot\Task\" />
     <Folder Include="wwwroot\videos\" />
     <Folder Include="wwwroot\SeesionDocs\" />
   </ItemGroup>

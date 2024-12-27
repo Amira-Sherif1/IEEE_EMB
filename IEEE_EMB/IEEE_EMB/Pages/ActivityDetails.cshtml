@@ -1,0 +1,235 @@
+﻿@page
+@model IEEE_EMB.Pages.ActivityDetailsModel
+@{
+    ViewData["Title"] = "Activity Details";
+}
+
+<div class="container">
+    <h1>@Model.activity.Rows[0]["ActivityTitle"]</h1>
+    <div class="row">
+        <div class="col-md-6 left-panel">
+            <div class="card description-card">
+                <h3>Description</h3>
+                <p>
+                    A comprehensive workshop covering fundamental concepts in computational biology, including sequence analysis, structural bioinformatics, and machine learning applications in biological data processing.
+
+                    @Model.activity.Rows[0]["DESCRIPTION"]
+                </p>
+            </div>
+            <div class="card mentor-card">
+                <h3>Mentor</h3>
+                <img src="mentor.jpg" alt="Mentor Photo">
+                <h4>@Model.activity.Rows[0]["NAME"]</h4>
+                <p>@Model.activity.Rows[0]["EDUCATION"]</p>
+            </div>
+        </div>
+        <div class="col-md-6 card sessions-card">
+            <h3>Sessions</h3>
+            <table class="table">
+                <tr>
+                    <th>Session Title</th>
+                    <th>Date</th>
+                  @*   <th>Status</th> *@
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>@Model.activity.Rows[0]["SessionTitle"]</td>
+                    <td>@Model.activity.Rows[0]["DATE"]</td>
+                   @*  <td><span class="badge badge-success">Completed</span></td> *@
+                   @*  <td><span class="badge badge-warning">Upcoming</span></td> *@
+                    <td><a asp-page="/SessionDetails" asp-route-SessionId="@Model.activity.Rows[0]["SessionId"]">View Details</a></td>
+                </tr>
+               
+            </table>
+        </div>
+    </div>
+</div>
+<style>
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between the "Description" and "Mentor" cards */
+}
+
+.card {
+    background: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.description-card,
+.mentor-card,
+.sessions-card {
+     margin-top: 20px;
+    min-height: 200px;
+}
+
+.sessions-card {
+    flex: 1; /* Ensures it takes the full height of the right column */
+}
+
+.badge-success {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+.badge-warning {
+    background-color: #ffc107;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+</style>
+
+
+
+@* @page
+@model IEEE_EMB.Pages.ActivityDetailsModel
+@{
+    ViewData["Title"] = "Activity Details";
+}
+
+<div class="container">
+    <h1>Introduction to Computational Biology</h1>
+    <div class="row">
+        <div class="col-md-6 card description-card">
+            <h3>Description</h3>
+            <p>
+                A comprehensive workshop covering fundamental concepts in computational biology, including sequence analysis, structural bioinformatics, and machine learning applications in biological data processing.
+            </p>
+        </div>
+        <div class="col-md-6 card mentor-card">
+            <h3>Mentor</h3>
+            <img src="mentor.jpg" alt="Mentor Photo">
+            <h4>Dr. Sarah Johnson</h4>
+            <p>Senior Researcher, Computational Biology</p>
+        </div>
+    </div>
+    <div class="row sessions-row">
+        <div class="col-md-12 card sessions-card">
+            <h3>Sessions</h3>
+            <table class="table">
+                <tr>
+                    <th>Session Title</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>Sequence Analysis Fundamentals</td>
+                    <td>Jan 15, 2024</td>
+                    <td><span class="badge badge-success">Completed</span></td>
+                    <td><a href="#">View Details</a></td>
+                </tr>
+                <tr>
+                    <td>Structural Bioinformatics</td>
+                    <td>Jan 22, 2024</td>
+                    <td><span class="badge badge-warning">Upcoming</span></td>
+                    <td><a href="#">View Details</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+<style>
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    .card {
+        background: #f9f9f9;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+        .card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+    .description-card,
+    .mentor-card {
+         margin-top: 20px;
+        height: 100%;
+        min-height: 200px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .sessions-card {
+        margin-top: 20px;
+    }
+
+    .badge-success {
+        background-color: #28a745;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 12px;
+    }
+
+    .badge-warning {
+        background-color: #ffc107;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 12px;
+    }
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+ *@
