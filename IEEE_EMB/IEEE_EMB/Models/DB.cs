@@ -310,27 +310,7 @@ namespace IEEE_EMB.Models
         
            
 
-            public DataTable GetMentorsNames()
-
-           
-            
-                try
-                {
-                    con.Open();
-
-                    dt.Load(cmd.ExecuteReader());
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
-                finally
-                {
-                    con.Close();
-                }
-
-            return dt;   
-       }
+        
     
 
         public DataTable GetMentorsNames()
@@ -461,7 +441,7 @@ namespace IEEE_EMB.Models
                     newId = (int)getMaxIdCommand.ExecuteScalar() + 1;
                     string query = "INSERT INTO ACTIVITY (ID, TITLE, START_DATE, END_DATE, CAPACITY, TYPE, STATUS, DESCRIPTION, MEMBER_ID)" +
                                    "VALUES (@ID, @TITLE, @START_DATE, @END_DATE, @CAPACITY, @TYPE, @STATUS, @DESCRIPTION, @MEMBER_ID)";
-
+                 
                     SqlCommand com = new SqlCommand(query, con);
                     com.Parameters.AddWithValue("@ID", newId);
                     com.Parameters.AddWithValue("@TITLE", activity.Title);
@@ -575,8 +555,8 @@ namespace IEEE_EMB.Models
 
             public void EditSeesion(Session session)
             {
-                string querey = $"update SESSION set TITLE='{session.Title}'where ID={session.Id}";
-                string querey2 = $"update SESSION set Date='{session.Date}'where ID={session.Id}";
+                string querey = $"update SESSION set TITLE= '{session.Title}' where ID={session.Id}";
+                string querey2 = $"update SESSION set Date= '{session.Date}' where ID={session.Id}";
                 try
                 {
                     con.Open();
