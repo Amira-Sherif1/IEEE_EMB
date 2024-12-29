@@ -1,121 +1,76 @@
 using ChartExample.Models.Chart;
-using Microsoft.AspNetCore.Mvc;
+using IEEE_EMB.Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Newtonsoft.Json;
+using System.Data;
 
 namespace IEEE_EMB.Pages.Admin
 {
     public class DashBoardModel : PageModel
     {
-        public ChartJs BarChart { get; set; }
-        public string ChartJson { get; set; }
-        public ChartJs PieChart { get; set; }
-        public string PieChartJson { get; set; }
-        public DashBoardModel( )
+        public DB db { get; set; }
+        public int NA { get; set; }
+        public int NMEN { get; set; }
+        public int NMEM { get; set; }
+        public int NP { get; set; }
+        public string[] ActivitiesLabel { get; set; } = Array.Empty<string>();
+        public string[] ActivitiesDistribution { get; set; } = Array.Empty<string>();
+        public DataTable part_per_activity { get; set; }
+        public string[] months { get; set; } = Array.Empty<string>();
+
+        public int[] MonthlyWorkshops { get; set; } = new int[12];
+        public int[] MonthlySeminars { get; set; } = new int[12];
+        public int[] MonthlyJournalClubs { get; set; } = new int[12];
+        public DataTable TopParticipants { get; set; }
+        public DataTable TopActivities { get; set; }
+        public DashBoardModel(DB db)
         {
-            BarChart = new ChartJs();
-            PieChart = new ChartJs();
+            this.db = db;
         }
+
         public void OnGet()
         {
-            //Dictionary<string, int> favCodeEditors = new Dictionary<string, int>
-            //{
-            //    { "Visual Studio Code", 45 },
-            //    { "IntelliJ IDEA", 25 },
-            //    { "PyCharm", 15 },
-            //    { "Eclipse", 10 },
-            //    { "Atom", 5 }
-            //};
-            //Dictionary<string, int> userRoles = new Dictionary<string, int>
-            //{
-            //    { "Admin", 10 },
-            //    { "Editor", 20 },
-            //    { "Viewer", 70 }
-            //};
+            // Retrieve counts
+            NA = db.NumAdmins();
+            NMEN = db.NumMentors();
+            NMEM = db.NumMembers();
+            NP = db.NumParticipant();
+
+            // Retrieve participants per activity
+            part_per_activity = db.ParticipantsPerActivity() ?? new DataTable();
+
+            // participants per activity /////
 
 
+            var labels = new List<string>();
+            var distributions = new List<string>();
 
-            //setUpBarChart(favCodeEditors);
-            //setUpDonutChart(userRoles);
+            foreach (DataRow row in part_per_activity.Rows)
+            {
+                labels.Add(row[0].ToString());
+                distributions.Add(row[1].ToString());
+
+                ActivitiesLabel = labels.ToArray();
+                ActivitiesDistribution = distributions.ToArray();
+            }
+            ///////////////////// End ////////////////////////////
+
+            //////////// Activities along the year ///////////////
+             months = new string[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
+
+            for (int month = 1; month <= 12; month++)
+            {
+                MonthlyJournalClubs[month - 1] = db.NumOfActivityPerMonth(month, "JournalClub");
+                MonthlySeminars[month - 1] = db.NumOfActivityPerMonth(month, "Seminar");
+                MonthlyWorkshops[month - 1] = db.NumOfActivityPerMonth(month, "Workshop");
+            }
+            //////////////////////////////////////////////////////
+            
+            TopParticipants =db.TopFiveParticipants() ?? new DataTable();
+            TopActivities=db.TopFiveActivities() ?? new DataTable();
+
+
+            ///// 
+            
         }
-        //private void setUpBarChart(Dictionary<string, int> dataToDisplay)
-        //{
-        //    try
-        //    {
-        //        // 1. set up chart options
-        //        BarChart.type = "bar";
-        //        BarChart.options.responsive = true;
-
-        //        // 2. separate the received Dictionary data into labels and data arrays
-        //        var labelsArray = new List<string>();
-        //        var dataArray = new List<double>();
-
-        //        foreach (var data in dataToDisplay)
-        //        {
-        //            labelsArray.Add(data.Key);
-        //            dataArray.Add(data.Value);
-        //        }
-
-        //        BarChart.data.labels = labelsArray;
-
-        //        // 3. set up a dataset
-        //        var firsDataset = new Dataset();
-        //        firsDataset.label = "Number of votes";
-        //        firsDataset.data = dataArray.ToArray();
-
-        //        BarChart.data.datasets.Add(firsDataset);
-
-        //        // 4. finally, convert the object to json to be able to inject in HTML code
-        //        ChartJson = JsonConvert.SerializeObject(BarChart, new JsonSerializerSettings
-        //        {
-        //            NullValueHandling = NullValueHandling.Ignore,
-        //        });
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        Console.WriteLine("Error initialising the bar chart inside Index.cshtml.cs");
-        //        throw e;
-        //    }
-        //}
-        //private void setUpDonutChart(Dictionary<string, int> dataToDisplay)
-        //{
-        //    try
-        //    {
-        //        // 1. set up chart options
-        //        BarChart.type = "pie";
-        //        BarChart.options.responsive = true;
-
-        //        // 2. separate the received Dictionary data into labels and data arrays
-        //        var labelsArray = new List<string>();
-        //        var dataArray = new List<double>();
-
-        //        foreach (var data in dataToDisplay)
-        //        {
-        //            labelsArray.Add(data.Key);
-        //            dataArray.Add(data.Value);
-        //        }
-
-        //        BarChart.data.labels = labelsArray;
-
-        //        // 3. set up a dataset
-        //        var firsDataset = new Dataset();
-        //        firsDataset.label = "Number of votes";
-        //        firsDataset.data = dataArray.ToArray();
-
-        //        BarChart.data.datasets.Add(firsDataset);
-
-        //        // 4. finally, convert the object to json to be able to inject in HTML code
-        //        ChartJson = JsonConvert.SerializeObject(BarChart, new JsonSerializerSettings
-        //        {
-        //            NullValueHandling = NullValueHandling.Ignore,
-        //        });
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        Console.WriteLine("Error initialising the bar chart inside Index.cshtml.cs");
-        //        throw e;
-        //    }
-        //}
-
     }
 }

@@ -1,6 +1,7 @@
 
 using Microsoft.Data.SqlClient;
 using System.Data;
+using System.Diagnostics;
 using System.Runtime.Intrinsics.X86;
 
 namespace IEEE_EMB.Models
@@ -638,19 +639,17 @@ namespace IEEE_EMB.Models
         {
             DataTable dt = new DataTable();
             string query = $"SELECT A.ID, A.TITLE, A.START_DATE, A.END_DATE, A.Capacity, A.TYPE, A.STATUS, M.NAME\r\nFROM ACTIVITY A JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\nJOIN MENTOR M ON AG.MENTOR_SSN = M.SSN WHERE MEMBER_ID ='{MentorId}'";
-        // Not Complete yet
-        public void AddAdmin(Admin admin)
-        {
-            string query = "";
+            // Not Complete yet
+        
+       
+           
             try
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand(query, con);
                 dt.Load(cmd.ExecuteReader());
             }
-            catch (Exception ex)
-                cmd.ExecuteNonQuery();
-            }
+            
             catch (Exception ex) 
             {
                 Console.WriteLine(ex.Message);
@@ -662,6 +661,12 @@ namespace IEEE_EMB.Models
             return dt;
 
         }
+        //public void AddAdmin(Admin admin)
+        //{
+        //    string query = "";
+        //    catch (Exception ex)
+        //        cmd.ExecuteNonQuery();
+        //}
 
         public void DeleteAdmin(Admin admin)
         {
@@ -669,5 +674,222 @@ namespace IEEE_EMB.Models
             string deleteAdminQuery = "";
             
         }
+
+
+
+        /////////////////////////////////////
+        public DataTable GetSpecificActivity(int ActivityId)
+        {
+            DataTable dt = new DataTable();
+            string query = $"select top 1 a.TITLE as 'ActivityTitle', a.DESCRIPTION , m.NAME , m.EDUCATION , s.TITLE as 'SessionTitle' , s.DATE , s.ID as 'SessionId'\r\nfrom ACTIVITY a join ASSIGN ass on a.ID = ass.ACTIVITY_ID join MENTOR m on ass.MENTOR_SSN = m.SSN join SESSION s on s.ACTIVITY_ID= a.ID\r\nwhere a.ID={ActivityId}";
+            SqlCommand command = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
+                dt.Load(command.ExecuteReader());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return dt;
+        }
+
+
+        ///////////////////////
+        public DataTable getspecificsession(int SessionId) 
+        {
+            DataTable dt = new DataTable();
+            string query = $"select * from SESSION where ID={SessionId};";
+            SqlCommand command = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
+                dt.Load(command.ExecuteReader());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return dt;
+        }
+
+        public int NumAdmins()
+        {
+            int count = 0;
+            string query = "select count(*) from ADMIN ;";
+            SqlCommand command = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
+                count = (int)command.ExecuteScalar();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close() ;
+            }
+            return count;
+        }
+        public int NumMentors()
+        {
+            int count = 0;
+            string query = "select count(*) from MENTOR  ;";
+            SqlCommand command = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
+                count = (int)command.ExecuteScalar();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return count;
+        }
+
+        public int NumMembers()
+        {
+            int count = 0;
+            string query = "select count(*) from MEMBER;";
+            SqlCommand command = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
+                count = (int)command.ExecuteScalar();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return count;
+        }
+        public int NumParticipant()
+        {
+            int count = 0;
+            string query = "select count(*) from PARTICIPANTS ;";
+            SqlCommand command = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
+                count = (int)command.ExecuteScalar();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return count;
+        }
+
+        public DataTable ParticipantsPerActivity()
+        {
+            DataTable participants = new DataTable();
+            string query = "select a.TYPE,count(AP.PARTICIPANT_SSN) as 'count'\r\nfrom ACTIVITY_PARTICIPANTS AP left join PARTICIPANTS p on AP.PARTICIPANT_SSN= p.SSN right join ACTIVITY a on a.ID = AP.ACTIVITY_ID\r\ngroup by a.TYPE\r\n ;";
+            SqlCommand cmd = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
+                participants.Load(cmd.ExecuteReader());
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return participants;
+        }
+
+        public int NumOfActivityPerMonth(int month , string ActivityType)
+        {
+            int count = 0;
+            string query = $"select count(*) \r\nfrom ACTIVITY \r\nwhere  MONTH(START_DATE) = {month} and TYPE ='{ActivityType}'\r\n;";
+            SqlCommand command = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
+                count = (int)command.ExecuteScalar();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return count;
+        }
+        public DataTable TopFiveParticipants()
+        {
+            DataTable participants = new DataTable();
+            string query = "select top 5 P.NAME,count(*)\r\nfrom ACTIVITY_PARTICIPANTS AP join PARTICIPANTS P on Ap.PARTICIPANT_SSN= P.SSN \r\ngroup by P.NAME\r\norder by count(*) desc ;";
+            SqlCommand cmd = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
+                participants.Load(cmd.ExecuteReader());
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return participants;
+        }
+
+
+        public DataTable TopFiveActivities()
+        {
+            DataTable Activities = new DataTable();
+            string query = " select top 5 a.TITLE , count(ap.PARTICIPANT_SSN)\r\nfrom ACTIVITY_PARTICIPANTS ap  join ACTIVITY a on ap.ACTIVITY_ID = a.ID\r\ngroup by a.ID,  a.TITLE \r\norder by  count(ap.PARTICIPANT_SSN) desc ;";
+            SqlCommand cmd = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
+                Activities.Load(cmd.ExecuteReader());
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return Activities;
+        }
+
     }
 }
