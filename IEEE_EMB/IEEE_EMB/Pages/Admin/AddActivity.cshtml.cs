@@ -20,20 +20,22 @@ namespace IEEE_EMB.Pages.Admin
         public DataTable mentorsTable { get; set; }
         public void OnGet()
         {
-            
-            mentorsTable = db.GetMentorsNames();
-            
-            mentors = new List<Mentor>();
-            activity = new Activity();
-
-            foreach (DataRow row in mentorsTable.Rows) // I made this foreach to allow the admin to choose which mentor he will assign for a certain activity
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
             {
+                mentorsTable = db.GetMentorsNames();
 
-                mentors.Add(new Mentor 
+                mentors = new List<Mentor>();
+                activity = new Activity();
+
+                foreach (DataRow row in mentorsTable.Rows) // I made this foreach to allow the admin to choose which mentor he will assign for a certain activity
                 {
-                    Name = row["NAME"].ToString() 
-                });
 
+                    mentors.Add(new Mentor
+                    {
+                        Name = row["NAME"].ToString()
+                    });
+
+                }
             }
         }
         public IActionResult OnPost()
@@ -50,6 +52,14 @@ namespace IEEE_EMB.Pages.Admin
             if(ActivityID != -1) { assign.ActivityId = ActivityID; }
             db.AddAssignment(assign);
             return RedirectToPage("/Admin/Activities");
+        }
+        public IActionResult OnPostLogout()
+        {
+            HttpContext.Session.Remove("AuthenticationString");
+            HttpContext.Session.Remove("SSN");
+            HttpContext.Session.Remove("Email");
+
+            return RedirectToPage("/Login");
         }
     }
 }

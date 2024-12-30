@@ -2,25 +2,26 @@ using IEEE_EMB.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 
 namespace IEEE_EMB.Pages.Admin
 {
-    
+
     public class ActivitiesModel : PageModel
     {
         public DB db { get; set; }
         public ActivitiesModel(DB dB) { db = dB; }
         public List<Activity> activities { get; set; }
         public DataTable activitiesTable { get; set; }
-        public void OnGet()
+        public IActionResult OnGet()
         {
-            if(HttpContext.Session.GetString("AuthenticationString") == "Admin")
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
             {
 
-            activitiesTable = db.GetActvities();
-            activities = new List<Activity>();
-            foreach (DataRow row in activitiesTable.Rows)
-            {
+                activitiesTable = db.GetActvities();
+                activities = new List<Activity>();
+                foreach (DataRow row in activitiesTable.Rows)
+                {
                     activities.Add(new Activity
                     {
                         Id = (int)row["ID"],
@@ -32,9 +33,11 @@ namespace IEEE_EMB.Pages.Admin
                         status = row["STATUS"].ToString(),
                         mentorName = row["NAME"].ToString()
                     });
+                }
+                return Page();
             }
-            }
-            else
+
+            else if(HttpContext.Session.GetString("AuthenticationString") == "Mentor")
             {
                 var MentorId = HttpContext.Session.GetString("SSN");
                 activitiesTable = db.GetActivitiesForMentor(MentorId) ?? new DataTable();
@@ -53,9 +56,15 @@ namespace IEEE_EMB.Pages.Admin
                         mentorName = row["NAME"].ToString()
                     });
                 }
+                return Page();
 
             }
+            else return RedirectToPage("/Index");
+       
         }
+       
+
+        
         public IActionResult OnPost()
         {
             return RedirectToPage("/Admin/Activities");
@@ -64,6 +73,14 @@ namespace IEEE_EMB.Pages.Admin
         {
             db.DeleteActivity(itemId);
             return RedirectToPage();
+        }
+        public IActionResult OnPostLogout()
+        {
+            HttpContext.Session.Remove("AuthenticationString");
+            HttpContext.Session.Remove("SSN");
+            HttpContext.Session.Remove("Email");
+
+            return RedirectToPage("/Login");
         }
     }
 }

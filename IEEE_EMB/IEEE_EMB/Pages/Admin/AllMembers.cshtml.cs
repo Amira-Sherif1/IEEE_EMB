@@ -15,10 +15,26 @@ namespace IEEE_EMB.Pages.Admin
         public DB db { get; set; }
         public AllMembersModel(DB db) { this.db = db; }
         public DataTable dt { get; set; }
-        public void OnGet()
+        public IActionResult OnGet()
         {
-            currentStatus = new Status();
-            dt = db.GetMember();
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
+            {
+                dt = db.GetMember();
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/Index");
+            }
+           
+        }
+        public IActionResult OnPostLogout()
+        {
+            HttpContext.Session.Remove("AuthenticationString");
+            HttpContext.Session.Remove("SSN");
+            HttpContext.Session.Remove("Email");
+
+            return RedirectToPage("/Login");
         }
 
         public Task<IActionResult> OnPostUpdateStatusAsync(string id, string status)

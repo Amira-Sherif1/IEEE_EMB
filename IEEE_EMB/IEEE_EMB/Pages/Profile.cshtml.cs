@@ -36,6 +36,11 @@ namespace IEEE_EMB.Pages
             // In a real application, this would be fetched from a database
 
         }
+        public IActionResult OnPost(IFormFile Photo)
+        {
+
+            return RedirectToPage("/Profile");
+        }
         public IActionResult OnPostLogout()
         {
             HttpContext.Session.Remove("AuthenticationString");

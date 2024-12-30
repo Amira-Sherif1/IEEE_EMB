@@ -14,19 +14,34 @@ namespace IEEE_EMB.Pages.Admin
         {
             this.db = db;
         }
-        public void OnGet(int activityId = -1)
-        {
-            if (activityId == -1) {
-                participants = db.GetParticipants();
 
+
+
+        public IActionResult OnGet(int activityId = -1)
+        {
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
+            {
+                if (activityId == -1)
+                {
+                    participants = db.GetParticipants();
+
+                }
+                else
+                {
+                    participants = db.GetParticipantsInActivity(activityId);
+
+                }
+
+                return Page();
             }
             else
             {
-               participants = db.GetParticipantsInActivity(activityId);
-
+                return RedirectToPage("/Index");
             }
-            
         }
+         
+        
+
         public IActionResult OnPostDelete(string participantSSN)
         {
             db.DeleteParticipant(participantSSN);

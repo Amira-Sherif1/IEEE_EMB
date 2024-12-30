@@ -14,10 +14,18 @@ namespace IEEE_EMB.Pages.Admin
         public DB db { get; set; }
         public AllMentorsModel(DB db) { this.db = db; }
         public DataTable dt { get; set; }
-        public void OnGet()
+        public IActionResult OnGet()
         {
-
-            dt = db.GetMentor();
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
+            {
+                dt = db.GetMentor();
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/Index");
+            }
+         
         }
 
         public Task<IActionResult> OnPostUpdateStatusAsync(string id, string status)

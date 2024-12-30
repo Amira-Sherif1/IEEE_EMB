@@ -203,10 +203,10 @@
         new Chart(document.getElementById('TopActivities'), {
             type: 'bar',
             data: {
-                labels: ['@Model.TopActivities.Rows[0][0]', '@Model.TopActivities.Rows[1][0]', '@Model.TopActivities.Rows[2][0]', '@Model.TopActivities.Rows[3][0]', '@Model.TopActivities.Rows[4][0]'],
+                labels: @Html.Raw(Json.Serialize(Model.TopActivityLabels)),
                 datasets: [{
                     label: 'Top Activities',
-                    data: [@Model.TopActivities.Rows[0][1], @Model.TopActivities.Rows[1][1], @Model.TopActivities.Rows[2][1], @Model.TopActivities.Rows[3][1], @Model.TopActivities.Rows[4][1]],
+                    data: @Html.Raw(Json.Serialize(Model.TopActivityCounts)),
                     backgroundColor: '#4e73df',
                     borderColor: '#4e73df',
                     borderWidth: 1
@@ -246,9 +246,9 @@
         new Chart(document.getElementById('TopParticipants'), {
             type: 'pie',
             data: {
-                labels: ['@Model.TopParticipants.Rows[0][0]', '@Model.TopParticipants.Rows[1][0]', '@Model.TopParticipants.Rows[2][0]', '@Model.TopParticipants.Rows[3][0]', '@Model.TopParticipants.Rows[4][0]'],
+                labels: @Html.Raw(Json.Serialize(Model.TopParticipantLabels)),
                 datasets: [{
-                    data: [@Model.TopParticipants.Rows[0][1], @Model.TopParticipants.Rows[1][1], @Model.TopParticipants.Rows[2][1], @Model.TopParticipants.Rows[3][1], @Model.TopParticipants.Rows[4][1]],
+                    data: @Html.Raw(Json.Serialize(Model.TopParticipantCounts)),
                     backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc', '#f6c23e', '#e74a3b']
                 }]
             },

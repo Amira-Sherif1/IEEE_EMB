@@ -16,9 +16,18 @@ namespace IEEE_EMB.Pages.Admin
         {
             this.db = db;
         }
-        public void OnGet(int ActivityId)
+        public IActionResult OnGet(int ActivityId)
         {
-            this.ActivityId = ActivityId;
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
+            {
+                this.ActivityId = ActivityId;
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/Index");
+            }
+           
         }
         [HttpPost]
         public async Task<IActionResult> OnPostAsync(Session session, IFormFile Video, IFormFile Document , IFormFile Task)
@@ -60,6 +69,14 @@ namespace IEEE_EMB.Pages.Admin
             return RedirectToPage("/Admin/errorpage");
 
 
+        }
+        public IActionResult OnPostLogout()
+        {
+            HttpContext.Session.Remove("AuthenticationString");
+            HttpContext.Session.Remove("SSN");
+            HttpContext.Session.Remove("Email");
+
+            return RedirectToPage("/Login");
         }
     }
 }

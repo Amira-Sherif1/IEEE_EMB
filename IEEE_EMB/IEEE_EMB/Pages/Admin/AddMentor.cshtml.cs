@@ -13,14 +13,31 @@ namespace IEEE_EMB.Pages.Admin
         public AddMentorModel(DB dB)
         {
             this.dB = dB;
-        }   
-        public void OnGet()
+        }
+        public IActionResult OnGet()
         {
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
+            {
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/Index");
+            }
+
         }
         public IActionResult OnPost()
         {
             dB.AddMentor(mentor);
             return RedirectToPage("/Admin/AllMentors");
+        }
+        public IActionResult OnPostLogout()
+        {
+            HttpContext.Session.Remove("AuthenticationString");
+            HttpContext.Session.Remove("SSN");
+            HttpContext.Session.Remove("Email");
+
+            return RedirectToPage("/Login");
         }
     }
 }

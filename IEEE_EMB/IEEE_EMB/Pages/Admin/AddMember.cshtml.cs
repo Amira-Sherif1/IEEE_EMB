@@ -12,14 +12,31 @@ namespace IEEE_EMB.Pages.Admin
         public AddMemberModel(DB db) { this.db = db; }
 
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
+            {
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/Index");
+            }
+
         }
         public IActionResult OnPost()
         {
             db.AddMember(member);
             return RedirectToPage("/Admin/AllMembers");
         }
-        
+        public IActionResult OnPostLogout()
+        {
+            HttpContext.Session.Remove("AuthenticationString");
+            HttpContext.Session.Remove("SSN");
+            HttpContext.Session.Remove("Email");
+
+            return RedirectToPage("/Login");
+        }
+
     }
 }
