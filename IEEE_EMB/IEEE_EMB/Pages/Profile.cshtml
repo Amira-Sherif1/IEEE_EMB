@@ -1,4 +1,6 @@
-﻿@page
+﻿
+
+@page
 @model IEEE_EMB.Pages.ProfileModel
 @{
     ViewData["Title"] = $"{Model.Name}'s Profile";
@@ -18,7 +20,11 @@
                     <img src="/images/User.png" alt="Profile picture" width="200" height="200" style="margin-bottom: 20px; margin-left: 20px;"/>
                 </div>
                 
-                
+              @*   <form method="post" enctype="multipart/form-data"> 
+                    <input asp-for="Photo" type="file"/>
+                    <button>Upload Photo</button>
+                    </form>
+                 *@
                 
                     <div class="info-item">
                         <label>Full Name:</label>
@@ -38,12 +44,7 @@
                        
                     </div>
                     
-                    @* <div class="detail-item">
-                        <label>Committee:</label>
-                        <span>@Model.</span>
-                        <button class="edit-btn" title="Edit">✎</button>
-                    </div> *@
-                
+                  
             </div>
 
             <div class="profile-right">
@@ -68,20 +69,10 @@
                         
                     </div>
                     
-                    @* <div class="info-item">
-                        <label>Bio</label>
-                        <span>Mohammad Maher Ibraaaaaahim</span>
-                        <button class="edit-btn" title="Edit">✎</button>
-                    </div> *@
+                   
                 </div>
 
-               @*  <div class="pagination">
-                    <button class="prev">←</button>
-                    <button class="active">1</button>
-                    <button>2</button>
-                    <button>3</button>
-                    <button class="next">→</button>
-                </div> *@
+              
             </div>
         </div>
     </main>

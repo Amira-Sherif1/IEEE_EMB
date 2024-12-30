@@ -21,7 +21,9 @@ namespace IEEE_EMB.Pages
       
         public DataTable seminarTable { get; set; }
         public DataTable participantCountTable { get; set; }
-
+        [BindProperty]
+        public DataTable UserActivity { get; set; }
+        public int ActivityId { get; set; }
         public void OnGet()
         {
             if (!string.IsNullOrWhiteSpace(searchTerm))
@@ -37,7 +39,7 @@ namespace IEEE_EMB.Pages
             Seminars = new List<Activity>();
             Participants = new List<ParticipantCounter>();
 
-           
+
             foreach (DataRow row in seminarTable.Rows)
             {
                 Seminars.Add(new Activity
@@ -52,7 +54,7 @@ namespace IEEE_EMB.Pages
                 });
             }
 
-           
+
             foreach (DataRow row in participantCountTable.Rows)
             {
                 Participants.Add(new ParticipantCounter
@@ -62,10 +64,10 @@ namespace IEEE_EMB.Pages
                 });
             }
 
-           
+
             var participantCountDict = Participants.ToDictionary(p => p.activityId, p => p.counter);
 
-           
+
             foreach (var seminar in Seminars)
             {
                 if (participantCountDict.TryGetValue(seminar.Id, out int count))
@@ -77,6 +79,8 @@ namespace IEEE_EMB.Pages
                     seminar.participantsCounter = 0; // Default value if no participants found
                 }
             }
+            string ssn = HttpContext.Session.GetString("SSN");
+            UserActivity = db.UserWithActivity(ssn);
         }
 
         public IActionResult OnPostSearch(String search)

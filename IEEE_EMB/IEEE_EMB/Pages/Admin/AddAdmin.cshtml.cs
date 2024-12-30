@@ -13,5 +13,13 @@ namespace IEEE_EMB.Pages.Admin
         {
             return RedirectToPage("/Admin/AllAdmins");
         }
+        public IActionResult OnPostLogout()
+        {
+            HttpContext.Session.Remove("AuthenticationString");
+            HttpContext.Session.Remove("SSN");
+            HttpContext.Session.Remove("Email");
+
+            return RedirectToPage("/Login");
+        }
     }
 }

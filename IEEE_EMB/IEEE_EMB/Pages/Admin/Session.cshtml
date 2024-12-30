@@ -23,6 +23,8 @@
                         <th>Date</th>
                         <th>Document</th>
                         <th>Video</th>
+                        <th>Task</th>
+                        <th>Task Answer</th>
 
                     </tr>
                 </thead>
@@ -36,13 +38,20 @@
                                 <td><strong>@Model.sessions.Rows[i][2]</strong></td>
                             <td><strong>@Model.sessions.Rows[i][1]</strong></td>
                             
-                                <td><strong><a href="~/Documents/@Model.sessions.Rows[i][7]">Document</a></strong></td>
+                            <td><strong><a href="~/Documents/@Model.sessions.Rows[i][7]">Document</a></strong></td>
                             <td><strong><a href="~/videos/@Model.sessions.Rows[i][6]">Video</a></strong></td>
+                            <td><strong><a href="~/videos/@Model.sessions.Rows[i]["TASK"]">Task</a></strong></td>
+                            @if (Model.sessions.Rows[i]["TASK_ANSWER"] != DBNull.Value)
 
-                            
-                            
-                            
-                            
+                            {
+                                
+                                <td><strong><a href="~/TaskAnswer/@Model.sessions.Rows[i]["TASK_ANSWER"]">Task Answer</a></strong></td>
+                            }
+                            else
+                            {
+                                <td><strong><a href="/Admin/TaskAnswer?SessionId=@Model.sessions.Rows[i][0]">Add Task Answer</a></strong></td>
+
+                            }
 
                                 <td>
                                     <div class="dropdown">

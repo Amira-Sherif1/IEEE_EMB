@@ -51,5 +51,13 @@ namespace IEEE_EMB.Pages.Admin
             db.AddAssignment(assign);
             return RedirectToPage("/Admin/Activities");
         }
+        public IActionResult OnPostLogout()
+        {
+            HttpContext.Session.Remove("AuthenticationString");
+            HttpContext.Session.Remove("SSN");
+            HttpContext.Session.Remove("Email");
+
+            return RedirectToPage("/Login");
+        }
     }
 }
