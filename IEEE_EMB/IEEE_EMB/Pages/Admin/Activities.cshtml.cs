@@ -21,17 +21,17 @@ namespace IEEE_EMB.Pages.Admin
             activities = new List<Activity>();
             foreach (DataRow row in activitiesTable.Rows)
             {
-                activities.Add(new Activity
-                {
-                    Id = (int)row["ID"],
-                    Title = row["TITLE"].ToString(),
-                    startdate = DateOnly.FromDateTime(Convert.ToDateTime(row["START_DATE"])),
-                    Enddate = DateOnly.FromDateTime(Convert.ToDateTime(row["END_DATE"])),
-                    Capacity = (int)row["Capacity"],
-                    Type = row["TYPE"].ToString(),
-                    status = row["STATUS"].ToString(),
-                    mentorName = row["NAME"].ToString()
-                });
+                    activities.Add(new Activity
+                    {
+                        Id = (int)row["ID"],
+                        Title = row["TITLE"].ToString(),
+                        startdate = DateOnly.FromDateTime(Convert.ToDateTime(row["START_DATE"])),
+                        Enddate = DateOnly.FromDateTime(Convert.ToDateTime(row["END_DATE"])),
+                        Capacity = (int)row["Capacity"],
+                        Type = row["TYPE"].ToString(),
+                        status = row["STATUS"].ToString(),
+                        mentorName = row["NAME"].ToString()
+                    });
             }
             }
             else

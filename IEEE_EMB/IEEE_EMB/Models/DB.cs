@@ -85,7 +85,7 @@ namespace IEEE_EMB.Models
                 cmd.Parameters.AddWithValue("@Email", email);
                 cmd.Parameters.AddWithValue("@SSN", ssn);
 
-                cmd.Parameters.AddWithValue ("@SSN", ssn);
+                
                 dt.Load(cmd.ExecuteReader());
             }
             catch (Exception ex)
@@ -266,7 +266,9 @@ namespace IEEE_EMB.Models
         public DataTable GetActvities()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT A.ID, A.TITLE, A.START_DATE, A.END_DATE, A.Capacity, A.TYPE, A.STATUS, M.NAME\r\nFROM ACTIVITY A JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\nJOIN MENTOR M ON AG.MENTOR_SSN = M.SSN";
+            string query = "SELECT A.ID, A.TITLE, A.START_DATE, A.END_DATE, A.Capacity, A.TYPE, A.STATUS, M.NAME\r\n" +
+                "FROM ACTIVITY A JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\n" +
+                "JOIN MENTOR M ON AG.MENTOR_SSN = M.SSN";
 
             try
             {
@@ -436,8 +438,8 @@ namespace IEEE_EMB.Models
                 con.Open();
                 SqlCommand getMaxIdCommand = new SqlCommand(getMaxIdQuery, con);
                 newId = (int)getMaxIdCommand.ExecuteScalar() + 1;
-                string query = "INSERT INTO ACTIVITY (ID, TITLE, START_DATE, END_DATE, CAPACITY, TYPE, STATUS, DESCRIPTION, MEMBER_ID)" +
-                               "VALUES (@ID, @TITLE, @START_DATE, @END_DATE, @CAPACITY, @TYPE, @STATUS, @DESCRIPTION, @MEMBER_ID)";
+                string query = "INSERT INTO ACTIVITY (ID, TITLE, START_DATE, END_DATE, CAPACITY, TYPE, STATUS, DESCRIPTION)" +
+                               "VALUES (@ID, @TITLE, @START_DATE, @END_DATE, @CAPACITY, @TYPE, @STATUS, @DESCRIPTION)";
 
                 SqlCommand com = new SqlCommand(query, con);
                 com.Parameters.AddWithValue("@ID", newId);
@@ -447,8 +449,7 @@ namespace IEEE_EMB.Models
                 com.Parameters.AddWithValue("@CAPACITY", activity.Capacity);
                 com.Parameters.AddWithValue("@TYPE", activity.Type);
                 com.Parameters.AddWithValue("@STATUS", activity.status);
-                com.Parameters.AddWithValue("@DESCRIPTION", activity.Description);
-                com.Parameters.AddWithValue("@MEMBER_ID", DBNull.Value);
+                com.Parameters.AddWithValue("@DESCRIPTION", activity.Description ?? (object)DBNull.Value);
                 com.ExecuteNonQuery();
             }
             catch (Exception ex)
@@ -517,7 +518,7 @@ namespace IEEE_EMB.Models
 
         }
     
-    public void AddSession(Session session)
+        public void AddSession(Session session)
 
         {
             string getMaxIdQuery = "SELECT MAX(ID) FROM SESSION";
@@ -543,10 +544,6 @@ namespace IEEE_EMB.Models
                 com.ExecuteNonQuery();
             }
 
-           
-
-            public void DeleteActivity(int activityID)
-
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
@@ -566,7 +563,6 @@ namespace IEEE_EMB.Models
                 con.Open();
                 SqlCommand com = new SqlCommand(querey, con);
                 SqlCommand com2 = new SqlCommand(querey2, con);
-
                 com.ExecuteNonQuery();
                 com2.ExecuteNonQuery();
             }
@@ -579,8 +575,9 @@ namespace IEEE_EMB.Models
                 con.Close();
 
             }
+        }
 
-            public DataTable GetActivitiesForMentor(string MentorId)
+        public DataTable GetActivitiesForMentor(string MentorId)
             {
                 DataTable dt = new DataTable();
             string query = $"SELECT A.ID, A.TITLE, A.START_DATE, A.END_DATE, A.Capacity, A.TYPE, A.STATUS, M.NAME\r\nFROM ACTIVITY A JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\nJOIN MENTOR M ON AG.MENTOR_SSN = M.SSN WHERE MEMBER_ID ='{MentorId}'";
@@ -601,20 +598,9 @@ namespace IEEE_EMB.Models
                 return dt;
             }
 
-        }
+        
 
-        //public void EditActivity(Activity activity)
-        //{
-        //    string EditTitleQuery = "";
-        //    string DescriptionQuery = "";
-        //    try
-        //    {
-        //        con.Open();
-        //        SqlCommand com = new SqlCommand(EditTitleQuery, con);
-
-        //    }
-
-        //}
+       
 
 
         public void DeleteActivity(int activityID)
@@ -672,11 +658,22 @@ namespace IEEE_EMB.Models
         // Not Complete yet
         public void AddAdmin(Admin admin)
         {
-            string query = "";
+            string query = "INSERT INTO ADMIN (SSN, NAME, PASSWORD, ROLE, EMAIL, CV, PHONE, PERSONAL_PHOTO, UNIVERSITY, BRIEF)" +
+                "VALUES (@SSN, @NAME, @PASSWORD, @ROLE, @EMAIL, @CV, @PHONE, @PERSONAL_PHOTO, @UNIVERSITY, @BRIEF)";
             try
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@SSN", admin.SSN);
+                cmd.Parameters.AddWithValue("@NAME", admin.Name);
+                cmd.Parameters.AddWithValue("@PASSWORD", admin.password);
+                cmd.Parameters.AddWithValue("@ROLE", admin.Role ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@EMAIL", admin.Email);
+                cmd.Parameters.AddWithValue("@CV", admin.CV ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@PHONE", admin.Phone);
+                cmd.Parameters.AddWithValue("@PERSONAL_PHOTO", admin.PersonalPhoto ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@UNIVERSITY", admin.University);
+                cmd.Parameters.AddWithValue("@BRIEF", admin.Brief ?? (object)DBNull.Value);
                 cmd.ExecuteNonQuery();
             }
             catch (Exception ex) 
@@ -692,9 +689,76 @@ namespace IEEE_EMB.Models
 
         public void DeleteAdmin(Admin admin)
         {
-            string resetRelatedAssignments = "";
-            string deleteAdminQuery = "";
+           
+            string deleteAdminQuery = "DELETE FROM ADMIN WHERE SSN = @SSN";
+            try
+            {
+                con.Open();
+                SqlCommand deleteAdminCommand = new SqlCommand(deleteAdminQuery, con);
+                deleteAdminCommand.Parameters.AddWithValue("@SSN", admin.SSN);
+                deleteAdminCommand.ExecuteNonQuery();
+
+            }catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
             
+        }
+
+        public DataTable GetAdmins()
+        {
+            DataTable dt = new DataTable();
+            string getAdminsQuery = "SELECT A.NAME, A.EMAIL, A.UNIVERSITY, A.CV" +
+                                    "\r\n FROM ADMIN A";
+            try
+            {
+                con.Open();
+                SqlCommand getAdminsCommand = new SqlCommand(getAdminsQuery, con);
+                dt.Load(getAdminsCommand.ExecuteReader());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return dt;
+        }
+
+        public DataTable GetParticipantsInActivity(int activityID)
+        {
+            DataTable dt = new DataTable();
+            string query = "SELECT P.NAME, P.EMAIL, P.PHONE, P.UNIVERSITY\r\n" +
+                "FROM ACTIVITY A \r\n" +
+                "JOIN ACTIVITY_PARTICIPANTS AP ON AP.ACTIVITY_ID = A.ID\r\n" +
+                "JOIN PARTICIPANTS P ON P.SSN = AP.PARTICIPANT_SSN\r\n" +
+                "WHERE A.ID = @ID";
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@ID", activityID);
+                dt.Load(cmd.ExecuteReader());
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+
+
+
+            return dt;
         }
     }
 }

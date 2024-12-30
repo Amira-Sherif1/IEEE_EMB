@@ -32,6 +32,7 @@
                         <th>Status</th>
                         <th>Mentor</th>
                         <th>Sessions</th>
+                        <th>Participants</th>
                         @if (HttpContextAccessor.HttpContext?.Session.GetString("AuthenticationString") == "Admin")
                         {
                             
@@ -54,6 +55,7 @@
                         <td><strong>@activity.mentorName</strong></td>
 
                         <td><strong><a href="/Admin/Session?activityId=@activity.Id">Sessions</a></strong></td>
+                        <td><strong><a href="/Admin/AllParticipants?activityId=@activity.Id">Participants</a></strong></td>
                          @if (HttpContextAccessor.HttpContext?.Session.GetString("AuthenticationString") == "Admin")
                             {
                                 

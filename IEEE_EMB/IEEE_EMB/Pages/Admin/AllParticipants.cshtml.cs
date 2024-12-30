@@ -9,13 +9,23 @@ namespace IEEE_EMB.Pages.Admin
     {
         public DB db { get; set; }
         public DataTable participants { get; set; }
+        public DataTable participantsInActivity { get; set; }
         public AllParticipantsModel(DB db)
         {
             this.db = db;
         }
-        public void OnGet()
+        public void OnGet(int activityId = -1)
         {
-            participants=db.GetParticipants();
+            if (activityId == -1) {
+                participants = db.GetParticipants();
+
+            }
+            else
+            {
+               participants = db.GetParticipantsInActivity(activityId);
+
+            }
+            
         }
     }
 }
