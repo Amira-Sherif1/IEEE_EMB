@@ -13,9 +13,18 @@ namespace IEEE_EMB.Pages.Admin
         {
             this.db = db;
         }
-        public void OnGet()
+        public IActionResult OnGet()
         {
-            participants=db.GetParticipants();
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
+            {
+                participants = db.GetParticipants();
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/Index");
+            }
+         
         }
         public IActionResult OnPostDelete(string participantSSN)
         {

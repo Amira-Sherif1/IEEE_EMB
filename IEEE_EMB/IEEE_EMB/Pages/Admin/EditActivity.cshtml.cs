@@ -13,8 +13,16 @@ namespace IEEE_EMB.Pages.Admin
         public EditActivityModel(DB dB) { 
             DB = dB;
         }
-        public void OnGet()
+        public IActionResult OnGet()
         {
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
+            {
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/Index");
+            }
 
         }
         public IActionResult OnPost()

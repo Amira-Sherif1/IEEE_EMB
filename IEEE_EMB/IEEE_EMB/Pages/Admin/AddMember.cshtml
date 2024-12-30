@@ -20,58 +20,68 @@
                 <div class="form-group">
                     <label for="SSN" class="control-label">SSN</label>
                     <input asp-for="@Model.member.SSN" type="text" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="member.SSN"></span>
                 </div>
                 <!-- Name -->
                 <div class="form-group">
                     <label for="Name" class="control-label">Name</label>
                     <input asp-for="@Model.member.Name" type="text" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="member.Name"></span>
                 </div>
                     
                 <!-- Email -->
                 <div class="form-group">
                     <label for="Email" class="control-label">Email</label>
                     <input asp-for ="@Model.member.Email" type="email" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="member.Email"></span>
                 </div>
 
                 <!-- Password -->
                 <div class="form-group">
                     <label for="Password" class="control-label">Password</label>
                     <input asp-for="@Model.member.password" type="password" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="member.password"></span>
                 </div>
 
                 <!-- University -->
                 <div class="form-group">
                     <label for="University" class="control-label">University</label>
                     <input asp-for="@Model.member.University" type="text" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="member.University"></span>
                 </div>
 
                 <!-- Major -->
                 <div class="form-group">
                     <label for="Major" class="control-label">Major</label>
                     <input asp-for="@Model.member.Major" type="text" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="member.Major"></span>
                 </div>
 
                 <!-- Current Year -->
                 <div class="form-group">
                     <label for="CurrentYear" class="control-label">Current Year</label>
                     <input asp-for="@Model.member.Currentyear" type="text" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="member.Currentyear"></span>
                 </div>
 
                 <!-- Phone Number -->
                 <div class="form-group">
                     <label for="PhoneNumber" class="control-label">Phone Number</label>
                     <input asp-for="@Model.member.Phone" type="text" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="member.Phone"></span>
                 </div>
 
                 <!-- Previous Experience -->
                 <div class="form-group">
                     <label for="PreviousExperience" class="control-label">Previous Experience</label>
                     <textarea asp-for="@Model.member.PreviousExperience" class="form-control"></textarea>
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="member.PreviousExperience"></span>
                 </div>
                 <!-- Brief -->
                 <div class="form-group">
                     <label for="Brief" class="control-label">Brief</label>
                     <textarea asp-for="@Model.member.Brief" class="form-control"></textarea>
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="member.Brief"></span>
                 </div>
 
                 <!-- Status -->

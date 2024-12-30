@@ -17,10 +17,19 @@ namespace IEEE_EMB.Pages.Admin
             this.db = db;
             
         }
-        public void OnGet(int activityId)
+        public IActionResult OnGet(int activityId)
         {
-            ActivityId = activityId;
-            sessions=db.GetSession(activityId) ?? new DataTable();
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin" || HttpContext.Session.GetString("AuthenticationString") == "Mentor")
+            {
+                ActivityId = activityId;
+                sessions = db.GetSession(activityId) ?? new DataTable();
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/Index");
+            }
+           
         }
         public IActionResult OnPostDelete(int sessionId, int activityId)
         {

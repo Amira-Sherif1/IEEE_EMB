@@ -1,5 +1,6 @@
 using ChartExample.Models.Chart;
 using IEEE_EMB.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data;
 
@@ -32,35 +33,38 @@ namespace IEEE_EMB.Pages.Admin
             this.db = db;
         }
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
-            // Retrieve counts
-            NA = db.NumAdmins();
-            NMEN = db.NumMentors();
-            NMEM = db.NumMembers();
-            NP = db.NumParticipant();
-
-            // Retrieve participants per activity
-            part_per_activity = db.ParticipantsPerActivity() ?? new DataTable();
-
-            // participants per activity /////
-
-
-            var labels = new List<string>();
-            var distributions = new List<string>();
-
-            foreach (DataRow row in part_per_activity.Rows)
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
             {
-                labels.Add(row[0].ToString());
-                distributions.Add(row[1].ToString());
 
-            }
-                ActivitiesLabel = labels.ToArray();
-                ActivitiesDistribution = distributions.ToArray();
-            ///////////////////// End ////////////////////////////
+                // Retrieve counts
+                NA = db.NumAdmins();
+                NMEN = db.NumMentors();
+                NMEM = db.NumMembers();
+                NP = db.NumParticipant();
 
-            //////////// Activities along the year ///////////////
-             months = new string[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
+                // Retrieve participants per activity
+                part_per_activity = db.ParticipantsPerActivity() ?? new DataTable();
+
+                // participants per activity /////
+
+
+                var labels = new List<string>();
+                var distributions = new List<string>();
+
+                foreach (DataRow row in part_per_activity.Rows)
+                {
+                    labels.Add(row[0].ToString());
+                    distributions.Add(row[1].ToString());
+
+                    ActivitiesLabel = labels.ToArray();
+                    ActivitiesDistribution = distributions.ToArray();
+                }
+                ///////////////////// End ////////////////////////////
+
+                //////////// Activities along the year ///////////////
+                months = new string[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
 
             for (int month = 1; month <= 12; month++)
             {
@@ -100,8 +104,16 @@ namespace IEEE_EMB.Pages.Admin
             TopActivityCounts = topActivityCounts.ToArray();
 
 
-            ///// 
+                ///// 
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/Index");
+            }
 
+           
+            
         }
     }
 }

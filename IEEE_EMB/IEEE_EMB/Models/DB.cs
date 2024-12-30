@@ -9,7 +9,7 @@ namespace IEEE_EMB.Models
 {
     public class DB
     {
-        private string connectionstring = "Server=db11993.public.databaseasp.net; Database=db11993; User Id=db11993; Password=eW@9-4Pk2r%B; Encrypt=True; TrustServerCertificate=True;";
+        private string connectionstring = "Data Source= Eng-Omars-Lap; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
         public SqlConnection con = new();
         public DB()
         {
@@ -694,7 +694,7 @@ namespace IEEE_EMB.Models
         public DataTable GetSpecificActivity(int ActivityId)
         {
             DataTable dt = new DataTable();
-            string query = $"select  a.TITLE as 'ActivityTitle', a.DESCRIPTION , m.NAME , m.EDUCATION , s.TITLE as 'SessionTitle' , s.DATE , s.ID as 'SessionId'\r\nfrom ACTIVITY a join ASSIGN ass on a.ID = ass.ACTIVITY_ID join MENTOR m on ass.MENTOR_SSN = m.SSN join SESSION s on s.ACTIVITY_ID= a.ID\r\nwhere a.ID={ActivityId}";
+            string query = $"select top 1 a.TITLE as 'ActivityTitle', a.DESCRIPTION , m.NAME , m.EDUCATION , s.TITLE as 'SessionTitle' , s.DATE , s.ID as 'SessionId'\r\nfrom ACTIVITY a join ASSIGN ass on a.ID = ass.ACTIVITY_ID join MENTOR m on ass.MENTOR_SSN = m.SSN join SESSION s on s.ACTIVITY_ID= a.ID\r\nwhere a.ID={ActivityId}";
             SqlCommand command = new SqlCommand(query, con);
             try
             {
@@ -1090,6 +1090,67 @@ namespace IEEE_EMB.Models
 
 
         }
+        public string GetActivityType(int activityId)
+        {
+            string activityType = "";
+            // Use parameterized query to prevent SQL injection
+            string query = "SELECT TYPE FROM ACTIVITY WHERE ID = @ActivityId";
+
+            try
+            {
+                using (SqlConnection connection = con)
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    // Add parameter
+                    command.Parameters.AddWithValue("@ActivityId", activityId);
+
+                    connection.Open();
+
+                    // ExecuteScalar is better for single value retrieval
+                    object result = command.ExecuteScalar();
+
+                    // Handle null result
+                    if (result != null)
+                    {
+                        activityType = result.ToString();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Consider logging the exception or handling it appropriately
+                Console.WriteLine($"Error retrieving activity type: {ex.Message}");
+                throw; // Re-throw the exception if you want calling code to handle it
+            }
+
+            return activityType;
+        }
+        public int GetSessionCount(int activityid)
+        {
+            int count = 0;
+            string querey = $"select COUNT(*) from SESSION where ACTIVITY_ID={activityid}";
+            try
+            {
+                con.Open();
+                SqlCommand com = new SqlCommand(querey, con);
+                count = (int)com.ExecuteScalar();
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+
+
+            }
+            return count;
+
+
+        }
+
 
         public DataTable UserWithActivity(string UserID)
         {

@@ -13,9 +13,18 @@ namespace IEEE_EMB.Pages.Admin
         public AddMentorModel(DB dB)
         {
             this.dB = dB;
-        }   
-        public void OnGet()
+        }
+        public IActionResult OnGet()
         {
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
+            {
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/Index");
+            }
+
         }
         public IActionResult OnPost()
         {

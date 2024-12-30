@@ -15,9 +15,18 @@ namespace IEEE_EMB.Pages.Admin
         {
             this.db = db;
         }
-        public void OnGet(int SessionId)
+        public IActionResult OnGet(int SessionId)
         {
-            this.SessionId = SessionId;
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
+            {
+                this.SessionId = SessionId;
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/Index");
+            }   
+          
           
         }
         public IActionResult OnPost(Session session)
