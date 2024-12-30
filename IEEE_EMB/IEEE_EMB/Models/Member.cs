@@ -1,10 +1,11 @@
 ﻿using IEEE_EMB.Models.Utilities;
+using System.ComponentModel.DataAnnotations;
 namespace IEEE_EMB.Models
 {
     public class Member
     {
         public const string AuthenticationString = "Member";
-
+       
         public string SSN { get; set; }
         public string Name { get; set; }
         public string Currentyear { get; set; }

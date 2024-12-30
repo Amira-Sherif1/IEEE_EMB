@@ -1,8 +1,12 @@
-﻿namespace IEEE_EMB.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace IEEE_EMB.Models
 {
     public class Participants
     {
+       
         public int SSN { get; set; }
+
         public string Name { get; set; }
         public string Password { get; set; }
         public string Email { get; set; }

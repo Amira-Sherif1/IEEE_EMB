@@ -13,9 +13,18 @@ namespace IEEE_EMB.Pages.Admin
         public DB db { get; set; }
         public AllMembersModel(DB db) { this.db = db; }
         public DataTable dt { get; set; }
-        public void OnGet()
+        public IActionResult OnGet()
         {
-            dt = db.GetMember();
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
+            {
+                dt = db.GetMember();
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/Index");
+            }
+           
         }
     }
 }

@@ -9,9 +9,18 @@
 
 <div class="container-xxl flex-grow-1 container-p-y">
     <!-- Add Session Button -->
-    <div class="mb-4">
-        <a href="/Admin/AddSession?ActivityId=@Model.ActivityId" class="btn btn-primary">Add Session</a>
-    </div>
+    @if (Model.db.GetActivityType(Model.ActivityId) == "Seminar" && Model.db.GetSessionCount(Model.ActivityId) >= 1)
+    {
+        
+    }
+    else
+    { 
+        <div class="mb-4">
+
+            <a href="/Admin/AddSession?ActivityId=@Model.ActivityId" class="btn btn-primary">Add Session</a>
+        </div>
+    }
+    
 
     <div class="card">
         <h5 class="card-header">All Sessions</h5>

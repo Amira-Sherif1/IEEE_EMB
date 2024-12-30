@@ -1,5 +1,6 @@
 using ChartExample.Models.Chart;
 using IEEE_EMB.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data;
 
@@ -27,49 +28,60 @@ namespace IEEE_EMB.Pages.Admin
             this.db = db;
         }
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
-            // Retrieve counts
-            NA = db.NumAdmins();
-            NMEN = db.NumMentors();
-            NMEM = db.NumMembers();
-            NP = db.NumParticipant();
-
-            // Retrieve participants per activity
-            part_per_activity = db.ParticipantsPerActivity() ?? new DataTable();
-
-            // participants per activity /////
-
-
-            var labels = new List<string>();
-            var distributions = new List<string>();
-
-            foreach (DataRow row in part_per_activity.Rows)
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
             {
-                labels.Add(row[0].ToString());
-                distributions.Add(row[1].ToString());
 
-                ActivitiesLabel = labels.ToArray();
-                ActivitiesDistribution = distributions.ToArray();
+                // Retrieve counts
+                NA = db.NumAdmins();
+                NMEN = db.NumMentors();
+                NMEM = db.NumMembers();
+                NP = db.NumParticipant();
+
+                // Retrieve participants per activity
+                part_per_activity = db.ParticipantsPerActivity() ?? new DataTable();
+
+                // participants per activity /////
+
+
+                var labels = new List<string>();
+                var distributions = new List<string>();
+
+                foreach (DataRow row in part_per_activity.Rows)
+                {
+                    labels.Add(row[0].ToString());
+                    distributions.Add(row[1].ToString());
+
+                    ActivitiesLabel = labels.ToArray();
+                    ActivitiesDistribution = distributions.ToArray();
+                }
+                ///////////////////// End ////////////////////////////
+
+                //////////// Activities along the year ///////////////
+                months = new string[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
+
+                for (int month = 1; month <= 12; month++)
+                {
+                    MonthlyJournalClubs[month - 1] = db.NumOfActivityPerMonth(month, "JournalClub");
+                    MonthlySeminars[month - 1] = db.NumOfActivityPerMonth(month, "Seminar");
+                    MonthlyWorkshops[month - 1] = db.NumOfActivityPerMonth(month, "Workshop");
+                }
+                //////////////////////////////////////////////////////
+
+                TopParticipants = db.TopFiveParticipants() ?? new DataTable();
+                TopActivities = db.TopFiveActivities() ?? new DataTable();
+
+
+                ///// 
+                return Page();
             }
-            ///////////////////// End ////////////////////////////
-
-            //////////// Activities along the year ///////////////
-             months = new string[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
-
-            for (int month = 1; month <= 12; month++)
+            else
             {
-                MonthlyJournalClubs[month - 1] = db.NumOfActivityPerMonth(month, "JournalClub");
-                MonthlySeminars[month - 1] = db.NumOfActivityPerMonth(month, "Seminar");
-                MonthlyWorkshops[month - 1] = db.NumOfActivityPerMonth(month, "Workshop");
+                return RedirectToPage("/Index");
             }
-            //////////////////////////////////////////////////////
-            
-            TopParticipants =db.TopFiveParticipants() ?? new DataTable();
-            TopActivities=db.TopFiveActivities() ?? new DataTable();
 
-
-            ///// 
+           
             
         }
     }

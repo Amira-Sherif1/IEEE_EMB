@@ -6,8 +6,17 @@ namespace IEEE_EMB.Pages.Admin
     public class AddAdminModel : PageModel
     {
         //public Admin MyProperty { get; set; }
-        public void OnGet()
+        public IActionResult OnGet()
         {
+            if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
+            {
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/Index");
+            }
+           
         }
         public IActionResult OnPost()
         {
