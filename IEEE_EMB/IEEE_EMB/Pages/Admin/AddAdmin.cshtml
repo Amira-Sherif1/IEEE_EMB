@@ -21,10 +21,19 @@
                     <input asp-for="@Model.admin.Name" type="text" class="form-control" />
                 </div>
 
+                <div class="form-group">
+                    <label for="SSN" class="control-label">SSN (Social Security Number)</label>
+                    <input asp-for="@Model.admin.SSN" type="text" class="form-control" />
+                </div>
                 <!-- Email -->
                 <div class="form-group">
                     <label for="Email" class="control-label">Email</label>
                     <input asp-for="@Model.admin.Email" type="email" class="form-control" />
+                </div>
+                
+                <div class="form-group">
+                    <label for="University" class="control-label">University</label>
+                    <input asp-for="@Model.admin.University" type="text" class="form-control" />
                 </div>
 
                 <!-- Password -->

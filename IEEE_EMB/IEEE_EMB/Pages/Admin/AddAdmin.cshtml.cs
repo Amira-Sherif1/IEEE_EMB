@@ -19,21 +19,26 @@ namespace IEEE_EMB.Pages.Admin
         [HttpPost]
         public async Task<IActionResult> OnPostAsync(Models.Admin admin, IFormFile CV)
         {
-            if (CV != null && CV.Length > 0)
-            {
-                var CVFileName = Guid.NewGuid() + Path.GetExtension(CV.FileName);
-                var CVFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Documents", CVFileName);
-
-                using (var stream = System.IO.File.Create(CVFilePath))
+            //if (!ModelState.IsValid)
+            //{
+            //    return ;
+            //}
+           
+                if (CV != null && CV.Length > 0)
                 {
-                    await CV.CopyToAsync(stream);
+                    var CVFileName = Guid.NewGuid() + Path.GetExtension(CV.FileName);
+                    var CVFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Documents", CVFileName);
+
+                    using (var stream = System.IO.File.Create(CVFilePath))
+                    {
+                        await CV.CopyToAsync(stream);
+                    }
+
+                    admin.CV = CVFileName;
+
                 }
-
-                admin.CV = CVFileName;
-
-            }
-            admin.SSN = this.admin.SSN;
-
+                admin.SSN = this.admin.SSN;
+            
             db.AddAdmin(admin);
             return RedirectToPage("/Admin/AllAdmins");
 

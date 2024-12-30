@@ -672,7 +672,7 @@ namespace IEEE_EMB.Models
                 cmd.Parameters.AddWithValue("@CV", admin.CV ?? (object)DBNull.Value);
                 cmd.Parameters.AddWithValue("@PHONE", admin.Phone);
                 cmd.Parameters.AddWithValue("@PERSONAL_PHOTO", admin.PersonalPhoto ?? (object)DBNull.Value);
-                cmd.Parameters.AddWithValue("@UNIVERSITY", admin.University);
+                cmd.Parameters.AddWithValue("@UNIVERSITY", admin.University ?? (object)DBNull.Value);
                 cmd.Parameters.AddWithValue("@BRIEF", admin.Brief ?? (object)DBNull.Value);
                 cmd.ExecuteNonQuery();
             }
