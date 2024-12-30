@@ -46,16 +46,39 @@
                                     <a class="dropdown-item" href="/Admin/EditParticipant">
                                         <i class="bx bx-edit-alt me-1"></i> Edit
                                     </a>
-                                    <a class="dropdown-item delete-btn"
-                                       href="javascript:void(0);"
-                                       data-id=""
-                                       data-title="">
-                                        <i class="bx bx-trash me-1"></i> Delete
-                                    </a>
+                                        <a class="dropdown-item delete-btn"
+                                           data-bs-toggle="modal"
+                                           data-bs-target="#dataModal"
+                                           data-item-id="@Model.participants.Rows[i]["SSN"]"
+                                           data-item-name="@Model.participants.Rows[i]["SSN"]">
+                                            <i class="bx bx-trash me-1"></i> Delete
+                                        </a>
+
                                 </div>
                             </div>
                         </td>
                         </tr>
+                        <div class="modal fade" id="dataModal" tabindex="-1" aria-labelledby="dataModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="dataModalLabel">Confirm Deletion</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <form method="post" asp-page-handler="Delete">
+                                        <div class="modal-body">
+                                            <p>Are you sure you want to delete <strong id="itemNamePlaceholder"></strong>?</p>
+
+                                            <input type="hidden" id="itemIdInput" name="participantSSN" value="">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary">Confirm</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     }
                     
                 </tbody>
@@ -66,38 +89,24 @@
 
 @section Scripts {
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // Select all delete buttons
-            const participantDeleteButtons = document.querySelectorAll('.delete-btn');
+        document.addEventListener("DOMContentLoaded", function () {
+            const deleteButtons = document.querySelectorAll('.delete-btn');
+            const itemNamePlaceholder = document.getElementById('itemNamePlaceholder');
+            const itemIdInput = document.getElementById('itemIdInput');
 
-            participantDeleteButtons.forEach(button => {
+            deleteButtons.forEach(button => {
                 button.addEventListener('click', function () {
-                    // Retrieve the title (name of the participant) from the button's data-title attribute
-                    const participantName = button.getAttribute('data-title') || "this participant";
+                    // Get the item name and ID from the button's data attributes
+                    const participantSSN = button.getAttribute('data-item-name');
+                    const ParticipantName = button.getAttribute('data-item-id');
 
-                    Swal.fire({
-                        title: `Are you sure you want to delete "${participantName}"?`,
-                        text: "This action won't actually delete anything!",
-                        icon: 'warning',
-                        showCancelButton: true,
-                        confirmButtonText: 'Yes, delete it!',
-                        cancelButtonText: 'No, cancel!',
-                        reverseButtons: true
-                    }).then((result) => {
-                        if (result.isConfirmed) {
-                            Swal.fire(
-                                'Deleted!',
-                                `"${participantName}" would have been deleted.`,
-                                'success'
-                            );
-                        } else if (result.dismiss === Swal.DismissReason.cancel) {
-                            Swal.fire(
-                                'Cancelled',
-                                `"${participantName}" is safe.`,
-                                'info'
-                            );
-                        }
-                    });
+                    // Update the modal content with the item name and ID
+                    if (itemNamePlaceholder) {
+                        itemNamePlaceholder.textContent = participantSSN;
+                    }
+                    if (itemIdInput) {
+                        itemIdInput.value = ParticipantName;
+                    }
                 });
             });
         });

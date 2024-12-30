@@ -31,8 +31,7 @@ namespace IEEE_EMB.Pages.Admin
                     var filename2 = Guid.NewGuid() + Path.GetExtension(Task.FileName);
                     var filename3 = Guid.NewGuid() + Path.GetExtension(Video.FileName);
                     var filepath1 = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Documents", filename1);
-                    var filepath2 = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Task", filename1);
-
+                    var filepath2 = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Task", filename2);
                     var filepath3 = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/videos", filename3);
 
                     using (var stream = System.IO.File.Create(filepath1))

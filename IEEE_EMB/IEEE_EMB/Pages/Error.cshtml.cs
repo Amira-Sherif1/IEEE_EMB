@@ -21,7 +21,7 @@ namespace IEEE_EMB.Pages
 
         public void OnGet()
         {
-            RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
+           
         }
         public IActionResult OnPostLogout()
         {

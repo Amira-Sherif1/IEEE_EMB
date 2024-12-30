@@ -7,21 +7,270 @@
 @section Styles{
     
     <link rel="stylesheet" href="~/css/join.css" />
-    
+    <style>
+        :root {
+            --primary-color: #0d6efd;
+            --secondary-color: #6c757d;
+            --info-color: #0dcaf0;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            padding: 6rem 0;
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            position: relative;
+            overflow: hidden;
+        }
+
+            .hero-section::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: url('https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1920&q=80') center/cover;
+                opacity: 0.1;
+                z-index: 0;
+            }
+
+            .hero-section .container {
+                position: relative;
+                z-index: 1;
+            }
+
+        /* Benefits Section */
+        .benefits-section {
+            padding: 5rem 0;
+            background: #f8f9fa;
+        }
+
+            .benefits-section h2 {
+                font-size: 2.5rem;
+                color: #212529;
+                margin-bottom: 3rem;
+            }
+
+        .benefit-card {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            height: 100%;
+            transition: transform 0.3s ease;
+        }
+
+            .benefit-card:hover {
+                transform: translateY(-5px);
+            }
+
+        .benefit-icon {
+            width: 4rem;
+            height: 4rem;
+            background: rgba(13, 110, 253, 0.1);
+            border-radius: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-size: 2rem;
+            color: var(--primary-color);
+        }
+
+        .benefit-card h3 {
+            font-size: 1.25rem;
+            color: #212529;
+            margin-bottom: 1rem;
+        }
+
+        .benefit-card p {
+            color: #6c757d;
+            margin: 0;
+            line-height: 1.6;
+        }
+    </style>
+    <style>
+        .membership-section {
+            padding: 5rem 0;
+            background: white;
+        }
+
+        .membership-card {
+            background: white;
+            border-radius: 1rem;
+            padding: 2rem;
+            height: 100%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .membership-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+            }
+
+            .membership-card::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 4px;
+            }
+
+        .member::before {
+            background: var(--primary-color);
+        }
+
+        .mentor::before {
+            background: var(--secondary-color);
+        }
+
+        .participant::before {
+            background: var(--info-color);
+        }
+
+        .card-icon {
+            width: 3rem;
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0.75rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+
+        .member .card-icon {
+            background: rgba(13, 110, 253, 0.1);
+            color: var(--primary-color);
+        }
+
+        .mentor .card-icon {
+            background: rgba(108, 117, 125, 0.1);
+            color: var(--secondary-color);
+        }
+
+        .participant .card-icon {
+            background: rgba(13, 202, 240, 0.1);
+            color: var(--info-color);
+        }
+
+        .membership-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: #212529;
+        }
+
+        .benefits-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 1.5rem 0;
+        }
+
+            .benefits-list li {
+                display: flex;
+                align-items: center;
+                margin-bottom: 0.75rem;
+                color: #6c757d;
+            }
+
+            .benefits-list i {
+                margin-right: 0.75rem;
+                font-size: 0.875rem;
+                color: var(--primary-color);
+            }
+
+        .btn i {
+            margin-left: 0.5rem;
+            transition: transform 0.3s ease;
+        }
+
+        .btn:hover i {
+            transform: translateX(4px);
+        }
+    </style>
+    <style>
+        /* Benefits Section */
+        .benefits-section {
+            padding: 5rem 0;
+            background: white;
+        }
+
+            .benefits-section h2 {
+                font-size: 2.5rem;
+                color: #212529;
+                margin-bottom: 3rem;
+            }
+
+        .benefit-card {
+            text-align: center;
+            padding: 2rem;
+            height: 100%;
+            transition: transform 0.3s ease;
+        }
+
+            .benefit-card:hover {
+                transform: translateY(-5px);
+            }
+
+        .benefit-icon {
+            width: 4rem;
+            height: 4rem;
+            background: rgba(13, 110, 253, 0.1);
+            border-radius: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-size: 2rem;
+            color: var(--primary-color);
+        }
+
+        .benefit-card h3 {
+            font-size: 1.25rem;
+            color: #212529;
+            margin-bottom: 1rem;
+        }
+
+        .benefit-card p {
+            color: #6c757d;
+            margin: 0;
+            line-height: 1.6;
+        }
+    </style>
     
    
 
 }
 
 
-<div class="min-h-screen bg-gradient-to-b from-white to-teal-50">
+<
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE BioInformatics - Join Us</title>
+  @*   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> *@
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/cards.css" rel="stylesheet">
+</head>
+<body>
     <!-- Hero Section -->
-    <div class="hero-section text-center py-20 bg-gradient-to-r from-teal-600 to-teal-800" data-aos="fade-down">
-        <h1 class="text-5xl font-bold text-white mb-6">Join IEEE BioInformatics</h1>
-        <p class="text-xl text-teal-100 max-w-3xl mx-auto px-4">
-            Be part of a global community advancing the frontiers of bioinformatics and computational biology
-        </p>
-    </div>
+    <header class="hero-section text-white text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-4">Join IEEE <span class="text-primary">BioInformatics</span></h1>
+            <p class="lead mb-0">Be part of a thriving community dedicated to advancing the frontiers of bioinformatics</p>
+        </div>
+    </header>
 
     <!-- Membership Cards Section -->
     <div class="container mx-auto px-4 py-16">
@@ -32,111 +281,109 @@
         </div>
     </div>
 
-    <div class="membership-card bg-white rounded-xl shadow-xl p-8 transform hover:scale-105 transition-all duration-300"
-         data-aos="fade-left">
-        <div class="card-icon-wrapper mb-8">
-            <i class="fas fa-chalkboard-teacher text-6xl text-teal-600"></i>
-        </div>
-        <h2 class="text-3xl font-bold text-teal-800 mb-6">Participant</h2>
-        <ul class="benefit-list space-y-4 mb-8">
-            <li class="flex items-center gap-3">
-                <i class="fas fa-check-circle text-teal-600"></i>
-                <span>Participate in insightful Seminars</span>
-            </li>
-            <li class="flex items-center gap-3">
-                <i class="fas fa-check-circle text-teal-600"></i>
-                <span>Share your expertise</span>
-            </li>
-            <li class="flex items-center gap-3">
-                <i class="fas fa-check-circle text-teal-600"></i>
-                <span>Lead research initiatives</span>
-            </li>
-        </ul>
-        <a href="/ParticipantForm" class="apply-button group">
-            Apply as a Participant
-            <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
-        </a>
-    </div>
+    
             <!-- Member Card -->
-            <div class="membership-card bg-white rounded-xl shadow-xl p-8 transform hover:scale-105 transition-all duration-300"
-                 data-aos="fade-right">
-                <div class="card-icon-wrapper mb-8">
-                    <i class="fas fa-user-graduate text-6xl text-teal-600"></i>
+            
+    <!-- Membership Cards -->
+    <section class="membership-section">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Member Card -->
+                <div class="col-md-4">
+                    <div class="membership-card member">
+                        <div class="card-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3>Member</h3>
+                        <ul class="benefits-list">
+                            <li><i class="fas fa-check"></i>Access exclusive workshops</li>
+                            <li><i class="fas fa-check"></i>Network with professionals</li>
+                            <li><i class="fas fa-check"></i>Join research projects</li>
+                        </ul>
+                        <a href="/MemberForm" class="btn btn-primary btn-lg w-100">
+                            Apply as Member <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
-                <h2 class="text-3xl font-bold text-teal-800 mb-6">Member</h2>
-                <ul class="benefit-list space-y-4 mb-8">
-                    <li class="flex items-center gap-3">
-                        <i class="fas fa-check-circle text-teal-600"></i>
-                        <span>Access to exclusive workshops and training</span>
-                    </li>
-                    <li class="flex items-center gap-3">
-                        <i class="fas fa-check-circle text-teal-600"></i>
-                        <span>Network with industry professionals</span>
-                    </li>
-                    <li class="flex items-center gap-3">
-                        <i class="fas fa-check-circle text-teal-600"></i>
-                        <span>Join research collaborations</span>
-                    </li>
-                </ul>
-                <a href="/MemberForm" class="apply-button group">
-                    Apply as Member
-                    <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
-                </a>
-            </div>
 
-            <!-- Mentor Card -->
-            <div class="membership-card bg-white rounded-xl shadow-xl p-8 transform hover:scale-105 transition-all duration-300"
-                 data-aos="fade-left">
-                <div class="card-icon-wrapper mb-8">
-                    <i class="fas fa-chalkboard-teacher text-6xl text-teal-600"></i>
+                <!-- Mentor Card -->
+                <div class="col-md-4">
+                    <div class="membership-card mentor">
+                        <div class="card-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <h3>Mentor</h3>
+                        <ul class="benefits-list">
+                            <li><i class="fas fa-check"></i>Guide aspiring professionals</li>
+                            <li><i class="fas fa-check"></i>Share your expertise</li>
+                            <li><i class="fas fa-check"></i>Lead research initiatives</li>
+                        </ul>
+                        <a href="/MentorForm" class="btn btn-secondary btn-lg w-100">
+                            Apply as Mentor <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
-                <h2 class="text-3xl font-bold text-teal-800 mb-6">Mentor</h2>
-                <ul class="benefit-list space-y-4 mb-8">
-                    <li class="flex items-center gap-3">
-                        <i class="fas fa-check-circle text-teal-600"></i>
-                        <span>Guide aspiring professionals</span>
-                    </li>
-                    <li class="flex items-center gap-3">
-                        <i class="fas fa-check-circle text-teal-600"></i>
-                        <span>Share your expertise</span>
-                    </li>
-                    <li class="flex items-center gap-3">
-                        <i class="fas fa-check-circle text-teal-600"></i>
-                        <span>Lead research initiatives</span>
-                    </li>
-                </ul>
-                <a href="/MentorForm" class="apply-button group">
-                    Apply as Mentor
-                    <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
-                </a>
-            </div>
-        </div>
-    </div>
 
-    <!-- Features Section -->
-    <div class="bg-teal-50 py-16">
-        <div class="container mx-auto px-4">
-            <h2 class="text-4xl font-bold text-center text-teal-800 mb-12" data-aos="fade-up">Why Join Us?</h2>
-            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                    <i class="fas fa-laptop-code text-4xl text-teal-600 mb-4"></i>
-                    <h3 class="text-xl font-bold text-teal-800 mb-2">Latest Technology</h3>
-                    <p class="text-gray-600">Access cutting-edge tools and technologies in bioinformatics</p>
-                </div>
-                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                    <i class="fas fa-users text-4xl text-teal-600 mb-4"></i>
-                    <h3 class="text-xl font-bold text-teal-800 mb-2">Global Network</h3>
-                    <p class="text-gray-600">Connect with professionals worldwide</p>
-                </div>
-                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                    <i class="fas fa-certificate text-4xl text-teal-600 mb-4"></i>
-                    <h3 class="text-xl font-bold text-teal-800 mb-2">Certification</h3>
-                    <p class="text-gray-600">Earn recognized certifications in your field</p>
+                <!-- Participant Card -->
+                <div class="col-md-4">
+                    <div class="membership-card participant">
+                        <div class="card-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Participant</h3>
+                        <ul class="benefits-list">
+                            <li><i class="fas fa-check"></i>Attend insightful seminars</li>
+                            <li><i class="fas fa-check"></i>Learn from experts</li>
+                            <li><i class="fas fa-check"></i>Participate in workshops</li>
+                        </ul>
+                        <a href="/ParticipantForm" class="btn btn-info btn-lg w-100">
+                            Apply as Participant <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Why Join IEEE BioInformatics?</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Latest Technology</h3>
+                        <p>Access cutting-edge tools and stay ahead in bioinformatics research</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Global Network</h3>
+                        <p>Connect with leading professionals and researchers worldwide</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>Recognition</h3>
+                        <p>Earn certifications and recognition in your specialized field</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+@*     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> *@
+</body>
+</html>
 
 @section Scripts {
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

@@ -1,4 +1,5 @@
 ﻿@page
+@using IEEE_EMB.Models.Utilities
 @model IEEE_EMB.Pages.Admin.AllMentorsModel
 @{
 }
@@ -19,17 +20,45 @@
                     <tr>
                         <th>Name</th>
                         <th>Email</th>
-                        <th>University</th>
+                        <th>Education</th>
+                        <th>Status</th>
                         <th>Actions</th>
 
                     </tr>
                 </thead>
                 <tbody class="table-border-bottom-0">
-                   
+
+              
+                        @for (int i = 0; i < Model.dt.Rows.Count; i++)
+                        {
                         <tr>
-                            <td><strong>Amira</strong></td>
-                            <td><strong>Amira@gmail.com</strong></td>
-                            <td><strong>zewailcity</strong></td>
+                            <td><strong>@Model.dt.Rows[i][1]</strong></td>
+                            <td><strong>@Model.dt.Rows[i][5]</strong></td>
+                            <td><strong>@Model.dt.Rows[i][2]</strong></td>
+                            @if (Model.dt.Rows[i]["STATUS"].ToString() == @Status.Waiting)
+                            {
+                                <td>
+                                    <form method="post" asp-page-handler="UpdateStatus">
+                                        <input type="hidden" name="id" value="@Model.dt.Rows[i]["SSN"]" />
+                                        <div class="split-button">
+                                            <button type="submit" name="status" value="@Status.Approved" class="button-half accept-half">
+                                                <span class="icon">✓</span>
+                                                Accept
+                                            </button>
+                                            <div class="divider"></div>
+                                            <button type="submit" name="status" value="@Status.Approved" class="button-half decline-half">
+                                                <span class="icon">✕</span>
+                                                Decline
+                                            </button>
+                                        </div>
+                                    </form>
+                                </td>
+                            }
+                            else
+                            {
+                                <td><strong>@Model.dt.Rows[i]["STATUS"]</strong></td>
+                            }
+                        
                         <td>
                             <div class="dropdown">
                                 <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
@@ -49,12 +78,80 @@
                             </div>
                         </td>
                         </tr>
-                    
+                    }
                 </tbody>
             </table>
         </div>
     </div>
 </div>
+
+@section Styles{
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        .split-button {
+            position: relative;
+            display: flex;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transform: scale(0.9);
+        }
+
+        .button-half {
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .accept-half {
+            background-color: #22c55e;
+            color: white;
+        }
+
+        .decline-half {
+            background-color: #ef4444;
+            color: white;
+        }
+
+        .button-half:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .accept-half:hover {
+            background-color: #16a34a;
+        }
+
+        .decline-half:hover {
+            background-color: #dc2626;
+        }
+
+        .divider {
+            width: 2px;
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        /* Icons */
+        .icon {
+            font-size: 14px;
+        }
+    </style>
+}
 
 @section Scripts {
     <script>
