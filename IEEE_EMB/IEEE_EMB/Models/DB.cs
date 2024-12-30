@@ -302,12 +302,17 @@ namespace IEEE_EMB.Models
 
             return dt;
         }
+        
+           
 
+        
+    
 
         public DataTable GetMentorsNames()
-        {
-            DataTable dt = new DataTable();
-            string query = "SELECT M.Name\r\nFROM MENTOR M";
+
+            {
+                DataTable dt = new DataTable();
+                string query = "SELECT M.Name\r\nFROM MENTOR M";
 
             try
             {
