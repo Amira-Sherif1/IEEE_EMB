@@ -19,36 +19,42 @@
                 <div class="form-group">
                     <label for="Name" class="control-label">Name</label>
                     <input id="Name" name="Name" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="admin.Name"></span>
                 </div>
 
                 <!-- Email -->
                 <div class="form-group">
                     <label for="Email" class="control-label">Email</label>
                     <input id="Email" name="Email" type="email" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="admin.Email"></span>
                 </div>
 
                 <!-- Password -->
                 <div class="form-group">
                     <label for="Password" class="control-label">Password</label>
                     <input id="Password" name="Password" type="password" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="admin.password"></span>
                 </div>
 
                 <!-- Role -->
                 <div class="form-group">
                     <label for="Role" class="control-label">Role</label>
                     <input id="Role" name="Role" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="admin.Role"></span>
                 </div>
 
                 <!-- CV -->
                 <div class="form-group">
                     <label for="CV" class="control-label">CV</label>
                     <input id="CV" name="CV" type="file" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="admin.CV"></span>
                 </div>
 
                 <!-- Phone Number -->
                 <div class="form-group">
                     <label for="PhoneNumber" class="control-label">Phone Number</label>
                     <input id="PhoneNumber" name="PhoneNumber" type="tel" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="admin.Phone"></span>
                 </div>
 
                 <div class="form-group mt-3">

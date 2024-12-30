@@ -19,29 +19,34 @@
                 <div class="form-group">
                     <label for="Title" class="control-label">Title</label>
                     <input class="form-control" asp-for="activity.Title" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="activity.Title"></span>
                 </div>
 
                 <div class="form-group">
                     <label for="Description" class="control-label">Description</label>
                     <input class="form-control" asp-for="activity.Description" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="activity.Description"></span>
                 </div>
 
                 <!-- Start Date -->
                 <div class="form-group">
                     <label for="StartDate" class="control-label">Start Date</label>
                     <input type="date" class="form-control" asp-for="activity.startdate" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="activity.startdate"></span>
                 </div>
 
                 <!-- End Date -->
                 <div class="form-group">
                     <label for="EndDate" class="control-label">End Date</label>
                     <input type="date" class="form-control" asp-for="activity.Enddate" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="activity.Enddate"></span>
                 </div>
 
                 <!-- Capacity -->
                 <div class="form-group">
                     <label for="Capacity" class="control-label">Capacity</label>
                     <input type="number" class="form-control" asp-for="activity.Capacity" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="activity.Capacity"></span>
                 </div>
 
                 <!-- Activity Type -->
@@ -53,6 +58,7 @@
                         <option value="Workshop">Workshop</option>
                         <option value="Seminar">Seminar</option>
                     </select>
+
                 </div>
 
 

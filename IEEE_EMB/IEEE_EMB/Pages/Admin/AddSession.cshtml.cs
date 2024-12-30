@@ -70,6 +70,7 @@ namespace IEEE_EMB.Pages.Admin
             return RedirectToPage("/Admin/errorpage");
 
 
+
         }
         public IActionResult OnPostLogout()
         {
