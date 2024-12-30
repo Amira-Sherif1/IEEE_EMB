@@ -6,6 +6,112 @@
 
 @section Styles {
     <link rel="stylesheet" href="~/css/home.css" />
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background-color: #f8f9fa;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+    
+  
+
+        /* Split Layout */
+        .split-container {
+            display: flex;
+            flex-direction: column;
+            min-height: calc(100vh - 76px); /* Subtract navbar height */
+        }
+
+        /* Top Section */
+        .top-section {
+            flex: 1;
+            background: linear-gradient(45deg, #0047AB, #4169E1);
+            color: white;
+            padding: 4rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .top-content {
+            max-width: 800px;
+        }
+
+            .top-content h1 {
+                font-size: 3rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .top-content p {
+                font-size: 1.25rem;
+                opacity: 0.9;
+            }
+
+        /* Bottom Slider Section */
+        .bottom-section {
+            background: white;
+            padding: 2rem 0;
+        }
+
+        .slider-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .carousel {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .carousel-item {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 5%;
+            color: #0047AB;
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: #0047AB;
+            border-radius: 50%;
+            padding: 1rem;
+        }
+
+        .carousel-indicators {
+            margin-bottom: 0;
+        }
+
+            .carousel-indicators button {
+                background-color: #0047AB;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                margin: 0 5px;
+            }
+
+        .news-item {
+            padding: 1rem;
+        }
+
+            .news-item h3 {
+                color: #0047AB;
+                margin-bottom: 1rem;
+            }
+
+            .news-item p {
+                color: #333;
+                margin-bottom: 1.5rem;
+            }
+    </style>
 }
 
 <div class="hero-section">
@@ -29,31 +135,75 @@
     </div>
 </div>
 
-<section class="news-events">
-    <div class="container">
-        <h2 class="section-title">News & Events</h2>
-        <div class="news-slider">
-            <button class="slider-nav prev-btn">
-                <i class="fas fa-chevron-left"></i>
-            </button>
-            <div class="news-cards">
-                @foreach (var news in Model.NewsItems)
-                {
-                    <partial name="_NewsCard" model="news" />
-                }
-            </div>
-            <button class="slider-nav next-btn">
-                <i class="fas fa-chevron-right"></i>
-            </button>
-            <div class="slider-dots">
-                <span class="dot active"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
+
+<body>
+<!-- Split Container -->
+
+    <!-- Bottom Section with Slider -->
+    <div class="bottom-section">
+        <div class="slider-container">
+            <div id="newsSlider" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#newsSlider" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#newsSlider" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#newsSlider" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="news-item">
+                            <h3>Latest Research Breakthrough</h3>
+                            <p>New developments in bioinformatics research advancing computational biology and medicine...</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="news-item">
+                            <h3>Upcoming Workshop</h3>
+                            <p>Join us for an exciting workshop on the latest advancements in computational biology...</p>
+                            <a href="#" class="btn btn-primary">Register Now</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="news-item">
+                            <h3>Conference Announcement</h3>
+                            <p>Annual IEEE BioInformatics conference bringing together leading researchers...</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#newsSlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#newsSlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </div>
-</section>
+</div>
+
+@* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> *@
+<script type="module" src="/main.js"></script>
+  </body>
 
 @section Scripts {
     <script src="~/js/news-slider.js"></script>
+    <script>
+        const carousel = new bootstrap.Carousel(document.getElementById('newsSlider'), {
+            interval: 5000, // Change slides every 5 seconds
+            wrap: true, // Continuous loop
+            keyboard: true // Enable keyboard navigation
+        });
+
+        // Optional: Pause on hover
+        document.getElementById('newsSlider').addEventListener('mouseenter', () => {
+            carousel.pause();
+        });
+
+        document.getElementById('newsSlider').addEventListener('mouseleave', () => {
+            carousel.cycle();
+        });
+    </script>
 }

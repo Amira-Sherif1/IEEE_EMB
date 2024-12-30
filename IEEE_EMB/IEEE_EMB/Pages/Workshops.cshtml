@@ -3,7 +3,36 @@
 @{
     ViewData["Title"] = "Available Workshops";
 }
+@section Scripts
+{
 
+    <script>
+        import './style.css'
+        import javascriptLogo from './javascript.svg'
+        import viteLogo from '/vite.svg'
+        import { setupCounter } from './counter.js'
+
+        document.querySelector('#app').innerHTML = `
+          <div>
+            <a href="https://vitejs.dev" target="_blank">
+              <img src="${viteLogo}" class="logo" alt="Vite logo" />
+            </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+              <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
+            </a>
+            <h1>Hello Vite!</h1>
+            <div class="card">
+              <button id="counter" type="button"></button>
+            </div>
+            <p class="read-the-docs">
+              Click on the Vite logo to learn more
+            </p>
+          </div>
+        `
+
+        setupCounter(document.querySelector('#counter'))
+    </script>
+}
 <div class="seminars-page">
     <!-- Hero Section -->
     <div class="hero-section">
@@ -19,14 +48,14 @@
     <div class="filters-section">
         <div class="container">
             <div class="filters-wrapper">
-                
-                </select>
                 <input type="search"
+                       id="searchInput"
                        placeholder="Search seminars..."
-                       class="search-input" />
+                       class="search-input form-control" />
             </div>
         </div>
     </div>
+
 
 
     <div class="container seminars-container">
@@ -132,6 +161,35 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 1rem;
+        }
+
+        .filters-section {
+            background-color: #f8f9fa;
+            padding: 1rem 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .filters-wrapper {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .search-input {
+            max-width: 300px;
+        }
+
+        .seminar-card {
+            margin-bottom: 1rem;
+            transition: transform 0.2s;
+        }
+
+            .seminar-card:hover {
+                transform: translateY(-2px);
+            }
+
+        .hidden {
+            display: none !important;
         }
 
         /* Hero section */

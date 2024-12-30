@@ -8,7 +8,7 @@ namespace IEEE_EMB.Models
 {
     public class DB
     {
-        private string connectionstring = "Data Source= DESKTOP-E4Q9O8K; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
+        private string connectionstring = "Data Source= Eng-Omars-Lap; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
         public SqlConnection con = new();
         public DB()
         {
@@ -466,7 +466,7 @@ namespace IEEE_EMB.Models
                 con.Open();
             
                 
-                string query = "INSERT INTO PARTICIPANTS(SSN, NAME, EMAIL, PHONE, UNIVERSITY)" +
+                string query = "INSERT INTO mentorS(SSN, NAME, EMAIL, PHONE, UNIVERSITY)" +
                                "VALUES (@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY)";
                 SqlCommand com = new SqlCommand(query, con);
                 com.Parameters.AddWithValue("@SSN", participant.SSN);
@@ -890,6 +890,113 @@ namespace IEEE_EMB.Models
             }
             return Activities;
         }
+        public DataTable GetMember()
+        {
+            DataTable dt = new DataTable();
+            string querey = "select * from MEMBER";
+            try
+            {
+                con.Open();
+                SqlCommand com = new SqlCommand(querey, con);
+                dt.Load(com.ExecuteReader());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+
+
+            }
+            return dt;
+
+
+        }
+        public DataTable GetMentor()
+        {
+            DataTable dt = new DataTable();
+            string querey = "select * from MENTOR";
+            try
+            {
+                con.Open();
+                SqlCommand com = new SqlCommand(querey, con);
+                dt.Load(com.ExecuteReader());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+
+
+            }
+            return dt;
+
+
+        }
+        public void AddMember(Member member)
+        {
+            try
+            {
+                con.Open();
+
+
+                string query = "INSERT INTO MEMBER(SSN, NAME, EMAIL, PHONE, UNIVERSITY)" +
+                               "VALUES(@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY)";
+                SqlCommand com = new SqlCommand(query, con);
+                com.Parameters.AddWithValue("@SSN", member.SSN);
+                com.Parameters.AddWithValue("@NAME", member.Name);
+                com.Parameters.AddWithValue("@EMAIL", member.Email);
+                com.Parameters.AddWithValue("@PHONE", member.Phone);
+                com.Parameters.AddWithValue("@UNIVERSITY", member.University);
+                //com.Parameters.AddWithValue("@PASSWORD", member.Password);
+                com.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+
+
+        }
+        public void AddMentor(Mentor mentor)
+        {
+            try
+            {
+                con.Open();
+
+
+                string query = "INSERT INTO MENTOR(SSN, NAME, EMAIL, PHONE, UNIVERSITY)" +
+                               "VALUES(@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY)";
+                SqlCommand com = new SqlCommand(query, con);
+                com.Parameters.AddWithValue("@SSN", mentor.SSN);
+                com.Parameters.AddWithValue("@NAME", mentor.Name);
+                com.Parameters.AddWithValue("@EMAIL", mentor.Email);
+                com.Parameters.AddWithValue("@PHONE", mentor.Phone);
+                com.Parameters.AddWithValue("@UNIVERSITY", mentor.Education);
+                //com.Parameters.AddWithValue("@PASSWORD", mentor.Password);
+                com.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+
+
+        }
+
 
     }
 }
