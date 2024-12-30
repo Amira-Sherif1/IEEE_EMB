@@ -1,5 +1,7 @@
 ﻿@page
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
 @model IEEE_EMB.Pages.Admin.AllParticipantsModel
+
 @{  
 }
 @{
@@ -7,10 +9,12 @@
 }
 <div class="container-xxl flex-grow-1 container-p-y">
     <!-- Add  Button -->
+     @if (HttpContextAccessor.HttpContext?.Session.GetString("AuthenticationString") == "Admin")
+     {
     <div class="mb-4">
         <a href="/Admin/Participants" class="btn btn-primary">Add Participant</a>
     </div>
-
+     }
     <div class="card">
         <h5 class="card-header">All Participants</h5>
         <div class="table-responsive text-nowrap">

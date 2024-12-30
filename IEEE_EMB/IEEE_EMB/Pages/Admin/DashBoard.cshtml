@@ -1,11 +1,46 @@
-﻿
-@page
+﻿@page
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
 @model IEEE_EMB.Pages.Admin.DashBoardModel
+@{
+}
 @{
     Layout = "~/Pages/Shared/DashLayout.cshtml";
 }
 
-<div class="container-fluid p-4">
+
+@* @if (HttpContextAccessor.HttpContext?.Session.GetString("AuthenticationString") == "Mentor")
+{
+    <div class="row">
+        <div class="col-xl-3 col-md-6">
+            <div class="stat-card stat-primary">
+                <h3>Total Admins</h3>
+                <div class="value">@Model.NA</div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="stat-card stat-success">
+                <h3>Total Members</h3>
+                <div class="value">@Model.NP</div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="stat-card stat-info">
+                <h3>Total Mentors</h3>
+                <div class="value">@Model.NMEN</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-6 col-md-6">
+        <div class="chart-container">
+            <div class="chart-title">Lecture Enrollment Distribution</div>
+            <canvas id="part_per_activity"></canvas>
+        </div>
+    </div>
+}
+ *@
+
+
+    <div class="container-fluid p-4">
     <!-- Summary Cards Row -->
     <div class="row">
         <div class="col-xl-3 col-md-6">
@@ -64,7 +99,8 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
+
 
 
 <style>

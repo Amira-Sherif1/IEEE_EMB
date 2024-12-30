@@ -6,9 +6,16 @@ public class MemberFormModel : PageModel
 {
     [BindProperty]
     public Member member { get; set; }
+    public DB db { get; set; }
+    public MemberFormModel(DB db)
+    {
+        
+        this.db = db;
+    }
 
     public void OnGet()
     {
+        member = new Member();
     }
 
     public IActionResult OnPost()
@@ -17,10 +24,10 @@ public class MemberFormModel : PageModel
         {
             return Page();
         }
-
+        db.MemberJoin(member);
         // Add your logic to save the member application
         // For example: _memberService.CreateApplication(Member);
 
-        return RedirectToPage("/Apply/Success");
+        return RedirectToPage("/Login");
     }
 }

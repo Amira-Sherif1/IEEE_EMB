@@ -32,14 +32,15 @@
                   @*   <th>Status</th> *@
                     <th>Action</th>
                 </tr>
+                @for(int i = 0; i < Model.activity.Rows.Count; i++){
                 <tr>
-                    <td>@Model.activity.Rows[0]["SessionTitle"]</td>
-                    <td>@Model.activity.Rows[0]["DATE"]</td>
+                    <td>@Model.activity.Rows[i]["SessionTitle"]</td>
+                    <td>@Model.activity.Rows[i]["DATE"]</td>
                    @*  <td><span class="badge badge-success">Completed</span></td> *@
                    @*  <td><span class="badge badge-warning">Upcoming</span></td> *@
-                    <td><a asp-page="/SessionDetails" asp-route-SessionId="@Model.activity.Rows[0]["SessionId"]">View Details</a></td>
+                    <td><a asp-page="/SessionDetails" asp-route-SessionId="@Model.activity.Rows[i]["SessionId"]">View Details</a></td>
                 </tr>
-               
+                }
             </table>
         </div>
     </div>

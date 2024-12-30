@@ -1,7 +1,6 @@
-
 using Microsoft.Data.SqlClient;
+using Microsoft.Identity.Client;
 using System.Data;
-using System.Diagnostics;
 using System.Runtime.Intrinsics.X86;
 
 namespace IEEE_EMB.Models
@@ -25,7 +24,7 @@ namespace IEEE_EMB.Models
                 con.Open();
                 SqlCommand com = new SqlCommand(querey, con);
                 dt.Load(com.ExecuteReader());
-              
+
             }
             catch (Exception ex)
             {
@@ -79,7 +78,7 @@ namespace IEEE_EMB.Models
                 cmd.Parameters.AddWithValue("@Email", email);
                 cmd.Parameters.AddWithValue("@SSN", ssn);
 
-                
+
                 dt.Load(cmd.ExecuteReader());
             }
             catch (Exception ex)
@@ -305,17 +304,17 @@ namespace IEEE_EMB.Models
 
             return dt;
         }
-        
-           
 
-        
-    
+
+
+
+
 
         public DataTable GetMentorsNames()
 
-            {
-                DataTable dt = new DataTable();
-                string query = "SELECT M.Name\r\nFROM MENTOR M";
+        {
+            DataTable dt = new DataTable();
+            string query = "SELECT M.Name\r\nFROM MENTOR M";
 
             try
             {
@@ -342,10 +341,12 @@ namespace IEEE_EMB.Models
                 SqlCommand com = new SqlCommand(query, con);
                 dt.Load(com.ExecuteReader());
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 Console.WriteLine(ex.Message);
             }
-            finally {
+            finally
+            {
                 con.Close();
             }
 
@@ -466,8 +467,8 @@ namespace IEEE_EMB.Models
             try
             {
                 con.Open();
-            
-                
+
+
                 string query = "INSERT INTO PARTICIPANTS(SSN, NAME, EMAIL, PHONE, UNIVERSITY)" +
                                "VALUES (@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY)";
                 SqlCommand com = new SqlCommand(query, con);
@@ -506,7 +507,7 @@ namespace IEEE_EMB.Models
                 editDescriptionCommand.ExecuteNonQuery();
                 editCapacityCommand.ExecuteNonQuery();
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -516,7 +517,7 @@ namespace IEEE_EMB.Models
             }
 
         }
-    
+
         public void AddSession(Session session)
 
         {
@@ -543,7 +544,7 @@ namespace IEEE_EMB.Models
                 com.ExecuteNonQuery();
             }
 
-           
+
 
 
 
@@ -580,39 +581,34 @@ namespace IEEE_EMB.Models
         }
 
         public DataTable GetActivitiesForMentor(string MentorId)
-            {
-                DataTable dt = new DataTable();
-            string query = $"SELECT A.ID, A.TITLE, A.START_DATE, A.END_DATE, A.Capacity, A.TYPE, A.STATUS, M.NAME\r\nFROM ACTIVITY A JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\nJOIN MENTOR M ON AG.MENTOR_SSN = M.SSN WHERE MEMBER_ID ='{MentorId}'";
+        {
+            DataTable dt = new DataTable();
+            string query = $"SELECT A.ID, A.TITLE, A.START_DATE, A.END_DATE, A.Capacity, A.TYPE, A.STATUS, M.NAME\r\n" +
+                $"FROM ACTIVITY A JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\n" +
+                $"JOIN MENTOR M ON AG.MENTOR_SSN = M.SSN WHERE M.SSN ='{MentorId}'";
             try
             {
                 con.Open();
-                SqlCommand cmd= new SqlCommand(query, con);
+                SqlCommand cmd = new SqlCommand(query, con);
                 dt.Load(cmd.ExecuteReader());
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
             finally
             {
-                con.Close() ;
-            {
-                Console.WriteLine(ex.Message);
+                con.Close();
+
             }
-        
-        //    string EditTitleQuery = "";
+            return dt;
+        }
        
-        //        con.Open();
-        //        SqlCommand com = new SqlCommand(EditTitleQuery, con);
 
-        //    }
 
-        //}
-
-       
         public void DeleteActivity(int activityID)
         {
-            
+
             string deleteAssignmentQuery = $"DELETE FROM ASSIGN\r\nWHERE ACTIVITY_ID = {activityID}";
             string deleteSessionQuery = $"DELETE FROM SESSION\r\nWHERE ACTIVITY_ID = {activityID}";
             string deleteActivityQuery = $"DELETE FROM ACTIVITY\r\nWHERE ID = {activityID}";
@@ -625,9 +621,9 @@ namespace IEEE_EMB.Models
                 comAssign.ExecuteNonQuery();
                 comSession.ExecuteNonQuery();
                 comActivity.ExecuteNonQuery();
-                
+
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -643,10 +639,10 @@ namespace IEEE_EMB.Models
             {
                 con.Open();
                 SqlCommand com = new SqlCommand(querey, con);
-               // SqlCommand com2 = new SqlCommand(querey2, con);
+                // SqlCommand com2 = new SqlCommand(querey2, con);
 
                 com.ExecuteNonQuery();
-               // com2.ExecuteNonQuery();
+                // com2.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
@@ -655,6 +651,8 @@ namespace IEEE_EMB.Models
             finally
             {
                 con.Close();
+            }
+        }
 
         // Not Complete yet
         public void AddAdmin(Admin admin)
@@ -663,8 +661,11 @@ namespace IEEE_EMB.Models
                 "VALUES (@SSN, @NAME, @PASSWORD, @ROLE, @EMAIL, @CV, @PHONE, @PERSONAL_PHOTO, @UNIVERSITY, @BRIEF)";
 
 
-        // Not Complete yet
-        public void AddAdmin(Admin admin)
+            // Not Complete yet
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@SSN", admin.SSN);
                 cmd.Parameters.AddWithValue("@NAME", admin.Name);
                 cmd.Parameters.AddWithValue("@PASSWORD", admin.password);
@@ -676,16 +677,9 @@ namespace IEEE_EMB.Models
                 cmd.Parameters.AddWithValue("@UNIVERSITY", admin.University ?? (object)DBNull.Value);
                 cmd.Parameters.AddWithValue("@BRIEF", admin.Brief ?? (object)DBNull.Value);
                 cmd.ExecuteNonQuery();
-                dt.Load(cmd.ExecuteReader());
-            string query = "";
-            try
-            {
-                con.Open();
-                SqlCommand cmd = new SqlCommand(query, con);
-                cmd.ExecuteNonQuery();
+
             }
-            
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -693,19 +687,14 @@ namespace IEEE_EMB.Models
             {
                 con.Close();
             }
-            return dt;
+
 
         }
-        //public void AddAdmin(Admin admin)
-        //{
-        //    string query = "";
-        //    catch (Exception ex)
-        //        cmd.ExecuteNonQuery();
-        //}
+        
 
         public void DeleteAdmin(Admin admin)
         {
-           
+
             string deleteAdminQuery = "DELETE FROM ADMIN WHERE SSN = @SSN";
             try
             {
@@ -714,7 +703,8 @@ namespace IEEE_EMB.Models
                 deleteAdminCommand.Parameters.AddWithValue("@SSN", admin.SSN);
                 deleteAdminCommand.ExecuteNonQuery();
 
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -722,7 +712,7 @@ namespace IEEE_EMB.Models
             {
                 con.Close();
             }
-            
+
         }
 
         public DataTable GetAdmins()
@@ -783,7 +773,8 @@ namespace IEEE_EMB.Models
         public DataTable GetSpecificActivity(int ActivityId)
         {
             DataTable dt = new DataTable();
-            string query = $"select top 1 a.TITLE as 'ActivityTitle', a.DESCRIPTION , m.NAME , m.EDUCATION , s.TITLE as 'SessionTitle' , s.DATE , s.ID as 'SessionId'\r\nfrom ACTIVITY a join ASSIGN ass on a.ID = ass.ACTIVITY_ID join MENTOR m on ass.MENTOR_SSN = m.SSN join SESSION s on s.ACTIVITY_ID= a.ID\r\nwhere a.ID={ActivityId}";
+            string query = $"select a.TITLE as 'ActivityTitle', a.DESCRIPTION , m.NAME , m.EDUCATION , s.TITLE as 'SessionTitle' , s.DATE , s.ID as 'SessionId'\r\n" +
+                $"from ACTIVITY a join ASSIGN ass on a.ID = ass.ACTIVITY_ID join MENTOR m on ass.MENTOR_SSN = m.SSN join SESSION s on s.ACTIVITY_ID= a.ID\r\nwhere a.ID={ActivityId}";
             SqlCommand command = new SqlCommand(query, con);
             try
             {
@@ -803,7 +794,7 @@ namespace IEEE_EMB.Models
 
 
         ///////////////////////
-        public DataTable getspecificsession(int SessionId) 
+        public DataTable getspecificsession(int SessionId)
         {
             DataTable dt = new DataTable();
             string query = $"select * from SESSION where ID={SessionId};";
@@ -834,13 +825,13 @@ namespace IEEE_EMB.Models
                 con.Open();
                 count = (int)command.ExecuteScalar();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
             finally
             {
-                con.Close() ;
+                con.Close();
             }
             return count;
         }
@@ -928,7 +919,7 @@ namespace IEEE_EMB.Models
             return participants;
         }
 
-        public int NumOfActivityPerMonth(int month , string ActivityType)
+        public int NumOfActivityPerMonth(int month, string ActivityType)
         {
             int count = 0;
             string query = $"select count(*) \r\nfrom ACTIVITY \r\nwhere  MONTH(START_DATE) = {month} and TYPE ='{ActivityType}'\r\n;";
@@ -993,5 +984,161 @@ namespace IEEE_EMB.Models
             return Activities;
         }
 
+        ////////////////////////////////////////////////////////////
+        public int GetNumberOfActivitiesForMentor(string ssn)
+        {
+            int count = 0;
+            string query = "SELECT COUNT(*)\r\n" +
+                "FROM ACTIVITY A\r\n" +
+                "JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\n" +
+                "JOIN MENTOR M ON M.SSN = AG.MENTOR_SSN\r\n" +
+                "WHERE M.SSN = @SSN \r\n" +
+                "GROUP BY M.NAME, M.SSN";
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@SSN", ssn);
+                count = (int)cmd.ExecuteScalar();
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+
+            }
+            finally
+            {
+                con.Close();
+            }
+            return count;
+
+        }
+
+        public DataTable GetParticipantsWithMentor(string ssn)
+        {
+            DataTable participants = new DataTable();
+            string query = "SELECT A.ID, M.NAME, A.TITLE, COUNT(*) ParticipantsNumber\r\n" +
+                "FROM ACTIVITY A\r\n" +
+                "JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\n" +
+                "JOIN MENTOR M ON M.SSN = AG.MENTOR_SSN\r\n" +
+                "JOIN ACTIVITY_PARTICIPANTS AP ON AP.ACTIVITY_ID = A.ID\r\n" +
+                "WHERE M.SSN = @SSN \r\n" +
+                "GROUP BY A.ID, M.NAME, A.TITLE\r\n";
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@SSN", ssn);
+                participants.Load(cmd.ExecuteReader());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally { con.Close(); }
+
+            return participants;
+        }
+
+
+
+        public int GetTotalParticipantsNumberWithMentor(string ssn)
+        {
+            int count = 0;
+            string query = "SELECT COUNT(*) ParticipantsNumber\r\n" +
+                "FROM ACTIVITY A\r\n" +
+                "JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\n" +
+                "JOIN MENTOR M ON M.SSN = AG.MENTOR_SSN\r\n" +
+                "JOIN ACTIVITY_PARTICIPANTS AP ON AP.ACTIVITY_ID = A.ID\r\n" +
+                "WHERE M.SSN = @SSN";
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@SSN", ssn);
+                count = (int)cmd.ExecuteScalar();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine (ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return count;
+        }
+
+
+       
+         public void MemberJoin(Member member)
+        {
+            string query = "INSERT INTO MEMBER(SSN, YEAR, PHONE, PASSWORD, EMAIL, PREVIOUS_EXPERIENCE, NAME, STATUS, MAJOR, BRIEF, UNIVERSITY, PERSONAL_PHOTO)\r\n" +
+                "VALUES(@SSN, @YEAR, @PHONE, @PASSWORD, @EMAIL, @PREVIOUS_EXPERIENCE, @NAME, 'Pending', @MAJOR, @BRIEF, @UNIVERSITY, @PERSONAL_PHOTO)\r\n";
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@SSN", member.SSN);
+                cmd.Parameters.AddWithValue("@NAME", member.Name);
+                cmd.Parameters.AddWithValue("@PASSWORD", member.password);
+                cmd.Parameters.AddWithValue("@EMAIL", member.Email);
+                cmd.Parameters.AddWithValue("@PHONE", member.Phone);
+                cmd.Parameters.AddWithValue("@UNIVERSITY", member.University);
+                cmd.Parameters.AddWithValue("@PERSONAL_PHOTO", member.PersonalPhoto ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@BRIEF", member.Brief ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@PREVIOUS_EXPERIENCE", member.PreviousExperience ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@MAJOR", member.Major);
+                cmd.Parameters.AddWithValue("@YEAR", member.Currentyear);
+               
+                
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+         public void MentorJoin(Mentor mentor)
+        {
+            string query = "INSERT INTO MENTOR(SSN, NAME, PASSWORD, EMAIL, CV, PHONE, PERSONAL_PHOTO, BRIEF, UNIVERSITY, EDUCATION, BIO, STATUS)\r\n" +
+                "VALUES(@SSN, @NAME, @PASSWORD, @EMAIL, @CV, @PHONE, @PERSONAL_PHOTO, @BRIEF, @UNIVERSITY, @EDUCATION, @BIO, 'Pending' )\r\n";
+
+
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@SSN", mentor.SSN);
+                cmd.Parameters.AddWithValue("@NAME", mentor.Name);
+                cmd.Parameters.AddWithValue("@PASSWORD", mentor.Password);
+                cmd.Parameters.AddWithValue("@EMAIL", mentor.Email);
+                cmd.Parameters.AddWithValue("@PHONE", mentor.Phone);
+                cmd.Parameters.AddWithValue("@UNIVERSITY", mentor.University);
+                cmd.Parameters.AddWithValue("@PERSONAL_PHOTO", mentor.PersonalPhoto ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@BRIEF", mentor.Brief ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@BIO", mentor.BIO);
+                cmd.Parameters.AddWithValue("@STATUS", mentor.status);
+                cmd.Parameters.AddWithValue("@EDUCATION", mentor.Education);
+                cmd.Parameters.AddWithValue("@CV", mentor.CV ?? (object)DBNull.Value);
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        
+            // public
+        }
     }
-}

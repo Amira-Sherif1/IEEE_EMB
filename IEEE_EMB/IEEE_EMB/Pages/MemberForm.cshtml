@@ -115,6 +115,11 @@
                         <span asp-validation-for="@Model.member.Name" class="form-error"></span>
                     </div>
                     <div class="form-group">
+                        <label asp-for="@Model.member.SSN" class="form-label">Social Security Number (SSN)</label>
+                        <input asp-for="@Model.member.SSN" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.member.SSN" class="form-error"></span>
+                    </div>
+                    <div class="form-group">
                         <label asp-for="@Model.member.Email" class="form-label">Email Address</label>
                         <input asp-for="@Model.member.Email" type="email" class="form-input w-full" required />
                         <span asp-validation-for="@Model.member.Email" class="form-error"></span>
@@ -125,9 +130,9 @@
                         <span asp-validation-for="@Model.member.Phone" class="form-error"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="@Model.member.Currentyear" class="form-label">Academic Year</label>
-                        <input asp-for="@Model.member.Currentyear" type="date" class="form-input w-full" required />
-                        <span asp-validation-for="@Model.member.Currentyear" class="form-error"></span>
+                        <label asp-for="@Model.member.Currentyear.Year" class="form-label">Academic Year</label>
+                        <input asp-for="@Model.member.Currentyear.Year" type="date" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.member.Currentyear.Year" class="form-error"></span>
                     </div>
                     <div class="form-group">
                         <label asp-for="@Model.member.University" class="form-label">University</label>

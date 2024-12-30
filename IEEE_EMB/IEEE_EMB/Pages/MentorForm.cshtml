@@ -121,14 +121,19 @@
                         <span asp-validation-for="Mentor.Name" class="field-validation-error"></span>
                     </div>
                     <div class="form-group">
+                        <label asp-for="@Model.Mentor.SSN" class="form-label">Social Security Number (SSN)</label>
+                        <input asp-for="@Model.Mentor.SSN" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.Mentor.SSN" class="form-error"></span>
+                    </div>
+                    <div class="form-group">
                         <label asp-for="Mentor.Education" class="form-label">Education</label>
                         <input asp-for="Mentor.Education" type="text" class="form-input" required />
                         <span asp-validation-for="Mentor.Education" class="field-validation-error"></span>
                     </div>
                     <div class="form-group">
                         <label asp-for="Mentor.CV" class="form-label">CV</label>
-                        <input asp-for="Mentor.CV" type="file" class="form-input" required />
-                        <span asp-validation-for="Mentor.CV" class="field-validation-error"></span>
+                        <input asp-for="Mentor.CV" type="file" class="form-input"/>
+                       @*  <span asp-validation-for="Mentor.CV" class="field-validation-error"></span> *@
                     </div>
                     <div class="form-group">
                         <label asp-for="Mentor.Phone" class="form-label">Phone</label>
@@ -144,6 +149,11 @@
                         <label asp-for="Mentor.BIO" class="form-label">BIO</label>
                         <input asp-for="Mentor.BIO" type="text" class="form-input" required />
                         <span asp-validation-for="Mentor.BIO" class="field-validation-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="@Model.Mentor.University" class="form-label">University</label>
+                        <input asp-for="@Model.Mentor.University" class="form-input w-full" required />
+                        <span asp-validation-for="@Model.Mentor.University" class="form-error"></span>
                     </div>
                     <div class="form-group">
                         <label asp-for="Mentor.Password" class="form-label">Password</label>

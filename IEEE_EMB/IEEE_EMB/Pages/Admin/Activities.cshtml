@@ -1,12 +1,12 @@
 ﻿@page
 @inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
-
 @model IEEE_EMB.Pages.Admin.ActivitiesModel
 @{
 }
 @{
     Layout = "~/Pages/Shared/DashLayout.cshtml";
 }
+
 <div class="container-xxl flex-grow-1 container-p-y">
     <!-- Add Activity Button -->
        @{
@@ -15,8 +15,8 @@
             <div class="mb-4">
                 <a href="/Admin/AddActivity" class="btn btn-primary">Add Activity</a>
             </div>
-         }
-       }
+        }
+    }
 
     <div class="card">
         <h5 class="card-header">All Activities</h5>
@@ -29,13 +29,16 @@
                         <th>End Date</th>
                         <th>Capacity</th>
                         <th>Type</th>
-                        <th>Status</th>
-                        <th>Mentor</th>
                         <th>Sessions</th>
                         <th>Participants</th>
+                        @if (HttpContextAccessor.HttpContext?.Session.GetString("AuthenticationString") == "Mentor")
+                        {
+                            <th>Feedbacks</th>
+                        }
                         @if (HttpContextAccessor.HttpContext?.Session.GetString("AuthenticationString") == "Admin")
                         {
-                            
+                            <th>Status</th>
+                            <th>Mentor</th>
                             <th>Actions</th>
                         }
 
@@ -51,13 +54,18 @@
                         <td><strong>@activity.Enddate</strong></td>
                         <td><strong>@activity.Capacity</strong></td>
                         <td><strong>@activity.Type</strong></td>
-                        <td><strong>@activity.status</strong></td>
-                        <td><strong>@activity.mentorName</strong></td>
+                       
 
                         <td><strong><a href="/Admin/Session?activityId=@activity.Id">Sessions</a></strong></td>
                         <td><strong><a href="/Admin/AllParticipants?activityId=@activity.Id">Participants</a></strong></td>
+                            @if (HttpContextAccessor.HttpContext?.Session.GetString("AuthenticationString") == "Mentor")
+                            {
+                                <td><strong><a href="/Admin/AllParticipants?activityId=@activity.Id">Participants</a></strong></td>
+                            }
                          @if (HttpContextAccessor.HttpContext?.Session.GetString("AuthenticationString") == "Admin")
                             {
+                                 <td><strong>@activity.status</strong></td>
+                        <td><strong>@activity.mentorName</strong></td>
                                 
                             <td>
                             <div class="dropdown">
