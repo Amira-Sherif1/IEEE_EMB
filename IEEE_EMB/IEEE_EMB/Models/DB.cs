@@ -8,7 +8,7 @@ namespace IEEE_EMB.Models
 {
     public class DB
     {
-        private string connectionstring = "Data Source= DESKTOP-E4Q9O8K; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
+        private string connectionstring = "Server=db11993.public.databaseasp.net; Database=db11993; User Id=db11993; Password=eW@9-4Pk2r%B; Encrypt=True; TrustServerCertificate=True;";
         public SqlConnection con = new();
         public DB()
         {
@@ -347,7 +347,7 @@ namespace IEEE_EMB.Models
         public DataTable GetSeminar()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Seminar'";
+            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\n  JOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Seminar'";
 
             try
             {
@@ -885,6 +885,28 @@ namespace IEEE_EMB.Models
             }
             return Activities;
         }
+
+         public DataTable SearchForSeminar(string search)
+         {
+            DataTable dt= new DataTable();
+            string query = $"SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Seminar' and (AC.TITLE like '%{search}%' or AC.DESCRIPTION like '%{search}%')";
+            SqlCommand cmd = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
+                dt.Load(cmd.ExecuteReader());
+
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return dt;
+         }
 
     }
 }

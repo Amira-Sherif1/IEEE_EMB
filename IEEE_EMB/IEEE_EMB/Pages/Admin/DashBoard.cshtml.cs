@@ -20,8 +20,13 @@ namespace IEEE_EMB.Pages.Admin
         public int[] MonthlyWorkshops { get; set; } = new int[12];
         public int[] MonthlySeminars { get; set; } = new int[12];
         public int[] MonthlyJournalClubs { get; set; } = new int[12];
-        public DataTable TopParticipants { get; set; }
-        public DataTable TopActivities { get; set; }
+        // public DataTable TopParticipants { get; set; }
+        // public DataTable TopActivities { get; set; }
+       
+        public string[] TopParticipantLabels { get; set; }
+        public string[] TopParticipantCounts { get; set; }
+        public string[] TopActivityLabels { get; set; }
+        public string[] TopActivityCounts { get; set; }
         public DashBoardModel(DB db)
         {
             this.db = db;
@@ -49,9 +54,9 @@ namespace IEEE_EMB.Pages.Admin
                 labels.Add(row[0].ToString());
                 distributions.Add(row[1].ToString());
 
+            }
                 ActivitiesLabel = labels.ToArray();
                 ActivitiesDistribution = distributions.ToArray();
-            }
             ///////////////////// End ////////////////////////////
 
             //////////// Activities along the year ///////////////
@@ -64,13 +69,39 @@ namespace IEEE_EMB.Pages.Admin
                 MonthlyWorkshops[month - 1] = db.NumOfActivityPerMonth(month, "Workshop");
             }
             //////////////////////////////////////////////////////
-            
-            TopParticipants =db.TopFiveParticipants() ?? new DataTable();
-            TopActivities=db.TopFiveActivities() ?? new DataTable();
+
+            //TopParticipants =db.TopFiveParticipants() ?? new DataTable();
+            //TopActivities=db.TopFiveActivities() ?? new DataTable();
+
+            var TopParticipants = db.TopFiveParticipants() ?? new DataTable();
+            var topParticipantLabels = new List<string>();
+            var topParticipantCounts = new List<string>();
+
+            foreach (DataRow row in TopParticipants.Rows)
+            {
+                topParticipantLabels.Add(row[0].ToString());
+                topParticipantCounts.Add(row[1].ToString());
+            }
+
+            TopParticipantLabels = topParticipantLabels.ToArray();
+            TopParticipantCounts = topParticipantCounts.ToArray();
+
+            var TopActivities = db.TopFiveActivities() ?? new DataTable();
+            var topActivityLabels = new List<string>();
+            var topActivityCounts = new List<string>();
+
+            foreach (DataRow row in TopActivities.Rows)
+            {
+                topActivityLabels.Add(row[0].ToString());
+                topActivityCounts.Add(row[1].ToString());
+            }
+
+            TopActivityLabels = topActivityLabels.ToArray();
+            TopActivityCounts = topActivityCounts.ToArray();
 
 
             ///// 
-            
+
         }
     }
 }
