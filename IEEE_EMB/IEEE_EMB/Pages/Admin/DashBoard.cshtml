@@ -3,58 +3,49 @@
 @model IEEE_EMB.Pages.Admin.DashBoardModel
 @{
     Layout = "~/Pages/Shared/DashLayout.cshtml";
-
-    // Fake data from the backend
-    var lectureNames = new[] { "Lecture 1", "Lecture 2", "Lecture 3", "Lecture 4" };
-    var lectureEnrollments = new[] { 120, 200, 150, 100 };
-    var gradeLabels = new[] { "Freshman", "Sophomore", "Junior", "Senior" };
-    var gradeDistribution = new[] { 400, 500, 300, 300 };
-    var monthLabels = new[] { "January", "February", "March", "April" };
-    var monthlyBooksRevenue = new[] { 2000, 3000, 2500, 1500 };
-    var monthlyLecturesRevenue = new[] { 4000, 5000, 4500, 5500 };
-    var revenueSources = new[] { 10000, 25000 };
 }
+
 <div class="container-fluid p-4">
     <!-- Summary Cards Row -->
-   @*  <div class="row">
+    <div class="row">
         <div class="col-xl-3 col-md-6">
             <div class="stat-card stat-primary">
-                <h3>Total Book Sales</h3>
-                <div class="value">$@revenueSources[0]</div>
+                <h3>Total Admins</h3>
+                <div class="value">@Model.NA</div>
             </div>
         </div>
         <div class="col-xl-3 col-md-6">
             <div class="stat-card stat-success">
-                <h3>Total Lecture Revenue</h3>
-                <div class="value">$@revenueSources[1]</div>
+                <h3>Total Members</h3>
+                <div class="value">@Model.NMEM</div>
             </div>
         </div>
         <div class="col-xl-3 col-md-6">
             <div class="stat-card stat-info">
-                <h3>Total Students</h3>
-                <div class="value">@gradeDistribution.Sum()</div>
+                <h3>Total Mentors</h3>
+                <div class="value">@Model.NMEN</div>
             </div>
         </div>
         <div class="col-xl-3 col-md-6">
             <div class="stat-card stat-warning">
-                <h3>Active Lectures</h3>
-                <div class="value">@lectureNames.Length</div>
+                <h3>Total Participants</h3>
+                <div class="value">@Model.NP</div>
             </div>
         </div>
     </div>
- *@
+
     <!-- Charts Row -->
     <div class="row">
         <div class="col-xl-6 col-md-6">
             <div class="chart-container">
-                <div class="chart-title">Monthly Revenue Overview</div>
-                <canvas id="revenueChart"></canvas>
+                <div class="chart-title">Monthly Activities </div>
+                <canvas id="Activitieschart"></canvas>
             </div>
         </div>
         <div class="col-xl-6 col-md-6">
             <div class="chart-container">
                 <div class="chart-title">Lecture Enrollment Distribution</div>
-                <canvas id="lectureEnrollmentChart"></canvas>
+                <canvas id="TopActivities"></canvas>
             </div>
         </div>
     </div>
@@ -62,118 +53,177 @@
     <div class="row">
         <div class="col-xl-6 col-md-6">
             <div class="chart-container">
-                <div class="chart-title">Students per Grade Level</div>
-                <canvas id="gradeDistributionChart"></canvas>
+                <div class="chart-title">Participants per Activity Type</div>
+                <canvas id="ActivityDistributionChart"></canvas>
             </div>
         </div>
         <div class="col-xl-6 col-md-6">
             <div class="chart-container">
-                <div class="chart-title">Revenue Sources</div>
-                <canvas id="revenuePieChart"></canvas>
+                <div class="chart-title">Top Participants</div>
+                <canvas id="TopParticipants"></canvas>
             </div>
         </div>
     </div>
 </div>
 
+
+<style>
+    .stat-card {
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        transition: transform 0.3s;
+    }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+    .stat-primary {
+        background: linear-gradient(45deg, #4e73df, #224abe);
+    }
+
+    .stat-success {
+        background: linear-gradient(45deg, #1cc88a, #13855c);
+    }
+
+    .stat-info {
+        background: linear-gradient(45deg, #36b9cc, #258391);
+    }
+
+    .stat-warning {
+        background: linear-gradient(45deg, #f6c23e, #dda20a);
+    }
+
+    .stat-card h3 {
+        color: white;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    .stat-card .value {
+        color: white;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+
+    .chart-container {
+        background: white;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    .chart-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #4e73df;
+        margin-bottom: 15px;
+    }
+</style>
+
+
 @section Scripts {
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
-        // Data from the server
-        const lectureNames = @Html.Raw(Json.Serialize(@lectureNames));
-        const lectureEnrollments = @Html.Raw(Json.Serialize(@lectureEnrollments));
-        const gradeLabels = @Html.Raw(Json.Serialize(@gradeLabels));
-        const gradeDistribution = @Html.Raw(Json.Serialize(@gradeDistribution));
-        const monthLabels = @Html.Raw(Json.Serialize(@monthLabels));
-        const monthlyBooksRevenue = @Html.Raw(Json.Serialize(@monthlyBooksRevenue));
-        const monthlyLecturesRevenue = @Html.Raw(Json.Serialize(@monthlyLecturesRevenue));
-        const revenueSources = @Html.Raw(Json.Serialize(@revenueSources));
+      
 
-        // Monthly Revenue Chart
-        new Chart(document.getElementById('revenueChart'), {
+        // Monthly activities Chart
+        new Chart(document.getElementById('Activitieschart'), {
             type: 'line',
             data: {
-                labels: monthLabels,
+                labels: @Html.Raw(Json.Serialize(Model.months)),
                 datasets: [{
-                    label: 'Books Revenue',
-                    data: monthlyBooksRevenue,
+                    label: 'JournalClubs',
+                    data: @Html.Raw(Json.Serialize(Model.MonthlyJournalClubs)),
                     borderColor: '#4e73df',
                     tension: 0.1
                 }, {
-                    label: 'Lectures Revenue',
-                    data: monthlyLecturesRevenue,
+                    label: 'Seminars',
+                    data: @Html.Raw(Json.Serialize(Model.MonthlySeminars)),
                     borderColor: '#1cc88a',
+                    tension: 0.1
+                }, {
+                    label: 'Workshops',
+                    data: @Html.Raw(Json.Serialize(Model.MonthlyWorkshops)),
+                    borderColor: '#f6c23e',
                     tension: 0.1
                 }]
             },
-            options: { responsive: true, scales: { y: { beginAtZero: true } } }
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
         });
 
-        // Lecture Enrollment Chart
-        new Chart(document.getElementById('lectureEnrollmentChart'), {
+        //Top Activities 
+        new Chart(document.getElementById('TopActivities'), {
             type: 'bar',
             data: {
-                labels: lectureNames,
+                labels: ['@Model.TopActivities.Rows[0][0]', '@Model.TopActivities.Rows[1][0]', '@Model.TopActivities.Rows[2][0]', '@Model.TopActivities.Rows[3][0]', '@Model.TopActivities.Rows[4][0]'],
                 datasets: [{
-                    label: 'Number of Students',
-                    data: lectureEnrollments,
+                    label: 'Top Activities',
+                    data: [@Model.TopActivities.Rows[0][1], @Model.TopActivities.Rows[1][1], @Model.TopActivities.Rows[2][1], @Model.TopActivities.Rows[3][1], @Model.TopActivities.Rows[4][1]],
                     backgroundColor: '#4e73df',
                     borderColor: '#4e73df',
                     borderWidth: 1
                 }]
             },
-            options: { responsive: true, scales: { y: { beginAtZero: true } } }
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
         });
 
-        // Grade Distribution Chart
-        new Chart(document.getElementById('gradeDistributionChart'), {
+        // Activities Distribution Chart
+        new Chart(document.getElementById('ActivityDistributionChart'), {
             type: 'doughnut',
             data: {
-                labels: gradeLabels,
+                labels: @Html.Raw(Json.Serialize(Model.ActivitiesLabel)),
                 datasets: [{
-                    data: gradeDistribution,
-                    backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc', '#f6c23e']
+                    data: @Html.Raw(Json.Serialize(Model.ActivitiesDistribution)),
+                    backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc', '#f6c23e', '#e74a3b']
                 }]
             },
-            options: { responsive: true, plugins: { legend: { position: 'bottom' } } }
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }
         });
 
-        // Revenue Sources Pie Chart
-        new Chart(document.getElementById('revenuePieChart'), {
+        // Top Participants Chart
+        new Chart(document.getElementById('TopParticipants'), {
             type: 'pie',
             data: {
-                labels: ['Books', 'Lectures'],
+                labels: ['@Model.TopParticipants.Rows[0][0]', '@Model.TopParticipants.Rows[1][0]', '@Model.TopParticipants.Rows[2][0]', '@Model.TopParticipants.Rows[3][0]', '@Model.TopParticipants.Rows[4][0]'],
                 datasets: [{
-                    data: revenueSources,
-                    backgroundColor: ['#4e73df', '#1cc88a']
+                    data: [@Model.TopParticipants.Rows[0][1], @Model.TopParticipants.Rows[1][1], @Model.TopParticipants.Rows[2][1], @Model.TopParticipants.Rows[3][1], @Model.TopParticipants.Rows[4][1]],
+                    backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc', '#f6c23e', '#e74a3b']
                 }]
             },
-            options: { responsive: true, plugins: { legend: { position: 'bottom' } } }
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }
         });
     </script>
 }
-
-
-
-
-<!-- Bar Chart -->
-<div class="chart-container mb-4" style="width: 100%; max-width: 600px; margin: 0 auto;">
-    <canvas id="barChart"></canvas>
-</div>
-
-<!-- Pie Chart -->
-<div class="chart-container mb-4" style="width: 100%; max-width: 600px; margin: 0 auto;">
-    <canvas id="pieChart"></canvas>
-</div>
-
-<script type="module">
-    document.addEventListener('DOMContentLoaded', function () {
-
-        // Bar Chart
-        var barCtx = document.getElementById('barChart');
-        var barChart = new Chart(barCtx, @Html.Raw(Model.ChartJson));
-
-        // Pie Chart
-        var pieCtx = document.getElementById('pieChart');
-        var pieChart = new Chart(pieCtx, @Html.Raw(Model.PieChartJson));
-    });
-</script>

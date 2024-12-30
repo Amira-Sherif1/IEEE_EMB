@@ -3792,6 +3792,9 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\06ab06a6-0af6-4555-9332-3e00dd64e061.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\0843a301-bd7d-4117-bc1b-160fdaac62f0.docx))">
+=======
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\3b9c6332-bc17-4705-bb24-b8b0aea019f7.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>IEEE_EMB</SourceId>
@@ -3809,11 +3812,16 @@
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\3b9c6332-bc17-4705-bb24-b8b0aea019f7.pdf))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\4793dd91-ddaa-4cf4-9718-98222dce232f.pdf))">
+>>>>>>> 579170f7ea8b429316bf600114ebbe29e843bef3
       <SourceType>Package</SourceType>
       <SourceId>IEEE_EMB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IEEE_EMB</BasePath>
+<<<<<<< HEAD
+      <RelativePath>Documents/0843a301-bd7d-4117-bc1b-160fdaac62f0.docx</RelativePath>
+=======
       <RelativePath>Documents/4793dd91-ddaa-4cf4-9718-98222dce232f.pdf</RelativePath>
+>>>>>>> 579170f7ea8b429316bf600114ebbe29e843bef3
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3822,7 +3830,11 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+<<<<<<< HEAD
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\0843a301-bd7d-4117-bc1b-160fdaac62f0.docx))</OriginalItemSpec>
+=======
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\4793dd91-ddaa-4cf4-9718-98222dce232f.pdf))</OriginalItemSpec>
+>>>>>>> 579170f7ea8b429316bf600114ebbe29e843bef3
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\4dd8ca9b-fa2d-4b73-b534-9c79ea54b579.pdf))">
       <SourceType>Package</SourceType>
@@ -3840,6 +3852,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\4dd8ca9b-fa2d-4b73-b534-9c79ea54b579.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\510871e6-e136-41b6-ab8e-c44d09cc6e08.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>IEEE_EMB</SourceId>
@@ -3856,6 +3870,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\510871e6-e136-41b6-ab8e-c44d09cc6e08.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+>>>>>>> 579170f7ea8b429316bf600114ebbe29e843bef3
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\578e17be-61de-4f97-8fe8-928ab7320af3.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>IEEE_EMB</SourceId>
@@ -3904,6 +3919,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\5b4dc345-6e16-4b6f-b19a-77246669b68d.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\5f206e17-6f60-47c8-b56a-ba056a08734f.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>IEEE_EMB</SourceId>
@@ -3920,6 +3937,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\5f206e17-6f60-47c8-b56a-ba056a08734f.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+>>>>>>> 579170f7ea8b429316bf600114ebbe29e843bef3
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\6856e386-ba31-467d-a92d-21ff279feb9b.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>IEEE_EMB</SourceId>
@@ -3968,6 +3986,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\82116f50-4f90-43b9-a267-7e6de19e7e85.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\91b24945-fee6-4c1d-b69d-79dda98538cc.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>IEEE_EMB</SourceId>
@@ -3984,6 +4004,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\91b24945-fee6-4c1d-b69d-79dda98538cc.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+>>>>>>> 579170f7ea8b429316bf600114ebbe29e843bef3
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\ade9f5f7-c7b0-41cd-9d9f-0b92b9189c6c.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>IEEE_EMB</SourceId>
@@ -5456,6 +5477,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\videos\2684318b-6ca3-4d25-8902-548aa2604698.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+>>>>>>> 579170f7ea8b429316bf600114ebbe29e843bef3
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\videos\2aa0feda-8b1a-4872-947a-3fcd299e0e45.mp4))">
       <SourceType>Package</SourceType>
       <SourceId>IEEE_EMB</SourceId>
@@ -5504,6 +5526,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\videos\46246291-0bae-4637-88ec-9aa91f147a38.mp4))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\videos\50ca6e04-5e24-4225-a3f9-cac0f1668555.mp4))">
       <SourceType>Package</SourceType>
       <SourceId>IEEE_EMB</SourceId>
@@ -5536,6 +5560,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\videos\717c9c98-406d-4651-a819-4ce1d223fed9.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+>>>>>>> 579170f7ea8b429316bf600114ebbe29e843bef3
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\videos\72e19b9e-b81b-45dd-bd98-ef3b2b94b05a.mp4))">
       <SourceType>Package</SourceType>
       <SourceId>IEEE_EMB</SourceId>
@@ -5568,6 +5593,25 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\videos\737a10be-e558-4ca8-9c32-0ab353f217ee.mp4))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\videos\884e6aa6-a341-4120-8686-5bb059133afb.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>IEEE_EMB</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/IEEE_EMB</BasePath>
+      <RelativePath>videos/884e6aa6-a341-4120-8686-5bb059133afb.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\videos\884e6aa6-a341-4120-8686-5bb059133afb.png))</OriginalItemSpec>
+    </StaticWebAsset>
+=======
+>>>>>>> 579170f7ea8b429316bf600114ebbe29e843bef3
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\videos\8886f80e-dd68-43ae-93aa-b043182029d1.mp4))">
       <SourceType>Package</SourceType>
       <SourceId>IEEE_EMB</SourceId>
@@ -5696,6 +5740,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\videos\ea671a10-fe08-46c5-afdf-e8d778ee2293.mp4))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\videos\f1da58f9-ddd7-48bd-8ba0-f7367153bdac.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>IEEE_EMB</SourceId>
@@ -5712,6 +5758,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\videos\f1da58f9-ddd7-48bd-8ba0-f7367153bdac.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+>>>>>>> 579170f7ea8b429316bf600114ebbe29e843bef3
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\videos\f9863d81-b7c6-4f68-a25c-94c7ff6714ae.mp4))">
       <SourceType>Package</SourceType>
       <SourceId>IEEE_EMB</SourceId>

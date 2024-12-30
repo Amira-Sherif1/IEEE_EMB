@@ -105,9 +105,20 @@ div class="seminars-page">
                                     Enroll Now
                                 </a>
                             }
+                        @if (@*  condition false for testing  *@false)
+                        {
                             <a asp-page="/ParticipantForm" class="btn btn-outline-secondary flex-grow-1">
                                 Details
                             </a>
+                        }
+                        else
+                        {
+                            <a asp-page="/ActivityDetails" asp-route-ActivityId="@activity.Id" class="btn btn-outline-secondary flex-grow-1">
+                                Details
+                            </a>
+
+                        }
+                           
                         </div>
                     </div>
                 </div>
