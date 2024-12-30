@@ -13,6 +13,8 @@ namespace IEEE_EMB.Pages
         public DataTable ParticipantCounterTable { get; set; }
         public List<ParticipantCounter> participants { get; set; }
         public List<Activity> Journals { get; set; }
+        [BindProperty]
+        public DataTable UserActivity { get; set; }
 
         public void OnGet()
         {
@@ -56,8 +58,9 @@ namespace IEEE_EMB.Pages
                 }
             }
 
-            
 
+            string ssn = HttpContext.Session.GetString("SSN");
+            UserActivity = db.UserWithActivity(ssn);
         }
 
         public double GetPercentage(int current, int max) // Get Participance Percentage per seminar
@@ -77,6 +80,12 @@ namespace IEEE_EMB.Pages
             HttpContext.Session.Remove("Email");
 
             return RedirectToPage("/Login");
+        }
+        public IActionResult OnPostEnroll(int ActivityID)
+        {
+            String ssn = HttpContext.Session.GetString("SSN");
+            db.Enroll(ActivityID, ssn);
+            return RedirectToPage("/Journal");
         }
     }
 }

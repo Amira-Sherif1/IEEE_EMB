@@ -1,10 +1,12 @@
 ﻿@page
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
 @model SeminarsModel
 @{
     ViewData["Title"] = "Available Seminars";
     
     //double percentage = (activity.participantsCounter / @activity.Capacity) * 100;
 }
+
 @section Scripts
 {
    
@@ -184,15 +186,39 @@
 
                                 else
                                 {
+                                    bool exists = false;
+                                    @for(int i=0; i < Model.UserActivity.Rows.Count; i++)
+                                    {
+                                        if (activity.Id == Convert.ToInt32(Model.UserActivity.Rows[i][0]))
+                                        {
+                                            exists = true;
+                                            break;
+                                        }
+                                    }
+                                    if (exists || HttpContextAccessor.HttpContext.Session.GetString("AuthenticationString") == "Member")
+                    
+                                    {
+                                        <a asp-page="/DetailsPage" asp-route-activityId="@activity.Id" class="btn btn-outline-secondary flex-grow-1">
+                                            Details
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <form method="post">
+                                            <button class="btn btn-primary me-md-2 flex-grow-1" asp-page-handler="Enroll" asp-route-ActivityID="@activity.Id">
+                                                Enroll Now
+                                             </button>
+                                        </form>
+                                        
+                                        
+                                    }
 
 
-                                    /// MODAL to enroll them 
+                        /// MODAL to enroll them 
                                 }
                             }
 
-                            <a asp-page="/DetailsPage" asp-route-activityId="@activity.Id" class="btn btn-outline-secondary flex-grow-1">
-                                Details
-                            </a>
+                           
                         
                         </div>
                     </div>

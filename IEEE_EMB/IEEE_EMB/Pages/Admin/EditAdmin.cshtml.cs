@@ -10,7 +10,11 @@ namespace IEEE_EMB.Pages.Admin
         }
         public IActionResult OnPost()
         {
+            if (ModelState.IsValid) 
+            {
             return RedirectToPage("/Admin/AllAdmins");
+            }
+            return RedirectToPage("/Admin/errorpage");
         }
     }
 }
