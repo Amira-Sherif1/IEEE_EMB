@@ -16,3 +16,4 @@ IEEE_EMB/.vs/IEEE_EMB/v17/.suo
 /IEEE_EMB/IEEE_EMB/obj/Debug/net8.0/IEEE_EMB.GeneratedMSBuildEditorConfig.editorconfig
 /IEEE_EMB/IEEE_EMB/obj/Debug/net8.0/IEEE_EMB.genruntimeconfig.cache
 /IEEE_EMB/IEEE_EMB/obj/Debug/net8.0/IEEE_EMB.pdb
+*.dll

@@ -31,5 +31,13 @@ namespace IEEE_EMB.Pages.Admin
             dB.AddMentor(mentor);
             return RedirectToPage("/Admin/AllMentors");
         }
+        public IActionResult OnPostLogout()
+        {
+            HttpContext.Session.Remove("AuthenticationString");
+            HttpContext.Session.Remove("SSN");
+            HttpContext.Session.Remove("Email");
+
+            return RedirectToPage("/Login");
+        }
     }
 }

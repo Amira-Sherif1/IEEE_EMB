@@ -80,9 +80,21 @@
     </div>
 
     <!-- Filters Section -->
+    <!-- Filters Section -->
     <div class="filters-section">
         <div class="container">
             <div class="filters-wrapper">
+
+                <form method="post" asp-page-handler="Search" class="search-form">
+                    <div class="input-group">
+                        <input type="search" name="search" placeholder="Search seminars..." class="search-input form-control" />
+                        <button type="submit" class="btn btn-primary search-button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+
+
                 <input type="search"
                        id="searchInput"
                        placeholder="Search seminars..."
@@ -90,6 +102,7 @@
             </div>
         </div>
     </div>
+
 
     <!-- Seminars Grid -->
     <div class="container seminars-container">
@@ -168,6 +181,13 @@
                                         Enroll Now
                                     </a>
 
+                                }
+
+                                else
+                                {
+
+
+                                    /// MODAL to enroll them 
                                 }
                             }
 

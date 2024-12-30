@@ -1,5 +1,6 @@
 
 using Microsoft.Data.SqlClient;
+using System;
 using System.Data;
 using System.Diagnostics;
 using System.Runtime.Intrinsics.X86;
@@ -25,7 +26,7 @@ namespace IEEE_EMB.Models
                 con.Open();
                 SqlCommand com = new SqlCommand(querey, con);
                 dt.Load(com.ExecuteReader());
-              
+
             }
             catch (Exception ex)
             {
@@ -259,7 +260,7 @@ namespace IEEE_EMB.Models
         public DataTable GetActvities()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT A.ID, A.TITLE, A.START_DATE, A.END_DATE, A.Capacity, A.TYPE, A.STATUS, M.NAME\r\nFROM ACTIVITY A JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\nJOIN MENTOR M ON AG.MENTOR_SSN = M.SSN";
+            string query = "SELECT A.ID, A.TITLE, A.START_DATE, A.END_DATE, A.Capacity, A.TYPE, A.STATUS, M.NAME\r\nFROM ACTIVITY A JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\nJOIN MENTOR M ON AG.MENTOR_SSN = M.SSN\r\norder by A.START_DATE desc";
 
             try
             {
@@ -284,7 +285,7 @@ namespace IEEE_EMB.Models
         public DataTable GetAnnouncements()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY";
+            string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY \r\norder by START_DATE desc";
             SqlCommand cmd = new SqlCommand(query, con);
             try
             {
@@ -302,17 +303,17 @@ namespace IEEE_EMB.Models
 
             return dt;
         }
-        
-           
 
-        
-    
+
+
+
+
 
         public DataTable GetMentorsNames()
 
-            {
-                DataTable dt = new DataTable();
-                string query = "SELECT M.Name\r\nFROM MENTOR M";
+        {
+            DataTable dt = new DataTable();
+            string query = "SELECT M.Name\r\nFROM MENTOR M";
 
             try
             {
@@ -339,10 +340,12 @@ namespace IEEE_EMB.Models
                 SqlCommand com = new SqlCommand(query, con);
                 dt.Load(com.ExecuteReader());
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 Console.WriteLine(ex.Message);
             }
-            finally {
+            finally
+            {
                 con.Close();
             }
 
@@ -352,8 +355,7 @@ namespace IEEE_EMB.Models
         public DataTable GetSeminar()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Seminar'";
-
+            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS FROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN JOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID WHERE AC.TYPE = 'Semina order by AC.START_DATE desc";
             try
             {
                 con.Open();
@@ -377,7 +379,7 @@ namespace IEEE_EMB.Models
         public DataTable GetJournalClubs()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'JournalClub'";
+            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'JournalClub' order by AC.START_DATE desc\r\n";
             SqlCommand com = new SqlCommand(query, con);
             try
             {
@@ -403,7 +405,7 @@ namespace IEEE_EMB.Models
         public DataTable GetWorkshops()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Workshop'";
+            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Workshop' order by AC.START_DATE desc\r\n";
             SqlCommand com = new SqlCommand(query, con);
             try
             {
@@ -464,9 +466,9 @@ namespace IEEE_EMB.Models
             try
             {
                 con.Open();
-            
-                
-                string query = "INSERT INTO mentorS(SSN, NAME, EMAIL, PHONE, UNIVERSITY)" +
+
+
+                string query = "INSERT INTO PARTICIPANTS(SSN, NAME, EMAIL, PHONE, UNIVERSITY)" +
                                "VALUES (@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY)";
                 SqlCommand com = new SqlCommand(query, con);
                 com.Parameters.AddWithValue("@SSN", participant.SSN);
@@ -504,7 +506,7 @@ namespace IEEE_EMB.Models
                 editDescriptionCommand.ExecuteNonQuery();
                 editCapacityCommand.ExecuteNonQuery();
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -514,7 +516,7 @@ namespace IEEE_EMB.Models
             }
 
         }
-    
+
         public void AddSession(Session session)
 
         {
@@ -541,7 +543,7 @@ namespace IEEE_EMB.Models
                 com.ExecuteNonQuery();
             }
 
-           
+
 
 
             catch (Exception ex)
@@ -576,16 +578,33 @@ namespace IEEE_EMB.Models
                 con.Close();
 
             }
+        }
+        public void AddSessionTaskAnswer(int SessionId , string TaskAnswer)
+        {
+            string querey = $"update SESSION set TASK_ANSWER='{TaskAnswer}'where ID={SessionId}";
+            try
+            {
+                con.Open();
+                SqlCommand com = new SqlCommand(querey, con);
+              
+
+                com.ExecuteNonQuery();
+               
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
 
-           
+            }
+        }
 
-        
-
-       
         public void DeleteActivity(int activityID)
         {
-            
+
             string deleteAssignmentQuery = $"DELETE FROM ASSIGN\r\nWHERE ACTIVITY_ID = {activityID}";
             string deleteSessionQuery = $"DELETE FROM SESSION\r\nWHERE ACTIVITY_ID = {activityID}";
             string deleteActivityQuery = $"DELETE FROM ACTIVITY\r\nWHERE ID = {activityID}";
@@ -598,9 +617,9 @@ namespace IEEE_EMB.Models
                 comAssign.ExecuteNonQuery();
                 comSession.ExecuteNonQuery();
                 comActivity.ExecuteNonQuery();
-                
+
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -616,10 +635,10 @@ namespace IEEE_EMB.Models
             {
                 con.Open();
                 SqlCommand com = new SqlCommand(querey, con);
-               // SqlCommand com2 = new SqlCommand(querey2, con);
+                // SqlCommand com2 = new SqlCommand(querey2, con);
 
                 com.ExecuteNonQuery();
-               // com2.ExecuteNonQuery();
+                // com2.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
@@ -640,17 +659,17 @@ namespace IEEE_EMB.Models
             DataTable dt = new DataTable();
             string query = $"SELECT A.ID, A.TITLE, A.START_DATE, A.END_DATE, A.Capacity, A.TYPE, A.STATUS, M.NAME\r\nFROM ACTIVITY A JOIN ASSIGN AG ON A.ID = AG.ACTIVITY_ID\r\nJOIN MENTOR M ON AG.MENTOR_SSN = M.SSN WHERE MEMBER_ID ='{MentorId}'";
             // Not Complete yet
-        
-       
-           
+
+
+
             try
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand(query, con);
                 dt.Load(cmd.ExecuteReader());
             }
-            
-            catch (Exception ex) 
+
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -661,18 +680,12 @@ namespace IEEE_EMB.Models
             return dt;
 
         }
-        //public void AddAdmin(Admin admin)
-        //{
-        //    string query = "";
-        //    catch (Exception ex)
-        //        cmd.ExecuteNonQuery();
-        //}
-
+ 
         public void DeleteAdmin(Admin admin)
         {
             string resetRelatedAssignments = "";
             string deleteAdminQuery = "";
-            
+
         }
 
 
@@ -681,7 +694,7 @@ namespace IEEE_EMB.Models
         public DataTable GetSpecificActivity(int ActivityId)
         {
             DataTable dt = new DataTable();
-            string query = $"select a.TITLE as 'ActivityTitle', a.DESCRIPTION , m.NAME , m.EDUCATION , s.TITLE as 'SessionTitle' , s.DATE , s.ID as 'SessionId'\r\nfrom ACTIVITY a join ASSIGN ass on a.ID = ass.ACTIVITY_ID join MENTOR m on ass.MENTOR_SSN = m.SSN join SESSION s on s.ACTIVITY_ID= a.ID\r\nwhere a.ID={ActivityId}";
+            string query = $"select top 1 a.TITLE as 'ActivityTitle', a.DESCRIPTION , m.NAME , m.EDUCATION , s.TITLE as 'SessionTitle' , s.DATE , s.ID as 'SessionId'\r\nfrom ACTIVITY a join ASSIGN ass on a.ID = ass.ACTIVITY_ID join MENTOR m on ass.MENTOR_SSN = m.SSN join SESSION s on s.ACTIVITY_ID= a.ID\r\nwhere a.ID={ActivityId}";
             SqlCommand command = new SqlCommand(query, con);
             try
             {
@@ -701,7 +714,7 @@ namespace IEEE_EMB.Models
 
 
         ///////////////////////
-        public DataTable getspecificsession(int SessionId) 
+        public DataTable getspecificsession(int SessionId)
         {
             DataTable dt = new DataTable();
             string query = $"select * from SESSION where ID={SessionId};";
@@ -732,13 +745,13 @@ namespace IEEE_EMB.Models
                 con.Open();
                 count = (int)command.ExecuteScalar();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
             finally
             {
-                con.Close() ;
+                con.Close();
             }
             return count;
         }
@@ -826,7 +839,7 @@ namespace IEEE_EMB.Models
             return participants;
         }
 
-        public int NumOfActivityPerMonth(int month , string ActivityType)
+        public int NumOfActivityPerMonth(int month, string ActivityType)
         {
             int count = 0;
             string query = $"select count(*) \r\nfrom ACTIVITY \r\nwhere  MONTH(START_DATE) = {month} and TYPE ='{ActivityType}'\r\n;";
@@ -889,6 +902,28 @@ namespace IEEE_EMB.Models
                 con.Close();
             }
             return Activities;
+        }
+
+        public DataTable SearchForSeminar(string search)
+        {
+            DataTable dt = new DataTable();
+            string query = $"SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS\r\nFROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN\r\nJOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID\r\nWHERE AC.TYPE = 'Seminar' and (AC.TITLE like '%{search}%' or AC.DESCRIPTION like '%{search}%')";
+            SqlCommand cmd = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
+                dt.Load(cmd.ExecuteReader());
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return dt;
         }
         public DataTable GetMember()
         {
@@ -1002,6 +1037,29 @@ namespace IEEE_EMB.Models
                 con.Close();
             }
 
+        }
+        public int ACTIVITYID(int SessionID)
+        {
+
+                int ActivityId=0;
+                string query = "select s.ACTIVITY_ID\r\nfrom SESSION s where ID= 2";
+                try
+                {
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand(query, con);
+
+                    ActivityId = (int)cmd.ExecuteScalar();
+                }
+                catch (Exception ex)
+                {
+
+                }
+                finally
+                {
+                    con.Close();
+                }
+                return ActivityId;
+            
 
         }
         public void DeleteParticipant(string ParticipantSSN)
@@ -1093,6 +1151,27 @@ namespace IEEE_EMB.Models
 
         }
 
+
+        public DataTable UserWithActivity(string UserID)
+        {
+            DataTable dt = new DataTable();
+            string Query = $"select ap.ACTIVITY_ID from ACTIVITY_PARTICIPANTS ap where PARTICIPANT_SSN ='{UserID}'";
+            SqlCommand cmd= new SqlCommand(Query, con);
+            try
+            {
+                con.Open();
+                dt.Load(cmd.ExecuteReader());
+            }
+            catch (Exception ex)
+            {
+                Console.Write(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return dt;
+        }
 
 
     }
