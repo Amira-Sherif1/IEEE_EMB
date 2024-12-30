@@ -945,15 +945,21 @@ namespace IEEE_EMB.Models
                 con.Open();
 
 
-                string query = "INSERT INTO MEMBER(SSN, NAME, EMAIL, PHONE, UNIVERSITY)" +
-                               "VALUES(@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY)";
+                string query = "INSERT INTO MEMBER(SSN, NAME, EMAIL, PHONE, UNIVERSITY, PASSWORD, YEAR, PREVIOUS_EXPERIENCE, STATUS, MAJOR, BRIEF)" +
+                               "VALUES(@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY, @PASSWORD, @YEAR, @PREVIOUS_EXPERIENCE, @STATUS, @MAJOR, @BRIEF)";
                 SqlCommand com = new SqlCommand(query, con);
                 com.Parameters.AddWithValue("@SSN", member.SSN);
                 com.Parameters.AddWithValue("@NAME", member.Name);
                 com.Parameters.AddWithValue("@EMAIL", member.Email);
                 com.Parameters.AddWithValue("@PHONE", member.Phone);
                 com.Parameters.AddWithValue("@UNIVERSITY", member.University);
-                //com.Parameters.AddWithValue("@PASSWORD", member.Password);
+                com.Parameters.AddWithValue("@PASSWORD", member.password);
+                com.Parameters.AddWithValue("@YEAR", member.Currentyear);
+                com.Parameters.AddWithValue("@PREVIOUS_EXPERIENCE", member.PreviousExperience);
+                com.Parameters.AddWithValue("@STATUS", member.status);
+                com.Parameters.AddWithValue("@MAJOR", member.Major);
+                com.Parameters.AddWithValue("@BRIEF", member.Brief);
+
                 com.ExecuteNonQuery();
             }
             catch (Exception ex)
@@ -974,15 +980,17 @@ namespace IEEE_EMB.Models
                 con.Open();
 
 
-                string query = "INSERT INTO MENTOR(SSN, NAME, EMAIL, PHONE, UNIVERSITY)" +
-                               "VALUES(@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY)";
+                string query = "INSERT INTO MENTOR(SSN, NAME, EMAIL, PHONE, EDUCATION, PASSWORD, CV, BIO)" +
+                               "VALUES(@SSN, @NAME, @EMAIL, @PHONE, @EDUCATION, @PASSWORD, @CV, @BIO)";
                 SqlCommand com = new SqlCommand(query, con);
                 com.Parameters.AddWithValue("@SSN", mentor.SSN);
                 com.Parameters.AddWithValue("@NAME", mentor.Name);
                 com.Parameters.AddWithValue("@EMAIL", mentor.Email);
                 com.Parameters.AddWithValue("@PHONE", mentor.Phone);
-                com.Parameters.AddWithValue("@UNIVERSITY", mentor.Education);
-                //com.Parameters.AddWithValue("@PASSWORD", mentor.Password);
+                com.Parameters.AddWithValue("@EDUCATION", mentor.Education);
+                com.Parameters.AddWithValue("@PASSWORD", mentor.Password);
+                com.Parameters.AddWithValue("@CV", mentor.CV);
+                com.Parameters.AddWithValue("@BIO", mentor.BIO);
                 com.ExecuteNonQuery();
             }
             catch (Exception ex)
@@ -993,6 +1001,34 @@ namespace IEEE_EMB.Models
             {
                 con.Close();
             }
+
+
+        }
+        public void DeleteParticipant(string ParticipantSSN)
+        {
+
+            string deleteACT_PARQuery = $"DELETE FROM ACTIVITY_PARTICIPANTS\r\nWHERE PARTICIPANT_SSN = {ParticipantSSN}";
+            string deleteFeedBackQuery = $"DELETE FROM FEEDBACK\r\nWHERE PARTICIPANT_SSN = {ParticipantSSN}";
+            string deletePARTICIPANTQuery = $"DELETE FROM PARTICIPANTS\r\nWHERE SSN = {ParticipantSSN}";
+            
+            try
+            {
+                con.Open();
+                SqlCommand comACT_Par = new SqlCommand(deleteACT_PARQuery, con);
+                SqlCommand comFeed_Par = new SqlCommand(deleteFeedBackQuery, con);
+                SqlCommand comPar = new SqlCommand(deletePARTICIPANTQuery, con);
+                comACT_Par.ExecuteNonQuery();
+                comFeed_Par.ExecuteNonQuery();  
+                comPar.ExecuteNonQuery();
+         
+          
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally { con.Close(); }
 
 
         }

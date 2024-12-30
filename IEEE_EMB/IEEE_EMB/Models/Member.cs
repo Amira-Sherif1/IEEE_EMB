@@ -4,9 +4,10 @@ namespace IEEE_EMB.Models
     public class Member
     {
         public const string AuthenticationString = "Member";
+
         public string SSN { get; set; }
         public string Name { get; set; }
-        public DateOnly Currentyear { get; set; }
+        public string Currentyear { get; set; }
         public string Phone { get; set; }
         public string password { get; set; }
         public string Email { get; set; }

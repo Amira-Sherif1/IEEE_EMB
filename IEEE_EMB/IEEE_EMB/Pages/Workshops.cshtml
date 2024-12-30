@@ -5,32 +5,64 @@
 }
 @section Scripts
 {
-
+       
+    <script src="footer-script.js"></script>
+    <script src="~/js/tailwind.config.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js"></script>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
+    <script src="~/js/application.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+ 
     <script>
-        import './style.css'
-        import javascriptLogo from './javascript.svg'
-        import viteLogo from '/vite.svg'
-        import { setupCounter } from './counter.js'
+        document.addEventListener('DOMContentLoaded', () => {
+            const searchInput = document.querySelector('#searchInput');
+            const workshopCards = document.querySelectorAll('.seminar-card');
 
-        document.querySelector('#app').innerHTML = `
-          <div>
-            <a href="https://vitejs.dev" target="_blank">
-              <img src="${viteLogo}" class="logo" alt="Vite logo" />
-            </a>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-              <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-            </a>
-            <h1>Hello Vite!</h1>
-            <div class="card">
-              <button id="counter" type="button"></button>
-            </div>
-            <p class="read-the-docs">
-              Click on the Vite logo to learn more
-            </p>
-          </div>
-        `
+            searchInput.addEventListener('input', (e) => {
+                const searchTerm = e.target.value.toLowerCase().trim();
 
-        setupCounter(document.querySelector('#counter'))
+                workshopCards.forEach(card => {
+                    // Updated selectors to match your HTML structure
+                    const title = card.querySelector('.card-title').textContent.toLowerCase();
+                    const description = card.querySelector('.card-text').textContent.toLowerCase();
+                    const instructor = card.querySelector('.d-flex h6').textContent.toLowerCase();
+                    const startDate = card.querySelector('.fas.fa-clock').parentElement.textContent.toLowerCase();
+
+                    const matchesSearch =
+                        title.includes(searchTerm) ||
+                        description.includes(searchTerm) ||
+                        instructor.includes(searchTerm) ||
+                        startDate.includes(searchTerm);
+
+                    // Toggle visibility using display property
+                    card.style.display = matchesSearch ? '' : 'none';
+                });
+
+                updateNoResultsMessage();
+            });
+        });
+
+        function updateNoResultsMessage() {
+            const container = document.querySelector('.seminars-grid');
+            const visibleCards = Array.from(container.querySelectorAll('.seminar-card')).filter(card => card.style.display !== 'none');
+            const existingMessage = container.querySelector('.no-results');
+
+            if (visibleCards.length === 0) {
+                if (!existingMessage) {
+                    const noResultsMessage = `
+                        <div class="no-results col-12 text-center py-5">
+                            <h3 class="text-muted">No workshops found</h3>
+                            <p>Try adjusting your search terms</p>
+                        </div>`;
+                    container.insertAdjacentHTML('beforeend', noResultsMessage);
+                }
+            } else if (existingMessage) {
+                existingMessage.remove();
+            }
+        }
     </script>
 }
 <div class="seminars-page">
@@ -50,7 +82,7 @@
             <div class="filters-wrapper">
                 <input type="search"
                        id="searchInput"
-                       placeholder="Search seminars..."
+                       placeholder="Search Workshops..."
                        class="search-input form-control" />
             </div>
         </div>
@@ -157,39 +189,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         /* Container styles */
+        /* Container styles */
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 1rem;
-        }
-
-        .filters-section {
-            background-color: #f8f9fa;
-            padding: 1rem 0;
-            border-bottom: 1px solid #dee2e6;
-        }
-
-        .filters-wrapper {
-            display: flex;
-            gap: 1rem;
-            align-items: center;
-        }
-
-        .search-input {
-            max-width: 300px;
-        }
-
-        .seminar-card {
-            margin-bottom: 1rem;
-            transition: transform 0.2s;
-        }
-
-            .seminar-card:hover {
-                transform: translateY(-2px);
-            }
-
-        .hidden {
-            display: none !important;
         }
 
         /* Hero section */

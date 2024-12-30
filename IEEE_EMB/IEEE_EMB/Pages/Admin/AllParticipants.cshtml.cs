@@ -17,5 +17,10 @@ namespace IEEE_EMB.Pages.Admin
         {
             participants=db.GetParticipants();
         }
+        public IActionResult OnPostDelete(string participantSSN)
+        {
+            db.DeleteParticipant(participantSSN);
+            return RedirectToPage();
+        }
     }
 }

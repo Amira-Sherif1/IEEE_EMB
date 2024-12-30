@@ -1,4 +1,5 @@
 ﻿@page
+@using IEEE_EMB.Models.Utilities
 @model IEEE_EMB.Pages.Admin.AddMemberModel
 @{
 }
@@ -15,61 +16,71 @@
     <div class="card">
         <div class="card-body">
             <form method="post">
+                <!-- SSN -->
+                <div class="form-group">
+                    <label for="SSN" class="control-label">SSN</label>
+                    <input asp-for="@Model.member.SSN" type="text" class="form-control" />
+                </div>
                 <!-- Name -->
                 <div class="form-group">
                     <label for="Name" class="control-label">Name</label>
-                    <input id="Name" name="Name" class="form-control" />
+                    <input asp-for="@Model.member.Name" type="text" class="form-control" />
                 </div>
-
+                    
                 <!-- Email -->
                 <div class="form-group">
                     <label for="Email" class="control-label">Email</label>
-                    <input id="Email" name="Email" type="email" class="form-control" />
+                    <input asp-for ="@Model.member.Email" type="email" class="form-control" />
                 </div>
 
                 <!-- Password -->
                 <div class="form-group">
                     <label for="Password" class="control-label">Password</label>
-                    <input id="Password" name="Password" type="password" class="form-control" />
+                    <input asp-for="@Model.member.password" type="password" class="form-control" />
                 </div>
 
                 <!-- University -->
                 <div class="form-group">
                     <label for="University" class="control-label">University</label>
-                    <input id="University" name="University" class="form-control" />
+                    <input asp-for="@Model.member.University" type="text" class="form-control" />
                 </div>
 
                 <!-- Major -->
                 <div class="form-group">
                     <label for="Major" class="control-label">Major</label>
-                    <input id="Major" name="Major" class="form-control" />
+                    <input asp-for="@Model.member.Major" type="text" class="form-control" />
                 </div>
 
                 <!-- Current Year -->
                 <div class="form-group">
                     <label for="CurrentYear" class="control-label">Current Year</label>
-                    <input id="CurrentYear" name="CurrentYear" class="form-control" />
+                    <input asp-for="@Model.member.Currentyear" type="text" class="form-control" />
                 </div>
 
                 <!-- Phone Number -->
                 <div class="form-group">
                     <label for="PhoneNumber" class="control-label">Phone Number</label>
-                    <input id="PhoneNumber" name="PhoneNumber" type="tel" class="form-control" />
+                    <input asp-for="@Model.member.Phone" type="text" class="form-control" />
                 </div>
 
                 <!-- Previous Experience -->
                 <div class="form-group">
                     <label for="PreviousExperience" class="control-label">Previous Experience</label>
-                    <textarea id="PreviousExperience" name="PreviousExperience" class="form-control"></textarea>
+                    <textarea asp-for="@Model.member.PreviousExperience" class="form-control"></textarea>
+                </div>
+                <!-- Brief -->
+                <div class="form-group">
+                    <label for="Brief" class="control-label">Brief</label>
+                    <textarea asp-for="@Model.member.Brief" class="form-control"></textarea>
                 </div>
 
                 <!-- Status -->
                 <div class="form-group">
                     <label for="Status" class="control-label">Status</label>
-                    <select id="Status" name="Status" class="form-control">
+                    <select asp-for="@Model.member.status" class="form-control">
                         <option value="">Select Status</option>
-                        <option value="Active">Active</option>
-                        <option value="Inactive">Inactive</option>
+                        <option value="@Status.Approved">Active</option>
+                        <option value="@Status.Waiting">Inactive</option>
                     </select>
                 </div>
 
