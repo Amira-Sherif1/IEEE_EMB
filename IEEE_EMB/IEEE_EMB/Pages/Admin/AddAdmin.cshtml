@@ -19,6 +19,8 @@
                 <div class="form-group">
                     <label for="Name" class="control-label">Name</label>
                     <input asp-for="@Model.admin.Name" type="text" class="form-control" />
+                    <input id="Name" name="Name" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="admin.Name"></span>
                 </div>
 
                 <div class="form-group">
@@ -29,18 +31,24 @@
                 <div class="form-group">
                     <label for="Email" class="control-label">Email</label>
                     <input asp-for="@Model.admin.Email" type="email" class="form-control" />
+                    <input id="Email" name="Email" type="email" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="admin.Email"></span>
                 </div>
                 
                
                 <!-- Password -->
                 <div class="form-group">
                     <label for="Password" class="control-label">Password</label>
+                    <input id="Password" name="Password" type="password" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="admin.password"></span>
                     <input asp-for="@Model.admin.password" type="password" class="form-control" />
                 </div>
 
                 <!-- Role -->
                 <div class="form-group">
                     <label for="Role" class="control-label">Role</label>
+                    <input id="Role" name="Role" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="admin.Role"></span>
                     <input asp-for="@Model.admin.Role" class="form-control" />
                 </div>
 
@@ -48,6 +56,8 @@
                 <div class="form-group">
                     <label for="CV" class="control-label">CV</label>
                     <input id="CV" type="file" name="CV" class="form-control" />
+                    <input id="CV" name="CV" type="file" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="admin.CV"></span>
                 </div>
 
 
@@ -55,6 +65,8 @@
                 <div class="form-group">
                     <label for="PhoneNumber" class="control-label">Phone Number</label>
                     <input asp-for="@Model.admin.Phone" type="tel" class="form-control" />
+                    <input id="PhoneNumber" name="PhoneNumber" type="tel" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="admin.Phone"></span>
                 </div>
 
                 <div class="form-group mt-3">

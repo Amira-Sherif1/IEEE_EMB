@@ -91,6 +91,13 @@ namespace IEEE_EMB.Pages
         {
             return (capacity - registered);
         }
+
+        public IActionResult OnPostEnroll(int ActivityID)
+        {
+            String ssn = HttpContext.Session.GetString("SSN");
+            db.Enroll(ActivityID, ssn);
+            return RedirectToPage("/Seminars");
+        }
         public IActionResult OnPostLogout()
         {
             HttpContext.Session.Remove("AuthenticationString");

@@ -31,9 +31,13 @@ namespace IEEE_EMB.Pages.Admin
         }
         public IActionResult OnPost(Session session)
         {
-            session.Id = SessionId;
-            db.EditSeesion(session);
-            return RedirectToPage("/Admin/Session");
+            if (ModelState.IsValid)
+            {
+                session.Id = SessionId;
+                db.EditSeesion(session);
+                return RedirectToPage("/Admin/Session");
+            }
+            return RedirectToPage("/Admin/errorpage");
         }
 
     }

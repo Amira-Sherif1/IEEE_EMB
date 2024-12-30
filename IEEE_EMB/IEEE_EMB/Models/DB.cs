@@ -356,7 +356,7 @@ namespace IEEE_EMB.Models
         public DataTable GetSeminar()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS FROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN JOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID WHERE AC.TYPE = 'Semina order by AC.START_DATE desc";
+            string query = "SELECT AC.ID, M.NAME, AC.TITLE , AC.CAPACITY, AC.START_DATE, AC.CAPACITY, AC.DESCRIPTION, AC.STATUS FROM ASSIGN A JOIN MENTOR M ON A.MENTOR_SSN = M.SSN JOIN ACTIVITY AC ON AC.ID = A.ACTIVITY_ID WHERE AC.TYPE = 'Seminar' order by AC.START_DATE desc";
             try
             {
                 con.Open();

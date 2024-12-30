@@ -26,8 +26,12 @@ namespace IEEE_EMB.Pages.Admin
         }
         public IActionResult OnPost()
         {
+            if (ModelState.IsValid) 
+            {
             db.AddMember(member);
             return RedirectToPage("/Admin/AllMembers");
+            }
+            return RedirectToPage("/Admin/errorpage");
         }
         public IActionResult OnPostLogout()
         {

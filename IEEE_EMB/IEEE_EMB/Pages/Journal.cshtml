@@ -1,4 +1,5 @@
 ﻿@page
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
 @model JournalModel
 @{
     ViewData["Title"] = "Available Sessions";
@@ -160,23 +161,47 @@
                         <div class="d-grid gap-2 d-md-flex justify-content-md-stretch">
                             @if (activity.Capacity >= activity.participantsCounter)
                             {
-                                <a asp-page="/ParticipantForm" class="btn btn-primary me-md-2 flex-grow-1">
-                                    Enroll Now
-                                </a>
-                            }
-                        @if (@*  condition false for testing  *@false)
-                        {
-                            <a asp-page="/ParticipantForm" class="btn btn-outline-secondary flex-grow-1">
-                                Details
-                            </a>
-                        }
-                        else
-                        {
-                            <a asp-page="/ActivityDetails" asp-route-ActivityId="@activity.Id" class="btn btn-outline-secondary flex-grow-1">
-                                Details
-                            </a>
+                                @if (string.IsNullOrEmpty(HttpContext.Session.GetString("AuthenticationString")))
+                                {
+                                    <a asp-page="/Login" class="btn btn-primary me-md-2 flex-grow-1">
+                                        Enroll Now
+                                    </a>
+                                }
 
-                        }
+                                else
+                                {
+                                    bool exists = false;
+                                    @for (int i = 0; i < Model.UserActivity.Rows.Count; i++)
+                                    {
+                                        if (activity.Id == Convert.ToInt32(Model.UserActivity.Rows[i][0]))
+                                        {
+                                            exists = true;
+                                            break;
+                                        }
+                                    }
+                                    if (exists || HttpContextAccessor.HttpContext.Session.GetString("AuthenticationString") == "Member")
+
+                                    {
+                                        <a asp-page="/DetailsPage" asp-route-activityId="@activity.Id" class="btn btn-outline-secondary flex-grow-1">
+                                            Details
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <form method="post">
+                                            <button class="btn btn-primary me-md-2 flex-grow-1" asp-page-handler="Enroll" asp-route-ActivityID="@activity.Id">
+                                                Enroll Now
+                                            </button>
+                                        </form>
+
+
+                                    }
+
+
+                                    /// MODAL to enroll them
+                                }
+                            }
+
                            
                         </div>
                     </div>

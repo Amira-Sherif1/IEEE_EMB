@@ -1,4 +1,4 @@
-﻿8@page
+﻿@page
 @model IEEE_EMB.Pages.Admin.AddSessionModel
 @{
 }
@@ -18,34 +18,53 @@
                 <div class="form-group">
                     <label for="Title" class="control-label">Title</label>
                     <input id="Title" name="Title" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="session.Title"></span>
+                  
+
                 </div>
 
                 <div class="form-group">
                     <label for="Description" class="control-label">Description</label>
                     <input id="Description" name="Description" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="session.Description"></span>
+                    
+
                 </div>
 
                 <!-- Start Date -->
                 <div class="form-group">
                     <label for="Date" class="control-label">Date</label>
                     <input id="Date" name="Date" type="date" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="session.Date"></span>
+                  
+
                 </div>
 
                 <div class="form-group">
                     <label for="Video" class="control-label">Video</label>
                     <input id="Video" name="Video" type="file" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="session.Video"></span>
+                  
+
                 </div>
 
                 <div class="form-group">
                     <label for="Document" class="control-label">Document</label>
                     <input id="Document" name="Document" type="file" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="session.Document"></span>
+                   
+
                 </div>
                 <div class="form-group">
                     <label for="Task" class="control-label">Task</label>
                     <input id="Task" name="Task" type="file" class="form-control" />
+                    <span className="text-red-500 text-sm mt-1" asp-validation-for="session.Task"></span>
+                    
+
                 </div>
                 <div class="form-group mt-3">
                     <button type="submit" class="btn btn-primary">Save Changes</button>
+                 
 
                 </div>
             </form>

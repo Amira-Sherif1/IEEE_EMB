@@ -2,6 +2,7 @@ using IEEE_EMB.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data;
+using System.Runtime.Intrinsics.X86;
 
 
 namespace IEEE_EMB.Pages
@@ -18,7 +19,8 @@ namespace IEEE_EMB.Pages
         DataTable WorkshopsTable { get; set; }
         DataTable ParticipantsCounterTable { get; set; }
         public List<ParticipantCounter> ParticipantsCounter { get; set; }
-
+        [BindProperty]
+        public DataTable UserActivity { get; set; }
         public List<Activity> Workshops { get; set; }
 
         public void OnGet()
@@ -62,6 +64,9 @@ namespace IEEE_EMB.Pages
                     workshop.participantsCounter = 0;
                 }
             }
+            string ssn = HttpContext.Session.GetString("SSN");
+            UserActivity = db.UserWithActivity(ssn);
+
         }
 
         public double GetPercentage(int current, int max) // Get Participance Percentage per seminar
@@ -82,6 +87,12 @@ namespace IEEE_EMB.Pages
             HttpContext.Session.Remove("Email");
 
             return RedirectToPage("/Login");
+        }
+        public IActionResult OnPostEnroll(int ActivityID)
+        {
+            String ssn = HttpContext.Session.GetString("SSN");
+            db.Enroll(ActivityID, ssn);
+            return RedirectToPage("/Workshops");
         }
 
     }

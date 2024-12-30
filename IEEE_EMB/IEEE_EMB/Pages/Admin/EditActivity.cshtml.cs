@@ -28,8 +28,12 @@ namespace IEEE_EMB.Pages.Admin
         public IActionResult OnPost()
         {
             //activity = new Activity();
+            if (ModelState.IsValid) 
+            {
             DB.EditActivity(activity);
             return RedirectToPage("/Admin/Activities");
+            }
+            return RedirectToPage("/Admin/errorpage");
         }
     }
 }
