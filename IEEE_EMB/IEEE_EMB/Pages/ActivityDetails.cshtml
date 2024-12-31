@@ -25,24 +25,33 @@
         </div>
         <div class="col-md-6 card sessions-card">
             <h3>Sessions</h3>
-            <table class="table">
-                <tr>
-                    <th>Session Title</th>
-                    <th>Date</th>
-                  @*   <th>Status</th> *@
-                    <th>Action</th>
-                </tr>
-                @for(int i = 0; i < Model.activity.Rows.Count; i++){
-                <tr>
-                    <td>@Model.activity.Rows[i]["SessionTitle"]</td>
-                    <td>@Model.activity.Rows[i]["DATE"]</td>
-                   @*  <td><span class="badge badge-success">Completed</span></td> *@
-                   @*  <td><span class="badge badge-warning">Upcoming</span></td> *@
-                    <td><a asp-page="/SessionDetails" asp-route-SessionId="@Model.activity.Rows[i]["SessionId"]">View Details</a></td>
-                </tr>
-                }
-            </table>
+            @if (Model.activity.Rows.Count > 0)
+            {
+                <table class="table">
+                    <tr>
+                        <th>Session Title</th>
+                        <th>Date</th>
+                        @* <th>Status</th> *@
+                        <th>Action</th>
+                    </tr>
+                    @for (int i = 0; i < Model.activity.Rows.Count; i++)
+                    {
+                        <tr>
+                            <td>@Model.activity.Rows[i]["SessionTitle"]</td>
+                            <td>@Model.activity.Rows[i]["DATE"]</td>
+                            <td>
+                                <a asp-page="/SessionDetails" asp-route-SessionId="@Model.activity.Rows[i]["SessionId"]">View Details</a>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            }
+            else
+            {
+                <p>No sessions available at the moment.</p>
+            }
         </div>
+
     </div>
 </div>
 <style>

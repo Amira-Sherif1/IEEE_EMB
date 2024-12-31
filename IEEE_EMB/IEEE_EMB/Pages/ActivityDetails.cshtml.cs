@@ -15,7 +15,8 @@ namespace IEEE_EMB.Pages
         }
         public void OnGet(int ActivityId)
         {
-            activity = db.GetSpecificActivity(ActivityId) ?? new DataTable();
+            activity = new DataTable();
+            activity = db.GetSpecificActivity(ActivityId) ;
         }
     }
 }

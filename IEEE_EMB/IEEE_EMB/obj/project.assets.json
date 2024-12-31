@@ -1892,25 +1892,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\omara\\.nuget\\packages\\": {}
-=======
     "C:\\Users\\Amira\\.nuget\\packages\\": {}
->>>>>>> 579170f7ea8b429316bf600114ebbe29e843bef3
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB.csproj",
-      "projectName": "IEEE_EMB",
-      "projectPath": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB.csproj",
-      "packagesPath": "C:\\Users\\omara\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\omara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
       "projectUniqueName": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB.csproj",
       "projectName": "IEEE_EMB",
       "projectPath": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB.csproj",
@@ -1919,7 +1905,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amira\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 579170f7ea8b429316bf600114ebbe29e843bef3
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1982,11 +1967,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
->>>>>>> 579170f7ea8b429316bf600114ebbe29e843bef3
       }
     }
   }

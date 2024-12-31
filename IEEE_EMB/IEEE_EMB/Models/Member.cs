@@ -26,9 +26,7 @@ namespace IEEE_EMB.Models
         [Phone(ErrorMessage = "Invalid phone number")]
         [RegularExpression(@"^01[0125][0-9]{8}$", ErrorMessage = "Please enter a valid Egyptian phone number")]
 
-        [Required(ErrorMessage = "Phone number is required")]
-        [Phone(ErrorMessage = "Invalid phone number")]
-        [RegularExpression(@"^01[0125][0-9]{8}$", ErrorMessage = "Please enter a valid Egyptian phone number")]
+       
         public string Phone { get; set; }
 
         [Required(ErrorMessage = "Password is required")]

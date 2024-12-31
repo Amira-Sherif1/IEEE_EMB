@@ -7,7 +7,8 @@ namespace IEEE_EMB.Models
 {
     public class DB
     {
-        private string connectionstring = "Data Source= D4NGERX; Initial Catalog= IEEE_EMB; Integrated Security=True; Trust Server Certificate=True;";
+        private string connectionstring =  "Server=db11993.public.databaseasp.net; Database=db11993; User Id=db11993; Password=eW@9-4Pk2r%B; Encrypt=True; TrustServerCertificate=True;";
+
         public SqlConnection con = new();
         public DB()
         {
@@ -286,7 +287,7 @@ namespace IEEE_EMB.Models
         public DataTable GetAnnouncements()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY \r\norder by START_DATE desc";
+            string query = "SELECT TITLE,START_DATE,TYPE,STATUS,DESCRIPTION FROM ACTIVITY \r\nwhere STATUS='Upcoming'\r\norder by START_DATE desc";
             SqlCommand cmd = new SqlCommand(query, con);
             try
             {
@@ -436,7 +437,11 @@ namespace IEEE_EMB.Models
             {
                 con.Open();
                 SqlCommand getMaxIdCommand = new SqlCommand(getMaxIdQuery, con);
-                newId = (int)getMaxIdCommand.ExecuteScalar() + 1;
+                object result = getMaxIdCommand.ExecuteScalar();
+
+                // Handle null by setting newId to 1 if the table is empty
+                newId = result == DBNull.Value || result == null ? 1 : Convert.ToInt32(result) + 1;
+
                 string query = "INSERT INTO ACTIVITY (ID, TITLE, START_DATE, END_DATE, CAPACITY, TYPE, STATUS, DESCRIPTION)" +
                                "VALUES (@ID, @TITLE, @START_DATE, @END_DATE, @CAPACITY, @TYPE, @STATUS, @DESCRIPTION)";
 
@@ -455,11 +460,12 @@ namespace IEEE_EMB.Models
             {
                 Console.WriteLine(ex.Message);
             }
-            finally { con.Close(); }
-
-
-
+            finally
+            {
+                con.Close();
+            }
         }
+
 
         public void AddParticipant(Participants participant)
         {
@@ -468,15 +474,15 @@ namespace IEEE_EMB.Models
                 con.Open();
 
 
-                string query = "INSERT INTO PARTICIPANTS(SSN, NAME, EMAIL, PHONE, UNIVERSITY)" +
-                               "VALUES (@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY)";
+                string query = "INSERT INTO PARTICIPANTS(SSN, NAME, EMAIL, PHONE, UNIVERSITY , PASSWORD)" +
+                               "VALUES (@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY , @PASSWORD)";
                 SqlCommand com = new SqlCommand(query, con);
                 com.Parameters.AddWithValue("@SSN", participant.SSN);
                 com.Parameters.AddWithValue("@NAME", participant.Name);
                 com.Parameters.AddWithValue("@EMAIL", participant.Email);
                 com.Parameters.AddWithValue("@PHONE", participant.Phone);
                 com.Parameters.AddWithValue("@UNIVERSITY", participant.University);
-                //com.Parameters.AddWithValue("@PASSWORD", participant.Password);
+                com.Parameters.AddWithValue("@PASSWORD", participant.Password);
                 com.ExecuteNonQuery();
             }
             catch (Exception ex)
@@ -518,7 +524,6 @@ namespace IEEE_EMB.Models
         }
 
         public void AddSession(Session session)
-
         {
             string getMaxIdQuery = "SELECT MAX(ID) FROM SESSION";
             int newId = 0;
@@ -527,7 +532,10 @@ namespace IEEE_EMB.Models
             {
                 con.Open();
                 SqlCommand getMaxIdCommand = new SqlCommand(getMaxIdQuery, con);
-                newId = (int)getMaxIdCommand.ExecuteScalar() + 1;
+                object result = getMaxIdCommand.ExecuteScalar();
+
+                // Handle null by setting newId to 1 if the table is empty
+                newId = result == DBNull.Value || result == null ? 1 : Convert.ToInt32(result) + 1;
 
                 string query = "INSERT INTO SESSION (ID, DATE, TITLE, Document, Video, ACTIVITY_ID) " +
                                "VALUES (@ID, @Date, @Title, @Document, @Video, @ActivityId)";
@@ -542,16 +550,6 @@ namespace IEEE_EMB.Models
 
                 com.ExecuteNonQuery();
             }
-
-
-
-
-
-
-
-
-
-
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
@@ -561,6 +559,7 @@ namespace IEEE_EMB.Models
                 con.Close();
             }
         }
+
 
         public void EditSeesion(Session session)
         {
@@ -763,7 +762,7 @@ namespace IEEE_EMB.Models
         public DataTable GetParticipantsInActivity(int activityID)
         {
             DataTable dt = new DataTable();
-            string query = "SELECT P.NAME, P.EMAIL, P.PHONE, P.UNIVERSITY\r\n" +
+            string query = "SELECT P.SSN, P.NAME, P.EMAIL, P.PHONE, P.UNIVERSITY\r\n" +
                 "FROM ACTIVITY A \r\n" +
                 "JOIN ACTIVITY_PARTICIPANTS AP ON AP.ACTIVITY_ID = A.ID\r\n" +
                 "JOIN PARTICIPANTS P ON P.SSN = AP.PARTICIPANT_SSN\r\n" +
@@ -1479,6 +1478,25 @@ namespace IEEE_EMB.Models
             finally
             {
                 con.Close();
+            }
+        }
+        public void Enroll(int activityId , string ssn)
+        {
+            string query = $"insert into ACTIVITY_PARTICIPANTS(ACTIVITY_ID, PARTICIPANT_SSN)\r\nvalues({activityId},'{ssn}')";
+            SqlCommand cmd = new SqlCommand(query, con);
+            try
+            {
+                con.Open();
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            { 
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+
             }
         }
 

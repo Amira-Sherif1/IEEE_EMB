@@ -7,10 +7,20 @@ namespace IEEE_EMB.Pages.Admin
 {
     public class AllAdminsModel : PageModel
     {
+        public DB db { get; set; }
+        [BindProperty]
+        public DataTable adminsTable { get; set; }
+        public string adminSSN { get; set; }
+        public AllAdminsModel(DB db)
+        {
+            this.db = db;
+        }
+
         public IActionResult OnGet()
         {
             if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
             {
+                adminsTable = db.GetAdmins();
                 return Page();
             }
             else
@@ -20,11 +30,7 @@ namespace IEEE_EMB.Pages.Admin
 
         }
         
-        public DB db { get; set; }
-        public AllAdminsModel(DB dB) { db = dB; }
-        [BindProperty]
-        public DataTable adminsTable { get; set; }
-        public string adminSSN {  get; set; }
+        
         public IActionResult OnPostLogout()
         {
             HttpContext.Session.Remove("AuthenticationString");
@@ -33,5 +39,6 @@ namespace IEEE_EMB.Pages.Admin
 
             return RedirectToPage("/Login");
         }
+        
     }
 }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IEEE_EMB.props" />
+</Project>

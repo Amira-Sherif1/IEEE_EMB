@@ -1,0 +1,125 @@
+﻿.profile-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.site-header {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.site-title {
+    color: #006064;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.main-nav {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+    .main-nav a {
+        text-decoration: none;
+        color: #333;
+        padding: 0.5rem 1rem;
+    }
+
+        .main-nav a.active {
+            background-color: #006064;
+            color: white;
+            border-radius: 4px;
+        }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.profile-content {
+    background: linear-gradient(135deg, #006064, #7C3AED);
+    padding: 2rem;
+    border-radius: 8px;
+    color: white;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    margin-bottom: 1rem;
+}
+
+.profile-image-placeholder {
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+}
+
+.detail-item, .info-item {
+    background-color: white;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+
+.edit-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #006064;
+}
+
+.pagination {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+    .pagination button {
+        width: 30px;
+        height: 30px;
+        border: none;
+        background-color: white;
+        cursor: pointer;
+    }
+
+        .pagination button.active {
+            background-color: #006064;
+            color: white;
+        }

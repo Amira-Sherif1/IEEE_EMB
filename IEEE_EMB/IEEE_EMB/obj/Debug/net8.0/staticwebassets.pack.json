@@ -1,1405 +1,6 @@
 {
   "Files": [
     {
-<<<<<<< HEAD
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IEEE_EMB.bundle.scp.css",
-      "PackagePath": "staticwebassets\\IEEE_EMB.bundle.scp.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\css\\demo.css",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\css\\demo.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\avatars\\1.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\avatars\\1.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\avatars\\5.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\avatars\\5.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\avatars\\6.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\avatars\\6.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\avatars\\7.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\avatars\\7.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\backgrounds\\18.jpg",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\backgrounds\\18.jpg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\1.jpg",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\11.jpg",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\11.jpg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\12.jpg",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\12.jpg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\13.jpg",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\13.jpg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\17.jpg",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\17.jpg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\18.jpg",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\18.jpg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\19.jpg",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\19.jpg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\2.jpg",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\20.jpg",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\20.jpg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\3.jpg",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\4.jpg",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\5.jpg",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\elements\\7.jpg",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\elements\\7.jpg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\favicon\\favicon.ico",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\favicon\\favicon.ico"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\asana.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\asana.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\behance.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\behance.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\dribbble.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\dribbble.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\facebook.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\facebook.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\github.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\github.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\google.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\google.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\instagram.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\instagram.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\mailchimp.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\mailchimp.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\slack.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\slack.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\brands\\twitter.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\brands\\twitter.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\cc-primary.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\cc-primary.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\cc-success.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\cc-success.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\cc-warning.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\cc-warning.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\chart-success.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\chart-success.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\chart.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\chart.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\paypal.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\paypal.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\wallet-info.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\wallet-info.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\icons\\unicons\\wallet.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\icons\\unicons\\wallet.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\illustrations\\man-with-laptop-light.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\illustrations\\man-with-laptop-light.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\illustrations\\page-misc-error-light.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\illustrations\\page-misc-error-light.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\layouts\\layout-container-light.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\layouts\\layout-container-light.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\layouts\\layout-fluid-light.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\layouts\\layout-fluid-light.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\layouts\\layout-without-menu-light.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\layouts\\layout-without-menu-light.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\img\\layouts\\layout-without-navbar-light.png",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\img\\layouts\\layout-without-navbar-light.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\config.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\config.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\dashboards-analytics.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\dashboards-analytics.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\extended-ui-perfect-scrollbar.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\extended-ui-perfect-scrollbar.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\form-basic-inputs.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\form-basic-inputs.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\main.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\main.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\pages-account-settings-account.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\pages-account-settings-account.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\ui-modals.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\ui-modals.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\ui-popover.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\ui-popover.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\js\\ui-toasts.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\js\\ui-toasts.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\core.css",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\core.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\pages\\page-account-settings.css",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\pages\\page-account-settings.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\pages\\page-auth.css",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\pages\\page-auth.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\pages\\page-icons.css",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\pages\\page-icons.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\pages\\page-misc.css",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\pages\\page-misc.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\css\\theme-default.css",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\css\\theme-default.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons.css",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\js\\bootstrap.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\js\\helpers.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\js\\helpers.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\js\\menu.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\js\\menu.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight-github.css",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight-github.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight.css",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\highlight\\highlight.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\jquery\\jquery.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\jquery\\jquery.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\masonry\\masonry.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\masonry\\masonry.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\assets\\vendor\\libs\\popper\\popper.js",
-      "PackagePath": "staticwebassets\\DashLayout\\assets\\vendor\\libs\\popper\\popper.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\fonts\\boxicons.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\fonts\\boxicons.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\auth-forgot-password-basic.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\auth-forgot-password-basic.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\auth-login-basic.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\auth-login-basic.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\auth-register-basic.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\auth-register-basic.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\cards-basic.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\cards-basic.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\extended-ui-perfect-scrollbar.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\extended-ui-perfect-scrollbar.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\extended-ui-text-divider.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\extended-ui-text-divider.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\form-layouts-horizontal.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\form-layouts-horizontal.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\form-layouts-vertical.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\form-layouts-vertical.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\forms-basic-inputs.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\forms-basic-inputs.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\forms-input-groups.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\forms-input-groups.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\icons-boxicons.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\icons-boxicons.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\index.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\index.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-blank.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\layouts-blank.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-container.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\layouts-container.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-fluid.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\layouts-fluid.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-without-menu.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\layouts-without-menu.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\layouts-without-navbar.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\layouts-without-navbar.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-account-settings-account.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\pages-account-settings-account.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-account-settings-connections.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\pages-account-settings-connections.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-account-settings-notifications.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\pages-account-settings-notifications.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-misc-error.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\pages-misc-error.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\pages-misc-under-maintenance.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\pages-misc-under-maintenance.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\tables-basic.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\tables-basic.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-accordion.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-accordion.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-alerts.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-alerts.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-badges.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-badges.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-buttons.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-buttons.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-carousel.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-carousel.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-collapse.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-collapse.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-dropdowns.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-dropdowns.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-footer.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-footer.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-list-groups.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-list-groups.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-modals.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-modals.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-navbar.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-navbar.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-offcanvas.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-offcanvas.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-pagination-breadcrumbs.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-pagination-breadcrumbs.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-progress.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-progress.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-spinners.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-spinners.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-tabs-pills.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-tabs-pills.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-toasts.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-toasts.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-tooltips-popovers.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-tooltips-popovers.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\html\\ui-typography.html",
-      "PackagePath": "staticwebassets\\DashLayout\\html\\ui-typography.html"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\DashLayout\\js\\bootstrap.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\js\\helpers.js",
-      "PackagePath": "staticwebassets\\DashLayout\\js\\helpers.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\js\\menu.js",
-      "PackagePath": "staticwebassets\\DashLayout\\js\\menu.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\apex-charts\\apex-charts.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\libs\\apex-charts\\apex-charts.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\apex-charts\\apexcharts.js",
-      "PackagePath": "staticwebassets\\DashLayout\\libs\\apex-charts\\apexcharts.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\highlight\\highlight-github.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\libs\\highlight\\highlight-github.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\highlight\\highlight.js",
-      "PackagePath": "staticwebassets\\DashLayout\\libs\\highlight\\highlight.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\highlight\\highlight.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\libs\\highlight\\highlight.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\jquery\\jquery.js",
-      "PackagePath": "staticwebassets\\DashLayout\\libs\\jquery\\jquery.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\masonry\\masonry.js",
-      "PackagePath": "staticwebassets\\DashLayout\\libs\\masonry\\masonry.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
-      "PackagePath": "staticwebassets\\DashLayout\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\perfect-scrollbar\\perfect-scrollbar.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\libs\\perfect-scrollbar\\perfect-scrollbar.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\libs\\popper\\popper.js",
-      "PackagePath": "staticwebassets\\DashLayout\\libs\\popper\\popper.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_accordion.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_accordion.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_alert.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_alert.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_badge.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_badge.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_breadcrumb.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_breadcrumb.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_button-group.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_button-group.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_buttons.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_buttons.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_card.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_card.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_carousel.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_carousel.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_close.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_close.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_dropdown.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_dropdown.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_forms.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_forms.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_functions.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_functions.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_include.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_include.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_list-group.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_list-group.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_mixins.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_mixins.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_modal.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_modal.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_nav.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_nav.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_navbar.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_navbar.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_offcanvas.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_offcanvas.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_pagination.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_pagination.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_popover.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_popover.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_progress.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_progress.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_reboot.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_reboot.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_root.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_root.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_spinners.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_spinners.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_tables.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_tables.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_toasts.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_toasts.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_tooltip.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_tooltip.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_type.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_type.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_utilities-ltr.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_utilities-ltr.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_utilities.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_utilities.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\_variables.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\_variables.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-control.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-control.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-range.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-range.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-select.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_form-select.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_input-group.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_input-group.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_labels.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_labels.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\forms\\_validation.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\forms\\_validation.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_alert.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_alert.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_badge.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_badge.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_buttons.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_buttons.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_caret.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_caret.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_forms.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_forms.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_list-group.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_list-group.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_misc.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_misc.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_navs.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_navs.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_pagination.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_pagination.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_progress.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_progress.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_toasts.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap-extended\\mixins\\_toasts.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_bootstrap.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_bootstrap.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_colors.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_colors.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_app-brand.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_app-brand.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_avatar.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_avatar.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_base.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_base.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_common.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_common.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_footer.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_footer.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_include.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_include.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_layout.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_layout.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_menu.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_menu.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_mixins.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_mixins.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_text-divider.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_text-divider.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\_variables.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\_variables.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_app-brand.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_app-brand.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_avatar.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_avatar.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_footer.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_footer.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_menu.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_menu.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_misc.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_misc.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_navbar.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_navbar.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_components\\mixins\\_text-divider.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_components\\mixins\\_text-divider.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_bootstrap-extended.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_custom-variables\\_bootstrap-extended.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_components.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_custom-variables\\_components.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_libs.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_custom-variables\\_libs.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_pages.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_custom-variables\\_pages.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_custom-variables\\_support.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_custom-variables\\_support.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_theme\\_common.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_theme\\_common.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\_theme\\_theme.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\_theme\\_theme.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\core.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\core.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\pages\\page-account-settings.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\pages\\page-account-settings.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\pages\\page-auth.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\pages\\page-auth.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\pages\\page-icons.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\pages\\page-icons.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\pages\\page-misc.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\pages\\page-misc.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\scss\\theme-default.scss",
-      "PackagePath": "staticwebassets\\DashLayout\\scss\\theme-default.scss"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\tasks\\build.js",
-      "PackagePath": "staticwebassets\\DashLayout\\tasks\\build.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\DashLayout\\tasks\\prod.js",
-      "PackagePath": "staticwebassets\\DashLayout\\tasks\\prod.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\025c3dcc-d229-47b4-a0ea-66c7d2ab7caa.pdf",
-      "PackagePath": "staticwebassets\\Documents\\025c3dcc-d229-47b4-a0ea-66c7d2ab7caa.pdf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\06ab06a6-0af6-4555-9332-3e00dd64e061.pdf",
-      "PackagePath": "staticwebassets\\Documents\\06ab06a6-0af6-4555-9332-3e00dd64e061.pdf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\0843a301-bd7d-4117-bc1b-160fdaac62f0.docx",
-      "PackagePath": "staticwebassets\\Documents\\0843a301-bd7d-4117-bc1b-160fdaac62f0.docx"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\4dd8ca9b-fa2d-4b73-b534-9c79ea54b579.pdf",
-      "PackagePath": "staticwebassets\\Documents\\4dd8ca9b-fa2d-4b73-b534-9c79ea54b579.pdf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\578e17be-61de-4f97-8fe8-928ab7320af3.pdf",
-      "PackagePath": "staticwebassets\\Documents\\578e17be-61de-4f97-8fe8-928ab7320af3.pdf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\580895c9-8230-4cf1-a833-6463a84b4c77.pdf",
-      "PackagePath": "staticwebassets\\Documents\\580895c9-8230-4cf1-a833-6463a84b4c77.pdf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\5b4dc345-6e16-4b6f-b19a-77246669b68d.pdf",
-      "PackagePath": "staticwebassets\\Documents\\5b4dc345-6e16-4b6f-b19a-77246669b68d.pdf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\6856e386-ba31-467d-a92d-21ff279feb9b.pdf",
-      "PackagePath": "staticwebassets\\Documents\\6856e386-ba31-467d-a92d-21ff279feb9b.pdf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\6968fedf-ec51-41ee-b925-0e10be57b0d5.pdf",
-      "PackagePath": "staticwebassets\\Documents\\6968fedf-ec51-41ee-b925-0e10be57b0d5.pdf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\82116f50-4f90-43b9-a267-7e6de19e7e85.pdf",
-      "PackagePath": "staticwebassets\\Documents\\82116f50-4f90-43b9-a267-7e6de19e7e85.pdf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\ade9f5f7-c7b0-41cd-9d9f-0b92b9189c6c.pdf",
-      "PackagePath": "staticwebassets\\Documents\\ade9f5f7-c7b0-41cd-9d9f-0b92b9189c6c.pdf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\b5fa6f07-ba18-41bb-991c-aacc856041b6.pdf",
-      "PackagePath": "staticwebassets\\Documents\\b5fa6f07-ba18-41bb-991c-aacc856041b6.pdf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\c99c0a56-ad49-4d66-8099-1f0043aa8531.pdf",
-      "PackagePath": "staticwebassets\\Documents\\c99c0a56-ad49-4d66-8099-1f0043aa8531.pdf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\d8b27d09-ea75-4a16-a73b-f97491360ca6.pdf",
-      "PackagePath": "staticwebassets\\Documents\\d8b27d09-ea75-4a16-a73b-f97491360ca6.pdf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\de22f78a-febf-4758-aef6-6fb692a51e7e.pdf",
-      "PackagePath": "staticwebassets\\Documents\\de22f78a-febf-4758-aef6-6fb692a51e7e.pdf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\ebfef91b-0611-44bb-9ded-5cf3954f3519.pdf",
-      "PackagePath": "staticwebassets\\Documents\\ebfef91b-0611-44bb-9ded-5cf3954f3519.pdf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\animations.css",
-      "PackagePath": "staticwebassets\\css\\animations.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\announcements.css",
-      "PackagePath": "staticwebassets\\css\\announcements.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\home.css",
-      "PackagePath": "staticwebassets\\css\\home.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\index.css",
-      "PackagePath": "staticwebassets\\css\\index.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\join.css",
-      "PackagePath": "staticwebassets\\css\\join.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\navigation.css",
-      "PackagePath": "staticwebassets\\css\\navigation.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\photoUpload.css",
-      "PackagePath": "staticwebassets\\css\\photoUpload.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\profile.css",
-      "PackagePath": "staticwebassets\\css\\profile.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\seminars.css",
-      "PackagePath": "staticwebassets\\css\\seminars.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\images\\About.png",
-      "PackagePath": "staticwebassets\\images\\About.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\images\\Announcements\\Announcements.jpg",
-      "PackagePath": "staticwebassets\\images\\Announcements\\Announcements.jpg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\images\\Home.jpg",
-      "PackagePath": "staticwebassets\\images\\Home.jpg"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\images\\User.png",
-      "PackagePath": "staticwebassets\\images\\User.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\animations.js",
-      "PackagePath": "staticwebassets\\js\\animations.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\application.js",
-      "PackagePath": "staticwebassets\\js\\application.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\eslint.config.js",
-      "PackagePath": "staticwebassets\\js\\eslint.config.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\news-slider.js",
-      "PackagePath": "staticwebassets\\js\\news-slider.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\photoUpload.js",
-      "PackagePath": "staticwebassets\\js\\photoUpload.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\js\\tailwind.config.js",
-      "PackagePath": "staticwebassets\\js\\tailwind.config.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.cjs.map",
-      "PackagePath": "staticwebassets\\lib\\chartjs\\chart.cjs.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.js",
-      "PackagePath": "staticwebassets\\lib\\chartjs\\chart.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.js.map",
-      "PackagePath": "staticwebassets\\lib\\chartjs\\chart.js.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.min.js",
-      "PackagePath": "staticwebassets\\lib\\chartjs\\chart.min.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.umd.js",
-      "PackagePath": "staticwebassets\\lib\\chartjs\\chart.umd.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.umd.js.map",
-      "PackagePath": "staticwebassets\\lib\\chartjs\\chart.umd.js.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\chart.umd.min.js",
-      "PackagePath": "staticwebassets\\lib\\chartjs\\chart.umd.min.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\helpers.cjs.map",
-      "PackagePath": "staticwebassets\\lib\\chartjs\\helpers.cjs.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\helpers.js",
-      "PackagePath": "staticwebassets\\lib\\chartjs\\helpers.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\helpers.js.map",
-      "PackagePath": "staticwebassets\\lib\\chartjs\\helpers.js.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\helpers.min.js",
-      "PackagePath": "staticwebassets\\lib\\chartjs\\helpers.min.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\index.d.ts",
-      "PackagePath": "staticwebassets\\lib\\chartjs\\index.d.ts"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\index.umd.d.ts",
-      "PackagePath": "staticwebassets\\lib\\chartjs\\index.umd.d.ts"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\chartjs\\types.d.ts",
-      "PackagePath": "staticwebassets\\lib\\chartjs\\types.d.ts"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\01fcf618-c1e9-4bc6-8431-b112eb6891b2.mp4",
-      "PackagePath": "staticwebassets\\videos\\01fcf618-c1e9-4bc6-8431-b112eb6891b2.mp4"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\2aa0feda-8b1a-4872-947a-3fcd299e0e45.mp4",
-      "PackagePath": "staticwebassets\\videos\\2aa0feda-8b1a-4872-947a-3fcd299e0e45.mp4"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\2b909de9-783a-4117-80c7-522498263e4e.pdf",
-      "PackagePath": "staticwebassets\\videos\\2b909de9-783a-4117-80c7-522498263e4e.pdf"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\46246291-0bae-4637-88ec-9aa91f147a38.mp4",
-      "PackagePath": "staticwebassets\\videos\\46246291-0bae-4637-88ec-9aa91f147a38.mp4"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\72e19b9e-b81b-45dd-bd98-ef3b2b94b05a.mp4",
-      "PackagePath": "staticwebassets\\videos\\72e19b9e-b81b-45dd-bd98-ef3b2b94b05a.mp4"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\737a10be-e558-4ca8-9c32-0ab353f217ee.mp4",
-      "PackagePath": "staticwebassets\\videos\\737a10be-e558-4ca8-9c32-0ab353f217ee.mp4"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\884e6aa6-a341-4120-8686-5bb059133afb.png",
-      "PackagePath": "staticwebassets\\videos\\884e6aa6-a341-4120-8686-5bb059133afb.png"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\8886f80e-dd68-43ae-93aa-b043182029d1.mp4",
-      "PackagePath": "staticwebassets\\videos\\8886f80e-dd68-43ae-93aa-b043182029d1.mp4"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\98e1caab-11c5-4ee6-a89b-8c2d872f95b0.mp4",
-      "PackagePath": "staticwebassets\\videos\\98e1caab-11c5-4ee6-a89b-8c2d872f95b0.mp4"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\baf3d27d-f94e-46cc-84ab-fc9c42d2353b.mp4",
-      "PackagePath": "staticwebassets\\videos\\baf3d27d-f94e-46cc-84ab-fc9c42d2353b.mp4"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\bb33a7d8-9503-4055-8553-a6367a22af82.mp4",
-      "PackagePath": "staticwebassets\\videos\\bb33a7d8-9503-4055-8553-a6367a22af82.mp4"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\cdc48e85-0df2-4f62-a40d-b91a08882af0.mp4",
-      "PackagePath": "staticwebassets\\videos\\cdc48e85-0df2-4f62-a40d-b91a08882af0.mp4"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\ddd766cc-c578-4f1d-b016-2cbbdccd6b6b.mp4",
-      "PackagePath": "staticwebassets\\videos\\ddd766cc-c578-4f1d-b016-2cbbdccd6b6b.mp4"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\ea438ac9-fa11-4138-82ed-c37bae8c9a1d.mp4",
-      "PackagePath": "staticwebassets\\videos\\ea438ac9-fa11-4138-82ed-c37bae8c9a1d.mp4"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\ea671a10-fe08-46c5-afdf-e8d778ee2293.mp4",
-      "PackagePath": "staticwebassets\\videos\\ea671a10-fe08-46c5-afdf-e8d778ee2293.mp4"
-    },
-    {
-      "Id": "C:\\Users\\omara\\source\\repos\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\f9863d81-b7c6-4f68-a25c-94c7ff6714ae.mp4",
-=======
       "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IEEE_EMB.bundle.scp.css",
       "PackagePath": "staticwebassets\\IEEE_EMB.bundle.scp.css"
     },
@@ -2300,80 +901,148 @@
       "PackagePath": "staticwebassets\\DashLayout\\tasks\\prod.js"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\025c3dcc-d229-47b4-a0ea-66c7d2ab7caa.pdf",
-      "PackagePath": "staticwebassets\\Documents\\025c3dcc-d229-47b4-a0ea-66c7d2ab7caa.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\0020e8a4-b5f8-4a01-9d69-3efbe8583fe3.pdf",
+      "PackagePath": "staticwebassets\\Documents\\0020e8a4-b5f8-4a01-9d69-3efbe8583fe3.pdf"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\06ab06a6-0af6-4555-9332-3e00dd64e061.pdf",
-      "PackagePath": "staticwebassets\\Documents\\06ab06a6-0af6-4555-9332-3e00dd64e061.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\0843a301-bd7d-4117-bc1b-160fdaac62f0.docx",
+      "PackagePath": "staticwebassets\\Documents\\0843a301-bd7d-4117-bc1b-160fdaac62f0.docx"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\4793dd91-ddaa-4cf4-9718-98222dce232f.pdf",
-      "PackagePath": "staticwebassets\\Documents\\4793dd91-ddaa-4cf4-9718-98222dce232f.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\2b0c65b7-3cdf-44d8-9b15-a0cd3b7b8e93.pdf",
+      "PackagePath": "staticwebassets\\Documents\\2b0c65b7-3cdf-44d8-9b15-a0cd3b7b8e93.pdf"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\4dd8ca9b-fa2d-4b73-b534-9c79ea54b579.pdf",
-      "PackagePath": "staticwebassets\\Documents\\4dd8ca9b-fa2d-4b73-b534-9c79ea54b579.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\3a56480e-1625-4b6f-be92-a330cd9f7fc8.jpg",
+      "PackagePath": "staticwebassets\\Documents\\3a56480e-1625-4b6f-be92-a330cd9f7fc8.jpg"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\510871e6-e136-41b6-ab8e-c44d09cc6e08.pdf",
-      "PackagePath": "staticwebassets\\Documents\\510871e6-e136-41b6-ab8e-c44d09cc6e08.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\3b9c6332-bc17-4705-bb24-b8b0aea019f7.pdf",
+      "PackagePath": "staticwebassets\\Documents\\3b9c6332-bc17-4705-bb24-b8b0aea019f7.pdf"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\578e17be-61de-4f97-8fe8-928ab7320af3.pdf",
-      "PackagePath": "staticwebassets\\Documents\\578e17be-61de-4f97-8fe8-928ab7320af3.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\54a1bc4d-47a5-46a1-aad6-76931a6af66a.pdf",
+      "PackagePath": "staticwebassets\\Documents\\54a1bc4d-47a5-46a1-aad6-76931a6af66a.pdf"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\580895c9-8230-4cf1-a833-6463a84b4c77.pdf",
-      "PackagePath": "staticwebassets\\Documents\\580895c9-8230-4cf1-a833-6463a84b4c77.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\598be572-0974-421c-8151-03dda3e445c1.pdf",
+      "PackagePath": "staticwebassets\\Documents\\598be572-0974-421c-8151-03dda3e445c1.pdf"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\5b4dc345-6e16-4b6f-b19a-77246669b68d.pdf",
-      "PackagePath": "staticwebassets\\Documents\\5b4dc345-6e16-4b6f-b19a-77246669b68d.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\64442dbb-51b6-416f-8325-c2cfaad4d64b.pdf",
+      "PackagePath": "staticwebassets\\Documents\\64442dbb-51b6-416f-8325-c2cfaad4d64b.pdf"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\5f206e17-6f60-47c8-b56a-ba056a08734f.pdf",
-      "PackagePath": "staticwebassets\\Documents\\5f206e17-6f60-47c8-b56a-ba056a08734f.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\6c6c2b6b-0239-4563-9321-0e81907515ef.pdf",
+      "PackagePath": "staticwebassets\\Documents\\6c6c2b6b-0239-4563-9321-0e81907515ef.pdf"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\6856e386-ba31-467d-a92d-21ff279feb9b.pdf",
-      "PackagePath": "staticwebassets\\Documents\\6856e386-ba31-467d-a92d-21ff279feb9b.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\6c962607-1525-4b7e-9fe1-b8e4985a9a4d.jpg",
+      "PackagePath": "staticwebassets\\Documents\\6c962607-1525-4b7e-9fe1-b8e4985a9a4d.jpg"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\6968fedf-ec51-41ee-b925-0e10be57b0d5.pdf",
-      "PackagePath": "staticwebassets\\Documents\\6968fedf-ec51-41ee-b925-0e10be57b0d5.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\6fbb649b-85cf-48c7-892b-e6d593aec6e9.pdf",
+      "PackagePath": "staticwebassets\\Documents\\6fbb649b-85cf-48c7-892b-e6d593aec6e9.pdf"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\82116f50-4f90-43b9-a267-7e6de19e7e85.pdf",
-      "PackagePath": "staticwebassets\\Documents\\82116f50-4f90-43b9-a267-7e6de19e7e85.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\77b6ab2d-c87d-4fe1-89dc-f892c8789516.jpg",
+      "PackagePath": "staticwebassets\\Documents\\77b6ab2d-c87d-4fe1-89dc-f892c8789516.jpg"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\91b24945-fee6-4c1d-b69d-79dda98538cc.pdf",
-      "PackagePath": "staticwebassets\\Documents\\91b24945-fee6-4c1d-b69d-79dda98538cc.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\89312916-1e84-4156-bbaf-d2ad07b34b18.pdf",
+      "PackagePath": "staticwebassets\\Documents\\89312916-1e84-4156-bbaf-d2ad07b34b18.pdf"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\ade9f5f7-c7b0-41cd-9d9f-0b92b9189c6c.pdf",
-      "PackagePath": "staticwebassets\\Documents\\ade9f5f7-c7b0-41cd-9d9f-0b92b9189c6c.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\ad98fdae-e458-44a7-87ca-92b0dbd6296b.jpg",
+      "PackagePath": "staticwebassets\\Documents\\ad98fdae-e458-44a7-87ca-92b0dbd6296b.jpg"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\b5fa6f07-ba18-41bb-991c-aacc856041b6.pdf",
-      "PackagePath": "staticwebassets\\Documents\\b5fa6f07-ba18-41bb-991c-aacc856041b6.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\bf01ff55-114f-4f1e-96bb-a695767e94c8.pdf",
+      "PackagePath": "staticwebassets\\Documents\\bf01ff55-114f-4f1e-96bb-a695767e94c8.pdf"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\c99c0a56-ad49-4d66-8099-1f0043aa8531.pdf",
-      "PackagePath": "staticwebassets\\Documents\\c99c0a56-ad49-4d66-8099-1f0043aa8531.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\ca6d498a-4c8d-490f-a21c-138c45d4339b.pdf",
+      "PackagePath": "staticwebassets\\Documents\\ca6d498a-4c8d-490f-a21c-138c45d4339b.pdf"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\d8b27d09-ea75-4a16-a73b-f97491360ca6.pdf",
-      "PackagePath": "staticwebassets\\Documents\\d8b27d09-ea75-4a16-a73b-f97491360ca6.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\d68f5819-4391-4da6-a942-da068ad671cb.pdf",
+      "PackagePath": "staticwebassets\\Documents\\d68f5819-4391-4da6-a942-da068ad671cb.pdf"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\de22f78a-febf-4758-aef6-6fb692a51e7e.pdf",
-      "PackagePath": "staticwebassets\\Documents\\de22f78a-febf-4758-aef6-6fb692a51e7e.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\e46075b1-b5b1-4f8c-b3ea-703262495a1d.jpg",
+      "PackagePath": "staticwebassets\\Documents\\e46075b1-b5b1-4f8c-b3ea-703262495a1d.jpg"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\ebfef91b-0611-44bb-9ded-5cf3954f3519.pdf",
-      "PackagePath": "staticwebassets\\Documents\\ebfef91b-0611-44bb-9ded-5cf3954f3519.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\e7a7c5fb-dc9a-4aae-bf1a-91c4069a3fde.pdf",
+      "PackagePath": "staticwebassets\\Documents\\e7a7c5fb-dc9a-4aae-bf1a-91c4069a3fde.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\ea554a4b-3abd-43eb-96d0-d3d9e4c8c2e5.pdf",
+      "PackagePath": "staticwebassets\\Documents\\ea554a4b-3abd-43eb-96d0-d3d9e4c8c2e5.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Documents\\f0fdc6ed-65e6-4126-9049-0caa3924155c.pdf",
+      "PackagePath": "staticwebassets\\Documents\\f0fdc6ed-65e6-4126-9049-0caa3924155c.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\TaskAnswer\\429a0d44-0716-4fb8-ac94-73da0a55fc45.pdf",
+      "PackagePath": "staticwebassets\\TaskAnswer\\429a0d44-0716-4fb8-ac94-73da0a55fc45.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Task\\111a5b54-a87f-4ff4-a27d-1da307583251.pdf",
+      "PackagePath": "staticwebassets\\Task\\111a5b54-a87f-4ff4-a27d-1da307583251.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Task\\3aa18104-f958-446a-bcbd-9a80eb52d081.pdf",
+      "PackagePath": "staticwebassets\\Task\\3aa18104-f958-446a-bcbd-9a80eb52d081.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Task\\443b4ac5-ee9d-426c-9129-8f9fa167e672.pdf",
+      "PackagePath": "staticwebassets\\Task\\443b4ac5-ee9d-426c-9129-8f9fa167e672.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Task\\4470b392-ed40-4fcf-8114-32cf4616db19.jpg",
+      "PackagePath": "staticwebassets\\Task\\4470b392-ed40-4fcf-8114-32cf4616db19.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Task\\4c0cf844-5f70-4278-81ad-fcae4e942039.jpg",
+      "PackagePath": "staticwebassets\\Task\\4c0cf844-5f70-4278-81ad-fcae4e942039.jpg"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Task\\5d265459-fd8c-4538-9ce5-282cd021cd75.pdf",
+      "PackagePath": "staticwebassets\\Task\\5d265459-fd8c-4538-9ce5-282cd021cd75.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Task\\6b3dfc44-d618-4a5b-8f51-cfe84cf1f135.pdf",
+      "PackagePath": "staticwebassets\\Task\\6b3dfc44-d618-4a5b-8f51-cfe84cf1f135.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Task\\99c13816-dd03-4030-8183-ea9b098254b7.pdf",
+      "PackagePath": "staticwebassets\\Task\\99c13816-dd03-4030-8183-ea9b098254b7.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Task\\a862ee2d-05c7-4fbd-88ea-b878a8bf4730.pdf",
+      "PackagePath": "staticwebassets\\Task\\a862ee2d-05c7-4fbd-88ea-b878a8bf4730.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Task\\ab65b7ae-da65-42ec-b2ce-7055a2dd5b5a.pdf",
+      "PackagePath": "staticwebassets\\Task\\ab65b7ae-da65-42ec-b2ce-7055a2dd5b5a.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Task\\d765289d-7b15-481b-b63e-43fd0d2c1f8d.pdf",
+      "PackagePath": "staticwebassets\\Task\\d765289d-7b15-481b-b63e-43fd0d2c1f8d.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Task\\da37639f-996a-4797-ada5-d9bece270ccb.pdf",
+      "PackagePath": "staticwebassets\\Task\\da37639f-996a-4797-ada5-d9bece270ccb.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Task\\da48052a-6d33-46b1-bfbb-fa1f090711ee.pdf",
+      "PackagePath": "staticwebassets\\Task\\da48052a-6d33-46b1-bfbb-fa1f090711ee.pdf"
+    },
+    {
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\Task\\e2eae73b-5e9f-4ff7-bd6f-8f10ccbd72b5.pdf",
+      "PackagePath": "staticwebassets\\Task\\e2eae73b-5e9f-4ff7-bd6f-8f10ccbd72b5.pdf"
     },
     {
       "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\css\\animations.css",
@@ -2748,81 +1417,72 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\01fcf618-c1e9-4bc6-8431-b112eb6891b2.mp4",
-      "PackagePath": "staticwebassets\\videos\\01fcf618-c1e9-4bc6-8431-b112eb6891b2.mp4"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\107bbf26-ae2a-4e50-865f-b9083b20ce1c.pdf",
+      "PackagePath": "staticwebassets\\videos\\107bbf26-ae2a-4e50-865f-b9083b20ce1c.pdf"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\2684318b-6ca3-4d25-8902-548aa2604698.pdf",
-      "PackagePath": "staticwebassets\\videos\\2684318b-6ca3-4d25-8902-548aa2604698.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\1e8a749d-ffa0-448e-95ae-4294c9192d0b.mp4",
+      "PackagePath": "staticwebassets\\videos\\1e8a749d-ffa0-448e-95ae-4294c9192d0b.mp4"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\2aa0feda-8b1a-4872-947a-3fcd299e0e45.mp4",
-      "PackagePath": "staticwebassets\\videos\\2aa0feda-8b1a-4872-947a-3fcd299e0e45.mp4"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\2821f5e2-6cd6-4853-9199-6752dcfd7d14.mp4",
+      "PackagePath": "staticwebassets\\videos\\2821f5e2-6cd6-4853-9199-6752dcfd7d14.mp4"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\2b909de9-783a-4117-80c7-522498263e4e.pdf",
-      "PackagePath": "staticwebassets\\videos\\2b909de9-783a-4117-80c7-522498263e4e.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\2c959354-eead-4741-a718-cfafa62fdb4f.jpg",
+      "PackagePath": "staticwebassets\\videos\\2c959354-eead-4741-a718-cfafa62fdb4f.jpg"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\46246291-0bae-4637-88ec-9aa91f147a38.mp4",
-      "PackagePath": "staticwebassets\\videos\\46246291-0bae-4637-88ec-9aa91f147a38.mp4"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\30e93626-55a4-4c7e-8f94-5e3c3062868d.mp4",
+      "PackagePath": "staticwebassets\\videos\\30e93626-55a4-4c7e-8f94-5e3c3062868d.mp4"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\50ca6e04-5e24-4225-a3f9-cac0f1668555.mp4",
-      "PackagePath": "staticwebassets\\videos\\50ca6e04-5e24-4225-a3f9-cac0f1668555.mp4"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\3269a5f4-4d18-4892-9c8a-913195d2d82b.mp4",
+      "PackagePath": "staticwebassets\\videos\\3269a5f4-4d18-4892-9c8a-913195d2d82b.mp4"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\717c9c98-406d-4651-a819-4ce1d223fed9.pdf",
-      "PackagePath": "staticwebassets\\videos\\717c9c98-406d-4651-a819-4ce1d223fed9.pdf"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\39aa19ec-e733-4fcf-96e0-cff430575ab7.pdf",
+      "PackagePath": "staticwebassets\\videos\\39aa19ec-e733-4fcf-96e0-cff430575ab7.pdf"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\72e19b9e-b81b-45dd-bd98-ef3b2b94b05a.mp4",
-      "PackagePath": "staticwebassets\\videos\\72e19b9e-b81b-45dd-bd98-ef3b2b94b05a.mp4"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\4a875d91-9887-4fbf-a996-8784b8e3cd5f.mp4",
+      "PackagePath": "staticwebassets\\videos\\4a875d91-9887-4fbf-a996-8784b8e3cd5f.mp4"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\737a10be-e558-4ca8-9c32-0ab353f217ee.mp4",
-      "PackagePath": "staticwebassets\\videos\\737a10be-e558-4ca8-9c32-0ab353f217ee.mp4"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\884e6aa6-a341-4120-8686-5bb059133afb.png",
+      "PackagePath": "staticwebassets\\videos\\884e6aa6-a341-4120-8686-5bb059133afb.png"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\8886f80e-dd68-43ae-93aa-b043182029d1.mp4",
-      "PackagePath": "staticwebassets\\videos\\8886f80e-dd68-43ae-93aa-b043182029d1.mp4"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\88b69d71-c0f9-420b-b337-758255ca2438.mp4",
+      "PackagePath": "staticwebassets\\videos\\88b69d71-c0f9-420b-b337-758255ca2438.mp4"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\98e1caab-11c5-4ee6-a89b-8c2d872f95b0.mp4",
-      "PackagePath": "staticwebassets\\videos\\98e1caab-11c5-4ee6-a89b-8c2d872f95b0.mp4"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\c4692418-e2d4-4f7c-a389-668fc371ddf6.mp4",
+      "PackagePath": "staticwebassets\\videos\\c4692418-e2d4-4f7c-a389-668fc371ddf6.mp4"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\baf3d27d-f94e-46cc-84ab-fc9c42d2353b.mp4",
-      "PackagePath": "staticwebassets\\videos\\baf3d27d-f94e-46cc-84ab-fc9c42d2353b.mp4"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\ccffa35b-535b-424e-b262-2ec5b057339c.mp4",
+      "PackagePath": "staticwebassets\\videos\\ccffa35b-535b-424e-b262-2ec5b057339c.mp4"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\bb33a7d8-9503-4055-8553-a6367a22af82.mp4",
-      "PackagePath": "staticwebassets\\videos\\bb33a7d8-9503-4055-8553-a6367a22af82.mp4"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\cd34064c-78b0-4271-84e9-04297841d0ca.mp4",
+      "PackagePath": "staticwebassets\\videos\\cd34064c-78b0-4271-84e9-04297841d0ca.mp4"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\cdc48e85-0df2-4f62-a40d-b91a08882af0.mp4",
-      "PackagePath": "staticwebassets\\videos\\cdc48e85-0df2-4f62-a40d-b91a08882af0.mp4"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\d2908332-f805-4fc9-b028-e5f34b946305.jpg",
+      "PackagePath": "staticwebassets\\videos\\d2908332-f805-4fc9-b028-e5f34b946305.jpg"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\ddd766cc-c578-4f1d-b016-2cbbdccd6b6b.mp4",
-      "PackagePath": "staticwebassets\\videos\\ddd766cc-c578-4f1d-b016-2cbbdccd6b6b.mp4"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\dd99c3ca-00dd-4e51-9c8d-aab478ec79fb.mp4",
+      "PackagePath": "staticwebassets\\videos\\dd99c3ca-00dd-4e51-9c8d-aab478ec79fb.mp4"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\ea438ac9-fa11-4138-82ed-c37bae8c9a1d.mp4",
-      "PackagePath": "staticwebassets\\videos\\ea438ac9-fa11-4138-82ed-c37bae8c9a1d.mp4"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\f1fc487d-cddd-4b9e-9bde-cbd27316d07f.mp4",
+      "PackagePath": "staticwebassets\\videos\\f1fc487d-cddd-4b9e-9bde-cbd27316d07f.mp4"
     },
     {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\ea671a10-fe08-46c5-afdf-e8d778ee2293.mp4",
-      "PackagePath": "staticwebassets\\videos\\ea671a10-fe08-46c5-afdf-e8d778ee2293.mp4"
-    },
-    {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\f1da58f9-ddd7-48bd-8ba0-f7367153bdac.pdf",
-      "PackagePath": "staticwebassets\\videos\\f1da58f9-ddd7-48bd-8ba0-f7367153bdac.pdf"
-    },
-    {
-      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\f9863d81-b7c6-4f68-a25c-94c7ff6714ae.mp4",
->>>>>>> 579170f7ea8b429316bf600114ebbe29e843bef3
-      "PackagePath": "staticwebassets\\videos\\f9863d81-b7c6-4f68-a25c-94c7ff6714ae.mp4"
+      "Id": "D:\\ZC\\year 2 semes. 1\\Database\\Project\\IEEE_EMB\\IEEE_EMB\\IEEE_EMB\\wwwroot\\videos\\fa031dfa-2ece-4b39-9b31-136421844b97.mp4",
+      "PackagePath": "staticwebassets\\videos\\fa031dfa-2ece-4b39-9b31-136421844b97.mp4"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IEEE_EMB.Microsoft.AspNetCore.StaticWebAssets.props",

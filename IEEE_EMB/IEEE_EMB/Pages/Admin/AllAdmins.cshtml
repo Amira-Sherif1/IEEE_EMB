@@ -27,7 +27,7 @@
                     </tr>
                 </thead>
                 <tbody class="table-border-bottom-0">
-                    @for (int i = 1; i < Model.adminsTable.Rows.Count; i++)
+                    @for(int i = 0; i < Model.adminsTable.Rows.Count; i++)
                     {
                         <tr>
                             <td><strong>@Model.adminsTable.Rows[i][0]</strong></td>
