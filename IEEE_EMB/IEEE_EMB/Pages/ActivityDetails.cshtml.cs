@@ -15,7 +15,16 @@ namespace IEEE_EMB.Pages
         }
         public void OnGet(int ActivityId)
         {
-            activity = db.GetSpecificActivity(ActivityId) ?? new DataTable();
+            activity = db.GetSpecificActivity(ActivityId);
+        }
+
+        public IActionResult OnPostLogout()
+        {
+            HttpContext.Session.Remove("AuthenticationString");
+            HttpContext.Session.Remove("SSN");
+            HttpContext.Session.Remove("Email");
+
+            return RedirectToPage("/Login");
         }
     }
 }

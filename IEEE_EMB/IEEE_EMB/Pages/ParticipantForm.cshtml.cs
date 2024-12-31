@@ -16,7 +16,7 @@ namespace IEEE_EMB.Pages
         public Participants participant { get; set; }
 
         [BindProperty]
-        public int SSN { get; set; }
+        public string SSN { get; set; }
         [BindProperty]
         public string Name { get; set; }
       
@@ -49,7 +49,7 @@ namespace IEEE_EMB.Pages
             participant.Name = Name;
             participant.SSN = SSN;
             participant.Password = Password;
-           
+            
             db.AddParticipant(participant);
             
             return RedirectToPage("/Index");

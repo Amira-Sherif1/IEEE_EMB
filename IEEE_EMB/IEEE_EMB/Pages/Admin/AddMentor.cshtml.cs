@@ -28,15 +28,10 @@ namespace IEEE_EMB.Pages.Admin
         }
         public IActionResult OnPost()
         {
-            if (ModelState.IsValid) 
-            {
+            
             dB.AddMentor(mentor);
             return RedirectToPage("/Admin/AllMentors");
-            }
-            else
-            {
-                return RedirectToPage("/Admin/errorpage");
-            }
+           
         }
             
         public IActionResult OnPostLogout()

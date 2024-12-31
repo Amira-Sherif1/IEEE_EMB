@@ -18,13 +18,6 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" asp-page="/Index">IEEE BioInformatics</a>
-                <div class="d-flex search-dashboard">
-                    <div class="search-container">
-                        <input type="search" placeholder="Search" class="search-input">
-                        <button class="search-button">
-                            <i class="fas fa-search"></i>
-                        </button>
-                    </div>
                     @if (HttpContextAccessor.HttpContext?.Session.GetString("AuthenticationString") == "Admin")
                     {
                     @* <button class="btn btn-outline-primary ms-2">Manage Dashboard </button> *@

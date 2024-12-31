@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 namespace IEEE_EMB.Models
 {
     using System.ComponentModel.DataAnnotations;
+    using System.Diagnostics.CodeAnalysis;
 
     public class Member
     {
@@ -17,18 +18,14 @@ namespace IEEE_EMB.Models
         [StringLength(100, ErrorMessage = "Name cannot exceed 100 characters")]
         public string Name { get; set; }
 
-        [Required(ErrorMessage = "Current year is required")]
-        [RegularExpression(@"^20[1-9]\d$", ErrorMessage = "Year must be in format 20XX (e.g., 2023, 2024, 2025)")]
-        [Range(2015, 2024, ErrorMessage = "Year must be between 2015 and 2030")]
+        
         public DateOnly Currentyear { get; set; }
 
         [Required(ErrorMessage = "Phone number is required")]
         [Phone(ErrorMessage = "Invalid phone number")]
         [RegularExpression(@"^01[0125][0-9]{8}$", ErrorMessage = "Please enter a valid Egyptian phone number")]
 
-        [Required(ErrorMessage = "Phone number is required")]
-        [Phone(ErrorMessage = "Invalid phone number")]
-        [RegularExpression(@"^01[0125][0-9]{8}$", ErrorMessage = "Please enter a valid Egyptian phone number")]
+        
         public string Phone { get; set; }
 
         [Required(ErrorMessage = "Password is required")]
@@ -52,10 +49,8 @@ namespace IEEE_EMB.Models
         [StringLength(50, ErrorMessage = "Major cannot exceed 50 characters")]
         public string Major { get; set; }
 
-        [Required(ErrorMessage = "Personal photo is required")]
-        [DataType(DataType.Upload)]
-        [FileExtensions(Extensions = "jpg,jpeg,png", ErrorMessage = "Please upload a valid image file (jpg, jpeg, or png)")]
-        public string PersonalPhoto { get; set; }
+        [Required(AllowEmptyStrings = true)]
+        public string? PersonalPhoto { get; set; }
 
         [Required(ErrorMessage = "Brief is required")]
         [StringLength(500, ErrorMessage = "Brief cannot exceed 500 characters")]

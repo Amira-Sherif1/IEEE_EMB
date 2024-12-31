@@ -186,7 +186,7 @@
                                             break;
                                         }
                                     }
-                                    if (exists || HttpContextAccessor.HttpContext.Session.GetString("AuthenticationString") == "Member")
+                                    if (exists || HttpContextAccessor.HttpContext.Session.GetString("AuthenticationString") == "Member" || HttpContextAccessor.HttpContext.Session.GetString("AuthenticationString") == "Admin")
                     
                                     {
                                         <a asp-page="/DetailsPage" asp-route-activityId="@activity.Id" class="btn btn-outline-secondary flex-grow-1">
