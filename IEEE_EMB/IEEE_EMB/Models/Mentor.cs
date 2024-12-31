@@ -1,5 +1,6 @@
 ﻿using IEEE_EMB.Models.Utilities;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
 
 namespace IEEE_EMB.Models
 {
@@ -44,10 +45,9 @@ namespace IEEE_EMB.Models
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
-        [Required(ErrorMessage = "Personal photo is required")]
-        [DataType(DataType.Upload)]
-        [FileExtensions(Extensions = "jpg,jpeg,png", ErrorMessage = "Please upload a valid image file (jpg, jpeg, or png)")]
-        public string PersonalPhoto { get; set; }
+        
+        [Required(AllowEmptyStrings = true)]
+        public string? PersonalPhoto { get; set; }
         public string University { get; set; }
         public string Brief { get; set; }
         public string status { get; set; } = Status.Waiting;

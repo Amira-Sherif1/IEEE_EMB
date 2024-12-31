@@ -7,7 +7,7 @@ namespace IEEE_EMB.Models
         [Required(ErrorMessage = "SSN is required")]
         [StringLength(14, MinimumLength = 14, ErrorMessage = "SSN must be exactly 14 characters")]
         [RegularExpression(@"^\d{14}$", ErrorMessage = "SSN must contain exactly 14 digits")]
-        public int SSN { get; set; }
+        public string SSN { get; set; }
 
         [Required(ErrorMessage = "Name is required")]
         [StringLength(100, ErrorMessage = "Name cannot exceed 100 characters")]

@@ -474,8 +474,9 @@ namespace IEEE_EMB.Models
                 con.Open();
 
 
-                string query = "INSERT INTO PARTICIPANTS(SSN, NAME, EMAIL, PHONE, UNIVERSITY , PASSWORD)" +
-                               "VALUES (@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY , @PASSWORD)";
+
+                string query = "INSERT INTO PARTICIPANTS(SSN, NAME, EMAIL, PHONE, UNIVERSITY, PASSWORD)" +
+                               "VALUES (@SSN, @NAME, @EMAIL, @PHONE, @UNIVERSITY, @PASSWORD)";
                 SqlCommand com = new SqlCommand(query, con);
                 com.Parameters.AddWithValue("@SSN", participant.SSN);
                 com.Parameters.AddWithValue("@NAME", participant.Name);
@@ -796,7 +797,7 @@ namespace IEEE_EMB.Models
         {
             DataTable dt = new DataTable();
             string query = $"select a.TITLE as 'ActivityTitle', a.DESCRIPTION , m.NAME , m.EDUCATION , s.TITLE as 'SessionTitle' , s.DATE , s.ID as 'SessionId'\r\n" +
-                $"from ACTIVITY a join ASSIGN ass on a.ID = ass.ACTIVITY_ID join MENTOR m on ass.MENTOR_SSN = m.SSN join SESSION s on s.ACTIVITY_ID= a.ID\r\nwhere a.ID={ActivityId}";
+                $"from ACTIVITY a join ASSIGN ass on a.ID = ass.ACTIVITY_ID join MENTOR m on ass.MENTOR_SSN = m.SSN left join SESSION s on s.ACTIVITY_ID= a.ID\r\nwhere a.ID={ActivityId}";
             SqlCommand command = new SqlCommand(query, con);
             try
             {
@@ -1500,6 +1501,8 @@ namespace IEEE_EMB.Models
             }
         }
 
+       
+        
         // public
     }
 }

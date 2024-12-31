@@ -27,7 +27,7 @@ namespace IEEE_EMB.Pages
         public void OnGet()
         {
             
-                seminarTable = db.GetSeminar() ?? new DataTable();
+            seminarTable = db.GetSeminar() ?? new DataTable();
             
             //eminarTable = db.GetSeminar();
             participantCountTable = db.GetParticipantCount();

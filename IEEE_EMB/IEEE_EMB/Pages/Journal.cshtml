@@ -174,10 +174,11 @@
                                             break;
                                         }
                                     }
-                                    if (exists || HttpContextAccessor.HttpContext.Session.GetString("AuthenticationString") == "Member")
+                                    if (exists || HttpContextAccessor.HttpContext.Session.GetString("AuthenticationString") == "Member" || HttpContextAccessor.HttpContext.Session.GetString("AuthenticationString") == "Admin")
 
                                     {
                                         <a asp-page="/ActivityDetails" asp-route-ActivityId="@activity.Id" class="btn btn-outline-secondary flex-grow-1">
+                                        <a asp-page="/Activity" asp-route-activityId="@activity.Id" class="btn btn-outline-secondary flex-grow-1">
                                             Details
                                         </a>
                                     }

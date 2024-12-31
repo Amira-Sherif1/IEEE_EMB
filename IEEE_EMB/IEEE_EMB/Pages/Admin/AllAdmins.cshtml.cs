@@ -16,6 +16,13 @@ namespace IEEE_EMB.Pages.Admin
             this.db = db;
         }
 
+       
+        
+        public DB db { get; set; }
+        public AllAdminsModel(DB dB) { db = dB; }
+        [BindProperty]
+        public DataTable adminsTable { get; set; }
+        public string adminSSN {  get; set; }
         public IActionResult OnGet()
         {
             if (HttpContext.Session.GetString("AuthenticationString") == "Admin")
@@ -31,6 +38,7 @@ namespace IEEE_EMB.Pages.Admin
         }
         
         
+
         public IActionResult OnPostLogout()
         {
             HttpContext.Session.Remove("AuthenticationString");
